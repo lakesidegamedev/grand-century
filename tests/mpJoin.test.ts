@@ -34,7 +34,7 @@ describe('resolveSocketUrl', () => {
   it('routes static hosted UIs directly to the session server, with explicit overrides retained', () => {
     for (const host of ['lakesidegames.net', 'grand-century.pages.dev', 'preview.grand-century.pages.dev']) {
       expect(resolveSocketUrl({ DEV: false, BASE_URL: '/games/grand-century/' }, { protocol: 'https:', host }))
-        .toBe('wss://grand-century-server-production.up.railway.app/ws');
+        .toBe('wss://gc-server.lakesidegames.net/ws');
       expect(resolveSocketUrl({ DEV: false, VITE_MP_WS_URL: 'wss://custom.example/ws' }, { protocol: 'https:', host }))
         .toBe('wss://custom.example/ws');
     }
