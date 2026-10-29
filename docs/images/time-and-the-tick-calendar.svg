@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 350" width="640" height="350" font-family='system-ui, -apple-system, "Segoe UI", Roboto, sans-serif' role="img" aria-label="Calendar strips. In a month, a heavy tick every 7th day marks the weekly economy pass and day 1 marks the monthly pass; a tax slider change applies on the next 1st. In a year, day 365 marks the chronicle and autosave.">
+<title>Calendar strips. In a month, a heavy tick every 7th day marks the weekly economy pass and day 1 marks the monthly pass; a tax slider change applies on the next 1st. In a year, day 365 marks the chronicle and autosave.</title><defs><marker id="ahg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52525b"/></marker><marker id="ahb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="ahr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker></defs>
+<rect x="0.5" y="0.5" width="639" height="349" fill="#fff" stroke="#d4d4d8"/>
+<text x="16" y="26" font-size="15" font-weight="600" fill="#27272a">Which things happen on which day</text>
+<text x="16" y="50" font-size="12" text-anchor="start" fill="#27272a" font-weight="600">One month</text>
+<line x1="48.8" y1="132" x2="48.8" y2="146" stroke="#a1a1aa" stroke-width="1.2"/>
+<text x="48.8" y="182" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">1</text>
+<line x1="66.4" y1="132" x2="66.4" y2="146" stroke="#a1a1aa" stroke-width="1.2"/>
+<line x1="84.1" y1="132" x2="84.1" y2="146" stroke="#a1a1aa" stroke-width="1.2"/>
+<line x1="101.7" y1="132" x2="101.7" y2="146" stroke="#a1a1aa" stroke-width="1.2"/>
+<line x1="119.3" y1="132" x2="119.3" y2="146" stroke="#a1a1aa" stroke-width="1.2"/>
+<line x1="136.9" y1="132" x2="136.9" y2="146" stroke="#a1a1aa" stroke-width="1.2"/>
+<line x1="154.6" y1="132" x2="154.6" y2="166" stroke="#2563eb" stroke-width="3"/>
+<text x="154.6" y="182" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">7</text>
+<line x1="172.2" y1="132" x2="172.2" y2="146" stroke="#a1a1aa" stroke-width="1.2"/>
+<line x1="189.8" y1="132" x2="189.8" y2="146" stroke="#a1a1aa" stroke-width="1.2"/>
+<line x1="207.4" y1="132" x2="207.4" y2="146" stroke="#a1a1aa" stroke-width="1.2"/>
+<line x1="225.1" y1="132" x2="225.1" y2="146" stroke="#a1a1aa" stroke-width="1.2"/>
+<line x1="242.7" y1="132" x2="242.7" y2="146" stroke="#a1a1aa" stroke-width="1.2"/>
+<line x1="260.3" y1="132" x2="260.3" y2="146" stroke="#a1a1aa" stroke-width="1.2"/>
+<line x1="277.9" y1="132" x2="277.9" y2="166" stroke="#2563eb" stroke-width="3"/>
+<text x="277.9" y="182" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">14</text>
+<line x1="295.6" y1="132" x2="295.6" y2="146" stroke="#a1a1aa" stroke-width="1.2"/>
+<line x1="313.2" y1="132" x2="313.2" y2="146" stroke="#a1a1aa" stroke-width="1.2"/>
+<line x1="330.8" y1="132" x2="330.8" y2="146" stroke="#a1a1aa" stroke-width="1.2"/>
+<line x1="348.4" y1="132" x2="348.4" y2="146" stroke="#a1a1aa" stroke-width="1.2"/>
+<line x1="366.1" y1="132" x2="366.1" y2="146" stroke="#a1a1aa" stroke-width="1.2"/>
+<line x1="383.7" y1="132" x2="383.7" y2="146" stroke="#a1a1aa" stroke-width="1.2"/>
+<line x1="401.3" y1="132" x2="401.3" y2="166" stroke="#2563eb" stroke-width="3"/>
+<text x="401.3" y="182" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">21</text>
+<line x1="418.9" y1="132" x2="418.9" y2="146" stroke="#a1a1aa" stroke-width="1.2"/>
+<line x1="436.6" y1="132" x2="436.6" y2="146" stroke="#a1a1aa" stroke-width="1.2"/>
+<line x1="454.2" y1="132" x2="454.2" y2="146" stroke="#a1a1aa" stroke-width="1.2"/>
+<line x1="471.8" y1="132" x2="471.8" y2="146" stroke="#a1a1aa" stroke-width="1.2"/>
+<line x1="489.4" y1="132" x2="489.4" y2="146" stroke="#a1a1aa" stroke-width="1.2"/>
+<line x1="507.1" y1="132" x2="507.1" y2="146" stroke="#a1a1aa" stroke-width="1.2"/>
+<line x1="524.7" y1="132" x2="524.7" y2="166" stroke="#2563eb" stroke-width="3"/>
+<text x="524.7" y="182" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">28</text>
+<line x1="542.3" y1="132" x2="542.3" y2="146" stroke="#a1a1aa" stroke-width="1.2"/>
+<line x1="559.9" y1="132" x2="559.9" y2="146" stroke="#a1a1aa" stroke-width="1.2"/>
+<line x1="577.6" y1="132" x2="577.6" y2="146" stroke="#a1a1aa" stroke-width="1.2"/>
+<text x="577.6" y="182" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">31</text>
+<line x1="40" y1="132" x2="604" y2="132" stroke="#a1a1aa"/>
+<line x1="595.2" y1="132" x2="595.2" y2="166" stroke="#dc2626" stroke-width="3"/>
+<text x="595.2" y="182" font-size="11" text-anchor="middle" fill="#dc2626" font-weight="400">1st</text>
+<line x1="48.8" y1="132" x2="48.8" y2="166" stroke="#dc2626" stroke-width="3"/>
+<rect x="20" y="58" width="270" height="48" rx="6" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+<text x="155" y="72.2" font-size="10.5" text-anchor="middle" fill="#27272a" font-weight="400">Day 1, monthly: budget, population, culture,</text>
+<text x="155" y="85.7" font-size="10.5" text-anchor="middle" fill="#27272a" font-weight="400">politics, research, diplomacy, crises,</text>
+<text x="155" y="99.2" font-size="10.5" text-anchor="middle" fill="#27272a" font-weight="400">events, AI</text>
+<polyline points="52.8,107 50.8,126" fill="none" stroke="#dc2626" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#ahr)"/>
+<rect x="360" y="58" width="244" height="34" rx="6" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="482" y="78.9" font-size="11" text-anchor="middle" fill="#27272a" font-weight="400">Every 7th day, weekly: economy</text>
+<polyline points="401.3,93 401.3,130" fill="none" stroke="#2563eb" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#ahb)"/>
+<polyline points="366.1,206 591.2,206" fill="none" stroke="#52525b" stroke-width="1.6" stroke-linejoin="round" stroke-dasharray="5 4" marker-end="url(#ahg)"/>
+<text x="366.1" y="202" font-size="11" text-anchor="start" fill="#27272a" font-weight="400">tax slider changed here</text>
+<text x="599.2" y="224" font-size="11" text-anchor="end" fill="#dc2626" font-weight="400">applies on the next 1st</text>
+<text x="16" y="254" font-size="12" text-anchor="start" fill="#27272a" font-weight="600">One year</text>
+<line x1="40" y1="292" x2="604" y2="292" stroke="#a1a1aa"/>
+<line x1="50.8" y1="292" x2="50.8" y2="299" stroke="#2563eb" stroke-width="1" opacity="0.5"/>
+<line x1="61.6" y1="292" x2="61.6" y2="299" stroke="#2563eb" stroke-width="1" opacity="0.5"/>
+<line x1="72.4" y1="292" x2="72.4" y2="299" stroke="#2563eb" stroke-width="1" opacity="0.5"/>
+<line x1="83.3" y1="292" x2="83.3" y2="299" stroke="#2563eb" stroke-width="1" opacity="0.5"/>
+<line x1="94.1" y1="292" x2="94.1" y2="299" stroke="#2563eb" stroke-width="1" opacity="0.5"/>
+<line x1="104.9" y1="292" x2="104.9" y2="299" stroke="#2563eb" stroke-width="1" opacity="0.5"/>
+<line x1="115.7" y1="292" x2="115.7" y2="299" stroke="#2563eb" stroke-width="1" opacity="0.5"/>
+<line x1="126.5" y1="292" x2="126.5" y2="299" stroke="#2563eb" stroke-width="1" opacity="0.5"/>
+<line x1="137.3" y1="292" x2="137.3" y2="299" stroke="#2563eb" stroke-width="1" opacity="0.5"/>
+<line x1="148.2" y1="292" x2="148.2" y2="299" stroke="#2563eb" stroke-width="1" opacity="0.5"/>
+<line x1="159" y1="292" x2="159" y2="299" stroke="#2563eb" stroke-width="1" opacity="0.5"/>
+<line x1="169.8" y1="292" x2="169.8" y2="299" stroke="#2563eb" stroke-width="1" opacity="0.5"/>
+<line x1="180.6" y1="292" x2="180.6" y2="299" stroke="#2563eb" stroke-width="1" opacity="0.5"/>
+<line x1="191.4" y1="292" x2="191.4" y2="299" stroke="#2563eb" stroke-width="1" opacity="0.5"/>
+<line x1="202.2" y1="292" x2="202.2" y2="299" stroke="#2563eb" stroke-width="1" opacity="0.5"/>
+<line x1="213.1" y1="292" x2="213.1" y2="299" stroke="#2563eb" stroke-width="1" opacity="0.5"/>
+<line x1="223.9" y1="292" x2="223.9" y2="299" stroke="#2563eb" stroke-width="1" opacity="0.5"/>
+<line x1="234.7" y1="292" x2="234.7" y2="299" stroke="#2563eb" stroke-width="1" opacity="0.5"/>
+<line x1="245.5" y1="292" x2="245.5" y2="299" stroke="#2563eb" stroke-width="1" opacity="0.5"/>
+<line x1="256.3" y1="292" x2="256.3" y2="299" stroke="#2563eb" stroke-width="1" opacity="0.5"/>
+<line x1="267.1" y1="292" x2="267.1" y2="299" stroke="#2563eb" stroke-width="1" opacity="0.5"/>
+<line x1="278" y1="292" x2="278" y2="299" stroke="#2563eb" stroke-width="1" opacity="0.5"/>
+<line x1="288.8" y1="292" x2="288.8" y2="299" stroke="#2563eb" stroke-width="1" opacity="0.5"/>
+<line x1="299.6" y1="292" x2="299.6" y2="299" stroke="#2563eb" stroke-width="1" opacity="0.5"/>
+<line x1="310.4" y1="292" x2="310.4" y2="299" stroke="#2563eb" stroke-width="1" opacity="0.5"/>
+<line x1="321.2" y1="292" x2="321.2" y2="299" stroke="#2563eb" stroke-width="1" opacity="0.5"/>
+<line x1="332" y1="292" x2="332" y2="299" stroke="#2563eb" stroke-width="1" opacity="0.5"/>
+<line x1="342.9" y1="292" x2="342.9" y2="299" stroke="#2563eb" stroke-width="1" opacity="0.5"/>
+<line x1="353.7" y1="292" x2="353.7" y2="299" stroke="#2563eb" stroke-width="1" opacity="0.5"/>
+<line x1="364.5" y1="292" x2="364.5" y2="299" stroke="#2563eb" stroke-width="1" opacity="0.5"/>
+<line x1="375.3" y1="292" x2="375.3" y2="299" stroke="#2563eb" stroke-width="1" opacity="0.5"/>
+<line x1="386.1" y1="292" x2="386.1" y2="299" stroke="#2563eb" stroke-width="1" opacity="0.5"/>
+<line x1="396.9" y1="292" x2="396.9" y2="299" stroke="#2563eb" stroke-width="1" opacity="0.5"/>
+<line x1="407.8" y1="292" x2="407.8" y2="299" stroke="#2563eb" stroke-width="1" opacity="0.5"/>
+<line x1="418.6" y1="292" x2="418.6" y2="299" stroke="#2563eb" stroke-width="1" opacity="0.5"/>
+<line x1="429.4" y1="292" x2="429.4" y2="299" stroke="#2563eb" stroke-width="1" opacity="0.5"/>
+<line x1="440.2" y1="292" x2="440.2" y2="299" stroke="#2563eb" stroke-width="1" opacity="0.5"/>
+<line x1="451" y1="292" x2="451" y2="299" stroke="#2563eb" stroke-width="1" opacity="0.5"/>
+<line x1="461.8" y1="292" x2="461.8" y2="299" stroke="#2563eb" stroke-width="1" opacity="0.5"/>
+<line x1="472.7" y1="292" x2="472.7" y2="299" stroke="#2563eb" stroke-width="1" opacity="0.5"/>
+<line x1="483.5" y1="292" x2="483.5" y2="299" stroke="#2563eb" stroke-width="1" opacity="0.5"/>
+<line x1="494.3" y1="292" x2="494.3" y2="299" stroke="#2563eb" stroke-width="1" opacity="0.5"/>
+<line x1="505.1" y1="292" x2="505.1" y2="299" stroke="#2563eb" stroke-width="1" opacity="0.5"/>
+<line x1="515.9" y1="292" x2="515.9" y2="299" stroke="#2563eb" stroke-width="1" opacity="0.5"/>
+<line x1="526.7" y1="292" x2="526.7" y2="299" stroke="#2563eb" stroke-width="1" opacity="0.5"/>
+<line x1="537.6" y1="292" x2="537.6" y2="299" stroke="#2563eb" stroke-width="1" opacity="0.5"/>
+<line x1="548.4" y1="292" x2="548.4" y2="299" stroke="#2563eb" stroke-width="1" opacity="0.5"/>
+<line x1="559.2" y1="292" x2="559.2" y2="299" stroke="#2563eb" stroke-width="1" opacity="0.5"/>
+<line x1="570" y1="292" x2="570" y2="299" stroke="#2563eb" stroke-width="1" opacity="0.5"/>
+<line x1="580.8" y1="292" x2="580.8" y2="299" stroke="#2563eb" stroke-width="1" opacity="0.5"/>
+<line x1="591.6" y1="292" x2="591.6" y2="299" stroke="#2563eb" stroke-width="1" opacity="0.5"/>
+<line x1="602.5" y1="292" x2="602.5" y2="299" stroke="#2563eb" stroke-width="1" opacity="0.5"/>
+<line x1="40" y1="283" x2="40" y2="304" stroke="#dc2626" stroke-width="2"/>
+<text x="64" y="320" font-size="10.5" text-anchor="middle" fill="#52525b" font-weight="400">J</text>
+<line x1="87.9" y1="283" x2="87.9" y2="304" stroke="#dc2626" stroke-width="2"/>
+<text x="109.5" y="320" font-size="10.5" text-anchor="middle" fill="#52525b" font-weight="400">F</text>
+<line x1="131.2" y1="283" x2="131.2" y2="304" stroke="#dc2626" stroke-width="2"/>
+<text x="155.1" y="320" font-size="10.5" text-anchor="middle" fill="#52525b" font-weight="400">M</text>
+<line x1="179.1" y1="283" x2="179.1" y2="304" stroke="#dc2626" stroke-width="2"/>
+<text x="202.2" y="320" font-size="10.5" text-anchor="middle" fill="#52525b" font-weight="400">A</text>
+<line x1="225.4" y1="283" x2="225.4" y2="304" stroke="#dc2626" stroke-width="2"/>
+<text x="249.4" y="320" font-size="10.5" text-anchor="middle" fill="#52525b" font-weight="400">M</text>
+<line x1="273.3" y1="283" x2="273.3" y2="304" stroke="#dc2626" stroke-width="2"/>
+<text x="296.5" y="320" font-size="10.5" text-anchor="middle" fill="#52525b" font-weight="400">J</text>
+<line x1="319.7" y1="283" x2="319.7" y2="304" stroke="#dc2626" stroke-width="2"/>
+<text x="343.6" y="320" font-size="10.5" text-anchor="middle" fill="#52525b" font-weight="400">J</text>
+<line x1="367.6" y1="283" x2="367.6" y2="304" stroke="#dc2626" stroke-width="2"/>
+<text x="391.5" y="320" font-size="10.5" text-anchor="middle" fill="#52525b" font-weight="400">A</text>
+<line x1="415.5" y1="283" x2="415.5" y2="304" stroke="#dc2626" stroke-width="2"/>
+<text x="438.7" y="320" font-size="10.5" text-anchor="middle" fill="#52525b" font-weight="400">S</text>
+<line x1="461.8" y1="283" x2="461.8" y2="304" stroke="#dc2626" stroke-width="2"/>
+<text x="485.8" y="320" font-size="10.5" text-anchor="middle" fill="#52525b" font-weight="400">O</text>
+<line x1="509.7" y1="283" x2="509.7" y2="304" stroke="#dc2626" stroke-width="2"/>
+<text x="532.9" y="320" font-size="10.5" text-anchor="middle" fill="#52525b" font-weight="400">N</text>
+<line x1="556.1" y1="283" x2="556.1" y2="304" stroke="#dc2626" stroke-width="2"/>
+<text x="580" y="320" font-size="10.5" text-anchor="middle" fill="#52525b" font-weight="400">D</text>
+<line x1="604" y1="276" x2="604" y2="306" stroke="#27272a" stroke-width="3"/>
+<rect x="360" y="226" width="244" height="34" rx="6" fill="#f4f4f5" stroke="#a1a1aa" stroke-width="1.5"/>
+<text x="482" y="239.9" font-size="11" text-anchor="middle" fill="#27272a" font-weight="400">Day 365, yearly: chronicle and</text>
+<text x="482" y="253.9" font-size="11" text-anchor="middle" fill="#27272a" font-weight="400">autosave</text>
+<polyline points="560,261 603,274" fill="none" stroke="#52525b" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#ahg)"/>
+<text x="16" y="338" font-size="11" text-anchor="start" fill="#52525b" font-weight="400">Short blue ticks are weekly (every 7th day). Red ticks are the 1st of each month.</text>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" font-family='system-ui, -apple-system, "Segoe UI", Roboto, sans-serif' role="img" aria-label="Line chart of movement radicalism over 60 months for three cases. The calm well-fed movement fades, the middling one climbs slowly to about 40, and the angry exclusionary one passes the uprising gate of 85 in about two years.">
+<title>Line chart of movement radicalism over 60 months for three cases. The calm well-fed movement fades, the middling one climbs slowly to about 40, and the angry exclusionary one passes the uprising gate of 85 in about two years.</title>
+<rect x="0.5" y="0.5" width="639" height="359" fill="#fff" stroke="#d4d4d8"/>
+<text x="16" y="26" font-size="15" font-weight="600" fill="#27272a">Movement radicalism over five years</text>
+<line x1="62" y1="290" x2="618" y2="290" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="56" y="294" font-size="11" text-anchor="end" fill="#52525b" font-weight="400">0</text>
+<line x1="62" y1="241.2" x2="618" y2="241.2" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="56" y="245.2" font-size="11" text-anchor="end" fill="#52525b" font-weight="400">20</text>
+<line x1="62" y1="192.4" x2="618" y2="192.4" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="56" y="196.4" font-size="11" text-anchor="end" fill="#52525b" font-weight="400">40</text>
+<line x1="62" y1="143.6" x2="618" y2="143.6" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="56" y="147.6" font-size="11" text-anchor="end" fill="#52525b" font-weight="400">60</text>
+<line x1="62" y1="94.8" x2="618" y2="94.8" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="56" y="98.8" font-size="11" text-anchor="end" fill="#52525b" font-weight="400">80</text>
+<line x1="62" y1="46" x2="618" y2="46" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="56" y="50" font-size="11" text-anchor="end" fill="#52525b" font-weight="400">100</text>
+<line x1="62" y1="46" x2="62" y2="290" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="62" y="306" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">0</text>
+<line x1="173.2" y1="46" x2="173.2" y2="290" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="173.2" y="306" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">12</text>
+<line x1="284.4" y1="46" x2="284.4" y2="290" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="284.4" y="306" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">24</text>
+<line x1="395.6" y1="46" x2="395.6" y2="290" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="395.6" y="306" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">36</text>
+<line x1="506.8" y1="46" x2="506.8" y2="290" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="506.8" y="306" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">48</text>
+<line x1="618" y1="46" x2="618" y2="290" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="618" y="306" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">60</text>
+<line x1="62" y1="290" x2="618" y2="290" stroke="#a1a1aa" stroke-width="1" stroke-opacity="1"/>
+<line x1="62" y1="46" x2="62" y2="290" stroke="#a1a1aa" stroke-width="1" stroke-opacity="1"/>
+<text x="340" y="326" font-size="12" text-anchor="middle" fill="#27272a" font-weight="400">Months</text>
+<text x="22" y="168" font-size="12" text-anchor="middle" fill="#27272a" font-weight="400" transform="rotate(-90 22 168)">Radicalism (0 to 100)</text>
+<line x1="62" y1="82.6" x2="618" y2="82.6" stroke="#dc2626" stroke-width="1.3" stroke-opacity="1" stroke-dasharray="5 4"/>
+<text x="614" y="76.6" font-size="11" text-anchor="end" fill="#dc2626" font-weight="400">uprising gate 85</text>
+<polyline fill="none" stroke="#2563eb" stroke-width="2.5" stroke-opacity="1" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="7 4" points="62,287.56 71.27,287.93 80.53,288.29 89.8,288.66 99.07,289.02 108.33,289.39 117.6,289.76 126.87,290 136.13,290 145.4,290 154.67,290 163.93,290 173.2,290 182.47,290 191.73,290 201,290 210.27,290 219.53,290 228.8,290 238.07,290 247.33,290 256.6,290 265.87,290 275.13,290 284.4,290 293.67,290 302.93,290 312.2,290 321.47,290 330.73,290 340,290 349.27,290 358.53,290 367.8,290 377.07,290 386.33,290 395.6,290 404.87,290 414.13,290 423.4,290 432.67,290 441.93,290 451.2,290 460.47,290 469.73,290 479,290 488.27,290 497.53,290 506.8,290 516.07,290 525.33,290 534.6,290 543.87,290 553.13,290 562.4,290 571.67,290 580.93,290 590.2,290 599.47,290 608.73,290 618,290"/>
+<polyline fill="none" stroke="#2563eb" stroke-width="2.5" stroke-opacity="1" stroke-linejoin="round" stroke-linecap="round" points="62,287.56 71.27,285.97 80.53,284.39 89.8,282.8 99.07,281.22 108.33,279.63 117.6,278.04 126.87,276.46 136.13,274.87 145.4,273.29 154.67,271.7 163.93,270.11 173.2,268.53 182.47,266.94 191.73,265.36 201,263.77 210.27,262.18 219.53,260.6 228.8,259.01 238.07,257.43 247.33,255.84 256.6,254.25 265.87,252.67 275.13,251.08 284.4,249.5 293.67,247.91 302.93,246.32 312.2,244.74 321.47,243.15 330.73,241.57 340,239.98 349.27,238.39 358.53,236.81 367.8,235.22 377.07,233.64 386.33,232.05 395.6,230.46 404.87,228.88 414.13,227.29 423.4,225.71 432.67,224.12 441.93,222.53 451.2,220.95 460.47,219.36 469.73,217.78 479,216.19 488.27,214.6 497.53,213.02 506.8,211.43 516.07,209.85 525.33,208.26 534.6,206.67 543.87,205.09 553.13,203.5 562.4,201.92 571.67,200.33 580.93,198.74 590.2,197.16 599.47,195.57 608.73,193.99 618,192.4"/>
+<polyline fill="none" stroke="#dc2626" stroke-width="2.5" stroke-opacity="1" stroke-linejoin="round" stroke-linecap="round" points="62,287.56 71.27,279.14 80.53,270.72 89.8,262.31 99.07,253.89 108.33,245.47 117.6,237.05 126.87,228.63 136.13,220.22 145.4,211.8 154.67,203.38 163.93,194.96 173.2,186.54 182.47,178.13 191.73,169.71 201,161.29 210.27,152.87 219.53,144.45 228.8,136.04 238.07,127.62 247.33,119.2 256.6,110.78 265.87,102.36 275.13,93.95 284.4,85.53 293.67,77.11"/>
+<circle cx="293.67" cy="77.11" r="4" fill="#dc2626" stroke="#fff" stroke-width="1.5"/>
+<text x="301.67" y="81.11" font-size="11" text-anchor="start" fill="#27272a" font-weight="400">uprising at month 25</text>
+<line x1="330" y1="125" x2="350" y2="125" stroke="#2563eb" stroke-width="2.5" stroke-opacity="1" stroke-dasharray="7 4"/>
+<text x="356" y="129" font-size="11.5" text-anchor="start" fill="#27272a" font-weight="400">Calm, well fed (-0.15 a month)</text>
+<line x1="330" y1="143" x2="350" y2="143" stroke="#2563eb" stroke-width="2.5" stroke-opacity="1"/>
+<text x="356" y="147" font-size="11.5" text-anchor="start" fill="#27272a" font-weight="400">Middling (+0.65 a month)</text>
+<line x1="330" y1="161" x2="350" y2="161" stroke="#dc2626" stroke-width="2.5" stroke-opacity="1"/>
+<text x="356" y="165" font-size="11.5" text-anchor="start" fill="#27272a" font-weight="400">Angry, exclusionary (+3.45 a month)</text>
+<text x="16" y="352" font-size="11" text-anchor="start" fill="#52525b" font-weight="400">An uprising also needs average militancy of 4.2 or more. Starting radicalism 1.</text>
+</svg>

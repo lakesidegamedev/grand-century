@@ -4,6 +4,10 @@ There are two kinds of producer in Grand Century. **Resource sites** (called RGO
 
 ## How it works
 
+
+![Flow of one factory week from buying inputs to profit, with expand, shrink and close branches.](../images/production-and-industry-factory-week.svg)
+
+![Stacked bars of where a week of sale value goes for a resource site and a factory, with the worked-example values.](../images/production-and-industry-sale-split-chart.svg)
 ### Resource sites
 
 Every province has one resource site, fixed by its geography: grain, cattle, timber, coal, iron or cotton. Its **level** sets how many people it can employ, 4,200 per level. Only farmer and laborer pops in that province work it. Raw output grows with workers, level and technology, and carries a 50% boost that keeps food supply in step with a century of population growth.
@@ -62,6 +66,8 @@ Be careful with what "profit" means here. The books never show a loss for a staf
 
 A level-1 Fabric Mill (cotton in, fabric out) with 2,000 workers, all prices at base, no tariff.
 
+![Line chart of weekly plant profit against the share of output sold for a level-1 Fabric Mill.](../images/production-and-industry-profit-chart.svg)
+
 - Throughput units: 2,000 / 1,000 x (1 + 0.16) = 2.32.
 - Cotton needed: 1.2 x 2.32 x 0.15 = 0.42, costing 0.42 x 2.8 = 1.17.
 - Fabric produced: 1.1 x 2.32 x 2.2 = 5.61 units. At 4.2 each and the factory revenue multiplier of 2.0, a full sale is booked as 5.61 x 4.2 x 2.0 = 47.16.
@@ -73,6 +79,8 @@ Compare a level-3 grain farm with 12,600 workers: 1.6 x 12.6 x 1.3 x 1.5 = 39.31
 ## What you can do
 
 Open the **Production** panel (Economy group in the side rail).
+
+![Production panel in the 1830 campaign showing the Build Factories recipes for a state.](../images/production-and-industry-panel.png)
 
 - **Build Factories** lists each of your states with one button per recipe, showing the chain (for example cotton to fabric), the cost, and an estimated margin sorted best first. A build needs the state to be yours, enough treasury, the recipe's technology researched (locked recipes are hidden, see the Technology panel), a coastal province for the Fishing Wharf, and a solvent nation: construction is blocked while bankrupt.
 - **Active Sites** shows each site's jobs, output and profit. Hover Jobs, Output and Profit for the numbers behind them: input fill, cash reserve, profitable and loss weeks.
@@ -95,6 +103,8 @@ Tips:
 
 **Driven by:**
 - [Events and decisions](events-and-decisions.md): events can boost factory and raw-goods output.
+
+![Map of what drives production and what production affects.](../images/production-and-industry-connections.svg)
 
 - [Time and the tick](time-and-the-tick.md): production runs on the weekly pass, expansion checks in the same pass.
 - [Population](population.md): farmers and laborers staff resource sites, craftsmen and clerks staff factories.

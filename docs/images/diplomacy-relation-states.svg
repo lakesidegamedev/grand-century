@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" width="640" height="420" font-family='system-ui, -apple-system, "Segoe UI", Roboto, sans-serif' role="img" aria-label="State diagram of a pair relation. Neutral can become an alliance (10 years, needs score 70), a guarantee (no end date) or a rivalry (12 diplomatic points, cap 4). A truce (5 years) follows any peace. A truce blocks war and alliance. Alliances and guarantees pull nations into wars.">
+<title>State diagram of a pair relation. Neutral can become an alliance (10 years, needs score 70), a guarantee (no end date) or a rivalry (12 diplomatic points, cap 4). A truce (5 years) follows any peace. A truce blocks war and alliance. Alliances and guarantees pull nations into wars.</title><defs><marker id="ahg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52525b"/></marker><marker id="ahb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="ahr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker></defs>
+<rect x="0.5" y="0.5" width="639" height="419" fill="#fff" stroke="#d4d4d8"/>
+<text x="16" y="26" font-size="15" font-weight="600" fill="#27272a">Relations between two nations</text>
+<polyline points="290,136 290,102" fill="none" stroke="#dc2626" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#ahr)"/>
+<rect x="266.2" y="110.8" width="47.7" height="16.5" fill="#fff" fill-opacity="0.92" rx="3"/>
+<text x="290" y="122.3" font-size="10.5" text-anchor="middle" fill="#dc2626" font-weight="400">declare</text>
+<polyline points="220,159 150,159 150,168" fill="none" stroke="#2563eb" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#ahb)"/>
+<polyline points="360,159 420,159 420,168" fill="none" stroke="#2563eb" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#ahb)"/>
+<polyline points="85,200 85,247 220,247" fill="none" stroke="#dc2626" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#ahr)"/>
+<rect x="58.3" y="215.3" width="53.4" height="16.5" fill="#fff" fill-opacity="0.92" rx="3"/>
+<text x="85" y="226.8" font-size="10.5" text-anchor="middle" fill="#dc2626" font-weight="400">pulls in</text>
+<polyline points="485,200 485,247 360,247" fill="none" stroke="#dc2626" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#ahr)"/>
+<rect x="458.3" y="215.3" width="53.4" height="16.5" fill="#fff" fill-opacity="0.92" rx="3"/>
+<text x="485" y="226.8" font-size="10.5" text-anchor="middle" fill="#dc2626" font-weight="400">pulls in</text>
+<polyline points="290,270 290,312 300,312" fill="none" stroke="#52525b" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#ahg)"/>
+<rect x="260.5" y="282.8" width="59" height="16.5" fill="#fff" fill-opacity="0.92" rx="3"/>
+<text x="290" y="294.3" font-size="10.5" text-anchor="middle" fill="#27272a" font-weight="400">any peace</text>
+<rect x="220" y="56" width="140" height="46" rx="6" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+<text x="290" y="75.8" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">Rivalry: costs 12</text>
+<text x="290" y="90.3" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">DP, cap 4</text>
+<rect x="20" y="136" width="130" height="64" rx="6" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="85" y="157.5" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">Alliance: 10</text>
+<text x="85" y="172" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">years, needs score</text>
+<text x="85" y="186.5" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">70</text>
+<rect x="220" y="136" width="140" height="46" rx="6" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="290" y="163" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="600">Neutral</text>
+<rect x="420" y="136" width="130" height="64" rx="6" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="485" y="164.8" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">Guarantee: no end</text>
+<text x="485" y="179.3" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">date</text>
+<rect x="220" y="224" width="140" height="46" rx="6" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+<text x="290" y="251" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="600">War</text>
+<rect x="220" y="312" width="160" height="64" rx="6" fill="#f4f4f5" stroke="#a1a1aa" stroke-width="1.5"/>
+<text x="300" y="333.5" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">Truce: 5 years, after</text>
+<text x="300" y="348" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">any peace, then back to</text>
+<text x="300" y="362.5" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">Neutral</text>
+<text x="16" y="406" font-size="11" text-anchor="start" fill="#52525b" font-weight="400">A truce blocks war and alliance until it ends.</text>
+</svg>

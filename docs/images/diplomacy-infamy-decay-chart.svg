@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" font-family='system-ui, -apple-system, "Segoe UI", Roboto, sans-serif' role="img" aria-label="Line chart of infamy over months: one annexation at 7.9 fades to zero by month 57, while three annexations in a row start at 23.7 and fall back under the limit of 18 at month 41.">
+<title>Line chart of infamy over months: one annexation at 7.9 fades to zero by month 57, while three annexations in a row start at 23.7 and fall back under the limit of 18 at month 41.</title>
+<rect x="0.5" y="0.5" width="639" height="359" fill="#fff" stroke="#d4d4d8"/>
+<text x="16" y="26" font-size="15" font-weight="600" fill="#27272a">How infamy fades after annexation wars</text>
+<line x1="62" y1="290" x2="618" y2="290" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="56" y="294" font-size="11" text-anchor="end" fill="#52525b" font-weight="400">0</text>
+<line x1="62" y1="233.69" x2="618" y2="233.69" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="56" y="237.69" font-size="11" text-anchor="end" fill="#52525b" font-weight="400">6</text>
+<line x1="62" y1="177.38" x2="618" y2="177.38" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="56" y="181.38" font-size="11" text-anchor="end" fill="#52525b" font-weight="400">12</text>
+<line x1="62" y1="121.08" x2="618" y2="121.08" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="56" y="125.08" font-size="11" text-anchor="end" fill="#52525b" font-weight="400">18</text>
+<line x1="62" y1="64.77" x2="618" y2="64.77" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="56" y="68.77" font-size="11" text-anchor="end" fill="#52525b" font-weight="400">24</text>
+<line x1="62" y1="46" x2="62" y2="290" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="62" y="306" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">0</text>
+<line x1="173.2" y1="46" x2="173.2" y2="290" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="173.2" y="306" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">12</text>
+<line x1="284.4" y1="46" x2="284.4" y2="290" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="284.4" y="306" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">24</text>
+<line x1="395.6" y1="46" x2="395.6" y2="290" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="395.6" y="306" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">36</text>
+<line x1="506.8" y1="46" x2="506.8" y2="290" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="506.8" y="306" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">48</text>
+<line x1="618" y1="46" x2="618" y2="290" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="618" y="306" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">60</text>
+<line x1="62" y1="290" x2="618" y2="290" stroke="#a1a1aa" stroke-width="1" stroke-opacity="1"/>
+<line x1="62" y1="46" x2="62" y2="290" stroke="#a1a1aa" stroke-width="1" stroke-opacity="1"/>
+<text x="340" y="326" font-size="12" text-anchor="middle" fill="#27272a" font-weight="400">Months after the last war</text>
+<text x="22" y="168" font-size="12" text-anchor="middle" fill="#27272a" font-weight="400" transform="rotate(-90 22 168)">Infamy</text>
+<line x1="62" y1="121.08" x2="618" y2="121.08" stroke="#dc2626" stroke-width="1.3" stroke-opacity="1" stroke-dasharray="5 4"/>
+<text x="66" y="136.08" font-size="11" text-anchor="start" fill="#dc2626" font-weight="400">limit 18</text>
+<polyline fill="none" stroke="#dc2626" stroke-width="2.5" stroke-opacity="1" stroke-linejoin="round" stroke-linecap="round" points="62,67.58 71.27,68.9 80.53,70.21 89.8,71.53 99.07,72.84 108.33,74.15 117.6,75.47 126.87,76.78 136.13,78.1 145.4,79.41 154.67,80.72 163.93,82.04 173.2,83.35 182.47,84.66 191.73,85.98 201,87.29 210.27,88.61 219.53,89.92 228.8,91.23 238.07,92.55 247.33,93.86 256.6,95.18 265.87,96.49 275.13,97.8 284.4,99.12 293.67,100.43 302.93,101.74 312.2,103.06 321.47,104.37 330.73,105.69 340,107 349.27,108.31 358.53,109.63 367.8,110.94 377.07,112.26 386.33,113.57 395.6,114.88 404.87,116.2 414.13,117.51 423.4,118.82 432.67,120.14 441.93,121.45 451.2,122.77 460.47,124.08 469.73,125.39 479,126.71 488.27,128.02 497.53,129.34 506.8,130.65 516.07,131.96 525.33,133.28 534.6,134.59 543.87,135.9 553.13,137.22 562.4,138.53 571.67,139.85 580.93,141.16 590.2,142.47 599.47,143.79 608.73,145.1 618,146.42"/>
+<polyline fill="none" stroke="#2563eb" stroke-width="2.5" stroke-opacity="1" stroke-linejoin="round" stroke-linecap="round" points="62,215.86 71.27,217.18 80.53,218.49 89.8,219.8 99.07,221.12 108.33,222.43 117.6,223.74 126.87,225.06 136.13,226.37 145.4,227.69 154.67,229 163.93,230.31 173.2,231.63 182.47,232.94 191.73,234.26 201,235.57 210.27,236.88 219.53,238.2 228.8,239.51 238.07,240.82 247.33,242.14 256.6,243.45 265.87,244.77 275.13,246.08 284.4,247.39 293.67,248.71 302.93,250.02 312.2,251.34 321.47,252.65 330.73,253.96 340,255.28 349.27,256.59 358.53,257.9 367.8,259.22 377.07,260.53 386.33,261.85 395.6,263.16 404.87,264.47 414.13,265.79 423.4,267.1 432.67,268.42 441.93,269.73 451.2,271.04 460.47,272.36 469.73,273.67 479,274.98 488.27,276.3 497.53,277.61 506.8,278.93 516.07,280.24 525.33,281.55 534.6,282.87 543.87,284.18 553.13,285.5 562.4,286.81 571.67,288.12 580.93,289.44 590.2,290 599.47,290 608.73,290 618,290"/>
+<circle cx="62" cy="215.86" r="4" fill="#2563eb" stroke="#fff" stroke-width="1.5"/>
+<text x="70" y="231.86" font-size="11" text-anchor="start" fill="#27272a" font-weight="400">7.9</text>
+<circle cx="62" cy="67.58" r="4" fill="#dc2626" stroke="#fff" stroke-width="1.5"/>
+<text x="70" y="71.58" font-size="11" text-anchor="start" fill="#27272a" font-weight="400">23.7</text>
+<circle cx="590.2" cy="290" r="4" fill="#2563eb" stroke="#fff" stroke-width="1.5"/>
+<text x="582.2" y="280" font-size="11" text-anchor="end" fill="#27272a" font-weight="400">zero at month 57</text>
+<circle cx="441.93" cy="121.08" r="4" fill="#dc2626" stroke="#fff" stroke-width="1.5"/>
+<text x="451.93" y="113.08" font-size="11" text-anchor="start" fill="#27272a" font-weight="400">under the limit at month 41</text>
+<line x1="400" y1="211" x2="420" y2="211" stroke="#2563eb" stroke-width="2.5" stroke-opacity="1"/>
+<text x="426" y="215" font-size="11.5" text-anchor="start" fill="#27272a" font-weight="400">One annexation</text>
+<line x1="400" y1="229" x2="420" y2="229" stroke="#dc2626" stroke-width="2.5" stroke-opacity="1"/>
+<text x="426" y="233" font-size="11.5" text-anchor="start" fill="#27272a" font-weight="400">Three annexations in a row</text>
+<text x="16" y="352" font-size="11" text-anchor="start" fill="#52525b" font-weight="400">Infamy falls 0.14 a month. Each annexation counts 7.9 (declaring plus fabricating).</text>
+</svg>

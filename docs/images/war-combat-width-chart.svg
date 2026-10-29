@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" font-family='system-ui, -apple-system, "Segoe UI", Roboto, sans-serif' role="img" aria-label="Line chart of effective regiments against regiments committed to one battle. It follows y equals x up to 24, then flattens: 48 regiments fight as 26.7 and 60 as 27.3. A second line shows the share of the stack that counts falling to 45 percent.">
+<title>Line chart of effective regiments against regiments committed to one battle. It follows y equals x up to 24, then flattens: 48 regiments fight as 26.7 and 60 as 27.3. A second line shows the share of the stack that counts falling to 45 percent.</title>
+<rect x="0.5" y="0.5" width="639" height="359" fill="#fff" stroke="#d4d4d8"/>
+<text x="16" y="26" font-size="15" font-weight="600" fill="#27272a">Combat width: committing more regiments to one battle</text>
+<line x1="62" y1="290" x2="544" y2="290" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="56" y="294" font-size="11" text-anchor="end" fill="#52525b" font-weight="400">0</text>
+<line x1="62" y1="249.33" x2="544" y2="249.33" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="56" y="253.33" font-size="11" text-anchor="end" fill="#52525b" font-weight="400">10</text>
+<line x1="62" y1="208.67" x2="544" y2="208.67" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="56" y="212.67" font-size="11" text-anchor="end" fill="#52525b" font-weight="400">20</text>
+<line x1="62" y1="168" x2="544" y2="168" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="56" y="172" font-size="11" text-anchor="end" fill="#52525b" font-weight="400">30</text>
+<line x1="62" y1="127.33" x2="544" y2="127.33" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="56" y="131.33" font-size="11" text-anchor="end" fill="#52525b" font-weight="400">40</text>
+<line x1="62" y1="86.67" x2="544" y2="86.67" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="56" y="90.67" font-size="11" text-anchor="end" fill="#52525b" font-weight="400">50</text>
+<line x1="62" y1="46" x2="544" y2="46" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="56" y="50" font-size="11" text-anchor="end" fill="#52525b" font-weight="400">60</text>
+<line x1="62" y1="46" x2="62" y2="290" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="62" y="306" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">1</text>
+<line x1="135.53" y1="46" x2="135.53" y2="290" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="135.53" y="306" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">10</text>
+<line x1="217.22" y1="46" x2="217.22" y2="290" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="217.22" y="306" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">20</text>
+<line x1="298.92" y1="46" x2="298.92" y2="290" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="298.92" y="306" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">30</text>
+<line x1="380.61" y1="46" x2="380.61" y2="290" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="380.61" y="306" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">40</text>
+<line x1="462.31" y1="46" x2="462.31" y2="290" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="462.31" y="306" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">50</text>
+<line x1="544" y1="46" x2="544" y2="290" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="544" y="306" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">60</text>
+<line x1="62" y1="290" x2="544" y2="290" stroke="#a1a1aa" stroke-width="1" stroke-opacity="1"/>
+<line x1="62" y1="46" x2="62" y2="290" stroke="#a1a1aa" stroke-width="1" stroke-opacity="1"/>
+<text x="303" y="326" font-size="12" text-anchor="middle" fill="#27272a" font-weight="400">Regiments committed to one battle</text>
+<text x="20" y="168" font-size="12" text-anchor="middle" fill="#27272a" font-weight="400" transform="rotate(-90 20 168)">Effective regiments (fighting power)</text>
+<polyline fill="none" stroke="#a1a1aa" stroke-width="1.5" stroke-opacity="1" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="4 4" points="62,285.93 544,46"/>
+<polyline fill="none" stroke="#2563eb" stroke-width="2.5" stroke-opacity="1" stroke-linejoin="round" stroke-linecap="round" points="62,285.93 66.08,283.9 70.17,281.87 74.25,279.83 78.34,277.8 82.42,275.77 86.51,273.73 90.59,271.7 94.68,269.67 98.76,267.63 102.85,265.6 106.93,263.57 111.02,261.53 115.1,259.5 119.19,257.47 123.27,255.43 127.36,253.4 131.44,251.37 135.53,249.33 139.61,247.3 143.69,245.27 147.78,243.23 151.86,241.2 155.95,239.17 160.03,237.13 164.12,235.1 168.2,233.07 172.29,231.03 176.37,229 180.46,226.97 184.54,224.93 188.63,222.9 192.71,220.87 196.8,218.83 200.88,216.8 204.97,214.77 209.05,212.73 213.14,210.7 217.22,208.67 221.31,206.63 225.39,204.6 229.47,202.57 233.56,200.53 237.64,198.5 241.73,196.47 245.81,194.43 249.9,192.4 253.98,190.82 258.07,190.16 262.15,189.66 266.24,189.24 270.32,188.86 274.41,188.53 278.49,188.22 282.58,187.93 286.66,187.66 290.75,187.4 294.83,187.15 298.92,186.92 303,186.7 307.08,186.48 311.17,186.27 315.25,186.07 319.34,185.88 323.42,185.69 327.51,185.51 331.59,185.33 335.68,185.15 339.76,184.98 343.85,184.82 347.93,184.65 352.02,184.49 356.1,184.34 360.19,184.18 364.27,184.03 368.36,183.88 372.44,183.74 376.53,183.59 380.61,183.45 384.69,183.31 388.78,183.18 392.86,183.04 396.95,182.91 401.03,182.78 405.12,182.65 409.2,182.52 413.29,182.4 417.37,182.27 421.46,182.15 425.54,182.03 429.63,181.91 433.71,181.79 437.8,181.67 441.88,181.56 445.97,181.44 450.05,181.33 454.14,181.22 458.22,181.11 462.31,181 466.39,180.89 470.47,180.78 474.56,180.67 478.64,180.56 482.73,180.46 486.81,180.36 490.9,180.25 494.98,180.15 499.07,180.05 503.15,179.95 507.24,179.85 511.32,179.75 515.41,179.65 519.49,179.55 523.58,179.45 527.66,179.36 531.75,179.26 535.83,179.17 539.92,179.07 544,178.98"/>
+<line x1="249.9" y1="46" x2="249.9" y2="290" stroke="#dc2626" stroke-width="1.3" stroke-opacity="1" stroke-dasharray="5 4"/>
+<text x="253.9" y="58" font-size="11" text-anchor="start" fill="#dc2626" font-weight="400">cap 24</text>
+<circle cx="445.97" cy="181.44" r="4" fill="#2563eb" stroke="#fff" stroke-width="1.5"/>
+<text x="437.97" y="171.44" font-size="11" text-anchor="end" fill="#27272a" font-weight="400">48 -&gt; 26.7</text>
+<circle cx="544" cy="178.98" r="4" fill="#2563eb" stroke="#fff" stroke-width="1.5"/>
+<text x="536" y="168.98" font-size="11" text-anchor="end" fill="#27272a" font-weight="400">60 -&gt; 27.3</text>
+<polyline fill="none" stroke="#dc2626" stroke-width="2.2" stroke-opacity="1" stroke-linejoin="round" stroke-linecap="round" points="62,46 66.08,46 70.17,46 74.25,46 78.34,46 82.42,46 86.51,46 90.59,46 94.68,46 98.76,46 102.85,46 106.93,46 111.02,46 115.1,46 119.19,46 123.27,46 127.36,46 131.44,46 135.53,46 139.61,46 143.69,46 147.78,46 151.86,46 155.95,46 160.03,46 164.12,46 168.2,46 172.29,46 176.37,46 180.46,46 184.54,46 188.63,46 192.71,46 196.8,46 200.88,46 204.97,46 209.05,46 213.14,46 217.22,46 221.31,46 225.39,46 229.47,46 233.56,46 237.64,46 241.73,46 245.81,46 249.9,46 253.98,47.11 258.07,50.39 262.15,53.91 266.24,57.47 270.32,61.01 274.41,64.5 278.49,67.92 282.58,71.27 286.66,74.54 290.75,77.72 294.83,80.82 298.92,83.84 303,86.78 307.08,89.64 311.17,92.43 315.25,95.14 319.34,97.78 323.42,100.35 327.51,102.85 331.59,105.28 335.68,107.66 339.76,109.97 343.85,112.22 347.93,114.42 352.02,116.56 356.1,118.65 360.19,120.69 364.27,122.68 368.36,124.62 372.44,126.52 376.53,128.37 380.61,130.18 384.69,131.95 388.78,133.68 392.86,135.36 396.95,137.02 401.03,138.63 405.12,140.21 409.2,141.76 413.29,143.27 417.37,144.75 421.46,146.2 425.54,147.62 429.63,149.01 433.71,150.37 437.8,151.71 441.88,153.02 445.97,154.3 450.05,155.56 454.14,156.8 458.22,158.01 462.31,159.19 466.39,160.36 470.47,161.5 474.56,162.63 478.64,163.73 482.73,164.81 486.81,165.87 490.9,166.92 494.98,167.94 499.07,168.95 503.15,169.94 507.24,170.92 511.32,171.87 515.41,172.81 519.49,173.74 523.58,174.65 527.66,175.54 531.75,176.42 535.83,177.29 539.92,178.14 544,178.98"/>
+<text x="550" y="294" font-size="11" text-anchor="start" fill="#dc2626" font-weight="400">0%</text>
+<text x="550" y="233" font-size="11" text-anchor="start" fill="#dc2626" font-weight="400">25%</text>
+<text x="550" y="172" font-size="11" text-anchor="start" fill="#dc2626" font-weight="400">50%</text>
+<text x="550" y="111" font-size="11" text-anchor="start" fill="#dc2626" font-weight="400">75%</text>
+<text x="550" y="50" font-size="11" text-anchor="start" fill="#dc2626" font-weight="400">100%</text>
+<text x="596" y="168" font-size="11.5" text-anchor="middle" fill="#dc2626" font-weight="400" transform="rotate(90 596 168)">Share of the stack that counts</text>
+<line x1="90" y1="67" x2="110" y2="67" stroke="#2563eb" stroke-width="2.5" stroke-opacity="1"/>
+<text x="116" y="71" font-size="11.5" text-anchor="start" fill="#27272a" font-weight="400">Effective regiments</text>
+<line x1="90" y1="84" x2="110" y2="84" stroke="#a1a1aa" stroke-width="2.5" stroke-opacity="1" stroke-dasharray="4 4"/>
+<text x="116" y="88" font-size="11.5" text-anchor="start" fill="#27272a" font-weight="400">If every regiment counted</text>
+<line x1="90" y1="101" x2="110" y2="101" stroke="#dc2626" stroke-width="2.5" stroke-opacity="1"/>
+<text x="116" y="105" font-size="11.5" text-anchor="start" fill="#27272a" font-weight="400">Share that counts (right axis)</text>
+</svg>

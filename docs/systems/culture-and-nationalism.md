@@ -6,6 +6,10 @@ Your nation has a **primary culture** and a list of **accepted cultures**. Every
 
 The culture pass runs once a month, just before [politics](politics-and-reform.md), because the anger it creates is an input to unrest. It uses no random numbers.
 
+![Line chart of monthly assimilation against local majority share for the three culture policies.](../images/culture-and-nationalism-assimilation-chart.svg)
+
+![Flow from culture policy to movement, radicalism, uprising and cooldown.](../images/culture-and-nationalism-movement-flow.svg)
+
 Each month, for every pop whose culture is not accepted:
 
 1. **Resentment.** It gains militancy (anger, 0 to 10) at a rate set by your culture policy, and 0.012 consciousness (political awareness, 0 to 10) whatever you do.
@@ -42,6 +46,8 @@ Assimilation rate per month is `0.6% x (local accepted share)^1.5 x (0.5 + liter
 
 A province holds 10,000 minority farmers. 80% of the province is primary or accepted culture, national literacy is 0.40, the religions match, there is no movement, and the policy is assimilationist.
 
+![Line chart of movement radicalism over 60 months for a calm, a middling and an angry case.](../images/culture-and-nationalism-radicalism-chart.svg)
+
 Rate = 0.006 x 0.8^1.5 x (0.5 + 0.4) = 0.006 x 0.7155 x 0.9 = 0.386% a month. That is 38 people in month one, about 460 a year. Exclusionary would be 46 a month; pluralist 17.
 
 Now look at the movement. Take a culture with average militancy 3, consciousness 3 and needs met 0.5 under an assimilationist policy: radicalism moves by -0.3 + 0.45 + 1.5 + 0 - 1.0 = +0.65 a month. If you feed them until needs met reach 0.9, it moves by -0.3 + 0.45 + 1.5 - 1.8 = -0.15 a month, so the movement quietly fades.
@@ -51,6 +57,8 @@ An angry case: militancy 6, consciousness 5, needs met 0.4, exclusionary policy.
 ## What you can do
 
 Open **Cultures** in the panel rail (the panel title is "Cultures of the Nation").
+
+![Cultures panel showing policy buttons, national movements and the cultural census.](../images/culture-and-nationalism-panel.png)
 
 - **Set culture policy** in the Cultural Policy row. It costs 4 prestige and cannot be changed again for a year. The first change has no wait.
 - **Read National Movements.** Each movement shows a radicalism bar. Hover for the monthly breakdown of base, consciousness, militancy, needs relief and policy terms.

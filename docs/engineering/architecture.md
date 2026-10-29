@@ -62,6 +62,8 @@ server/*                  Node multiplayer server (runs src/sim)
  Node server (server/) imports the same src/sim.
 ```
 
+![The UI thread, message protocol and worker, with commands, snapshots and detail requests between them.](../images/architecture-boundary.svg)
+
 ## Systems
 
 Every simulation system is a function with the same shape:

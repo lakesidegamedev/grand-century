@@ -25,6 +25,9 @@ Posting a snapshot on every tick would flood the main thread. The rules:
   400 days per pass, at 0, 2, 5, 12, 30 or 90 days per real second for speeds 0 to 5
   (`SPEED_DAYS_PER_SEC`). The UI still updates 8 times a second at any speed.
 
+![Sequence of a command, snapshot posting, detail requests and the multiplayer diff path.](../images/snapshots-and-protocol-cadence.svg)
+
+
 The consequence for contributors: **state changed outside a command must mark a
 snapshot pending** (the worker does this whenever days advanced). A command goes through
 `applyCommand` and is pushed immediately. Anything else that mutates the world without

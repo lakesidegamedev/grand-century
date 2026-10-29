@@ -14,6 +14,13 @@ Each good has a **base price**, the value the game pulls it back toward (grain 2
 6. The result is held between 35% and 600% of base price.
 7. The price moves only 32% of the way from where it is to that target.
 
+![Line chart of long-run price against demand over supply, bounded at 0.569 and 4.878 times base.](../images/the-world-market-steady-price-chart.svg)
+
+![Line chart of price over ten years under a permanent worst-case shortage, climbing slowly toward 4.9 times base.](../images/the-world-market-shortage-chart.svg)
+
+![The seven steps of the weekly price calculation.](../images/the-world-market-price-pipeline.svg)
+
+
 The effect is slow and bounded. The biggest one-week move is about 1.5%. Doubling a price takes more than a year of the worst-case shortage, and a permanent shortage settles at about 4.9 times base, never the full 6. A permanent glut settles at about 0.57 times base.
 
 Unsold goods are not destroyed. They go into the world stockpile and stay there, pressing prices down in the following weeks.
@@ -33,6 +40,8 @@ Unsold goods are not destroyed. They go into the world stockpile and stay there,
 ### Tariffs
 
 Your tariff is one slider. It sits in the Budget panel and does two things at once.
+
+![Chart of the buy price multiplier and the share exporters keep against tariff rate, with the slider range of each Trade Policy level.](../images/the-world-market-tariff-chart.svg)
 
 - **On every purchase** your pops, factories and stockpile make, a positive tariff raises the price they pay by 30% of the tariff rate (a 10% tariff adds 3%) and the extra goes to your treasury as tariff income. A negative tariff (a subsidy) lowers the price and the treasury pays the difference.
 - **On every sale** your producers make, a positive tariff cuts what the seller keeps by 10% of the tariff rate (a 10% tariff costs them 1%) and the cut goes to your treasury. A negative tariff lets sellers keep slightly more.
@@ -71,6 +80,10 @@ If that shortfall lasted every week, the price would creep up and level off. A p
 - **Set the tariff** with the Tariff slider in the **Budget** panel. The label beside it shows the buy multiplier and what exporters keep.
 - **Place standing orders.** In the Market panel's last column press **Buy** or **Sell** for a good (each sets 15 units a day) and **Off** to cancel. The rules allow up to 40 units a day per good; the panel buttons use 15.
 - **Change the slider range** by enacting a different Trade Policy.
+
+![Market panel showing the goods table with price, supply, demand and a price tooltip open.](../images/the-world-market-panel.png)
+
+![Tariff slider in the Budget panel with its label showing the buy multiplier and exporters keep rate.](../images/the-world-market-tariff-slider.png)
 
 Tips:
 

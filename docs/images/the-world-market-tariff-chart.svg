@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 430" width="640" height="430" font-family='system-ui, -apple-system, "Segoe UI", Roboto, sans-serif' role="img" aria-label="Line chart against tariff rate from -25 to +35 percent: the buy price multiplier rises from 0.944 to 1.105 and the share sellers keep falls from 1.006 to 0.965. Four bars show the slider range allowed by each Trade Policy level.">
+<title>Line chart against tariff rate from -25 to +35 percent: the buy price multiplier rises from 0.944 to 1.105 and the share sellers keep falls from 1.006 to 0.965. Four bars show the slider range allowed by each Trade Policy level.</title>
+<rect x="0.5" y="0.5" width="639" height="429" fill="#fff" stroke="#d4d4d8"/>
+<text x="16" y="26" font-size="15" font-weight="600" fill="#27272a">What the tariff slider does to prices</text>
+<line x1="64" y1="265.79" x2="618" y2="265.79" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="58" y="269.79" font-size="11" text-anchor="end" fill="#52525b" font-weight="400">0.94</text>
+<line x1="64" y1="216.95" x2="618" y2="216.95" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="58" y="220.95" font-size="11" text-anchor="end" fill="#52525b" font-weight="400">0.98</text>
+<line x1="64" y1="168.11" x2="618" y2="168.11" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="58" y="172.11" font-size="11" text-anchor="end" fill="#52525b" font-weight="400">1.02</text>
+<line x1="64" y1="119.26" x2="618" y2="119.26" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="58" y="123.26" font-size="11" text-anchor="end" fill="#52525b" font-weight="400">1.06</text>
+<line x1="64" y1="70.42" x2="618" y2="70.42" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="58" y="74.42" font-size="11" text-anchor="end" fill="#52525b" font-weight="400">1.1</text>
+<line x1="64" y1="46" x2="64" y2="278" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="64" y="294" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">-25%</text>
+<line x1="156.33" y1="46" x2="156.33" y2="278" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="156.33" y="294" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">-15%</text>
+<line x1="248.67" y1="46" x2="248.67" y2="278" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="248.67" y="294" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">-5%</text>
+<line x1="341" y1="46" x2="341" y2="278" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="341" y="294" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">+5%</text>
+<line x1="433.33" y1="46" x2="433.33" y2="278" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="433.33" y="294" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">+15%</text>
+<line x1="525.67" y1="46" x2="525.67" y2="278" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="525.67" y="294" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">+25%</text>
+<line x1="618" y1="46" x2="618" y2="278" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="618" y="294" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">+35%</text>
+<line x1="64" y1="278" x2="618" y2="278" stroke="#a1a1aa" stroke-width="1" stroke-opacity="1"/>
+<line x1="64" y1="46" x2="64" y2="278" stroke="#a1a1aa" stroke-width="1" stroke-opacity="1"/>
+<text x="341" y="312" font-size="12" text-anchor="middle" fill="#27272a" font-weight="400">Tariff rate</text>
+<text x="18" y="162" font-size="12" text-anchor="middle" fill="#27272a" font-weight="400" transform="rotate(-90 18 162)">Multiplier on world price</text>
+<line x1="64" y1="192.53" x2="618" y2="192.53" stroke="#71717a" stroke-width="1.3" stroke-opacity="1" stroke-dasharray="5 4"/>
+<polyline fill="none" stroke="#2563eb" stroke-width="2.5" stroke-opacity="1" stroke-linejoin="round" stroke-linecap="round" points="64,261.21 68.62,259.84 73.23,258.46 77.85,257.09 82.47,255.72 87.08,254.34 91.7,252.97 96.32,251.59 100.93,250.22 105.55,248.85 110.17,247.47 114.78,246.1 119.4,244.73 124.02,243.35 128.63,241.98 133.25,240.61 137.87,239.23 142.48,237.86 147.1,236.48 151.72,235.11 156.33,233.74 160.95,232.36 165.57,230.99 170.18,229.62 174.8,228.24 179.42,226.87 184.03,225.49 188.65,224.12 193.27,222.75 197.88,221.37 202.5,220 207.12,218.63 211.73,217.25 216.35,215.88 220.97,214.51 225.58,213.13 230.2,211.76 234.82,210.38 239.43,209.01 244.05,207.64 248.67,206.26 253.28,204.89 257.9,203.52 262.52,202.14 267.13,200.77 271.75,199.39 276.37,198.02 280.98,196.65 285.6,195.27 290.22,193.9 294.83,192.53 299.45,190.69 304.07,188.86 308.68,187.03 313.3,185.2 317.92,183.37 322.53,181.54 327.15,179.71 331.77,177.87 336.38,176.04 341,174.21 345.62,172.38 350.23,170.55 354.85,168.72 359.47,166.88 364.08,165.05 368.7,163.22 373.32,161.39 377.93,159.56 382.55,157.73 387.17,155.89 391.78,154.06 396.4,152.23 401.02,150.4 405.63,148.57 410.25,146.74 414.87,144.91 419.48,143.07 424.1,141.24 428.72,139.41 433.33,137.58 437.95,135.75 442.57,133.92 447.18,132.08 451.8,130.25 456.42,128.42 461.03,126.59 465.65,124.76 470.27,122.93 474.88,121.09 479.5,119.26 484.12,117.43 488.73,115.6 493.35,113.77 497.97,111.94 502.58,110.11 507.2,108.27 511.82,106.44 516.43,104.61 521.05,102.78 525.67,100.95 530.28,99.12 534.9,97.28 539.52,95.45 544.13,93.62 548.75,91.79 553.37,89.96 557.98,88.13 562.6,86.29 567.22,84.46 571.83,82.63 576.45,80.8 581.07,78.97 585.68,77.14 590.3,75.31 594.92,73.47 599.53,71.64 604.15,69.81 608.77,67.98 613.38,66.15 618,64.32"/>
+<polyline fill="none" stroke="#dc2626" stroke-width="2.5" stroke-opacity="1" stroke-linejoin="round" stroke-linecap="round" points="64,184.89 68.62,185.05 73.23,185.2 77.85,185.35 82.47,185.51 87.08,185.66 91.7,185.81 96.32,185.96 100.93,186.12 105.55,186.27 110.17,186.42 114.78,186.57 119.4,186.73 124.02,186.88 128.63,187.03 133.25,187.18 137.87,187.34 142.48,187.49 147.1,187.64 151.72,187.79 156.33,187.95 160.95,188.1 165.57,188.25 170.18,188.41 174.8,188.56 179.42,188.71 184.03,188.86 188.65,189.02 193.27,189.17 197.88,189.32 202.5,189.47 207.12,189.63 211.73,189.78 216.35,189.93 220.97,190.08 225.58,190.24 230.2,190.39 234.82,190.54 239.43,190.69 244.05,190.85 248.67,191 253.28,191.15 257.9,191.31 262.52,191.46 267.13,191.61 271.75,191.76 276.37,191.92 280.98,192.07 285.6,192.22 290.22,192.37 294.83,192.53 299.45,193.14 304.07,193.75 308.68,194.36 313.3,194.97 317.92,195.58 322.53,196.19 327.15,196.8 331.77,197.41 336.38,198.02 341,198.63 345.62,199.24 350.23,199.85 354.85,200.46 359.47,201.07 364.08,201.68 368.7,202.29 373.32,202.91 377.93,203.52 382.55,204.13 387.17,204.74 391.78,205.35 396.4,205.96 401.02,206.57 405.63,207.18 410.25,207.79 414.87,208.4 419.48,209.01 424.1,209.62 428.72,210.23 433.33,210.84 437.95,211.45 442.57,212.06 447.18,212.67 451.8,213.28 456.42,213.89 461.03,214.51 465.65,215.12 470.27,215.73 474.88,216.34 479.5,216.95 484.12,217.56 488.73,218.17 493.35,218.78 497.97,219.39 502.58,220 507.2,220.61 511.82,221.22 516.43,221.83 521.05,222.44 525.67,223.05 530.28,223.66 534.9,224.27 539.52,224.88 544.13,225.49 548.75,226.11 553.37,226.72 557.98,227.33 562.6,227.94 567.22,228.55 571.83,229.16 576.45,229.77 581.07,230.38 585.68,230.99 590.3,231.6 594.92,232.21 599.53,232.82 604.15,233.43 608.77,234.04 613.38,234.65 618,235.26"/>
+<circle cx="618" cy="64.32" r="4" fill="#2563eb" stroke="#fff" stroke-width="1.5"/>
+<text x="612" y="56.32" font-size="11" text-anchor="end" fill="#27272a" font-weight="400">1.105</text>
+<circle cx="64" cy="261.21" r="4" fill="#2563eb" stroke="#fff" stroke-width="1.5"/>
+<text x="70" y="277.21" font-size="11" text-anchor="start" fill="#27272a" font-weight="400">0.944</text>
+<circle cx="618" cy="235.26" r="4" fill="#2563eb" stroke="#fff" stroke-width="1.5"/>
+<text x="612" y="251.26" font-size="11" text-anchor="end" fill="#27272a" font-weight="400">0.965</text>
+<circle cx="64" cy="184.89" r="4" fill="#2563eb" stroke="#fff" stroke-width="1.5"/>
+<text x="70" y="176.89" font-size="11" text-anchor="start" fill="#27272a" font-weight="400">1.006</text>
+<line x1="96" y1="63" x2="116" y2="63" stroke="#2563eb" stroke-width="2.5" stroke-opacity="1"/>
+<text x="122" y="67" font-size="11.5" text-anchor="start" fill="#27272a" font-weight="400">Buy price multiplier (importers pay)</text>
+<line x1="96" y1="81" x2="116" y2="81" stroke="#dc2626" stroke-width="2.5" stroke-opacity="1"/>
+<text x="122" y="85" font-size="11.5" text-anchor="start" fill="#27272a" font-weight="400">Share sellers keep (exporters)</text>
+<text x="14" y="340" font-size="11.5" text-anchor="start" fill="#27272a" font-weight="600">Slider range allowed by each Trade Policy level</text>
+<rect x="341" y="350" width="277" height="12" fill="#2563eb" fill-opacity="0.35"/>
+<text x="335" y="360" font-size="10.5" text-anchor="end" fill="#27272a" font-weight="400">protectionism (5% to 35%)</text>
+<rect x="248.67" y="368" width="323.17" height="12" fill="#dc2626" fill-opacity="0.35"/>
+<text x="242.67" y="378" font-size="10.5" text-anchor="end" fill="#27272a" font-weight="400">mercantilism (-5% to 30%)</text>
+<rect x="156.33" y="386" width="369.33" height="12" fill="#2563eb" fill-opacity="0.35"/>
+<text x="150.33" y="396" font-size="10.5" text-anchor="end" fill="#27272a" font-weight="400">balanced trade (-15% to 25%)</text>
+<rect x="64" y="404" width="323.17" height="12" fill="#dc2626" fill-opacity="0.35"/>
+<text x="393.17" y="414" font-size="10.5" text-anchor="start" fill="#27272a" font-weight="400">free trade (-25% to 10%)</text>
+</svg>

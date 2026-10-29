@@ -6,6 +6,8 @@ Diplomacy decides who is friend, rival or target. It governs alliances, the pret
 
 Diplomacy updates once a month (see [Time and the tick](time-and-the-tick.md)). Every pair of nations has exactly one **relation**: neutral (the default), alliance, guarantee, rivalry or truce. Each pair also has an **opinion** from -200 to 200 that drifts every month.
 
+![States of a relation between two nations.](../images/diplomacy-relation-states.svg)
+
 **Relations**
 
 - **Alliance** lasts 10 years. Your allies join the wars you start, and the wars started against you.
@@ -20,6 +22,10 @@ Diplomacy updates once a month (see [Time and the tick](time-and-the-tick.md)). 
 ### Pretexts and infamy
 
 You can declare war without a reason, but it costs a lot of **infamy**, the world's measure of how dangerous you are. A **casus belli** (CB), a recognised pretext, makes the same war cheaper.
+
+![Grouped bar chart of infamy added per war goal with and without a pretext.](../images/diplomacy-infamy-by-goal-chart.svg)
+
+![Line chart of infamy fading after one or three annexation wars.](../images/diplomacy-infamy-decay-chart.svg)
 
 To get one you **fabricate** it: pay DP, wait a few months, and then hold it for 2 years. Aggressive goals (annex a state, take a colony) add a little infamy at the start of fabrication as well.
 
@@ -40,6 +46,8 @@ Infamy fades by 0.14 a month. At 18 or more you are an **outlaw**: every great p
 
 Each month all nations are scored and the top 8 become **great powers**, ranked 1 to 8. The score is 9 x the square root of industry, plus 2.5 x military, plus prestige. Industry is factory levels and output (see [Production and industry](production-and-industry.md)); military is regiments, ships and mobilization capacity (see [War](war.md)). Prestige fades by 0.5% a month, so old glory has to be re-earned.
 
+![Flow from power score to great powers, influence and client spheres.](../images/diplomacy-great-powers-flow.svg)
+
 A great power can build **influence** over a smaller nation. At 100 points the nation joins its **sphere**. Only non-great-powers can be sphered. A great power gains 0.08 prestige and 6 treasury per client each month, and clients lose 0.05 prestige a month. If a patron falls out of the top 8, its whole sphere is released at once.
 
 ## Worked example
@@ -53,6 +61,10 @@ An irredentist claim for a lost core state skips the fabrication wait and the 23
 ## What you can do
 
 All of this is in the **Diplomacy** panel. Choose a nation in the roster (filters: Relevant, Powers, Near, All), and its dossier shows opinion, power and standing.
+
+![Diplomacy panel with chancery meters, the nation list and the selected nation dossier.](../images/diplomacy-panel.png)
+
+![Great Powers panel showing the Concert of Europe and the rankings.](../images/diplomacy-great-powers-panel.png)
 
 - **Propose Alliance.** Accepted when a score reaches 70. The score is their opinion of you, plus 6 per rivalry and 8 per war they are in, plus a power-balance term (25 for equal power, falling to 12 when the gap is half their strength), minus 2 per point of your infamy above 18. A refusal costs 4 opinion. Rivals and truce partners are refused outright. Break Alliance ends it at no penalty.
 - **Guarantee** and **Withdraw Guarantee.** Costs nothing, but binds you into wars.
@@ -79,6 +91,8 @@ Edge cases:
 **Driven by:**
 - [Budget and taxation](budget-and-taxation.md): a patron pays and receives a monthly sum per client, so treasury state shapes what spheres cost.
 
+![Map of what drives diplomacy and what diplomacy affects.](../images/diplomacy-connections.svg)
+
 - [Time and the tick](time-and-the-tick.md): diplomacy updates on the first of each month.
 - [War](war.md): every peace starts a 5-year truce, and war goals move prestige and spheres.
 - [AI nations](ai-nations.md): AI nations form alliances, pick rivals and fabricate pretexts.
@@ -104,6 +118,8 @@ Last checked: 2026-10-29, version 1.7.0
 ## Exact rules
 
 Source `src/sim/systems/diplomacy.ts` unless noted. `runDiplomacyMonthly` runs in the monthly block of `src/sim/world.ts` after research and before crises, in this order: clear expired relations, rank great powers, drift opinions, influence, DP accrual, pretext queues, infamy decay and coalitions, then sphere income and prestige decay.
+
+![Order of the monthly diplomacy pass.](../images/diplomacy-monthly-order.svg)
 
 **Constants.** `TRUCE_DURATION_DAYS` 1,825 (5 x 365). `ALLIANCE_DURATION_DAYS` 3,650. `CB_DURATION_DAYS` 730. `INFAMY_LIMIT` 18. `RIVALRY_DP_COST` 12, `RIVALRY_CAP` 4. `IRREDENTIST_INFAMY_DISCOUNT` 0.45 and `UNIFICATION_INFAMY_DISCOUNT` 0.6 are multipliers on the annexation infamy of 6.5 (so 2.93 and 3.9). Opinion clamp -200 to 200. Starting DP 24; DP cap 120. Prestige fade `BALANCE.diplomacy.prestigeMonthlyDecayRate` 0.005 (`src/sim/balance.ts`).
 

@@ -6,6 +6,12 @@ Politics decides which laws you can change and how angry your people get while y
 
 Each nation has four parties (Party of Order, Conservative Union, Liberal Coalition, Workers Front), each with a position from 0 to 3 on every reform. The upper house is a split of seats between ideologies. Your support for a reform is the share of seats held by parties whose position is at or above the level you want.
 
+![Line chart of reform fatigue decaying after one reform or three in a row, with the matching support penalty and cost multiplier.](../images/politics-and-reform-fatigue-chart.svg)
+
+![Loop from pop needs to reform demand, refusal, militancy, unrest and rebellion.](../images/politics-and-reform-unrest-loop.svg)
+
+![Order of the monthly politics pass.](../images/politics-and-reform-monthly-order.svg)
+
 Once a month, after [culture](culture-and-nationalism.md) and before [research](research.md), the politics pass runs in this order:
 
 1. Reform fatigue decays.
@@ -54,6 +60,8 @@ After one month fatigue is 0.30 and support 72%, still blocked. After two months
 ## What you can do
 
 Open **Politics** in the Statecraft group of the panel rail.
+
+![Politics panel showing the summary grid, franchise weights and parties.](../images/politics-and-reform-panel.png)
 
 - **Enact a reform.** Under the four reform groups, each next level has a button showing "UH" (upper house) support against the required share. Hover for the reason it is blocked, the cost and the effect. Only the next level up can be enacted.
 - **Read the unrest picture.** "Issues & Unrest" lists what your pops want most, as a share of demand, and your three most restless states.

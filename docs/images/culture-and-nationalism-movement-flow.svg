@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 410" width="640" height="410" font-family='system-ui, -apple-system, "Segoe UI", Roboto, sans-serif' role="img" aria-label="Flow. Culture policy drives militancy and consciousness. A movement forms when the culture is 4 percent of the population with consciousness 2.5 and a heartland state. Radicalism rises, and at 85 radicalism and 4.2 militancy an uprising starts a rebellion, followed by a 6 year cooldown. Accepting a culture cuts radicalism by 40 and stops assimilation. Assimilation moves pops to the primary culture, and radicalism slows it.">
+<title>Flow. Culture policy drives militancy and consciousness. A movement forms when the culture is 4 percent of the population with consciousness 2.5 and a heartland state. Radicalism rises, and at 85 radicalism and 4.2 militancy an uprising starts a rebellion, followed by a 6 year cooldown. Accepting a culture cuts radicalism by 40 and stops assimilation. Assimilation moves pops to the primary culture, and radicalism slows it.</title><defs><marker id="ahg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52525b"/></marker><marker id="ahb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="ahr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker></defs>
+<rect x="0.5" y="0.5" width="639" height="409" fill="#fff" stroke="#d4d4d8"/>
+<text x="16" y="26" font-size="15" font-weight="600" fill="#27272a">From culture policy to uprising</text>
+<polyline points="130,74 170,74 170,82" fill="none" stroke="#2563eb" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#ahb)"/>
+<polyline points="294,82 330,82 330,96" fill="none" stroke="#2563eb" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#ahb)"/>
+<polyline points="400,138 400,147" fill="none" stroke="#2563eb" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#ahb)"/>
+<polyline points="400,187 400,233.8" fill="none" stroke="#2563eb" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#ahb)"/>
+<polyline points="330,267.8 294,267.8 294,253.8" fill="none" stroke="#dc2626" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#ahr)"/>
+<polyline points="170,253.8 130,253.8" fill="none" stroke="#dc2626" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#ahr)"/>
+<polyline points="490,189 470,189 470,167" fill="none" stroke="#52525b" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#ahg)"/>
+<polyline points="330,167 294,167 294,175" fill="none" stroke="#52525b" stroke-width="1.6" stroke-linejoin="round" stroke-dasharray="5 4" marker-end="url(#ahg)"/>
+<rect x="10" y="54" width="120" height="40" rx="6" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="70" y="78" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">Culture policy</text>
+<rect x="170" y="54" width="124" height="56" rx="6" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="232" y="78.8" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">Militancy and</text>
+<text x="232" y="93.3" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">consciousness</text>
+<rect x="330" y="54" width="140" height="84" rx="6" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="400" y="78.3" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">Movement forms: 4%</text>
+<text x="400" y="92.8" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">of population,</text>
+<text x="400" y="107.3" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">consciousness 2.5,</text>
+<text x="400" y="121.8" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">heartland state</text>
+<rect x="170" y="147" width="124" height="56" rx="6" fill="#f4f4f5" stroke="#a1a1aa" stroke-width="1.5"/>
+<text x="232" y="164.5" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">Assimilation to</text>
+<text x="232" y="179" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">the primary</text>
+<text x="232" y="193.5" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">culture</text>
+<rect x="330" y="147" width="140" height="40" rx="6" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="400" y="171" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">Radicalism</text>
+<rect x="490" y="147" width="124" height="84" rx="6" fill="#f4f4f5" stroke="#a1a1aa" stroke-width="1.5"/>
+<text x="552" y="164" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">Accept the</text>
+<text x="552" y="178.5" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">culture:</text>
+<text x="552" y="193" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">radicalism -40,</text>
+<text x="552" y="207.5" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">assimilation</text>
+<text x="552" y="222" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">stops</text>
+<rect x="330" y="233.8" width="140" height="68" rx="6" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+<text x="400" y="257.3" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">Uprising gates:</text>
+<text x="400" y="271.8" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">radicalism 85 and</text>
+<text x="400" y="286.3" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">militancy 4.2</text>
+<rect x="170" y="233.8" width="124" height="40" rx="6" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+<text x="232" y="257.8" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">Rebellion</text>
+<rect x="10" y="233.8" width="120" height="40" rx="6" fill="#f4f4f5" stroke="#a1a1aa" stroke-width="1.5"/>
+<text x="70" y="257.8" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">6 year cooldown</text>
+<text x="16" y="396" font-size="11" text-anchor="start" fill="#52525b" font-weight="400">Assimilation moves pops to the primary culture; high radicalism slows it.</text>
+</svg>

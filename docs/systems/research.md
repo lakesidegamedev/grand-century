@@ -12,6 +12,9 @@ Every month, in this order (see [Time and the tick](time-and-the-tick.md)):
 4. **Inventions.** Each invention whose technology you hold rolls a chance to appear.
 5. **Drips.** Technologies that raise literacy or prestige add a little every month.
 
+![Monthly research flow from earning points to completed technology.](../images/research-monthly-flow.svg)
+
+
 **Literacy** is the share of your people who can read (0 to 1). It is the main engine. It grows from the school reform and from clergy, see [Politics and reform](politics-and-reform.md), and from culture technologies.
 
 There are 86 technologies in five columns: Army (22), Navy (15), Commerce (15), Industry (18) and Culture (16). Each has a cost from 5 to 480 and a year before which it cannot be researched, so you cannot rush late technology in an early era. Most also need an earlier technology.
@@ -28,6 +31,8 @@ There are 86 technologies in five columns: Army (22), Navy (15), Commerce (15), 
 | Auto-pick (when idle) | bank of 1.5 x the cheapest available cost |
 | Tech cost range | 5 to 480 |
 | Invention chance | 4% to 6% a month, times (0.5 + literacy) |
+
+![Line chart of research points per month against literacy for great powers and other nations.](../images/research-points-chart.svg)
 
 ### What a technology gives
 
@@ -50,11 +55,15 @@ These are bonuses on a base weight of 1. They apply to the AI only. A nation at 
 
 You rule a great power with literacy 0.45 and no research-rate bonus. Points per month: 1.4 + 0.45 x 4.8 + 1.5 = 5.06. Professional Drill costs 24, so it takes 5 months (24 / 5.06 = 4.7). Field Logistics at 34 takes 7 months.
 
+![Bar chart of months to research four technologies at three literacy levels.](../images/research-months-chart.svg)
+
 A small nation at literacy 0.26 earns 1.4 + 1.25 = 2.65 a month and needs 13 months for that same Field Logistics. A technology costing 125, such as Staff Corps, takes the great power 25 months. The panel shows each technology's estimate.
 
 ## What you can do
 
 Open the **Technology** panel. It has one column per category and shows cost, estimated months and what is blocking each technology.
+
+![Technology panel with research points, the formula and the technology columns.](../images/research-technology-panel.png)
 
 - **Pick a target.** Click any available technology. Switching is free: progress already sunk into the old target goes back to your bank as points.
 - **Halt research.** The "Halt research" button banks everything. Use it if you want to save points for a specific technology.
@@ -78,6 +87,8 @@ Edge cases:
 ## Connections
 
 **Driven by:**
+
+![Map of what drives research and what research affects.](../images/research-connections.svg)
 
 - [Time and the tick](time-and-the-tick.md): research runs once a month, after politics.
 - [Politics and reform](politics-and-reform.md): the school reform and clergy raise literacy, the main input. The ruling party sets what the AI researches.

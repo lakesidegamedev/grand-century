@@ -1,0 +1,235 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 560" width="640" height="560" font-family='system-ui, -apple-system, "Segoe UI", Roboto, sans-serif' role="img" aria-label="Stacked bars of the monthly tension added by wars, infamy, rivalries, bitter relations, contested spheres and an active crisis in an example world, against the decay line and the tension level with its spawn floor of 35. A second panel shows the monthly crisis spawn chance rising from 5 percent at tension 35 to 50 percent at 100.">
+<title>Stacked bars of the monthly tension added by wars, infamy, rivalries, bitter relations, contested spheres and an active crisis in an example world, against the decay line and the tension level with its spawn floor of 35. A second panel shows the monthly crisis spawn chance rising from 5 percent at tension 35 to 50 percent at 100.</title>
+<rect x="0.5" y="0.5" width="639" height="559" fill="#fff" stroke="#d4d4d8"/>
+<text x="16" y="26" font-size="15" font-weight="600" fill="#27272a">Where world tension comes from (example world)</text>
+<line x1="62" y1="284" x2="582" y2="284" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="56" y="288" font-size="11" text-anchor="end" fill="#52525b" font-weight="400">0</text>
+<line x1="62" y1="230.5" x2="582" y2="230.5" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="56" y="234.5" font-size="11" text-anchor="end" fill="#52525b" font-weight="400">3</text>
+<line x1="62" y1="177" x2="582" y2="177" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="56" y="181" font-size="11" text-anchor="end" fill="#52525b" font-weight="400">6</text>
+<line x1="62" y1="123.5" x2="582" y2="123.5" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="56" y="127.5" font-size="11" text-anchor="end" fill="#52525b" font-weight="400">9</text>
+<line x1="62" y1="70" x2="582" y2="70" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="56" y="74" font-size="11" text-anchor="end" fill="#52525b" font-weight="400">12</text>
+<line x1="62" y1="70" x2="62" y2="284" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="62" y="300" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">0</text>
+<line x1="148.67" y1="70" x2="148.67" y2="284" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="148.67" y="300" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">4</text>
+<line x1="235.33" y1="70" x2="235.33" y2="284" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="235.33" y="300" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">8</text>
+<line x1="322" y1="70" x2="322" y2="284" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="322" y="300" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">12</text>
+<line x1="408.67" y1="70" x2="408.67" y2="284" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="408.67" y="300" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">16</text>
+<line x1="495.33" y1="70" x2="495.33" y2="284" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="495.33" y="300" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">20</text>
+<line x1="582" y1="70" x2="582" y2="284" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="582" y="300" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">24</text>
+<line x1="62" y1="284" x2="582" y2="284" stroke="#a1a1aa" stroke-width="1" stroke-opacity="1"/>
+<line x1="62" y1="70" x2="62" y2="284" stroke="#a1a1aa" stroke-width="1" stroke-opacity="1"/>
+<text x="322" y="320" font-size="12" text-anchor="middle" fill="#27272a" font-weight="400">Months</text>
+<text x="22" y="177" font-size="12" text-anchor="middle" fill="#27272a" font-weight="400" transform="rotate(-90 22 177)">Tension added or lost per month</text>
+<rect x="63" y="284" width="19.67" height="0" fill="#1d4ed8" fill-opacity="1"/>
+<rect x="63" y="284" width="19.67" height="0" fill="#3b82f6" fill-opacity="1"/>
+<rect x="63" y="276.87" width="19.67" height="7.13" fill="#93c5fd" fill-opacity="1"/>
+<rect x="63" y="276.87" width="19.67" height="0" fill="#bfdbfe" fill-opacity="1"/>
+<rect x="63" y="266.17" width="19.67" height="10.7" fill="#a1a1aa" fill-opacity="1"/>
+<rect x="63" y="266.17" width="19.67" height="0" fill="#dc2626" fill-opacity="1"/>
+<rect x="84.67" y="284" width="19.67" height="0" fill="#1d4ed8" fill-opacity="1"/>
+<rect x="84.67" y="284" width="19.67" height="0" fill="#3b82f6" fill-opacity="1"/>
+<rect x="84.67" y="276.87" width="19.67" height="7.13" fill="#93c5fd" fill-opacity="1"/>
+<rect x="84.67" y="276.87" width="19.67" height="0" fill="#bfdbfe" fill-opacity="1"/>
+<rect x="84.67" y="266.17" width="19.67" height="10.7" fill="#a1a1aa" fill-opacity="1"/>
+<rect x="84.67" y="266.17" width="19.67" height="0" fill="#dc2626" fill-opacity="1"/>
+<rect x="106.33" y="284" width="19.67" height="0" fill="#1d4ed8" fill-opacity="1"/>
+<rect x="106.33" y="284" width="19.67" height="0" fill="#3b82f6" fill-opacity="1"/>
+<rect x="106.33" y="262.6" width="19.67" height="21.4" fill="#93c5fd" fill-opacity="1"/>
+<rect x="106.33" y="262.6" width="19.67" height="0" fill="#bfdbfe" fill-opacity="1"/>
+<rect x="106.33" y="251.9" width="19.67" height="10.7" fill="#a1a1aa" fill-opacity="1"/>
+<rect x="106.33" y="251.9" width="19.67" height="0" fill="#dc2626" fill-opacity="1"/>
+<rect x="128" y="284" width="19.67" height="0" fill="#1d4ed8" fill-opacity="1"/>
+<rect x="128" y="284" width="19.67" height="0" fill="#3b82f6" fill-opacity="1"/>
+<rect x="128" y="262.6" width="19.67" height="21.4" fill="#93c5fd" fill-opacity="1"/>
+<rect x="128" y="262.6" width="19.67" height="0" fill="#bfdbfe" fill-opacity="1"/>
+<rect x="128" y="251.9" width="19.67" height="10.7" fill="#a1a1aa" fill-opacity="1"/>
+<rect x="128" y="251.9" width="19.67" height="0" fill="#dc2626" fill-opacity="1"/>
+<rect x="149.67" y="255.47" width="19.67" height="28.53" fill="#1d4ed8" fill-opacity="1"/>
+<rect x="149.67" y="255.47" width="19.67" height="0" fill="#3b82f6" fill-opacity="1"/>
+<rect x="149.67" y="234.07" width="19.67" height="21.4" fill="#93c5fd" fill-opacity="1"/>
+<rect x="149.67" y="234.07" width="19.67" height="0" fill="#bfdbfe" fill-opacity="1"/>
+<rect x="149.67" y="223.37" width="19.67" height="10.7" fill="#a1a1aa" fill-opacity="1"/>
+<rect x="149.67" y="223.37" width="19.67" height="0" fill="#dc2626" fill-opacity="1"/>
+<rect x="171.33" y="255.47" width="19.67" height="28.53" fill="#1d4ed8" fill-opacity="1"/>
+<rect x="171.33" y="255.47" width="19.67" height="0" fill="#3b82f6" fill-opacity="1"/>
+<rect x="171.33" y="234.07" width="19.67" height="21.4" fill="#93c5fd" fill-opacity="1"/>
+<rect x="171.33" y="234.07" width="19.67" height="0" fill="#bfdbfe" fill-opacity="1"/>
+<rect x="171.33" y="201.97" width="19.67" height="32.1" fill="#a1a1aa" fill-opacity="1"/>
+<rect x="171.33" y="201.97" width="19.67" height="0" fill="#dc2626" fill-opacity="1"/>
+<rect x="193" y="255.47" width="19.67" height="28.53" fill="#1d4ed8" fill-opacity="1"/>
+<rect x="193" y="255.47" width="19.67" height="0" fill="#3b82f6" fill-opacity="1"/>
+<rect x="193" y="234.07" width="19.67" height="21.4" fill="#93c5fd" fill-opacity="1"/>
+<rect x="193" y="234.07" width="19.67" height="0" fill="#bfdbfe" fill-opacity="1"/>
+<rect x="193" y="201.97" width="19.67" height="32.1" fill="#a1a1aa" fill-opacity="1"/>
+<rect x="193" y="201.97" width="19.67" height="0" fill="#dc2626" fill-opacity="1"/>
+<rect x="214.67" y="255.47" width="19.67" height="28.53" fill="#1d4ed8" fill-opacity="1"/>
+<rect x="214.67" y="221.58" width="19.67" height="33.88" fill="#3b82f6" fill-opacity="1"/>
+<rect x="214.67" y="200.18" width="19.67" height="21.4" fill="#93c5fd" fill-opacity="1"/>
+<rect x="214.67" y="200.18" width="19.67" height="0" fill="#bfdbfe" fill-opacity="1"/>
+<rect x="214.67" y="168.08" width="19.67" height="32.1" fill="#a1a1aa" fill-opacity="1"/>
+<rect x="214.67" y="168.08" width="19.67" height="0" fill="#dc2626" fill-opacity="1"/>
+<rect x="236.33" y="255.47" width="19.67" height="28.53" fill="#1d4ed8" fill-opacity="1"/>
+<rect x="236.33" y="221.58" width="19.67" height="33.88" fill="#3b82f6" fill-opacity="1"/>
+<rect x="236.33" y="200.18" width="19.67" height="21.4" fill="#93c5fd" fill-opacity="1"/>
+<rect x="236.33" y="200.18" width="19.67" height="0" fill="#bfdbfe" fill-opacity="1"/>
+<rect x="236.33" y="168.08" width="19.67" height="32.1" fill="#a1a1aa" fill-opacity="1"/>
+<rect x="236.33" y="168.08" width="19.67" height="0" fill="#dc2626" fill-opacity="1"/>
+<rect x="258" y="255.47" width="19.67" height="28.53" fill="#1d4ed8" fill-opacity="1"/>
+<rect x="258" y="221.58" width="19.67" height="33.88" fill="#3b82f6" fill-opacity="1"/>
+<rect x="258" y="200.18" width="19.67" height="21.4" fill="#93c5fd" fill-opacity="1"/>
+<rect x="258" y="189.48" width="19.67" height="10.7" fill="#bfdbfe" fill-opacity="1"/>
+<rect x="258" y="157.38" width="19.67" height="32.1" fill="#a1a1aa" fill-opacity="1"/>
+<rect x="258" y="157.38" width="19.67" height="0" fill="#dc2626" fill-opacity="1"/>
+<rect x="279.67" y="255.47" width="19.67" height="28.53" fill="#1d4ed8" fill-opacity="1"/>
+<rect x="279.67" y="221.58" width="19.67" height="33.88" fill="#3b82f6" fill-opacity="1"/>
+<rect x="279.67" y="200.18" width="19.67" height="21.4" fill="#93c5fd" fill-opacity="1"/>
+<rect x="279.67" y="189.48" width="19.67" height="10.7" fill="#bfdbfe" fill-opacity="1"/>
+<rect x="279.67" y="157.38" width="19.67" height="32.1" fill="#a1a1aa" fill-opacity="1"/>
+<rect x="279.67" y="157.38" width="19.67" height="0" fill="#dc2626" fill-opacity="1"/>
+<rect x="301.33" y="255.47" width="19.67" height="28.53" fill="#1d4ed8" fill-opacity="1"/>
+<rect x="301.33" y="221.58" width="19.67" height="33.88" fill="#3b82f6" fill-opacity="1"/>
+<rect x="301.33" y="193.05" width="19.67" height="28.53" fill="#93c5fd" fill-opacity="1"/>
+<rect x="301.33" y="182.35" width="19.67" height="10.7" fill="#bfdbfe" fill-opacity="1"/>
+<rect x="301.33" y="150.25" width="19.67" height="32.1" fill="#a1a1aa" fill-opacity="1"/>
+<rect x="301.33" y="150.25" width="19.67" height="0" fill="#dc2626" fill-opacity="1"/>
+<rect x="323" y="255.47" width="19.67" height="28.53" fill="#1d4ed8" fill-opacity="1"/>
+<rect x="323" y="221.58" width="19.67" height="33.88" fill="#3b82f6" fill-opacity="1"/>
+<rect x="323" y="193.05" width="19.67" height="28.53" fill="#93c5fd" fill-opacity="1"/>
+<rect x="323" y="182.35" width="19.67" height="10.7" fill="#bfdbfe" fill-opacity="1"/>
+<rect x="323" y="150.25" width="19.67" height="32.1" fill="#a1a1aa" fill-opacity="1"/>
+<rect x="323" y="150.25" width="19.67" height="0" fill="#dc2626" fill-opacity="1"/>
+<rect x="344.67" y="255.47" width="19.67" height="28.53" fill="#1d4ed8" fill-opacity="1"/>
+<rect x="344.67" y="221.58" width="19.67" height="33.88" fill="#3b82f6" fill-opacity="1"/>
+<rect x="344.67" y="193.05" width="19.67" height="28.53" fill="#93c5fd" fill-opacity="1"/>
+<rect x="344.67" y="182.35" width="19.67" height="10.7" fill="#bfdbfe" fill-opacity="1"/>
+<rect x="344.67" y="150.25" width="19.67" height="32.1" fill="#a1a1aa" fill-opacity="1"/>
+<rect x="344.67" y="123.5" width="19.67" height="26.75" fill="#dc2626" fill-opacity="1"/>
+<rect x="366.33" y="269.73" width="19.67" height="14.27" fill="#1d4ed8" fill-opacity="1"/>
+<rect x="366.33" y="235.85" width="19.67" height="33.88" fill="#3b82f6" fill-opacity="1"/>
+<rect x="366.33" y="207.32" width="19.67" height="28.53" fill="#93c5fd" fill-opacity="1"/>
+<rect x="366.33" y="196.62" width="19.67" height="10.7" fill="#bfdbfe" fill-opacity="1"/>
+<rect x="366.33" y="164.52" width="19.67" height="32.1" fill="#a1a1aa" fill-opacity="1"/>
+<rect x="366.33" y="137.77" width="19.67" height="26.75" fill="#dc2626" fill-opacity="1"/>
+<rect x="388" y="269.73" width="19.67" height="14.27" fill="#1d4ed8" fill-opacity="1"/>
+<rect x="388" y="235.85" width="19.67" height="33.88" fill="#3b82f6" fill-opacity="1"/>
+<rect x="388" y="207.32" width="19.67" height="28.53" fill="#93c5fd" fill-opacity="1"/>
+<rect x="388" y="196.62" width="19.67" height="10.7" fill="#bfdbfe" fill-opacity="1"/>
+<rect x="388" y="164.52" width="19.67" height="32.1" fill="#a1a1aa" fill-opacity="1"/>
+<rect x="388" y="137.77" width="19.67" height="26.75" fill="#dc2626" fill-opacity="1"/>
+<rect x="409.67" y="269.73" width="19.67" height="14.27" fill="#1d4ed8" fill-opacity="1"/>
+<rect x="409.67" y="235.85" width="19.67" height="33.88" fill="#3b82f6" fill-opacity="1"/>
+<rect x="409.67" y="207.32" width="19.67" height="28.53" fill="#93c5fd" fill-opacity="1"/>
+<rect x="409.67" y="196.62" width="19.67" height="10.7" fill="#bfdbfe" fill-opacity="1"/>
+<rect x="409.67" y="164.52" width="19.67" height="32.1" fill="#a1a1aa" fill-opacity="1"/>
+<rect x="409.67" y="137.77" width="19.67" height="26.75" fill="#dc2626" fill-opacity="1"/>
+<rect x="431.33" y="269.73" width="19.67" height="14.27" fill="#1d4ed8" fill-opacity="1"/>
+<rect x="431.33" y="269.73" width="19.67" height="0" fill="#3b82f6" fill-opacity="1"/>
+<rect x="431.33" y="241.2" width="19.67" height="28.53" fill="#93c5fd" fill-opacity="1"/>
+<rect x="431.33" y="230.5" width="19.67" height="10.7" fill="#bfdbfe" fill-opacity="1"/>
+<rect x="431.33" y="198.4" width="19.67" height="32.1" fill="#a1a1aa" fill-opacity="1"/>
+<rect x="431.33" y="171.65" width="19.67" height="26.75" fill="#dc2626" fill-opacity="1"/>
+<rect x="453" y="269.73" width="19.67" height="14.27" fill="#1d4ed8" fill-opacity="1"/>
+<rect x="453" y="269.73" width="19.67" height="0" fill="#3b82f6" fill-opacity="1"/>
+<rect x="453" y="241.2" width="19.67" height="28.53" fill="#93c5fd" fill-opacity="1"/>
+<rect x="453" y="230.5" width="19.67" height="10.7" fill="#bfdbfe" fill-opacity="1"/>
+<rect x="453" y="198.4" width="19.67" height="32.1" fill="#a1a1aa" fill-opacity="1"/>
+<rect x="453" y="171.65" width="19.67" height="26.75" fill="#dc2626" fill-opacity="1"/>
+<rect x="474.67" y="269.73" width="19.67" height="14.27" fill="#1d4ed8" fill-opacity="1"/>
+<rect x="474.67" y="269.73" width="19.67" height="0" fill="#3b82f6" fill-opacity="1"/>
+<rect x="474.67" y="241.2" width="19.67" height="28.53" fill="#93c5fd" fill-opacity="1"/>
+<rect x="474.67" y="230.5" width="19.67" height="10.7" fill="#bfdbfe" fill-opacity="1"/>
+<rect x="474.67" y="198.4" width="19.67" height="32.1" fill="#a1a1aa" fill-opacity="1"/>
+<rect x="474.67" y="198.4" width="19.67" height="0" fill="#dc2626" fill-opacity="1"/>
+<rect x="496.33" y="269.73" width="19.67" height="14.27" fill="#1d4ed8" fill-opacity="1"/>
+<rect x="496.33" y="269.73" width="19.67" height="0" fill="#3b82f6" fill-opacity="1"/>
+<rect x="496.33" y="241.2" width="19.67" height="28.53" fill="#93c5fd" fill-opacity="1"/>
+<rect x="496.33" y="230.5" width="19.67" height="10.7" fill="#bfdbfe" fill-opacity="1"/>
+<rect x="496.33" y="198.4" width="19.67" height="32.1" fill="#a1a1aa" fill-opacity="1"/>
+<rect x="496.33" y="198.4" width="19.67" height="0" fill="#dc2626" fill-opacity="1"/>
+<rect x="518" y="269.73" width="19.67" height="14.27" fill="#1d4ed8" fill-opacity="1"/>
+<rect x="518" y="269.73" width="19.67" height="0" fill="#3b82f6" fill-opacity="1"/>
+<rect x="518" y="241.2" width="19.67" height="28.53" fill="#93c5fd" fill-opacity="1"/>
+<rect x="518" y="230.5" width="19.67" height="10.7" fill="#bfdbfe" fill-opacity="1"/>
+<rect x="518" y="198.4" width="19.67" height="32.1" fill="#a1a1aa" fill-opacity="1"/>
+<rect x="518" y="198.4" width="19.67" height="0" fill="#dc2626" fill-opacity="1"/>
+<rect x="539.67" y="269.73" width="19.67" height="14.27" fill="#1d4ed8" fill-opacity="1"/>
+<rect x="539.67" y="269.73" width="19.67" height="0" fill="#3b82f6" fill-opacity="1"/>
+<rect x="539.67" y="241.2" width="19.67" height="28.53" fill="#93c5fd" fill-opacity="1"/>
+<rect x="539.67" y="230.5" width="19.67" height="10.7" fill="#bfdbfe" fill-opacity="1"/>
+<rect x="539.67" y="198.4" width="19.67" height="32.1" fill="#a1a1aa" fill-opacity="1"/>
+<rect x="539.67" y="198.4" width="19.67" height="0" fill="#dc2626" fill-opacity="1"/>
+<rect x="561.33" y="269.73" width="19.67" height="14.27" fill="#1d4ed8" fill-opacity="1"/>
+<rect x="561.33" y="269.73" width="19.67" height="0" fill="#3b82f6" fill-opacity="1"/>
+<rect x="561.33" y="241.2" width="19.67" height="28.53" fill="#93c5fd" fill-opacity="1"/>
+<rect x="561.33" y="230.5" width="19.67" height="10.7" fill="#bfdbfe" fill-opacity="1"/>
+<rect x="561.33" y="198.4" width="19.67" height="32.1" fill="#a1a1aa" fill-opacity="1"/>
+<rect x="561.33" y="198.4" width="19.67" height="0" fill="#dc2626" fill-opacity="1"/>
+<polyline fill="none" stroke="#27272a" stroke-width="2" stroke-opacity="1" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="5 3" points="72.83,228.72 94.5,230.96 116.17,233.08 137.83,234.21 159.5,235.27 181.17,234.55 202.83,232.6 224.5,230.76 246.17,227 267.83,223.46 289.5,219.5 311.17,215.77 332.83,211.84 354.5,208.15 376.17,203.07 397.83,199.15 419.5,195.47 441.17,192 462.83,190.78 484.5,189.63 506.17,190.16 527.83,190.66 549.5,191.12 571.17,191.56"/>
+<polyline fill="none" stroke="#dc2626" stroke-width="2.2" stroke-opacity="1" stroke-linejoin="round" stroke-linecap="round" points="72.83,256.39 94.5,260.62 116.17,262.88 137.83,265 159.5,263.57 181.17,259.66 202.83,255.99 224.5,248.47 246.17,241.4 267.83,233.47 289.5,226.01 311.17,218.15 332.83,210.76 354.5,200.6 376.17,192.76 397.83,185.4 419.5,178.47 441.17,176.03 462.83,173.74 484.5,174.79 506.17,175.78 527.83,176.71 549.5,177.58 571.17,178.4"/>
+<text x="588" y="288" font-size="11" text-anchor="start" fill="#dc2626" font-weight="400">0</text>
+<text x="588" y="234.5" font-size="11" text-anchor="start" fill="#dc2626" font-weight="400">25</text>
+<text x="588" y="181" font-size="11" text-anchor="start" fill="#dc2626" font-weight="400">50</text>
+<text x="588" y="127.5" font-size="11" text-anchor="start" fill="#dc2626" font-weight="400">75</text>
+<text x="588" y="74" font-size="11" text-anchor="start" fill="#dc2626" font-weight="400">100</text>
+<text x="620" y="177" font-size="12" text-anchor="middle" fill="#dc2626" font-weight="400" transform="rotate(90 620 177)">World tension</text>
+<line x1="62" y1="209.1" x2="582" y2="209.1" stroke="#dc2626" stroke-width="1.2" stroke-opacity="1" stroke-dasharray="5 4"/>
+<text x="66" y="204.1" font-size="11" text-anchor="start" fill="#dc2626" font-weight="400">crisis can spawn at 35</text>
+<rect x="14" y="38" width="10" height="10" fill="#1d4ed8" fill-opacity="1"/>
+<text x="28" y="47" font-size="10.5" text-anchor="start" fill="#27272a" font-weight="400">Wars</text>
+<rect x="114" y="38" width="10" height="10" fill="#3b82f6" fill-opacity="1"/>
+<text x="128" y="47" font-size="10.5" text-anchor="start" fill="#27272a" font-weight="400">Infamy</text>
+<rect x="214" y="38" width="10" height="10" fill="#93c5fd" fill-opacity="1"/>
+<text x="228" y="47" font-size="10.5" text-anchor="start" fill="#27272a" font-weight="400">Rivalries</text>
+<rect x="314" y="38" width="10" height="10" fill="#bfdbfe" fill-opacity="1"/>
+<text x="328" y="47" font-size="10.5" text-anchor="start" fill="#27272a" font-weight="400">Bitter pairs</text>
+<rect x="414" y="38" width="10" height="10" fill="#a1a1aa" fill-opacity="1"/>
+<text x="428" y="47" font-size="10.5" text-anchor="start" fill="#27272a" font-weight="400">Spheres</text>
+<rect x="514" y="38" width="10" height="10" fill="#dc2626" fill-opacity="1"/>
+<text x="528" y="47" font-size="10.5" text-anchor="start" fill="#27272a" font-weight="400">Active crisis</text>
+<line x1="14" y1="59" x2="40" y2="59" stroke="#27272a" stroke-width="2" stroke-opacity="1" stroke-dasharray="5 3"/>
+<text x="46" y="62" font-size="10.5" text-anchor="start" fill="#27272a" font-weight="400">Decay (2.2 + 0.06 x tension)</text>
+<line x1="200" y1="59" x2="226" y2="59" stroke="#dc2626" stroke-width="2.2" stroke-opacity="1"/>
+<text x="232" y="62" font-size="10.5" text-anchor="start" fill="#dc2626" font-weight="400">Tension level (right axis)</text>
+<line x1="62" y1="502" x2="582" y2="502" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="56" y="506" font-size="11" text-anchor="end" fill="#52525b" font-weight="400">0%</text>
+<line x1="62" y1="476" x2="582" y2="476" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="56" y="480" font-size="11" text-anchor="end" fill="#52525b" font-weight="400">10%</text>
+<line x1="62" y1="450" x2="582" y2="450" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="56" y="454" font-size="11" text-anchor="end" fill="#52525b" font-weight="400">20%</text>
+<line x1="62" y1="424" x2="582" y2="424" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="56" y="428" font-size="11" text-anchor="end" fill="#52525b" font-weight="400">30%</text>
+<line x1="62" y1="398" x2="582" y2="398" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="56" y="402" font-size="11" text-anchor="end" fill="#52525b" font-weight="400">40%</text>
+<line x1="62" y1="372" x2="582" y2="372" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="56" y="376" font-size="11" text-anchor="end" fill="#52525b" font-weight="400">50%</text>
+<line x1="62" y1="372" x2="62" y2="502" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="62" y="518" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">35</text>
+<line x1="182" y1="372" x2="182" y2="502" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="182" y="518" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">50</text>
+<line x1="302" y1="372" x2="302" y2="502" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="302" y="518" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">65</text>
+<line x1="422" y1="372" x2="422" y2="502" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="422" y="518" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">80</text>
+<line x1="582" y1="372" x2="582" y2="502" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="582" y="518" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">100</text>
+<line x1="62" y1="502" x2="582" y2="502" stroke="#a1a1aa" stroke-width="1" stroke-opacity="1"/>
+<line x1="62" y1="372" x2="62" y2="502" stroke="#a1a1aa" stroke-width="1" stroke-opacity="1"/>
+<text x="322" y="536" font-size="12" text-anchor="middle" fill="#27272a" font-weight="400">World tension</text>
+<text x="22" y="437" font-size="12" text-anchor="middle" fill="#27272a" font-weight="400" transform="rotate(-90 22 437)">Monthly spawn chance</text>
+<polyline fill="none" stroke="#2563eb" stroke-width="2.5" stroke-opacity="1" stroke-linejoin="round" stroke-linecap="round" points="62,489 70,487.2 78,485.4 86,483.6 94,481.8 102,480 110,478.2 118,476.4 126,474.6 134,472.8 142,471 150,469.2 158,467.4 166,465.6 174,463.8 182,462 190,460.2 198,458.4 206,456.6 214,454.8 222,453 230,451.2 238,449.4 246,447.6 254,445.8 262,444 270,442.2 278,440.4 286,438.6 294,436.8 302,435 310,433.2 318,431.4 326,429.6 334,427.8 342,426 350,424.2 358,422.4 366,420.6 374,418.8 382,417 390,415.2 398,413.4 406,411.6 414,409.8 422,408 430,406.2 438,404.4 446,402.6 454,400.8 462,399 470,397.2 478,395.4 486,393.6 494,391.8 502,390 510,388.2 518,386.4 526,384.6 534,382.8 542,381 550,379.2 558,377.4 566,375.6 574,373.8 582,372"/>
+<circle cx="62" cy="489" r="4" fill="#2563eb" stroke="#fff" stroke-width="1.5"/>
+<text x="70" y="481" font-size="11" text-anchor="start" fill="#27272a" font-weight="400">5%</text>
+<circle cx="582" cy="372" r="4" fill="#2563eb" stroke="#fff" stroke-width="1.5"/>
+<text x="574" y="388" font-size="11" text-anchor="end" fill="#27272a" font-weight="400">50%</text>
+<text x="16" y="346" font-size="11" text-anchor="start" fill="#52525b" font-weight="400">Example world: the number of wars, rivalries and other causes per month is illustrative.</text>
+</svg>
