@@ -4,7 +4,7 @@ Your nation has a **primary culture** and a set of **accepted cultures**. Every
 pop belongs to a culture. Pops whose culture is neither primary nor accepted are
 second-class in your state, and the game models exactly what that costs you.
 
-This system runs monthly, immediately *before* politics — because the unrest it
+This system runs monthly, immediately *before* politics, because the unrest it
 produces is an input to the political pass.
 
 It is entirely deterministic. Nothing here is a dice roll.
@@ -52,7 +52,7 @@ month**, modified by:
   Petersburg are surrounded by Russians and assimilate, while the Baltic German
   nobility sits inside a Baltic majority rather than a Russian one and holds its
   numbers almost indefinitely. You cannot assimilate people you do not surround.
-- **National literacy.** Schools melt minorities — a literate nation assimilates
+- **National literacy.** Schools melt minorities: a literate nation assimilates
   faster.
 - **Culture policy**, per the table above.
 - **Religion.** Assimilating across a religious divide runs at 70% speed.
@@ -66,7 +66,7 @@ anyone at all.
 
 Non-accepted pops accrue militancy every month at the policy rate, multiplied by
 1.2 where their religion also differs from the state's. They accrue consciousness
-at 1.2% a month regardless — an awakening that proceeds whatever you do.
+at 1.2% a month regardless, an awakening that proceeds whatever you do.
 
 ## National movements
 
@@ -89,22 +89,22 @@ winds down.
 
 A movement launches an independence rebellion when **both** gates are passed:
 radicalism at or above **85** and militancy at or above **4.2**. Anger alone is
-not enough, and neither is an abstract sense of grievance — it takes both.
+not enough, and neither is an abstract sense of grievance, it takes both.
 
 The rebellion targets the culture's **heartland** states, meaning states where
 that culture is at least 35% of the population.
 
 After an uprising fires, radicalism resets to 30, the culture's pops get militancy
 relief, and that movement cannot rise again for **6 years**. Nationalist revolt is
-a periodic crisis, not a permanent bleed. All the usual rebellion caps apply —
-world and nation limits, per-state cooldowns, and the rebel army cap — so
+a periodic crisis, not a permanent bleed. All the usual rebellion caps apply:
+world and nation limits, per-state cooldowns, and the rebel army cap, so
 nationalism can never spawn endless rebellions.
 
 ## Accepting a culture
 
 You can add a culture to your accepted list. It costs prestige, scaling with how
 many cultures you already accept. Acceptance ends the militancy accrual, winds
-down any movement, and stops the assimilation of that culture — you are choosing
+down any movement, and stops the assimilation of that culture, you are choosing
 plurality over homogeneity for that group.
 
 ## What this means in play
@@ -123,6 +123,6 @@ plurality over homogeneity for that group.
 
 ## See also
 
-- [Politics and reform](politics-and-reform.md) — the system this feeds directly
-- [Population](population.md) — where militancy, consciousness and needs live
-- [War](war.md) — how rebellions are actually fought
+- [Politics and reform](politics-and-reform.md): the system this feeds directly
+- [Population](population.md): where militancy, consciousness and needs live
+- [War](war.md): how rebellions are actually fought

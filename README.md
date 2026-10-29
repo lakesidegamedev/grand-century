@@ -1,6 +1,6 @@
 # Grand Century
 
-A single-player, browser-based grand strategy game about the long nineteenth century.
+A browser-based grand strategy game, playable single-player or on a multiplayer server, about the long nineteenth century.
 Take a nation in 1830, amid the fragile Concert of Europe and Atlantic revolutions, and
 carry it through a century of industry, reform, and conquest on a world whose population
 and markets move whether you are watching or not.
@@ -37,7 +37,7 @@ integration preview, not a complete mobile release.
 GitHub Actions runs web/mobile checks and an unsigned iOS simulator compile.
 Signing and TestFlight distribution are separate from these compile checks.
 
-Requires Node 20+.
+Requires Node 20+ (CI runs Node 22).
 
 ```bash
 npm install

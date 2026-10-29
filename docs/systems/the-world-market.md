@@ -13,8 +13,8 @@ The weekly price move is a damped, anchored response to supply and demand rather
 than a raw ratio. In order:
 
 1. **Effective demand** is what buyers actually bought, plus stockpile purchases,
-   plus 32% of the demand that went unmet. Unmet demand counts — a good people
-   wanted but could not get still pushes the price up — but it counts less than a
+   plus 32% of the demand that went unmet. Unmet demand counts, a good people
+   wanted but could not get still pushes the price up, but it counts less than a
    completed sale.
 2. **Effective supply** is what producers made, plus 75% of the stockpile carried
    into the week. Goods sitting in store suppress the price, but not as strongly
@@ -38,11 +38,11 @@ Your tariff setting is a single slider from full subsidy to full protection, and
 it does two things:
 
 **On imports**, a positive tariff raises what your buyers effectively pay, at up
-to 30% impact. A negative tariff (a subsidy) lowers it, but not below 72% of the
+to 30% impact. A negative tariff (a subsidy) lowers it, but not below 77.5% of the
 world price.
 
-**On exports**, a positive tariff means your sellers keep less of the world price
-— down to a floor of 82%. A negative export tariff lets them keep slightly more.
+**On exports**, a positive tariff means your sellers keep less of the world price,
+down to a floor of 90%. A negative export tariff lets them keep slightly more.
 
 Note the asymmetry: import tariffs bite three times harder than export tariffs.
 Protection is felt mainly by your own consumers.
@@ -73,8 +73,8 @@ national store does put downward pressure on a price.
 
 ## See also
 
-- [Production and industry](production-and-industry.md) — how supply is created
+- [Production and industry](production-and-industry.md): how supply is created
   and how producers actually get paid
-- [Population](population.md) — the buyers, and the order they buy in
-- [Budget and taxation](budget-and-taxation.md) — tariff income
-- [Time and the tick](time-and-the-tick.md) — where the weekly price move sits
+- [Population](population.md): the buyers, and the order they buy in
+- [Budget and taxation](budget-and-taxation.md): tariff income
+- [Time and the tick](time-and-the-tick.md): where the weekly price move sits

@@ -9,7 +9,7 @@ their workers out of what they earn.
 
 A resource site employs 4,200 people per level and pays out most of what it
 makes: 80% of revenue goes to wages and 12% to the owner pops. Raw output carries
-a 50% boost on top of the base rate — a deliberate correction, because without it
+a 50% boost on top of the base rate, a deliberate correction, because without it
 raw-good supply (food above all) could not keep pace with a century of population
 growth once factories started consuming inputs in earnest.
 
@@ -34,7 +34,7 @@ loses it.
 
 Operating costs are a base charge plus a per-level charge, so a large plant costs
 more to keep open than a small one. A factory that cannot run still bleeds 10% as
-an idle loss — mothballed capacity is not free.
+an idle loss, mothballed capacity is not free.
 
 ## Getting paid: why output does not equal income
 
@@ -46,7 +46,7 @@ records what the output *would* earn if all of it sold. Only after buyers have
 had their turn does the game settle up, scaling every producer's claim by the
 fraction of that good which actually sold, and only then moving money.
 
-The alternative — paying producers in full at the moment of production — was
+The alternative, paying producers in full at the moment of production, was
 tried and abandoned. It created money from nothing for goods nobody bought. At
 one measured seed the market was paying producers 7.5 times what buyers actually
 spent within five years of the start, minting millions a year and growing. The consequence was an
@@ -75,7 +75,7 @@ sat there losing money. Growth now has to be funded by the plant's own trading.
 
 You can subsidise factories from the national budget. A bankrupt nation's
 subsidies are honoured at a reduced rate rather than draining a treasury that
-cannot pay — a subsidy that impoverishes the state without saving the plant
+cannot pay, a subsidy that impoverishes the state without saving the plant
 helps nobody.
 
 ## What this means in play
@@ -90,7 +90,7 @@ helps nobody.
 
 ## See also
 
-- [The world market](the-world-market.md) — where inputs are bought and output sold
-- [Population](population.md) — who works in these buildings, and how they are paid
-- [Budget and taxation](budget-and-taxation.md) — subsidies and production income
-- [Research](research.md) — technologies that unlock recipes and raise output
+- [The world market](the-world-market.md): where inputs are bought and output sold
+- [Population](population.md): who works in these buildings, and how they are paid
+- [Budget and taxation](budget-and-taxation.md): subsidies and production income
+- [Research](research.md): technologies that unlock recipes and raise output

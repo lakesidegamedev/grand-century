@@ -1,21 +1,21 @@
 # Time and the tick
 
 Grand Century runs on simulated days. One day is the smallest unit of time the
-world advances by, and every system in the game is attached to one of three
-cadences: daily, weekly, or monthly. Nothing runs "continuously" — if you want
+world advances by, and every system in the game is attached to one of four
+cadences: daily, weekly, monthly, or yearly. Nothing runs "continuously", if you want
 to know when something you did will take effect, the answer is always the next
 time its cadence comes round.
 
-The calendar starts on 1 January 1830. Months use fixed lengths (31, 28, 31, 30,
+The calendar starts on the scenario's start date (1 January 1830 in the default campaign). Months use fixed lengths (31, 28, 31, 30,
 31, 30, 31, 31, 30, 31, 30, 31) and leap years are ignored, so a year is always
 exactly 365 days. This keeps the simulation deterministic: the same save, played
 the same way, produces the same world.
 
-## The three cadences
+## The four cadences
 
 **Daily.** Only two systems run every day:
 
-- The market's daily pass, which handles buying and selling as it happens.
+- A market housekeeping step that only sanitises prices and stock figures. All buying, selling and price moves happen on the weekly pass.
 - War, which moves armies, resolves combat, and advances or breaks fronts.
 
 This is why war feels responsive while the economy feels deliberate. A battle
@@ -25,7 +25,7 @@ turns in days. A price does not.
 
 1. The market week opens and the previous week's flows are cleared out.
 2. Factories and resource sites produce, registering their output as supply.
-3. Pops buy their needs — food first, then everyday goods, then luxuries.
+3. Pops buy their needs: food first, then everyday goods, then luxuries.
 4. National stockpile standing orders execute.
 5. Producers are paid, but only for the share of their output that actually
    sold (see [Production and industry](production-and-industry.md)).
@@ -37,16 +37,16 @@ at the moment of production.
 
 **Monthly** (the 1st of each month). The slow, structural systems:
 
-1. Budget — taxes collected, upkeep paid, treasury updated.
-2. Population — growth, promotion between classes, migration.
-3. Culture — assimilation and nationalist unrest. Runs *before* politics,
+1. Budget: taxes collected, upkeep paid, treasury updated.
+2. Population: growth, promotion between classes, migration.
+3. Culture: assimilation and nationalist unrest. Runs *before* politics,
    because the unrest it generates is an input to politics.
-4. Politics — parties, reforms, and unrest.
-5. Research — research points accumulate and technologies complete.
-6. Diplomacy — relations, opinion drift, truces, great-power ranking.
-7. Crises — world tension and flashpoints.
-8. Events — the event and decision engine.
-9. AI — every nation that is not you decides what to do next.
+4. Politics: parties, reforms, and unrest.
+5. Research: research points accumulate and technologies complete.
+6. Diplomacy: relations, opinion drift, truces, great-power ranking.
+7. Crises: world tension and flashpoints.
+8. Events: the event and decision engine.
+9. AI: every nation that is not you decides what to do next.
 
 Again the order is load-bearing. Culture feeds politics. Budget runs first so
 the rest of the month's decisions are made against an up-to-date treasury.
@@ -63,7 +63,7 @@ keeps the last 120 entries, which is longer than a full campaign.
 Speed does not change what happens on a given day, only how many days the game
 advances per frame. Running at high speed and running at low speed produce the
 same world; you just see less of it go by. Pausing stops the day counter
-entirely — no system runs while paused.
+entirely, no system runs while paused.
 
 ## What this means in play
 
@@ -77,8 +77,8 @@ entirely — no system runs while paused.
 
 ## See also
 
-- [Population](population.md) — the monthly growth, promotion and migration pass
-- [The world market](the-world-market.md) — how the weekly price move works
-- [Budget and taxation](budget-and-taxation.md) — what the monthly budget pass does
-- [The simulation loop](../engineering/simulation-loop.md) — the same thing from
+- [Population](population.md): the monthly growth, promotion and migration pass
+- [The world market](the-world-market.md): how the weekly price move works
+- [Budget and taxation](budget-and-taxation.md): what the monthly budget pass does
+- [The simulation loop](../engineering/simulation-loop.md): the same thing from
   the code's side, for contributors

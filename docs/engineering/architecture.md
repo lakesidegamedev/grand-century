@@ -21,7 +21,7 @@ multiplayer, not just tidiness.
 
 ## Source of truth
 
-- `src/shared/types.ts` is the domain contract — data, protocol and commands.
+- `src/shared/types.ts` is the domain contract: data, protocol and commands.
   Both sides depend on it; change it deliberately.
 - The sim owns the mutable `World`.
 - The UI owns a Zustand store holding the read-only snapshot plus pure UI state.
@@ -56,7 +56,7 @@ Every simulation system is a function with the same shape:
 
 They mutate `World` in place and are dispatched by cadence from `advanceDay`.
 Adding a system means adding a file under `src/sim/systems/` and calling it from
-the right cadence block in `src/sim/world.ts` — see
+the right cadence block in `src/sim/world.ts`, see
 [The simulation loop](simulation-loop.md) for why the order within a cadence
 matters.
 
@@ -69,7 +69,7 @@ This is not a style preference. Saves, replays and multiplayer all depend on the
 same inputs producing the same world. A single unseeded random call desynchronises
 a multiplayer session and makes a save unreproducible.
 
-Some systems accept an `Rng` parameter they never use — culture is one — purely to
+Some systems accept an `Rng` parameter they never use, culture is one, purely to
 keep the system signature uniform. That is deliberate.
 
 ## Performance
@@ -77,9 +77,9 @@ keep the system signature uniform. That is deliberate.
 - Snapshots are compact summaries, not the whole world. Detailed views (a
   province's pops, a nation's ledger) are pulled on demand via `requestProvince`
   and `requestNation`.
-- Keep hot loops allocation-light. The map is 545 provinces cut from Victoria
-  II's state regions (not modern admin-1 units), grouped into 203 states across
-  93 landholding nations, and the pop count grows across a century.
+- Keep hot loops allocation-light. The map is 2,141 provinces built from
+  geoBoundaries administrative units (see `CHANGELOG.md`), 169 states hold land
+  at the 1830 start, and the pop count grows across a century.
 - Prefer hoisting per-pass constants out of per-entity loops. Several measured
   regressions came from recomputing a per-state or per-type value once per pop.
 
@@ -87,8 +87,8 @@ keep the system signature uniform. That is deliberate.
 
 Before a milestone is committed:
 
-1. `npm run build` — typechecks and bundles clean.
-2. `npm run test` — vitest green.
+1. `npm run build`: typechecks and bundles clean.
+2. `npm run test`: vitest green.
 3. `npm run dev` boots and the milestone's acceptance criterion is met.
 
 ## Aesthetic
@@ -99,6 +99,6 @@ parchment and leather surfaces.
 
 ## See also
 
-- [The simulation loop](simulation-loop.md) — cadence, ordering, and why
-- [Snapshots and the protocol](snapshots-and-protocol.md) — how state reaches the UI
-- [Time and the tick](../systems/time-and-the-tick.md) — the same loop, for players
+- [The simulation loop](simulation-loop.md): cadence, ordering, and why
+- [Snapshots and the protocol](snapshots-and-protocol.md): how state reaches the UI
+- [Time and the tick](../systems/time-and-the-tick.md): the same loop, for players

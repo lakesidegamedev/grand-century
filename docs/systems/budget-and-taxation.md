@@ -7,13 +7,13 @@ checks whether you have gone bankrupt or recovered from it.
 ## Income
 
 **Taxes** are collected from pops, and pops are taxed by wealth bracket. There are
-three brackets — poor, middle and rich — and three separate tax rate sliders, one
+three brackets, poor, middle and rich, and three separate tax rate sliders, one
 per bracket. Tax is taken from the money a pop is holding, which means a pop that
 spent everything on food contributes very little regardless of the rate you set.
 
 **Tariffs** accrue through the month as your pops and industries trade, and are
 banked into the budget as tariff income. The tariff slider that generates this is
-the same one that raises your pops' cost of living — see
+the same one that raises your pops' cost of living, see
 [The world market](the-world-market.md).
 
 **Production income** is the state's share of what the national economy produced
@@ -21,11 +21,11 @@ over the month.
 
 ## Spending
 
-Spending is largely structural — it follows from what you own and what you have
+Spending is largely structural, it follows from what you own and what you have
 built, not from discretionary choices:
 
 - **Army upkeep**, per regiment.
-- **Navy upkeep**, per ship, slightly cheaper per unit than land forces.
+- **Navy upkeep**, 1.7 per ship against 2.5 per regiment, about a third cheaper per unit than land forces (`src/sim/balance.ts`).
 - **Construction**, per province.
 - **Administration**, which has two parts: a charge per province and a much
   smaller charge per head of population. A large empire costs more to run, and a
@@ -46,7 +46,8 @@ You **enter** bankruptcy when your treasury falls to -1,800. On entry you lose 4
 prestige immediately and construction is blocked.
 
 While bankrupt you lose a further 0.6 prestige every month, and factory subsidies
-are honoured at only 30% of their value.
+are honoured at only 30% of their value. Army upkeep is cut to 45%, administration
+to 60% and reform upkeep to 55% (`src/sim/systems/budget.ts`).
 
 You **exit** bankruptcy when your treasury climbs back to 550. Note the gap
 between the two thresholds: recovering is not simply a matter of crossing back
@@ -72,7 +73,7 @@ Outside bankruptcy, the treasury has a hard floor of -30,000 and a soft cap of
 
 ## See also
 
-- [Population](population.md) — who is taxed, and why their money runs out
-- [The world market](the-world-market.md) — the other half of the tariff slider
-- [Production and industry](production-and-industry.md) — subsidies
-- [Politics and reform](politics-and-reform.md) — what reform upkeep is buying
+- [Population](population.md): who is taxed, and why their money runs out
+- [The world market](the-world-market.md): the other half of the tariff slider
+- [Production and industry](production-and-industry.md): subsidies
+- [Politics and reform](politics-and-reform.md): what reform upkeep is buying
