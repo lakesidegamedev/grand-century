@@ -17,7 +17,7 @@ causes:
 - Contested spheres of influence
 
 Tension is visible and its contributions are itemised, so you can see what is
-driving it. It also decays on its own — tension is a state of the world, not a
+driving it. It also decays on its own, tension is a state of the world, not a
 ratchet.
 
 ## Flashpoints
@@ -34,19 +34,21 @@ joining a bloc when their interest score clears a threshold of 45.
 There are three outcomes, and which one you get is a function of the relative
 power of the two blocs.
 
-**Congress.** If one bloc is clearly stronger — a power ratio of **1.45 or more**
-— the weaker lead backs down and the demand is settled peacefully. Prestige swings
+**Congress.** If one bloc is clearly stronger, a power ratio of **1.45 or more**,
+the weaker lead backs down and the demand is settled peacefully. Prestige swings
 to the winner and spheres are redrawn. Nobody fights.
 
 **War.** If the blocs are balanced, neither side backs down and the crisis goes
 over the brink into a bloc-versus-bloc war, fought with the ordinary
 [war](war.md) machinery.
 
-**Fizzle.** The flashpoint can simply collapse — a lead dies, or loses great power
+**Fizzle.** The flashpoint can simply collapse, a lead dies, or loses great power
 rank, and the confrontation evaporates.
 
-AI great powers back down at a ratio of 0.62, which is a lower bar than the
-congress threshold. They will fold before the situation is formally hopeless.
+An AI lead that you have not pressed concedes early, once the crisis is hot
+(temperature 50 to 99) but before the deadline, if the other bloc is more than
+about 1.6 times stronger (a power ratio of 0.62). That is a more lopsided gap
+than the 1.45 showdown threshold.
 
 ## What this means in play
 
@@ -59,13 +61,13 @@ congress threshold. They will fold before the situation is formally hopeless.
 - **Joining a bloc is a decision with a threshold.** Support arrives when other
   powers' interests clear the bar, not because you asked.
 - **Watch the tension breakdown.** It is itemised, so you can see a crisis
-  building and act on the causes — settle a rivalry, reduce your infamy, end a war
-  — before the flashpoint spawns.
+  building and act on the causes, settle a rivalry, reduce your infamy, end a war,
+before the flashpoint spawns.
 - **Congresses redraw spheres.** Losing one costs prestige and influence without a
   shot being fired.
 
 ## See also
 
-- [Diplomacy](diplomacy.md) — rivalries, spheres, infamy and great-power rank
-- [War](war.md) — what a crisis war actually looks like once it starts
-- [AI nations](ai-nations.md) — how the other powers decide to press, resist or join
+- [Diplomacy](diplomacy.md): rivalries, spheres, infamy and great-power rank
+- [War](war.md): what a crisis war actually looks like once it starts
+- [AI nations](ai-nations.md): how the other powers decide to press, resist or join

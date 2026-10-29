@@ -1,6 +1,6 @@
 # Snapshots and the protocol
 
-The simulation runs in a worker. The UI never touches `World` — it renders a
+The simulation runs in a worker. The UI never touches `World`, it renders a
 `WorldSnapshot` and dispatches `Command`s. This document covers what crosses that
 boundary and when.
 
@@ -29,7 +29,7 @@ snapshot pending**, or the change will not appear until the next scheduled post.
 ## Snapshots are summaries
 
 `buildSnapshot` produces a compact summary, not a serialisation of the world. It
-carries what the HUD and open panels need — nation summaries, province summaries,
+carries what the HUD and open panels need, nation summaries, province summaries,
 market goods, budget lines, diplomatic standings, pending events.
 
 It deliberately does **not** carry per-province pop lists or full ledgers. Those
@@ -62,18 +62,18 @@ server.
 
 `src/sim/persistence.ts` provides `serializeWorld` and `deserializeWorld`.
 `src/worker/saveSlots.ts` stores them in IndexedDB, keyed by slot, with the day
-and player nation recorded for the slot list. The worker autosaves yearly.
+and player nation recorded for the slot list. The worker autosaves yearly, rotating across `autosave-1` to `autosave-3` by year.
 
 Because the world is fully deterministic (see
 [The simulation loop](simulation-loop.md)), a save is the world state plus the
 RNG state, and reloading it resumes exactly.
 
 **Systems that add state to `World` must be self-healing for older saves.** The
-established pattern is an `ensureXState(world)` call at the top of the system —
+established pattern is an `ensureXState(world)` call at the top of the system:
 see `ensureCrisisState` and `ensureCultureState`. A save made before your system
 existed must still load.
 
 ## See also
 
-- [Architecture](architecture.md) — the boundary this protocol enforces
-- [The simulation loop](simulation-loop.md) — what runs between snapshots
+- [Architecture](architecture.md): the boundary this protocol enforces
+- [The simulation loop](simulation-loop.md): what runs between snapshots

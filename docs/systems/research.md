@@ -21,33 +21,33 @@ technology in 1835 regardless of how many points you have banked.
 
 ## Picking a target
 
-Any nation without a target — including yours — automatically picks the cheapest
+Any nation without a target, including yours, automatically picks the cheapest
 available technology once it has banked enough points. You will always be
 researching something.
 
 AI nations choose more deliberately, weighting by war posture and the ruling
 party's ideological bias. Those biases are explicit:
 
-| Ideology | Favours | Neglects |
+| Ideology | Strongest bias | Lesser bias |
 |---|---|---|
 | Reactionary / Fascist | Army, Navy (+1.1) | Culture (+0.3) |
-| Liberal | Commerce, Industry (+0.9) | — |
+| Liberal | Commerce, Industry (+0.9) | None |
 | Socialist / Communist | Industry (+0.9) | Army (+0.4) |
-| Conservative | — | Commerce, Culture (+0.45) |
+| Conservative | Commerce, Culture (+0.45) | None |
 
 This is why AI nations develop characteristically. A reactionary power builds
-armies and neglects its schools; a liberal one builds trade and industry. Their
+armies first and its schools a distant second; a liberal one builds trade and industry. Their
 technology profile tells you what has been governing them.
 
 ## What technology does
 
 Technologies apply **modifiers** across the game. Notable ones include:
 
-- **Research rate** — culture and commerce technology compounds your science.
-- **Recipe unlocks** — factories cannot build what you have not researched.
-- **Supply range** — railroad and logistics technology extends how far an army
+- **Research rate**: culture and commerce technology compounds your science.
+- **Recipe unlocks**: factories cannot build what you have not researched.
+- **Supply range**: railroad and logistics technology extends how far an army
   can operate from friendly territory (see [War](war.md)).
-- **Tariff yield** — how much revenue your trade policy actually returns.
+- **Tariff yield**: how much revenue your trade policy actually returns.
 
 ## What this means in play
 
@@ -62,8 +62,8 @@ Technologies apply **modifiers** across the game. Notable ones include:
 
 ## See also
 
-- [Politics and reform](politics-and-reform.md) — where literacy comes from, and
+- [Politics and reform](politics-and-reform.md): where literacy comes from, and
   what else it causes
-- [Production and industry](production-and-industry.md) — recipe unlocks
-- [War](war.md) — supply range and artillery
-- [AI nations](ai-nations.md) — how the ideological bias plays out
+- [Production and industry](production-and-industry.md): recipe unlocks
+- [War](war.md): supply range and artillery
+- [AI nations](ai-nations.md): how the ideological bias plays out

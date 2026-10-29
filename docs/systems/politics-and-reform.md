@@ -14,7 +14,7 @@ reform.
 
 Pops have ideologies too, derived from their type and circumstances. In an
 elective government, elections pick a ruling party out of that pop base. In a
-non-elective one they do not — but the upper house still exists, still has a
+non-elective one they do not, but the upper house still exists, still has a
 composition, and still drifts over time.
 
 **Franchise** determines whose opinion counts. Each pop type supports the
@@ -38,10 +38,10 @@ This is the mechanic that stops reform being a checklist.
 Every reform you pass adds **fatigue**, and fatigue does two things: it reduces
 the support any future reform can muster (by up to 20%), and it raises the cost
 of reform (by up to an additional 125%). The gain per reform has a base component,
-a per-level component, and a category-specific component — so some kinds of change
+a per-level component, and a category-specific component, so some kinds of change
 tire a nation faster than others.
 
-Fatigue decays at 12% per month. It is a rate limit, not a wall: a nation that
+Fatigue drops by 0.12 a month on a 0 to 1 scale, so about 8 months from full to none. It is a rate limit, not a wall: a nation that
 reforms hard for a year will find the next reform expensive and poorly supported,
 and will need to let the country settle before pushing again.
 
@@ -53,7 +53,7 @@ a picture of what the country is actually agitating for.
 
 You can respond in two directions. Granting the demanded reform relieves the
 pressure. Or you can apply **political suppression**, which pushes back on
-militancy and consciousness directly — but suppression is a policy with its own
+militancy and consciousness directly, but suppression is a policy with its own
 costs, and it treats the symptom.
 
 Unmet demand accumulates as **state unrest**. Where unrest runs high enough, a
@@ -68,7 +68,7 @@ you see as unrest already accounts for the boot on the neck.
 ## Literacy and consciousness
 
 Literacy and national consciousness are recomputed monthly. Literacy feeds
-[research](research.md) directly — an illiterate nation researches slowly.
+[research](research.md) directly, an illiterate nation researches slowly.
 Consciousness feeds reform demand. This is the central tension of the century:
 the educated population that powers your science is the same population that
 starts demanding a say.
@@ -89,8 +89,8 @@ starts demanding a say.
 
 ## See also
 
-- [Culture and nationalism](culture-and-nationalism.md) — the other source of
+- [Culture and nationalism](culture-and-nationalism.md): the other source of
   unrest, and the system that runs immediately before this one
-- [Research](research.md) — what literacy buys you
-- [Budget and taxation](budget-and-taxation.md) — reform upkeep, paid every month
-- [Population](population.md) — where consciousness and militancy live
+- [Research](research.md): what literacy buys you
+- [Budget and taxation](budget-and-taxation.md): reform upkeep, paid every month
+- [Population](population.md): where consciousness and militancy live

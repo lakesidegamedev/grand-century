@@ -1,6 +1,6 @@
 # Population
 
-Your nation is not a number. It is a collection of **pops** — cohorts of people
+Your nation is not a number. It is a collection of **pops**, cohorts of people
 in a province, each with a type (their class and occupation), a culture, a size,
 and money of their own. Pops earn, buy, grow, move, and change class. Almost
 every other system in the game either feeds them or is fed by them.
@@ -17,9 +17,9 @@ size, and **wages** from the factory or resource site that employs it.
 
 Then the pop tries to buy its needs, in three tiers and strictly in this order:
 
-1. **Life needs** — food and the basics of survival.
-2. **Everyday needs** — the ordinary goods of its class.
-3. **Luxury needs** — what it buys when it can afford to.
+1. **Life needs**: food and the basics of survival.
+2. **Everyday needs**: the ordinary goods of its class.
+3. **Luxury needs**: what it buys when it can afford to.
 
 A pop buys as much of each tier as its money allows before moving to the next.
 A pop that cannot afford its life needs never reaches everyday or luxury goods,
@@ -40,7 +40,7 @@ Well-fed pops grow, badly-fed pops shrink. The needs-met score is the driver.
 
 ### Promotion between classes
 
-Pops move between types over time, but promotion is not an unconditional drip —
+Pops move between types over time, but promotion is not an unconditional drip:
 it follows the labour market:
 
 - **Farm to factory.** Promotion out of agriculture only happens while industry
@@ -85,8 +85,8 @@ of provinces it holds. It is a consequence of industrialisation, not a setting.
 
 ## See also
 
-- [Production and industry](production-and-industry.md) — where wages come from
-- [The world market](the-world-market.md) — where prices come from
-- [Culture and nationalism](culture-and-nationalism.md) — what happens when pops
+- [Production and industry](production-and-industry.md): where wages come from
+- [The world market](the-world-market.md): where prices come from
+- [Culture and nationalism](culture-and-nationalism.md): what happens when pops
   do not share your nation's culture
-- [Politics and reform](politics-and-reform.md) — how unmet needs become unrest
+- [Politics and reform](politics-and-reform.md): how unmet needs become unrest

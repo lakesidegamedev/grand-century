@@ -13,12 +13,12 @@ systems due on this day, and writes the RNG state back. Every system mutates
 
 ## Cadence dispatch
 
-Three cadences, checked in order:
+Four cadences, checked in order:
 
-- **Daily** — every call.
-- **Weekly** — `world.day % 7 === 0`.
-- **Monthly** — `dayToDate(world.day).day === 1`.
-- **Yearly** — `world.day % 365 === 0`, for the chronicle only.
+- **Daily**: every call, running `runMarketDaily` (value sanitising only) and `runWarDaily`.
+- **Weekly**: `world.day % 7 === 0`.
+- **Monthly**: `dayToDate(world.day).day === 1`.
+- **Yearly**: `world.day % 365 === 0`, for the chronicle only.
 
 ## Ordering within a cadence is load-bearing
 
@@ -60,8 +60,9 @@ means the dispatch site does not special-case anything.
 
 ## The calendar
 
-`dayToDate` converts a day index to `{ year, month, day }`. The epoch is 1830,
-months use fixed lengths, and leap years are ignored — a year is always 365 days.
+`dayToDate` converts a day index to `{ year, month, day }`. The epoch is the scenario start date
+(1 January 1830 by default, for old saves and callers without a scenario),
+months use fixed lengths, and leap years are ignored, a year is always 365 days.
 
 This function runs several times per simulated day. It computes the year
 arithmetically rather than looping over elapsed years; the loop version was
@@ -87,12 +88,12 @@ Never call `Math.random()` in sim code.
 2. Import it in `src/sim/world.ts` and call it from the correct cadence block,
    in a position justified against the ordering constraints above.
 3. Put tuning constants in `src/sim/balance.ts`, not inline.
-4. If it adds state to `World`, make it self-healing for older saves — the
+4. If it adds state to `World`, make it self-healing for older saves: the
    pattern is an `ensureXState(world)` call, as in `ensureCrisisState` and
    `ensureCultureState`.
 
 ## See also
 
-- [Architecture](architecture.md) — the sim/UI boundary and file map
-- [Snapshots and the protocol](snapshots-and-protocol.md) — what happens after the tick
-- [Time and the tick](../systems/time-and-the-tick.md) — the player-facing view
+- [Architecture](architecture.md): the sim/UI boundary and file map
+- [Snapshots and the protocol](snapshots-and-protocol.md): what happens after the tick
+- [Time and the tick](../systems/time-and-the-tick.md): the player-facing view

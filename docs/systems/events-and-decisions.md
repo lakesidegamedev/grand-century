@@ -10,7 +10,7 @@ rather than landing all at once.
 ## How an event fires
 
 Every event has **requirements** checked against the current world. An event only
-becomes a candidate when its conditions are actually true of your nation — the
+becomes a candidate when its conditions are actually true of your nation, the
 right government, the right technology, the right circumstances.
 
 When one fires for you it becomes **pending** and waits. The game does not resolve
@@ -22,7 +22,7 @@ immediately.
 Each choice carries **effects**, and the game summarises what each effect will do
 before you pick. You are not choosing blind between two pieces of prose.
 
-Effects operate on the same world state everything else does — treasury, prestige,
+Effects operate on the same world state everything else does, treasury, prestige,
 pops, reforms, relations, and so on. There is no separate "event currency".
 
 ## Determinism
@@ -35,7 +35,7 @@ it is one the world state and the seed produced.
 ## Balance of power
 
 Riding alongside the event engine is a **balance of power** pressure system,
-aimed at formable nations — the unifications that would create a new great power.
+aimed at formable nations, the unifications that would create a new great power.
 
 As a formable's progress crosses thresholds, the rest of the world reacts:
 
@@ -46,7 +46,7 @@ There is a player-facing readout for the formable you are closest to completing,
 so you can see the alarm you are generating before it becomes opposition.
 
 This is the counterweight to unification. [Diplomacy](diplomacy.md) discounts
-unification war goals by 60% infamy, making the wars affordable — and then balance
+unification war goals by 60% infamy, making the wars affordable, and then balance
 of power ensures that as you approach the prize, the existing powers notice and
 push back. Getting most of the way to a unified great power is the point at which
 the world becomes hostile.
@@ -62,8 +62,8 @@ the world becomes hostile.
 
 ## See also
 
-- [Diplomacy](diplomacy.md) — infamy, and the unification discount this
+- [Diplomacy](diplomacy.md): infamy, and the unification discount this
   counterbalances
-- [Crises and the Concert of Europe](crises.md) — the other way the world reacts
+- [Crises and the Concert of Europe](crises.md): the other way the world reacts
   to a rising power
-- [AI nations](ai-nations.md) — who is applying the pressure
+- [AI nations](ai-nations.md): who is applying the pressure
