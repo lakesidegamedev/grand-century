@@ -15,6 +15,8 @@ strata. Factories boom and go bust. Prices move on a shared world market. AI nat
 pursue their own wars and their own industrialisation. You nudge a system rather than
 micromanage a spreadsheet.
 
+![Main map at the start of the 1830 campaign with the top bar and speed controls.](docs/images/README-map.png)
+
 **War is the payoff.** Mobilising population into armies, fronts that push and break, war
 goals, occupation, peace deals, the great-power pecking order, and the colonial land grab.
 Every other system feeds it: the economy funds it, population mans it, politics gates what
@@ -92,3 +94,5 @@ Choose **3D · Terrain** for offline raised terrain and animated water, or
 1830 campaign supports both; other web scenarios and analytical layers retain
 the 2D atlas. See [graphics and performance](docs/GRAPHICS.md) for the rendering
 budgets, data credits and device-validation limits.
+
+![Graphics toggle for 2D Low power, 3D Balanced and 3D High.](docs/images/README-graphics-toggle.png)
