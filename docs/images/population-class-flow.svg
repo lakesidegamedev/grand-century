@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 560" width="640" height="560" font-family='system-ui, -apple-system, "Segoe UI", Roboto, sans-serif' role="img" aria-label="Class change flow. Farmers and laborers become craftsmen, craftsmen become clerks, and clerks become capitalists, each at a monthly rate with gates on needs met, literacy and free jobs. Craftsmen can fall back to laborers and clerks to craftsmen. Farmers, laborers and craftsmen can be drafted into soldiers, who return to laborer when needs are low.">
+<title>Class change flow. Farmers and laborers become craftsmen, craftsmen become clerks, and clerks become capitalists, each at a monthly rate with gates on needs met, literacy and free jobs. Craftsmen can fall back to laborers and clerks to craftsmen. Farmers, laborers and craftsmen can be drafted into soldiers, who return to laborer when needs are low.</title><defs><marker id="ahg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52525b"/></marker><marker id="ahb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="ahr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker></defs>
+<rect x="0.5" y="0.5" width="639" height="559" fill="#fff" stroke="#d4d4d8"/>
+<text x="16" y="26" font-size="15" font-weight="600" fill="#27272a">How pops change class each month</text>
+<rect x="236" y="60" width="150" height="38" rx="6" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="311" y="83.4" font-size="12.5" text-anchor="middle" fill="#27272a" font-weight="600">Farmer or laborer</text>
+<rect x="236" y="196" width="150" height="38" rx="6" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="311" y="219.4" font-size="12.5" text-anchor="middle" fill="#27272a" font-weight="600">Craftsman</text>
+<rect x="236" y="332" width="150" height="38" rx="6" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="311" y="355.4" font-size="12.5" text-anchor="middle" fill="#27272a" font-weight="600">Clerk</text>
+<rect x="236" y="468" width="150" height="38" rx="6" fill="#f4f4f5" stroke="#a1a1aa" stroke-width="1.5"/>
+<text x="311" y="491.4" font-size="12.5" text-anchor="middle" fill="#27272a" font-weight="600">Capitalist</text>
+<polyline points="276,99 276,195" fill="none" stroke="#2563eb" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#ahb)"/>
+<polyline points="346,195 346,99" fill="none" stroke="#dc2626" stroke-width="1.6" stroke-linejoin="round" stroke-dasharray="5 4" marker-end="url(#ahr)"/>
+<text x="266" y="120" font-size="11.5" text-anchor="end" fill="#2563eb" font-weight="600">2.5% a month</text>
+<text x="266" y="134" font-size="10.5" text-anchor="end" fill="#2563eb" font-weight="400">needs above 35%, literacy above 12%,</text>
+<text x="266" y="148" font-size="10.5" text-anchor="end" fill="#2563eb" font-weight="400">more than 8 free factory jobs</text>
+<text x="356" y="126" font-size="10.5" text-anchor="start" fill="#dc2626" font-weight="400">back: 1% if farms pay 1.3 times</text>
+<text x="356" y="140" font-size="10.5" text-anchor="start" fill="#dc2626" font-weight="400">more; 0.4% if needs under 8%</text>
+<polyline points="276,235 276,331" fill="none" stroke="#2563eb" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#ahb)"/>
+<polyline points="346,331 346,235" fill="none" stroke="#dc2626" stroke-width="1.6" stroke-linejoin="round" stroke-dasharray="5 4" marker-end="url(#ahr)"/>
+<text x="266" y="256" font-size="11.5" text-anchor="end" fill="#2563eb" font-weight="600">1% a month</text>
+<text x="266" y="270" font-size="10.5" text-anchor="end" fill="#2563eb" font-weight="400">needs above 50%, literacy above 20%,</text>
+<text x="266" y="284" font-size="10.5" text-anchor="end" fill="#2563eb" font-weight="400">more than 8 free clerk jobs</text>
+<text x="356" y="262" font-size="10.5" text-anchor="start" fill="#dc2626" font-weight="400">back: 0.6% if needs under 12%</text>
+<text x="356" y="276" font-size="10.5" text-anchor="start" fill="#dc2626" font-weight="400">or fewer than 2 free clerk jobs</text>
+<polyline points="276,371 276,467" fill="none" stroke="#2563eb" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#ahb)"/>
+<text x="266" y="392" font-size="11.5" text-anchor="end" fill="#2563eb" font-weight="600">0.2% a month</text>
+<text x="266" y="406" font-size="10.5" text-anchor="end" fill="#2563eb" font-weight="400">needs above 60%, and a factory</text>
+<text x="266" y="420" font-size="10.5" text-anchor="end" fill="#2563eb" font-weight="400">in the state with a profit</text>
+<rect x="496" y="400" width="120" height="38" rx="6" fill="#f4f4f5" stroke="#a1a1aa" stroke-width="1.5"/>
+<text x="556" y="423.4" font-size="12.5" text-anchor="middle" fill="#27272a" font-weight="600">Soldier</text>
+<polyline points="387,79 556,79 555,398" fill="none" stroke="#2563eb" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#ahb)"/>
+<text x="396" y="72" font-size="10.5" text-anchor="start" fill="#2563eb" font-weight="400">drafted from farmers, laborers</text>
+<text x="396" y="98" font-size="10.5" text-anchor="start" fill="#2563eb" font-weight="400">and craftsmen</text>
+<text x="556" y="456" font-size="10.5" text-anchor="middle" fill="#2563eb" font-weight="400">Up to 0.8% a month while</text>
+<text x="556" y="470" font-size="10.5" text-anchor="middle" fill="#2563eb" font-weight="400">the nation is short of soldiers,</text>
+<text x="556" y="484" font-size="10.5" text-anchor="middle" fill="#2563eb" font-weight="400">needs above 45%</text>
+<text x="556" y="506" font-size="10.5" text-anchor="middle" fill="#dc2626" font-weight="400">Back to laborer: 1% a month</text>
+<text x="556" y="520" font-size="10.5" text-anchor="middle" fill="#dc2626" font-weight="400">if needs are under 35%</text>
+<text x="16" y="544" font-size="11" text-anchor="start" fill="#52525b" font-weight="400">Promotion out of farming also needs factory pay to beat farm pay by 1.05 times.</text>
+</svg>

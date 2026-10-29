@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 410" width="640" height="410" font-family='system-ui, -apple-system, "Segoe UI", Roboto, sans-serif' role="img" aria-label="Line chart of treasury over months: 400 falling to -800 and -2,000, bankrupt past the -1,800 line, then recovering by 665 a month to 660, above the 550 exit line. A dashed line shows the treasury barely moving if nothing changes.">
+<title>Line chart of treasury over months: 400 falling to -800 and -2,000, bankrupt past the -1,800 line, then recovering by 665 a month to 660, above the 550 exit line. A dashed line shows the treasury barely moving if nothing changes.</title>
+<rect x="0.5" y="0.5" width="639" height="409" fill="#fff" stroke="#d4d4d8"/>
+<text x="16" y="26" font-size="15" font-weight="600" fill="#27272a">Treasury through a bankruptcy (example from the page)</text>
+<line x1="72" y1="283.22" x2="618" y2="283.22" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="66" y="287.22" font-size="11" text-anchor="end" fill="#52525b" font-weight="400">-2,500</text>
+<line x1="72" y1="235.78" x2="618" y2="235.78" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="66" y="239.78" font-size="11" text-anchor="end" fill="#52525b" font-weight="400">-1,800</text>
+<line x1="72" y1="181.56" x2="618" y2="181.56" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="66" y="185.56" font-size="11" text-anchor="end" fill="#52525b" font-weight="400">-1,000</text>
+<line x1="72" y1="113.78" x2="618" y2="113.78" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="66" y="117.78" font-size="11" text-anchor="end" fill="#52525b" font-weight="400">0</text>
+<line x1="72" y1="76.5" x2="618" y2="76.5" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="66" y="80.5" font-size="11" text-anchor="end" fill="#52525b" font-weight="400">550</text>
+<line x1="72" y1="46" x2="618" y2="46" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="66" y="50" font-size="11" text-anchor="end" fill="#52525b" font-weight="400">1,000</text>
+<line x1="72" y1="46" x2="72" y2="290" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="72" y="306" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">0</text>
+<line x1="150" y1="46" x2="150" y2="290" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="150" y="306" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">1</text>
+<line x1="228" y1="46" x2="228" y2="290" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="228" y="306" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">2</text>
+<line x1="306" y1="46" x2="306" y2="290" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="306" y="306" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">3</text>
+<line x1="384" y1="46" x2="384" y2="290" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="384" y="306" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">4</text>
+<line x1="462" y1="46" x2="462" y2="290" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="462" y="306" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">5</text>
+<line x1="540" y1="46" x2="540" y2="290" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="540" y="306" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">6</text>
+<line x1="618" y1="46" x2="618" y2="290" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="618" y="306" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">7</text>
+<line x1="72" y1="290" x2="618" y2="290" stroke="#a1a1aa" stroke-width="1" stroke-opacity="1"/>
+<line x1="72" y1="46" x2="72" y2="290" stroke="#a1a1aa" stroke-width="1" stroke-opacity="1"/>
+<text x="345" y="326" font-size="12" text-anchor="middle" fill="#27272a" font-weight="400">Months</text>
+<text x="14" y="168" font-size="12" text-anchor="middle" fill="#27272a" font-weight="400" transform="rotate(-90 14 168)">Treasury</text>
+<rect x="228" y="46" width="312" height="244" fill="#dc2626" fill-opacity="0.1"/>
+<line x1="72" y1="235.78" x2="618" y2="235.78" stroke="#dc2626" stroke-width="1.3" stroke-opacity="1" stroke-dasharray="5 4"/>
+<text x="76" y="249.78" font-size="11" text-anchor="start" fill="#dc2626" font-weight="400">enter bankruptcy at -1,800</text>
+<line x1="72" y1="76.5" x2="618" y2="76.5" stroke="#2563eb" stroke-width="1.3" stroke-opacity="1" stroke-dasharray="5 4"/>
+<text x="614" y="71.5" font-size="11" text-anchor="end" fill="#2563eb" font-weight="400">exit at 550</text>
+<line x1="72" y1="113.78" x2="618" y2="113.78" stroke="#71717a" stroke-width="1.3" stroke-opacity="1" stroke-dasharray="5 4"/>
+<polyline fill="none" stroke="#dc2626" stroke-width="2" stroke-opacity="1" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="6 4" points="228,249.33 306,251.71 384,254.08 462,256.45 540,258.82 618,261.19"/>
+<polyline fill="none" stroke="#2563eb" stroke-width="2.5" stroke-opacity="1" stroke-linejoin="round" stroke-linecap="round" points="72,86.67 150,168 228,249.33 306,204.26 384,159.19 462,114.12 540,69.04"/>
+<circle cx="72" cy="86.67" r="4" fill="#2563eb" stroke="#fff" stroke-width="1.5"/>
+<text x="80" y="78.67" font-size="11" text-anchor="start" fill="#27272a" font-weight="400">400</text>
+<circle cx="150" cy="168" r="4" fill="#2563eb" stroke="#fff" stroke-width="1.5"/>
+<circle cx="228" cy="249.33" r="4" fill="#2563eb" stroke="#fff" stroke-width="1.5"/>
+<text x="236" y="240.33" font-size="11" text-anchor="start" fill="#27272a" font-weight="400">-2,000</text>
+<circle cx="306" cy="204.26" r="4" fill="#2563eb" stroke="#fff" stroke-width="1.5"/>
+<circle cx="384" cy="159.19" r="4" fill="#2563eb" stroke="#fff" stroke-width="1.5"/>
+<circle cx="462" cy="114.12" r="4" fill="#2563eb" stroke="#fff" stroke-width="1.5"/>
+<circle cx="540" cy="69.04" r="4" fill="#2563eb" stroke="#fff" stroke-width="1.5"/>
+<text x="532" y="60.04" font-size="11" text-anchor="end" fill="#27272a" font-weight="400">660</text>
+<line x1="76" y1="343" x2="96" y2="343" stroke="#2563eb" stroke-width="2.5" stroke-opacity="1"/>
+<text x="102" y="347" font-size="11.5" text-anchor="start" fill="#27272a" font-weight="400">Net +665 after cutting bills</text>
+<line x1="76" y1="360" x2="96" y2="360" stroke="#dc2626" stroke-width="2.5" stroke-opacity="1" stroke-dasharray="6 4"/>
+<text x="102" y="364" font-size="11.5" text-anchor="start" fill="#27272a" font-weight="400">Do nothing: net -35 a month</text>
+<rect x="76" y="371" width="12" height="12" fill="#dc2626" fill-opacity="0.18"/>
+<text x="94" y="381" font-size="11.5" text-anchor="start" fill="#27272a" font-weight="400">Bankrupt</text>
+<text x="16" y="402" font-size="11" text-anchor="start" fill="#52525b" font-weight="400">Treasury is limited to -30,000 at the bottom and 600,000 at the top.</text>
+</svg>

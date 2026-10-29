@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 532" width="640" height="532" font-family='system-ui, -apple-system, "Segoe UI", Roboto, sans-serif' role="img" aria-label="Phase order of one day: daily steps (market housekeeping, war), then weekly (begin week, production, pops shop, standing orders, settle producers, price move), then monthly (budget, population, culture, politics, research, diplomacy, crises, events, AI), then yearly (chronicle and autosave).">
+<title>Phase order of one day: daily steps (market housekeeping, war), then weekly (begin week, production, pops shop, standing orders, settle producers, price move), then monthly (budget, population, culture, politics, research, diplomacy, crises, events, AI), then yearly (chronicle and autosave).</title><defs><marker id="ahg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52525b"/></marker><marker id="ahb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="ahr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker></defs>
+<rect x="0.5" y="0.5" width="639" height="531" fill="#fff" stroke="#d4d4d8"/>
+<text x="16" y="26" font-size="15" font-weight="600" fill="#27272a">One advanceDay call, in order</text>
+<rect x="10" y="58" width="620" height="64" rx="8" fill="#fafafa" stroke="#e4e4e7"/>
+<text x="44" y="94.2" font-size="12" text-anchor="middle" fill="#27272a" font-weight="600">Daily</text>
+<rect x="80" y="70" width="100" height="40" rx="6" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="130" y="86.8" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">Market</text>
+<text x="130" y="101.3" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">housekeeping</text>
+<polyline points="181,90 191,90" fill="none" stroke="#52525b" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#ahg)"/>
+<rect x="192" y="70" width="100" height="40" rx="6" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="242" y="94" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">War</text>
+<rect x="10" y="130" width="620" height="138" rx="8" fill="#fafafa" stroke="#e4e4e7"/>
+<text x="44" y="203.2" font-size="12" text-anchor="middle" fill="#27272a" font-weight="600">Weekly</text>
+<rect x="80" y="142" width="100" height="40" rx="6" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="130" y="166" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">Begin week</text>
+<polyline points="181,162 191,162" fill="none" stroke="#52525b" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#ahg)"/>
+<rect x="192" y="142" width="100" height="40" rx="6" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="242" y="166" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">Production</text>
+<polyline points="293,162 303,162" fill="none" stroke="#52525b" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#ahg)"/>
+<rect x="304" y="142" width="100" height="40" rx="6" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="354" y="166" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">Pops shop</text>
+<polyline points="405,162 415,162" fill="none" stroke="#52525b" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#ahg)"/>
+<rect x="416" y="142" width="100" height="40" rx="6" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="466" y="158.8" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">Standing</text>
+<text x="466" y="173.3" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">orders</text>
+<polyline points="517,162 527,162" fill="none" stroke="#52525b" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#ahg)"/>
+<rect x="528" y="142" width="100" height="40" rx="6" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="578" y="158.8" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">Settle</text>
+<text x="578" y="173.3" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">producers</text>
+<polyline points="578,183 578,199 130,199 130,215" fill="none" stroke="#52525b" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#ahg)"/>
+<rect x="80" y="216" width="100" height="40" rx="6" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="130" y="240" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">Price move</text>
+<rect x="10" y="276" width="620" height="138" rx="8" fill="#fafafa" stroke="#e4e4e7"/>
+<text x="44" y="349.2" font-size="12" text-anchor="middle" fill="#27272a" font-weight="600">Monthly</text>
+<rect x="80" y="288" width="100" height="40" rx="6" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="130" y="312" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">Budget</text>
+<polyline points="181,308 191,308" fill="none" stroke="#52525b" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#ahg)"/>
+<rect x="192" y="288" width="100" height="40" rx="6" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="242" y="312" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">Population</text>
+<polyline points="293,308 303,308" fill="none" stroke="#52525b" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#ahg)"/>
+<rect x="304" y="288" width="100" height="40" rx="6" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="354" y="312" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">Culture</text>
+<polyline points="405,308 415,308" fill="none" stroke="#52525b" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#ahg)"/>
+<rect x="416" y="288" width="100" height="40" rx="6" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="466" y="312" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">Politics</text>
+<polyline points="517,308 527,308" fill="none" stroke="#52525b" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#ahg)"/>
+<rect x="528" y="288" width="100" height="40" rx="6" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="578" y="312" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">Research</text>
+<polyline points="578,329 578,345 130,345 130,361" fill="none" stroke="#52525b" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#ahg)"/>
+<rect x="80" y="362" width="100" height="40" rx="6" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="130" y="386" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">Diplomacy</text>
+<polyline points="181,382 191,382" fill="none" stroke="#52525b" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#ahg)"/>
+<rect x="192" y="362" width="100" height="40" rx="6" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="242" y="386" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">Crises</text>
+<polyline points="293,382 303,382" fill="none" stroke="#52525b" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#ahg)"/>
+<rect x="304" y="362" width="100" height="40" rx="6" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="354" y="386" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">Events</text>
+<polyline points="405,382 415,382" fill="none" stroke="#52525b" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#ahg)"/>
+<rect x="416" y="362" width="100" height="40" rx="6" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="466" y="386" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">AI</text>
+<rect x="10" y="422" width="620" height="64" rx="8" fill="#fafafa" stroke="#e4e4e7"/>
+<text x="44" y="458.2" font-size="12" text-anchor="middle" fill="#27272a" font-weight="600">Yearly</text>
+<rect x="80" y="434" width="100" height="40" rx="6" fill="#f4f4f5" stroke="#a1a1aa" stroke-width="1.5"/>
+<text x="130" y="450.8" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">Chronicle and</text>
+<text x="130" y="465.3" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">autosave</text>
+<polyline points="214,111 214,118 102,118 102,141" fill="none" stroke="#2563eb" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#ahb)"/>
+<rect x="227.6" y="109.8" width="132.7" height="16.5" fill="#fff" fill-opacity="0.92" rx="3"/>
+<text x="294" y="121.3" font-size="10.5" text-anchor="middle" fill="#2563eb" font-weight="400">then, on every 7th day</text>
+<polyline points="102,257 102,264 102,264 102,287" fill="none" stroke="#2563eb" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#ahb)"/>
+<rect x="132.6" y="255.8" width="98.7" height="16.5" fill="#fff" fill-opacity="0.92" rx="3"/>
+<text x="182" y="267.3" font-size="10.5" text-anchor="middle" fill="#2563eb" font-weight="400">then, on the 1st</text>
+<polyline points="438,403 438,410 102,410 102,433" fill="none" stroke="#2563eb" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#ahb)"/>
+<rect x="468.6" y="401.8" width="98.7" height="16.5" fill="#fff" fill-opacity="0.92" rx="3"/>
+<text x="518" y="413.3" font-size="10.5" text-anchor="middle" fill="#2563eb" font-weight="400">then, on day 365</text>
+<text x="16" y="516" font-size="11" text-anchor="start" fill="#52525b" font-weight="400">Every step that applies on a given day runs in this order, top to bottom.</text>
+</svg>

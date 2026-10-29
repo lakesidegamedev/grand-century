@@ -11,6 +11,11 @@ Once a month, after [crises](crises.md), the game checks events for a share of n
 3. If it fires, one event is picked by weight.
 4. For you, the event becomes **pending**, the game pauses, and a dialog shows the choices. AI nations pick one immediately.
 
+![Flow from the monthly check to eligible events, fire chance, choice and effects.](../images/events-and-decisions-event-flow.svg)
+
+![Chart of the chance an event fires at a check against the number of eligible events.](../images/events-and-decisions-fire-chance-chart.svg)
+
+
 Each choice lists **effects**. They are the same effects everything else uses: treasury, prestige, infamy, militancy, consciousness, literacy, research, reform levels, unrest, goods prices and stockpiles, opinion of other nations, free casus belli (a legal reason to declare war), and others. A choice can also have its own requirement, such as a minimum treasury, and shows greyed out with the reason if you do not meet it.
 
 ### Key numbers
@@ -49,6 +54,8 @@ Encourage Industrialization needs a civilized government, £450 in the treasury,
 
 When a great power holds enough of the core states of a formable nation (a unified state it could proclaim), the other great powers react. Each month, every other great power that is not an ally and not itself a candidate for that formable loses opinion of the climber: 1.5 at the alarm share, 3 at the rivalry share, never going below -140. At the rivalry share a neutral relationship turns into a rivalry.
 
+![Number line of core-state share with the alarm at 50 percent and rivalry at 80 percent.](../images/events-and-decisions-balance-of-power.svg)
+
 The alarm and rivalry shares are 50% and 80% of the core states, but a nation that starts with a big slice is not punished for the map. Its alarm share is its starting share plus 10 points (at most 90%), and its rivalry share is its starting share plus 20 points (at most 95%). A nation starting with 10 of 13 cores (77%) sets off alarm at 87% and rivalry at 95%.
 
 This counterweights unification: [diplomacy](diplomacy.md) makes unification war goals cost 60% of the usual infamy (a 40% discount), and balance of power makes the existing powers resent you more the closer you get.
@@ -58,6 +65,8 @@ This counterweights unification: [diplomacy](diplomacy.md) makes unification war
 - **Answer an event.** The dialog appears when it fires and the game pauses. Each choice shows its effects. Pending events do not expire and no timer forces a choice. The dialog stays on screen until you answer. Up to 3 can queue.
 - **Take a decision.** Open **Decisions** in the Statecraft group (the panel title is "National Decisions"). Each row shows cost, effects, and a button that reads "Enact", or the reason you cannot. Some decisions are national arcs for one country only, and other nations never see them. Arcs show progress and the next unlock.
 - **Watch balance of power** in the **Formables** panel. A line appears once you pass the alarm share, showing your progress, how many great powers are alarmed, and the monthly opinion loss.
+
+![National Decisions panel with costs, effects and Enact buttons.](../images/events-and-decisions-decisions-panel.png)
 
 Why do I keep getting this event? Events follow your situation, so a pile of unrest events means your average militancy keeps passing their trigger. Events that repeat wait for their cooldown first.
 

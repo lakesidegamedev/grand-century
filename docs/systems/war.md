@@ -31,6 +31,8 @@ Artillery hits hardest and cracks forts nearly twice as fast as infantry, but it
 
 A land battle has a **combat width** of 24 regiments. Up to 24, every regiment fights at full effect. Past 24, extra regiments still help, but on a square-root curve that falls away steeply, and the damage a stack takes is no longer diluted by the extra bodies either.
 
+![Chart of effective regiments against regiments committed to one battle, flattening past 24.](../images/war-combat-width-chart.svg)
+
 Without this, piling every army into one province was strictly best: offence grew with stack size while the damage per regiment shrank. Now splitting across fronts is a real choice.
 
 ### Supply
@@ -42,6 +44,8 @@ The search starts at the army's province. It may step through one unfriendly pro
 ### Sieges and occupation
 
 A province flips when an army stands alone in it (no enemy army present) and its progress reaches 100%. Plain ground adds 2.8% a day, so 36 days. Hills and mountains carry a fort of level 1 and take 63 days. Artillery in the stack and a general with the siegecraft trait speed this up.
+
+![Grouped bar chart of siege days by fort level and army makeup.](../images/war-siege-chart.svg)
 
 Occupation moves the war score and supply, not the economy. The province still counts as its owner's until a peace deal transfers it.
 
@@ -55,11 +59,16 @@ War score runs from -100 to +100 from the attacker's view, the sum of five parts
 - **Battle**: won and lost engagements.
 - **Exhaustion**: the gap in war weariness between the sides.
 
+![Five inputs summing into a war score from -100 to +100, with the peace options.](../images/war-score-inputs.svg)
+
+
 Occupation usually dominates. Winning battles without taking ground moves the number far less than players expect.
 
 ### Ending a war
 
 **War goals** are the specific prizes a side fights for. The attacker starts with the goal chosen at declaration. Each goal has a score cost. At peace, the winning side spends war score to enforce goals, and enforcing is what actually moves land and prestige.
+
+![Step charts of the prestige fee for white peace by war score and exhaustion.](../images/war-white-peace-chart.svg)
 
 **White peace** (nothing changes hands) is free when the two sides are within 10 points of each other or both are at 75 exhaustion or more. Otherwise the side asking for it pays 6 prestige. It needs no agreement. Every peace, white or not, starts a **truce** between the former enemies that lasts 5 years.
 
@@ -96,6 +105,8 @@ A war also ends on its own when one side is overwhelmingly ahead or both are spe
 - **Make peace** in the Military panel's **War Overview**, in the Peace Conference box. Tick goals to enforce or ask for white peace.
 - **Claim colonies** in the **Colonization** panel.
 
+![Military panel showing recruitment and mobilization controls.](../images/war-military-panel.png)
+
 Tips:
 
 - **Split your armies.** Two fronts of 24 beat one stack of 48.
@@ -114,6 +125,8 @@ Edge cases:
 ## Connections
 
 **Driven by:**
+
+![Map of what drives war and what war affects.](../images/war-connections.svg)
 
 - [Time and the tick](time-and-the-tick.md): war is one of only two systems that run daily.
 - [Diplomacy](diplomacy.md): pretexts, alliances, guarantees and truces decide who fights whom and when.
@@ -146,6 +159,8 @@ Last checked: 2026-10-29, version 1.7.0
 ## Exact rules
 
 All in `src/sim/systems/war.ts` unless noted. War runs in the daily block of `advanceDay` in `src/sim/world.ts`, right after `runMarketDaily`, see [the simulation loop](../engineering/simulation-loop.md). Inside `runWarDaily` the order is: army and fleet movement, supply and attrition, battles, sieges, mobilization upkeep, colonial claims, rebellions (every 3rd day), cleanup, war scores, auto-peace, post-peace demobilization. If there is no war, no mobilization, no claim and nothing moving, the function mostly returns early.
+
+![Order of the daily war pass.](../images/war-daily-order.svg)
 
 **Units** (`src/sim/militaryCatalog.ts`). Cost, manpower drain, base strength and organization bonus per type: infantry 24, 70, 1000, 0; cavalry 31, 82, 930, +3; artillery 38, 90, 820, -5; guard 45, 96, 1000, +8; armor 82, 72, 860, +4; aircraft 96, 48, 720, -2. Required reforms and techs as in the table. Ships: cost / combat power / transport: transport 55 / 0.5 / 2 regiments; frigate 70 / 1.1; man-of-war 95 / 1.55; ironclad 120 / 2.2 (Ironclad Warships); destroyer 150 / 2.65 (Torpedo Boats); submarine 165 / 2.45 (Oil-fired Boilers); carrier 260 / 4.2 (Carrier Aviation). `MAX_REGIMENT_STRENGTH` 1000, `MAX_SHIP_STRENGTH` 100.
 

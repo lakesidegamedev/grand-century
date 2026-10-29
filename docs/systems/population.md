@@ -10,6 +10,11 @@ Your nation is not one number. It is a collection of **pops**, groups of people 
 2. **Everyday needs:** timber, plus fabric for most town classes.
 3. **Luxury needs:** furniture, wine, clothes and so on, depending on class.
 
+![Line chart of monthly growth against needs met, crossing zero at 69.2 percent and capped at 0.0175 percent, with lines for Healthcare levels 1 to 3.](../images/population-growth-chart.svg)
+
+![Class change flow between farmers, laborers, craftsmen, clerks, capitalists and soldiers, with monthly rates and gates.](../images/population-class-flow.svg)
+
+
 A pop buys as much of each tier as its money allows before it moves to the next one. A pop that cannot afford food never reaches everyday goods or luxuries, however rich the nation is. Prices come from [the world market](the-world-market.md), plus your tariff.
 
 **Needs met** is a running average. Each week it moves 40% of the way toward this week's result, where this week's result counts life needs at 72% and everyday needs at 28%. Luxuries do not count toward it. So a pop that gets all its food and nothing else settles at 72%.
@@ -62,6 +67,10 @@ The fix is more money or cheaper food, not more luxuries.
 
 You do not command pops directly. You change the conditions they live in. The **Population** panel (Economy group in the side rail) shows total population, a class breakdown, the month's migration and class moves, and for each class: monthly growth, needs met (hover for life, everyday and luxury shares and the scarcest goods), militancy, consciousness and which reforms it is agitating for. Hover over Growth to see the drivers.
 
+![Population panel showing total population, the class list with needs, militancy and consciousness, and the This Month migration list.](../images/population-panel.png)
+
+![Population panel with the Needs tooltip open, showing life, everyday and luxury needs.](../images/population-needs-tooltip.png)
+
 - **Pops shrinking?** Open Population and hover the Needs bar for the scarce goods. Then fix supply (more farms or fisheries, a Fishing Wharf on a coast), price (lower your tariff in the Budget panel) or income (lower the poor tax, build factories that employ them).
 - **Not promoting?** Check literacy (technologies raise it, see [Research](research.md)), whether the state has free factory or clerk jobs, and whether pay on the farm beats pay in the factory.
 - **Pushing growth up:** enact Healthcare in the Politics panel. Each level lowers the needs level at which a pop stops shrinking.
@@ -78,6 +87,8 @@ Tips:
 
 **Driven by:**
 - [Events and decisions](events-and-decisions.md): events change militancy and consciousness.
+
+![Map of what drives population and what population affects.](../images/population-connections.svg)
 
 - [Time and the tick](time-and-the-tick.md): income and shopping run weekly, growth, class changes and migration run monthly.
 - [Production and industry](production-and-industry.md): wages, job openings and urbanization come from resource sites and factories.

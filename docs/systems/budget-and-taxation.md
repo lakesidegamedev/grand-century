@@ -4,6 +4,8 @@ Your treasury is settled once a month, on the 1st. The budget pass works out inc
 
 ## How it works
 
+
+![Money flow from tax, tariffs and production income into the treasury and out to army, overhead, administration, reforms and subsidies.](../images/budget-and-taxation-flow.svg)
 ### Income
 
 **Taxes** are taken from the money pops are holding. There are three brackets, each with its own slider:
@@ -65,6 +67,9 @@ Treasury is held between -30,000 and 600,000 at the end of each month. Beyond th
 - Spending: administration 107, provincial overhead 30, subsidies 2, army and navy 0, reforms 0, total 140.
 - Net: +2,100, taking the treasury from 5,640 to 7,740.
 
+![Line chart of treasury through the bankruptcy example, entering below -1,800 and exiting above 550.](../images/budget-and-taxation-bankruptcy-chart.svg)
+
+
 The poor bracket supplied roughly three quarters of the tax. Administration of 107 is 73 for 666,000 people plus 34 for the province count (about 40 reference provinces).
 
 **A bankruptcy, illustrated.** A nation starts a month with 400 in the treasury, income 1,000 and bills of army 1,200, administration 500, reforms 300, overhead 100 and subsidies 100 (2,200 total). Net is -1,200.
@@ -76,6 +81,8 @@ The poor bracket supplied roughly three quarters of the tax. Administration of 1
 ## What you can do
 
 Open the **Budget** panel (Economy group in the side rail), headed Budget Ledger.
+
+![Budget panel with the three tax sliders, the tariff slider, the ledger and a tax tooltip open.](../images/budget-and-taxation-panel.png)
 
 - **Set the three tax sliders** and the tariff slider. The panel recalculates Monthly Net immediately, but the treasury only changes on the next 1st.
 - **Read the ledger.** Lines: Tax Income, Tariff Income, Production, Army / Navy Upkeep, Factory Subsidies, Provincial Overhead, Administration, Reform Upkeep, and Monthly Net. Hover any figure for the numbers behind it, such as each bracket's money and tax. The Ledger shape bar compares income and spending at a glance.
@@ -98,6 +105,8 @@ Tips:
 ## Connections
 
 **Driven by:**
+
+![Map of what drives the budget and what the budget affects.](../images/budget-and-taxation-connections.svg)
 
 - [Time and the tick](time-and-the-tick.md): the budget runs first in the monthly pass, on the 1st.
 - [Population](population.md): pops' money is the tax base and their head count drives administration.

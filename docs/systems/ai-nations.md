@@ -6,6 +6,8 @@ Every nation you do not run is an AI nation. They tax, build, research, fabricat
 
 The AI pass runs last in the monthly order (see [Time and the tick](time-and-the-tick.md)). Each AI nation does its light work every month: set taxes, consider peace, move armies, mobilize if at war. Its heavy planning (reforms, factories, military build-up, new wars, colonies, influence) happens only every third month, staggered so different nations act in different months.
 
+![Bar of bloc power ratio showing where the AI declares war, concedes a crisis and where a congress forms.](../images/ai-nations-thresholds-chart.svg)
+
 ### How it sizes up the world
 
 The AI judges everything by a **power estimate**: twice the full-strength regiments, plus 0.7 per ship, plus its treasury divided by 650, plus its population divided by 125,000, plus 0.28 times its prestige. A **bloc** (a nation and its allies) is the sum of its members. Nearly every decision is a ratio of two of these.
@@ -15,6 +17,8 @@ This is not the same as the great-power score in [Diplomacy](diplomacy.md), whic
 ### Choosing a war
 
 The AI only picks fights with **bordering** nations, and only if the numbers look good.
+
+![Decision flow for an AI nation choosing a war.](../images/ai-nations-war-decision.svg)
 
 1. For each neighbour it forms both blocs (allies, plus guarantors on the defending side) and computes the **advantage**, its bloc power divided by theirs.
 2. It scores each candidate: 43 times (advantage minus 1), plus hostility toward the target, plus 8 if they are rivals, plus the value of the best state to take, minus a fifth of the target's infamy.
@@ -58,6 +62,8 @@ Its neighbour's bloc, counting the neighbour's allies, comes to 100. The advanta
 
 The AI is not a panel you control, but you can read it and shape it.
 
+![Diplomacy panel dossier of an AI nation showing opinion, power score and sphere.](../images/ai-nations-dossier-panel.png)
+
 - **Read power.** In the **Diplomacy** panel, a nation's dossier shows its power score split into industry and military, and its opinion of you.
 - **Make yourself a poor target.** Keep your bloc above theirs. Alliances and guarantees both count toward your side's power, so a few friends can stop an attack before it is declared.
 - **Hit tired armies.** An AI army falls back once its organization is under 18, so a battered stack is not a threat for long.
@@ -82,6 +88,8 @@ Edge cases:
 **Driven by:**
 - [Events and decisions](events-and-decisions.md): AI nations resolve events and take decisions on their own.
 - [The world market](the-world-market.md): prices guide what the AI builds and its tariff.
+
+![Map of what drives AI nations and what they affect.](../images/ai-nations-connections.svg)
 
 - [Time and the tick](time-and-the-tick.md): the AI pass runs last in each monthly update.
 - [Diplomacy](diplomacy.md): the AI uses the same pretext, infamy, truce and relation rules.
@@ -111,6 +119,8 @@ Last checked: 2026-10-29, version 1.7.0
 ## Exact rules
 
 Source `src/sim/systems/ai.ts` and `src/sim/balance.ts` (`BALANCE.ai`) unless noted. `runAiMonthly` runs last in the monthly block of `src/sim/world.ts`. Each AI nation runs: tax stabilization, peace check, war movement, mobilization if at war, formable pursuit. On a heavy month, `(floor(day / 30) + nation id) mod 3 = 0` (`heavyPlanningStride` 3), it also runs reforms, factory build, military build, diplomacy, colony and sphere actions, and formables again.
+
+![Order of the monthly AI pass.](../images/ai-nations-monthly-order.svg)
 
 **Power estimate** (`estimateNationPower`): 2 x sum(regiment strength / 1000) + 0.7 x ships + max(0, treasury) / 650 + population / 125,000 + prestige x 0.28.
 

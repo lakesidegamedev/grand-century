@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" width="640" height="420" font-family='system-ui, -apple-system, "Segoe UI", Roboto, sans-serif' role="img" aria-label="Money flow. Tax from the poor, middle and rich brackets, tariffs and production income flow into the treasury. Army and navy upkeep, provincial overhead, administration, reform upkeep and factory subsidies flow out. Bankruptcy cuts each outflow: army 45 percent, administration 60 percent, reforms 55 percent, subsidies 30 percent, overhead zero.">
+<title>Money flow. Tax from the poor, middle and rich brackets, tariffs and production income flow into the treasury. Army and navy upkeep, provincial overhead, administration, reform upkeep and factory subsidies flow out. Bankruptcy cuts each outflow: army 45 percent, administration 60 percent, reforms 55 percent, subsidies 30 percent, overhead zero.</title><defs><marker id="ahg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52525b"/></marker><marker id="ahb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="ahr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker></defs>
+<rect x="0.5" y="0.5" width="639" height="419" fill="#fff" stroke="#d4d4d8"/>
+<text x="16" y="26" font-size="15" font-weight="600" fill="#27272a">Where the monthly budget comes from and goes</text>
+<polyline points="134,68 224,220" fill="none" stroke="#2563eb" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#ahb)"/>
+<polyline points="134,134.5 224,220" fill="none" stroke="#2563eb" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#ahb)"/>
+<polyline points="134,201 224,220" fill="none" stroke="#2563eb" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#ahb)"/>
+<polyline points="134,267.5 224,220" fill="none" stroke="#2563eb" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#ahb)"/>
+<polyline points="134,334 224,220" fill="none" stroke="#2563eb" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#ahb)"/>
+<polyline points="354,220 464,71" fill="none" stroke="#dc2626" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#ahr)"/>
+<polyline points="354,220 464,137.5" fill="none" stroke="#dc2626" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#ahr)"/>
+<polyline points="354,220 464,204" fill="none" stroke="#dc2626" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#ahr)"/>
+<polyline points="354,220 464,270.5" fill="none" stroke="#dc2626" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#ahr)"/>
+<polyline points="354,220 464,337" fill="none" stroke="#dc2626" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#ahr)"/>
+<rect x="14" y="52" width="120" height="32" rx="6" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="74" y="72" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">Tax: poor</text>
+<rect x="14" y="118.5" width="120" height="32" rx="6" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="74" y="138.5" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">Tax: middle</text>
+<rect x="14" y="185" width="120" height="32" rx="6" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="74" y="205" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">Tax: rich</text>
+<rect x="14" y="251.5" width="120" height="32" rx="6" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="74" y="271.5" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">Tariffs</text>
+<rect x="14" y="318" width="120" height="32" rx="6" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="74" y="338" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">Production income</text>
+<rect x="224" y="185" width="130" height="70" rx="6" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="289" y="216.8" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="600">Treasury, settled</text>
+<text x="289" y="231.3" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="600">on the 1st</text>
+<rect x="464" y="52" width="170" height="38" rx="6" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="549" y="67.8" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">Army and navy upkeep</text>
+<text x="549" y="82.3" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">(x0.45 if bankrupt)</text>
+<rect x="464" y="118.5" width="170" height="38" rx="6" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="549" y="134.3" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">Provincial overhead</text>
+<text x="549" y="148.8" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">(zero if bankrupt)</text>
+<rect x="464" y="185" width="170" height="38" rx="6" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="549" y="200.8" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">Administration (x0.6 if</text>
+<text x="549" y="215.3" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">bankrupt)</text>
+<rect x="464" y="251.5" width="170" height="38" rx="6" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="549" y="267.3" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">Reform upkeep (x0.55 if</text>
+<text x="549" y="281.8" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">bankrupt)</text>
+<rect x="464" y="318" width="170" height="38" rx="6" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="549" y="333.8" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">Factory subsidies (x0.3</text>
+<text x="549" y="348.3" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">if bankrupt)</text>
+<text x="16" y="406" font-size="11" text-anchor="start" fill="#52525b" font-weight="400">Income on the left, bills on the right. A bankrupt nation pays the reduced bills shown.</text>
+</svg>

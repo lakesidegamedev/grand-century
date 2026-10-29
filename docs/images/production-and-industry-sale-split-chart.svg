@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400" font-family='system-ui, -apple-system, "Segoe UI", Roboto, sans-serif' role="img" aria-label="Stacked bars of where a week's sale value goes. A resource site pays 80 percent wages, 12 percent owners and 8 percent the state. A factory pays 45 percent wages, then inputs, operating cost, owners and plant. The second panel shows the worked examples in money.">
+<title>Stacked bars of where a week's sale value goes. A resource site pays 80 percent wages, 12 percent owners and 8 percent the state. A factory pays 45 percent wages, then inputs, operating cost, owners and plant. The second panel shows the worked examples in money.</title>
+<rect x="0.5" y="0.5" width="639" height="399" fill="#fff" stroke="#d4d4d8"/>
+<text x="16" y="26" font-size="15" font-weight="600" fill="#27272a">Where a week's sale value goes</text>
+<text x="14" y="52" font-size="12.5" text-anchor="start" fill="#27272a" font-weight="600">Share of sale value</text>
+<rect x="36" y="120.8" width="96" height="179.2" fill="#2563eb" fill-opacity="0.92"/>
+<text x="84" y="214.4" font-size="11" text-anchor="middle" fill="#fff" font-weight="400">80%</text>
+<rect x="36" y="93.92" width="96" height="26.88" fill="#dc2626" fill-opacity="0.92"/>
+<text x="84" y="111.36" font-size="11" text-anchor="middle" fill="#fff" font-weight="400">12%</text>
+<rect x="36" y="76" width="96" height="17.92" fill="#f59e0b" fill-opacity="0.92"/>
+<text x="84" y="88.96" font-size="11" text-anchor="middle" fill="#fff" font-weight="400">8%</text>
+<text x="84" y="316" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">Resource site</text>
+<rect x="166" y="199.2" width="96" height="100.8" fill="#2563eb" fill-opacity="0.92"/>
+<text x="214" y="253.6" font-size="11" text-anchor="middle" fill="#fff" font-weight="400">45%</text>
+<rect x="166" y="193.65" width="96" height="5.55" fill="#93c5fd" fill-opacity="0.92"/>
+<rect x="166" y="187.47" width="96" height="6.17" fill="#a1a1aa" fill-opacity="0.92"/>
+<rect x="166" y="126.16" width="96" height="61.31" fill="#dc2626" fill-opacity="0.92"/>
+<text x="214" y="160.82" font-size="11" text-anchor="middle" fill="#fff" font-weight="400">27%</text>
+<rect x="166" y="76" width="96" height="50.16" fill="#1e3a8a" fill-opacity="0.92"/>
+<text x="214" y="105.08" font-size="11" text-anchor="middle" fill="#fff" font-weight="400">22%</text>
+<text x="214" y="316" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">Factory</text>
+<line x1="24" y1="300" x2="304" y2="300" stroke="#a1a1aa" stroke-width="1" stroke-opacity="1"/>
+<text x="164" y="334" font-size="11.5" text-anchor="middle" fill="#52525b" font-weight="400">Percent of a full week of sales</text>
+<text x="330" y="52" font-size="12.5" text-anchor="start" fill="#27272a" font-weight="600">Worked examples</text>
+<rect x="352" y="120.8" width="96" height="179.2" fill="#2563eb" fill-opacity="0.92"/>
+<text x="400" y="214.4" font-size="11" text-anchor="middle" fill="#fff" font-weight="400">69.19</text>
+<rect x="352" y="93.92" width="96" height="26.88" fill="#dc2626" fill-opacity="0.92"/>
+<text x="400" y="111.36" font-size="11" text-anchor="middle" fill="#fff" font-weight="400">10.38</text>
+<rect x="352" y="76" width="96" height="17.92" fill="#f59e0b" fill-opacity="0.92"/>
+<text x="400" y="88.96" font-size="11" text-anchor="middle" fill="#fff" font-weight="400">6.92</text>
+<text x="400" y="316" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">Resource site</text>
+<text x="400" y="70" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="600">86.49</text>
+<rect x="482" y="245.03" width="96" height="54.97" fill="#2563eb" fill-opacity="0.92"/>
+<text x="530" y="276.52" font-size="11" text-anchor="middle" fill="#fff" font-weight="400">21.22</text>
+<rect x="482" y="242.01" width="96" height="3.03" fill="#93c5fd" fill-opacity="0.92"/>
+<rect x="482" y="238.64" width="96" height="3.37" fill="#a1a1aa" fill-opacity="0.92"/>
+<rect x="482" y="205.21" width="96" height="33.43" fill="#dc2626" fill-opacity="0.92"/>
+<text x="530" y="225.92" font-size="11" text-anchor="middle" fill="#fff" font-weight="400">12.91</text>
+<rect x="482" y="177.85" width="96" height="27.35" fill="#1e3a8a" fill-opacity="0.92"/>
+<text x="530" y="195.53" font-size="11" text-anchor="middle" fill="#fff" font-weight="400">10.56</text>
+<text x="530" y="316" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">Factory</text>
+<text x="530" y="171.85" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="600">47.16</text>
+<line x1="340" y1="300" x2="620" y2="300" stroke="#a1a1aa" stroke-width="1" stroke-opacity="1"/>
+<text x="480" y="334" font-size="11.5" text-anchor="middle" fill="#52525b" font-weight="400">Money per week</text>
+<rect x="16" y="349" width="11" height="11" fill="#2563eb" fill-opacity="1"/>
+<text x="33" y="359" font-size="11" text-anchor="start" fill="#27272a" font-weight="400">Wages</text>
+<rect x="221" y="349" width="11" height="11" fill="#93c5fd" fill-opacity="1"/>
+<text x="238" y="359" font-size="11" text-anchor="start" fill="#27272a" font-weight="400">Inputs</text>
+<rect x="426" y="349" width="11" height="11" fill="#a1a1aa" fill-opacity="1"/>
+<text x="443" y="359" font-size="11" text-anchor="start" fill="#27272a" font-weight="400">Operating cost</text>
+<rect x="16" y="367" width="11" height="11" fill="#dc2626" fill-opacity="1"/>
+<text x="33" y="377" font-size="11" text-anchor="start" fill="#27272a" font-weight="400">Owners</text>
+<rect x="221" y="367" width="11" height="11" fill="#1e3a8a" fill-opacity="1"/>
+<text x="238" y="377" font-size="11" text-anchor="start" fill="#27272a" font-weight="400">Plant keeps</text>
+<rect x="426" y="367" width="11" height="11" fill="#f59e0b" fill-opacity="1"/>
+<text x="443" y="377" font-size="11" text-anchor="start" fill="#27272a" font-weight="400">State</text>
+</svg>

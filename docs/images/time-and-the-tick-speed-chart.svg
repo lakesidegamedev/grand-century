@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" font-family='system-ui, -apple-system, "Segoe UI", Roboto, sans-serif' role="img" aria-label="Bar chart of real seconds per game year at speeds x1 to x5, from 182.5 seconds at x1 down to 4.1 seconds at x5, on a log scale.">
+<title>Bar chart of real seconds per game year at speeds x1 to x5, from 182.5 seconds at x1 down to 4.1 seconds at x5, on a log scale.</title>
+<rect x="0.5" y="0.5" width="639" height="359" fill="#fff" stroke="#d4d4d8"/>
+<text x="16" y="26" font-size="15" font-weight="600" fill="#27272a">Real seconds per game year at each speed</text>
+<line x1="70" y1="296" x2="618" y2="296" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="64" y="300" font-size="11" text-anchor="end" fill="#52525b" font-weight="400">1 s</text>
+<line x1="70" y1="248.23" x2="618" y2="248.23" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="64" y="252.23" font-size="11" text-anchor="end" fill="#52525b" font-weight="400">3 s</text>
+<line x1="70" y1="195.88" x2="618" y2="195.88" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="64" y="199.88" font-size="11" text-anchor="end" fill="#52525b" font-weight="400">10 s</text>
+<line x1="70" y1="148.12" x2="618" y2="148.12" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="64" y="152.12" font-size="11" text-anchor="end" fill="#52525b" font-weight="400">30 s</text>
+<line x1="70" y1="95.77" x2="618" y2="95.77" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="64" y="99.77" font-size="11" text-anchor="end" fill="#52525b" font-weight="400">100 s</text>
+<line x1="70" y1="48" x2="618" y2="48" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="64" y="52" font-size="11" text-anchor="end" fill="#52525b" font-weight="400">300 s</text>
+<line x1="70" y1="296" x2="618" y2="296" stroke="#a1a1aa" stroke-width="1" stroke-opacity="1"/>
+<line x1="70" y1="48" x2="70" y2="296" stroke="#a1a1aa" stroke-width="1" stroke-opacity="1"/>
+<text x="18" y="172" font-size="12" text-anchor="middle" fill="#27272a" font-weight="400" transform="rotate(-90 18 172)">Real seconds per game year (log scale)</text>
+<rect x="91.92" y="69.61" width="65.76" height="226.39" fill="#2563eb" fill-opacity="0.9"/>
+<text x="124.8" y="63.61" font-size="12" text-anchor="middle" fill="#27272a" font-weight="600">182.5 s</text>
+<text x="124.8" y="312" font-size="12" text-anchor="middle" fill="#27272a" font-weight="400">x1</text>
+<text x="124.8" y="326" font-size="10.5" text-anchor="middle" fill="#52525b" font-weight="400">2 days/s</text>
+<rect x="201.52" y="109.45" width="65.76" height="186.55" fill="#2563eb" fill-opacity="0.9"/>
+<text x="234.4" y="103.45" font-size="12" text-anchor="middle" fill="#27272a" font-weight="600">73 s</text>
+<text x="234.4" y="312" font-size="12" text-anchor="middle" fill="#27272a" font-weight="400">x2</text>
+<text x="234.4" y="326" font-size="10.5" text-anchor="middle" fill="#52525b" font-weight="400">5 days/s</text>
+<rect x="311.12" y="147.52" width="65.76" height="148.48" fill="#2563eb" fill-opacity="0.9"/>
+<text x="344" y="141.52" font-size="12" text-anchor="middle" fill="#27272a" font-weight="600">30.4 s</text>
+<text x="344" y="312" font-size="12" text-anchor="middle" fill="#27272a" font-weight="400">x3</text>
+<text x="344" y="326" font-size="10.5" text-anchor="middle" fill="#52525b" font-weight="400">12 days/s</text>
+<rect x="420.72" y="187.36" width="65.76" height="108.64" fill="#2563eb" fill-opacity="0.9"/>
+<text x="453.6" y="181.36" font-size="12" text-anchor="middle" fill="#27272a" font-weight="600">12.2 s</text>
+<text x="453.6" y="312" font-size="12" text-anchor="middle" fill="#27272a" font-weight="400">x4</text>
+<text x="453.6" y="326" font-size="10.5" text-anchor="middle" fill="#52525b" font-weight="400">30 days/s</text>
+<rect x="530.32" y="235.12" width="65.76" height="60.88" fill="#dc2626" fill-opacity="0.9"/>
+<text x="563.2" y="229.12" font-size="12" text-anchor="middle" fill="#27272a" font-weight="600">4.1 s</text>
+<text x="563.2" y="312" font-size="12" text-anchor="middle" fill="#27272a" font-weight="400">x5</text>
+<text x="563.2" y="326" font-size="10.5" text-anchor="middle" fill="#52525b" font-weight="400">90 days/s</text>
+<text x="344" y="346" font-size="12" text-anchor="middle" fill="#27272a" font-weight="400">Game speed (days of game time per real second)</text>
+</svg>

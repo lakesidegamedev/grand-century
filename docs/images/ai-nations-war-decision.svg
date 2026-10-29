@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440" width="640" height="440" font-family='system-ui, -apple-system, "Segoe UI", Roboto, sans-serif' role="img" aria-label="Decision flow. Look at neighbours, build both blocs, work out the advantage and score, pick a goal, and ask whether it has its own pretext. If not, it fabricates one and waits 70 to 140 days. Then check infamy, treasury and bankruptcy, and declare. Standing claims skip fabrication.">
+<title>Decision flow. Look at neighbours, build both blocs, work out the advantage and score, pick a goal, and ask whether it has its own pretext. If not, it fabricates one and waits 70 to 140 days. Then check infamy, treasury and bankruptcy, and declare. Standing claims skip fabrication.</title><defs><marker id="ahg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52525b"/></marker><marker id="ahb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="ahr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker></defs>
+<rect x="0.5" y="0.5" width="639" height="439" fill="#fff" stroke="#d4d4d8"/>
+<text x="16" y="26" font-size="15" font-weight="600" fill="#27272a">How an AI nation picks a war</text>
+<polyline points="134,74 186,74" fill="none" stroke="#2563eb" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#ahb)"/>
+<polyline points="326,74 358,74" fill="none" stroke="#2563eb" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#ahb)"/>
+<polyline points="433,94 433,126.6" fill="none" stroke="#2563eb" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#ahb)"/>
+<polyline points="433,166.6 433,199.2" fill="none" stroke="#2563eb" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#ahb)"/>
+<polyline points="358,219.2 336,219.2 336,231.2" fill="none" stroke="#dc2626" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#ahr)"/>
+<rect x="337.3" y="211" width="19.3" height="16.5" fill="#fff" fill-opacity="0.92" rx="3"/>
+<text x="347" y="222.5" font-size="10.5" text-anchor="middle" fill="#dc2626" font-weight="400">no</text>
+<polyline points="433,239.2 433,278.4" fill="none" stroke="#2563eb" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#ahb)"/>
+<rect x="420.5" y="250.6" width="25" height="16.5" fill="#fff" fill-opacity="0.92" rx="3"/>
+<text x="433" y="262.1" font-size="10.5" text-anchor="middle" fill="#27272a" font-weight="400">yes</text>
+<polyline points="261,263.2 261,310.4 358,310.4" fill="none" stroke="#dc2626" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#ahr)"/>
+<polyline points="144,310.4 358,310.4" fill="none" stroke="#52525b" stroke-width="1.6" stroke-linejoin="round" stroke-dasharray="5 4" marker-end="url(#ahg)"/>
+<polyline points="508,310.4 530,310.4" fill="none" stroke="#2563eb" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#ahb)"/>
+<rect x="14" y="54" width="120" height="40" rx="6" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="74" y="78" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">Neighbours</text>
+<rect x="186" y="54" width="140" height="40" rx="6" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="256" y="78" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">Build both blocs</text>
+<rect x="358" y="54" width="150" height="40" rx="6" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="433" y="78" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">Advantage and score</text>
+<rect x="358" y="126.6" width="150" height="40" rx="6" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="433" y="150.6" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">Pick a goal</text>
+<rect x="358" y="199.2" width="150" height="40" rx="6" fill="#f4f4f5" stroke="#a1a1aa" stroke-width="1.5"/>
+<text x="433" y="223.2" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="600">Own pretext?</text>
+<rect x="186" y="199.2" width="150" height="64" rx="6" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+<text x="261" y="228" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">No: fabricate and</text>
+<text x="261" y="242.5" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">wait 70 to 140 days</text>
+<rect x="358" y="278.4" width="150" height="64" rx="6" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="433" y="299.9" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">Check infamy,</text>
+<text x="433" y="314.4" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">treasury and</text>
+<text x="433" y="328.9" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">bankruptcy</text>
+<rect x="530" y="278.4" width="100" height="64" rx="6" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+<text x="580" y="314.4" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="600">Declare war</text>
+<rect x="14" y="278.4" width="130" height="64" rx="6" fill="#f4f4f5" stroke="#a1a1aa" stroke-width="1.5"/>
+<text x="79" y="307.2" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">Standing claim:</text>
+<text x="79" y="321.7" font-size="11.5" text-anchor="middle" fill="#27272a" font-weight="400">skips fabrication</text>
+</svg>

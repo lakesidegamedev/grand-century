@@ -6,6 +6,12 @@ Grand Century runs on simulated days. One day is the smallest step the world tak
 
 Each day the game does the same thing: advance the date by one day, run the daily systems, then the weekly ones if it is a weekly day, then the monthly ones if it is the 1st of a month, then the yearly one if a full year has passed. When two rhythms land on the same day, the shorter one finishes first and the longer one sees its results.
 
+![Calendar strips showing which passes run on which day: weekly economy every 7th day, the monthly passes on the 1st, and the chronicle and autosave on day 365.](../images/time-and-the-tick-calendar.svg)
+
+![Phase order of one day: daily steps, then weekly, then monthly, then yearly.](../images/time-and-the-tick-phase-order.svg)
+
+![Bar chart of real seconds per game year at speeds x1 to x5, from 182.5 seconds down to 4.1 seconds.](../images/time-and-the-tick-speed-chart.svg)
+
 | Rhythm | When it fires | What runs |
 | --- | --- | --- |
 | Daily | Every day | Market housekeeping (cleans up numbers, no trading) and [war](war.md): army movement, combat, fronts |
@@ -63,6 +69,8 @@ You start the 1830 campaign on 1 January and, on 3 January (day 2), drag the poo
 - **Give orders while paused.** Commands apply the moment you issue them, even at Pause: building a factory, enacting a reform, declaring war or moving a slider all take effect on the spot. What waits is the system that reads the result (for example the budget reads your tax slider on the 1st), and that system cannot run until you unpause.
 - **Read a frozen number correctly.** Prices move once a week and population once a month. A figure that has not changed since yesterday is usually just between ticks.
 - **In multiplayer, only the session leader can change speed.** Other players see the buttons greyed out.
+
+![Top bar of the 1830 campaign with the date, the Paused badge and the Pause and x1 to x5 speed buttons.](../images/time-and-the-tick-top-bar.png)
 
 Tips:
 

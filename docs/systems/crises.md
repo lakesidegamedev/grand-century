@@ -10,6 +10,13 @@ Once a month, after [diplomacy](diplomacy.md), the crisis pass runs:
 2. **If a crisis is running,** it heats up, other great powers may join, and it may end.
 3. **If not,** and tension is at least 35 and no cooldown is running, there is a monthly chance a crisis spawns.
 
+![Lifecycle of a crisis from tension to showdown, congress, war or fizzle.](../images/crises-lifecycle.svg)
+
+![Stacked bars of tension sources in an example world, and crisis spawn chance against tension.](../images/crises-tension-chart.svg)
+
+*The world in the first panel is an illustration; the rates and caps are the game's.*
+
+
 Tension has six causes, each capped, and you can see every one itemised by hovering over the tension number:
 
 | Cause | Amount per month | Cap |
@@ -42,6 +49,8 @@ The crisis then gains temperature each month: 7 plus a random 0 to 5, plus 0.6 p
 ### Worked example
 
 Two blocs reach showdown. The pressing bloc has a power of 120, the resisting bloc 90. Ratio is 120 / 90 = 1.33, under 1.45, so neither side is clearly stronger: the blocs go to war. If the pressing bloc had 140 instead, 140 / 90 = 1.56 and the weaker lead backs down at a congress. The stronger lead gains 10 + 0.1 x temperature prestige (at temperature 80, that is 18); the loser loses 8 + 0.08 x temperature (14.4).
+
+![Bar of power ratio split into showdown outcome bands.](../images/crises-showdown-chart.svg)
 
 ## What you can do
 

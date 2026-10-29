@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 340" width="640" height="340" font-family='system-ui, -apple-system, "Segoe UI", Roboto, sans-serif' role="img" aria-label="Number line of core-state share from 0 to 100 percent. An alarm starts at 50 percent and costs 1.5 opinion a month. Rivalry starts at 80 percent and costs 3 a month, turning neutral relations into rivalry. For each nation the thresholds shift to its seed share plus 10 and plus 20 points, capped at 90 and 95 percent. A unification war goal costs 60 percent of normal infamy.">
+<title>Number line of core-state share from 0 to 100 percent. An alarm starts at 50 percent and costs 1.5 opinion a month. Rivalry starts at 80 percent and costs 3 a month, turning neutral relations into rivalry. For each nation the thresholds shift to its seed share plus 10 and plus 20 points, capped at 90 and 95 percent. A unification war goal costs 60 percent of normal infamy.</title><defs><marker id="ahg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52525b"/></marker><marker id="ahb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="ahr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker></defs>
+<rect x="0.5" y="0.5" width="639" height="339" fill="#fff" stroke="#d4d4d8"/>
+<text x="16" y="26" font-size="15" font-weight="600" fill="#27272a">Balance of power: share of core states held</text>
+<rect x="40" y="130" width="280" height="30" fill="#f4f4f5" stroke="#a1a1aa"/>
+<rect x="320" y="130" width="168" height="30" fill="#fef3c7" stroke="#a1a1aa"/>
+<rect x="488" y="130" width="112" height="30" fill="#fecaca" stroke="#a1a1aa"/>
+<text x="180" y="150" font-size="12" text-anchor="middle" fill="#27272a" font-weight="400">No reaction</text>
+<text x="404" y="150" font-size="12" text-anchor="middle" fill="#27272a" font-weight="600">Alarm</text>
+<text x="544" y="150" font-size="12" text-anchor="middle" fill="#dc2626" font-weight="600">Rivalry</text>
+<line x1="40" y1="160" x2="40" y2="166" stroke="#27272a"/>
+<text x="40" y="180" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">0%</text>
+<line x1="180" y1="160" x2="180" y2="166" stroke="#27272a"/>
+<text x="180" y="180" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">25%</text>
+<line x1="320" y1="160" x2="320" y2="166" stroke="#27272a"/>
+<text x="320" y="180" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">50%</text>
+<line x1="460" y1="160" x2="460" y2="166" stroke="#27272a"/>
+<text x="460" y="180" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">75%</text>
+<line x1="600" y1="160" x2="600" y2="166" stroke="#27272a"/>
+<text x="600" y="180" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">100%</text>
+<text x="314" y="100" font-size="11.5" text-anchor="end" fill="#27272a" font-weight="400">Alarm at 50%: opinion -1.5 a month</text>
+<polyline points="320,106 320,128" fill="none" stroke="#52525b" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#ahg)"/>
+<text x="600" y="76" font-size="11.5" text-anchor="end" fill="#dc2626" font-weight="400">Rivalry at 80%: -3 a month,</text>
+<text x="600" y="90" font-size="11.5" text-anchor="end" fill="#dc2626" font-weight="400">neutral becomes rivalry</text>
+<polyline points="488,96 488,128" fill="none" stroke="#dc2626" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#ahr)"/>
+<text x="40" y="52" font-size="12" text-anchor="start" fill="#52525b" font-weight="400">Share of the nation’s core states that you hold</text>
+<rect x="30" y="214" width="280" height="52" rx="6" fill="#f4f4f5" stroke="#a1a1aa" stroke-width="1.5"/>
+<text x="170" y="229.9" font-size="11" text-anchor="middle" fill="#27272a" font-weight="400">Per nation: the alarm moves to the seed</text>
+<text x="170" y="243.9" font-size="11" text-anchor="middle" fill="#27272a" font-weight="400">share plus 10 points (cap 90%), rivalry to</text>
+<text x="170" y="257.9" font-size="11" text-anchor="middle" fill="#27272a" font-weight="400">plus 20 points (cap 95%).</text>
+<rect x="330" y="214" width="280" height="52" rx="6" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+<text x="470" y="236.9" font-size="11" text-anchor="middle" fill="#27272a" font-weight="400">Unification war goal: infamy is 60% of</text>
+<text x="470" y="250.9" font-size="11" text-anchor="middle" fill="#27272a" font-weight="400">normal.</text>
+<text x="16" y="308" font-size="11" text-anchor="start" fill="#52525b" font-weight="400">The thresholds are never lower than 50% and 80%.</text>
+</svg>

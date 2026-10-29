@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" font-family='system-ui, -apple-system, "Segoe UI", Roboto, sans-serif' role="img" aria-label="Bar chart of the chance that an event fires at a check against the number of eligible events, for events with mean time to happen 100 months and 12 months. Slow events add very little, while faster ones reach the 42 percent cap.">
+<title>Bar chart of the chance that an event fires at a check against the number of eligible events, for events with mean time to happen 100 months and 12 months. Slow events add very little, while faster ones reach the 42 percent cap.</title>
+<rect x="0.5" y="0.5" width="639" height="359" fill="#fff" stroke="#d4d4d8"/>
+<text x="16" y="26" font-size="15" font-weight="600" fill="#27272a">Chance an event fires at a check</text>
+<line x1="62" y1="290" x2="618" y2="290" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="56" y="294" font-size="11" text-anchor="end" fill="#52525b" font-weight="400">0%</text>
+<line x1="62" y1="235.78" x2="618" y2="235.78" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="56" y="239.78" font-size="11" text-anchor="end" fill="#52525b" font-weight="400">10%</text>
+<line x1="62" y1="181.56" x2="618" y2="181.56" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="56" y="185.56" font-size="11" text-anchor="end" fill="#52525b" font-weight="400">20%</text>
+<line x1="62" y1="127.33" x2="618" y2="127.33" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="56" y="131.33" font-size="11" text-anchor="end" fill="#52525b" font-weight="400">30%</text>
+<line x1="62" y1="62.27" x2="618" y2="62.27" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="56" y="66.27" font-size="11" text-anchor="end" fill="#52525b" font-weight="400">42%</text>
+<line x1="62" y1="290" x2="618" y2="290" stroke="#a1a1aa" stroke-width="1" stroke-opacity="1"/>
+<line x1="62" y1="46" x2="62" y2="290" stroke="#a1a1aa" stroke-width="1" stroke-opacity="1"/>
+<text x="340" y="326" font-size="12" text-anchor="middle" fill="#27272a" font-weight="400">Number of eligible events (each weight 1)</text>
+<text x="20" y="168" font-size="12" text-anchor="middle" fill="#27272a" font-weight="400" transform="rotate(-90 20 168)">Chance something fires (%)</text>
+<line x1="62" y1="62.27" x2="618" y2="62.27" stroke="#dc2626" stroke-width="1.3" stroke-opacity="1" stroke-dasharray="5 4"/>
+<text x="66" y="57.27" font-size="11" text-anchor="start" fill="#dc2626" font-weight="400">cap 42%</text>
+<rect x="65.13" y="286.48" width="13.9" height="3.52" fill="#2563eb" fill-opacity="0.9"/>
+<rect x="79.72" y="260.63" width="13.9" height="29.37" fill="#dc2626" fill-opacity="0.75"/>
+<text x="79.38" y="306" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">1</text>
+<rect x="99.88" y="282.95" width="13.9" height="7.05" fill="#2563eb" fill-opacity="0.9"/>
+<rect x="114.47" y="231.26" width="13.9" height="58.74" fill="#dc2626" fill-opacity="0.75"/>
+<text x="114.13" y="306" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">2</text>
+<rect x="134.63" y="279.43" width="13.9" height="10.57" fill="#2563eb" fill-opacity="0.9"/>
+<rect x="149.22" y="201.89" width="13.9" height="88.11" fill="#dc2626" fill-opacity="0.75"/>
+<text x="148.88" y="306" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">3</text>
+<rect x="169.38" y="275.9" width="13.9" height="14.1" fill="#2563eb" fill-opacity="0.9"/>
+<rect x="183.97" y="172.52" width="13.9" height="117.48" fill="#dc2626" fill-opacity="0.75"/>
+<text x="183.63" y="306" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">4</text>
+<rect x="204.13" y="272.38" width="13.9" height="17.62" fill="#2563eb" fill-opacity="0.9"/>
+<rect x="218.72" y="143.15" width="13.9" height="146.85" fill="#dc2626" fill-opacity="0.75"/>
+<text x="218.38" y="306" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">5</text>
+<rect x="238.88" y="268.85" width="13.9" height="21.15" fill="#2563eb" fill-opacity="0.9"/>
+<rect x="253.47" y="113.78" width="13.9" height="176.22" fill="#dc2626" fill-opacity="0.75"/>
+<text x="253.13" y="306" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">6</text>
+<rect x="273.63" y="265.33" width="13.9" height="24.67" fill="#2563eb" fill-opacity="0.9"/>
+<rect x="288.22" y="84.41" width="13.9" height="205.59" fill="#dc2626" fill-opacity="0.75"/>
+<text x="287.88" y="306" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">7</text>
+<rect x="308.38" y="261.8" width="13.9" height="28.2" fill="#2563eb" fill-opacity="0.9"/>
+<rect x="322.97" y="62.27" width="13.9" height="227.73" fill="#dc2626" fill-opacity="0.75"/>
+<text x="322.63" y="306" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">8</text>
+<rect x="343.13" y="258.28" width="13.9" height="31.72" fill="#2563eb" fill-opacity="0.9"/>
+<rect x="357.72" y="62.27" width="13.9" height="227.73" fill="#dc2626" fill-opacity="0.75"/>
+<text x="357.38" y="306" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">9</text>
+<rect x="377.88" y="254.76" width="13.9" height="35.24" fill="#2563eb" fill-opacity="0.9"/>
+<rect x="392.47" y="62.27" width="13.9" height="227.73" fill="#dc2626" fill-opacity="0.75"/>
+<text x="392.13" y="306" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">10</text>
+<rect x="412.63" y="251.23" width="13.9" height="38.77" fill="#2563eb" fill-opacity="0.9"/>
+<rect x="427.22" y="62.27" width="13.9" height="227.73" fill="#dc2626" fill-opacity="0.75"/>
+<text x="426.88" y="306" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">11</text>
+<rect x="447.38" y="247.71" width="13.9" height="42.29" fill="#2563eb" fill-opacity="0.9"/>
+<rect x="461.97" y="62.27" width="13.9" height="227.73" fill="#dc2626" fill-opacity="0.75"/>
+<text x="461.63" y="306" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">12</text>
+<rect x="482.13" y="244.18" width="13.9" height="45.82" fill="#2563eb" fill-opacity="0.9"/>
+<rect x="496.72" y="62.27" width="13.9" height="227.73" fill="#dc2626" fill-opacity="0.75"/>
+<text x="496.38" y="306" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">13</text>
+<rect x="516.88" y="240.66" width="13.9" height="49.34" fill="#2563eb" fill-opacity="0.9"/>
+<rect x="531.47" y="62.27" width="13.9" height="227.73" fill="#dc2626" fill-opacity="0.75"/>
+<text x="531.13" y="306" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">14</text>
+<rect x="551.63" y="237.13" width="13.9" height="52.87" fill="#2563eb" fill-opacity="0.9"/>
+<rect x="566.22" y="62.27" width="13.9" height="227.73" fill="#dc2626" fill-opacity="0.75"/>
+<text x="565.88" y="306" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">15</text>
+<rect x="90" y="87" width="12" height="12" fill="#2563eb" fill-opacity="1"/>
+<text x="108" y="97" font-size="11.5" text-anchor="start" fill="#27272a" font-weight="400">Mean time to happen 100 months</text>
+<rect x="90" y="105" width="12" height="12" fill="#dc2626" fill-opacity="0.75"/>
+<text x="108" y="115" font-size="11.5" text-anchor="start" fill="#27272a" font-weight="400">Mean time to happen 12 months</text>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" font-family='system-ui, -apple-system, "Segoe UI", Roboto, sans-serif' role="img" aria-label="Line chart of monthly assimilation against the local share of primary or accepted culture, a curve with exponent 1.5 for three culture policies at literacy 0.4, with the 0.6 percent base rate marked.">
+<title>Line chart of monthly assimilation against the local share of primary or accepted culture, a curve with exponent 1.5 for three culture policies at literacy 0.4, with the 0.6 percent base rate marked.</title>
+<rect x="0.5" y="0.5" width="639" height="359" fill="#fff" stroke="#d4d4d8"/>
+<text x="16" y="26" font-size="15" font-weight="600" fill="#27272a">Monthly assimilation against local majority share</text>
+<line x1="66" y1="290" x2="618" y2="290" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="60" y="294" font-size="11" text-anchor="end" fill="#52525b" font-weight="400">0</text>
+<line x1="66" y1="241.2" x2="618" y2="241.2" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="60" y="245.2" font-size="11" text-anchor="end" fill="#52525b" font-weight="400">0.2</text>
+<line x1="66" y1="192.4" x2="618" y2="192.4" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="60" y="196.4" font-size="11" text-anchor="end" fill="#52525b" font-weight="400">0.4</text>
+<line x1="66" y1="143.6" x2="618" y2="143.6" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="60" y="147.6" font-size="11" text-anchor="end" fill="#52525b" font-weight="400">0.6</text>
+<line x1="66" y1="94.8" x2="618" y2="94.8" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="60" y="98.8" font-size="11" text-anchor="end" fill="#52525b" font-weight="400">0.8</text>
+<line x1="66" y1="46" x2="618" y2="46" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="60" y="50" font-size="11" text-anchor="end" fill="#52525b" font-weight="400">1</text>
+<line x1="66" y1="46" x2="66" y2="290" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="66" y="306" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">0%</text>
+<line x1="176.4" y1="46" x2="176.4" y2="290" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="176.4" y="306" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">20%</text>
+<line x1="286.8" y1="46" x2="286.8" y2="290" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="286.8" y="306" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">40%</text>
+<line x1="397.2" y1="46" x2="397.2" y2="290" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="397.2" y="306" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">60%</text>
+<line x1="507.6" y1="46" x2="507.6" y2="290" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="507.6" y="306" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">80%</text>
+<line x1="618" y1="46" x2="618" y2="290" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="618" y="306" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">100%</text>
+<line x1="66" y1="290" x2="618" y2="290" stroke="#a1a1aa" stroke-width="1" stroke-opacity="1"/>
+<line x1="66" y1="46" x2="66" y2="290" stroke="#a1a1aa" stroke-width="1" stroke-opacity="1"/>
+<text x="342" y="326" font-size="12" text-anchor="middle" fill="#27272a" font-weight="400">Primary plus accepted culture share of the province</text>
+<text x="22" y="168" font-size="12" text-anchor="middle" fill="#27272a" font-weight="400" transform="rotate(-90 22 168)">Assimilation per month (%)</text>
+<line x1="66" y1="143.6" x2="618" y2="143.6" stroke="#52525b" stroke-width="1.3" stroke-opacity="1" stroke-dasharray="5 4"/>
+<text x="70" y="137.6" font-size="11" text-anchor="start" fill="#52525b" font-weight="400">base 0.6%</text>
+<polyline fill="none" stroke="#dc2626" stroke-width="2.5" stroke-opacity="1" stroke-linejoin="round" stroke-linecap="round" points="66,290 71.52,289.84 77.04,289.55 82.56,289.18 88.08,288.74 93.6,288.23 99.12,287.68 104.64,287.07 110.16,286.42 115.68,285.73 121.2,285 126.72,284.23 132.24,283.43 137.76,282.59 143.28,281.72 148.8,280.81 154.32,279.88 159.84,278.92 165.36,277.93 170.88,276.91 176.4,275.86 181.92,274.78 187.44,273.68 192.96,272.56 198.48,271.41 204,270.24 209.52,269.04 215.04,267.82 220.56,266.57 226.08,265.31 231.6,264.02 237.12,262.71 242.64,261.38 248.16,260.03 253.68,258.65 259.2,257.26 264.72,255.85 270.24,254.41 275.76,252.96 281.28,251.49 286.8,250 292.32,248.49 297.84,246.96 303.36,245.42 308.88,243.85 314.4,242.27 319.92,240.67 325.44,239.05 330.96,237.42 336.48,235.77 342,234.1 347.52,232.41 353.04,230.71 358.56,228.99 364.08,227.26 369.6,225.51 375.12,223.74 380.64,221.96 386.16,220.16 391.68,218.35 397.2,216.52 402.72,214.67 408.24,212.81 413.76,210.94 419.28,209.05 424.8,207.14 430.32,205.22 435.84,203.29 441.36,201.34 446.88,199.38 452.4,197.4 457.92,195.41 463.44,193.4 468.96,191.38 474.48,189.35 480,187.3 485.52,185.24 491.04,183.17 496.56,181.08 502.08,178.98 507.6,176.86 513.12,174.74 518.64,172.6 524.16,170.44 529.68,168.27 535.2,166.09 540.72,163.9 546.24,161.69 551.76,159.48 557.28,157.25 562.8,155 568.32,152.75 573.84,150.48 579.36,148.2 584.88,145.9 590.4,143.6 595.92,141.28 601.44,138.95 606.96,136.61 612.48,134.25 618,131.89"/>
+<polyline fill="none" stroke="#2563eb" stroke-width="2.5" stroke-opacity="1" stroke-linejoin="round" stroke-linecap="round" points="66,290 71.52,289.87 77.04,289.63 82.56,289.32 88.08,288.95 93.6,288.53 99.12,288.06 104.64,287.56 110.16,287.02 115.68,286.44 121.2,285.83 126.72,285.19 132.24,284.52 137.76,283.82 143.28,283.1 148.8,282.35 154.32,281.57 159.84,280.76 165.36,279.94 170.88,279.09 176.4,278.22 181.92,277.32 187.44,276.4 192.96,275.47 198.48,274.51 204,273.53 209.52,272.53 215.04,271.51 220.56,270.48 226.08,269.42 231.6,268.35 237.12,267.26 242.64,266.15 248.16,265.02 253.68,263.88 259.2,262.72 264.72,261.54 270.24,260.35 275.76,259.14 281.28,257.91 286.8,256.67 292.32,255.41 297.84,254.14 303.36,252.85 308.88,251.54 314.4,250.23 319.92,248.89 325.44,247.54 330.96,246.18 336.48,244.81 342,243.42 347.52,242.01 353.04,240.59 358.56,239.16 364.08,237.72 369.6,236.26 375.12,234.78 380.64,233.3 386.16,231.8 391.68,230.29 397.2,228.76 402.72,227.23 408.24,225.68 413.76,224.11 419.28,222.54 424.8,220.95 430.32,219.35 435.84,217.74 441.36,216.12 446.88,214.48 452.4,212.83 457.92,211.17 463.44,209.5 468.96,207.82 474.48,206.13 480,204.42 485.52,202.7 491.04,200.97 496.56,199.23 502.08,197.48 507.6,195.72 513.12,193.95 518.64,192.16 524.16,190.37 529.68,188.56 535.2,186.74 540.72,184.92 546.24,183.08 551.76,181.23 557.28,179.37 562.8,177.5 568.32,175.62 573.84,173.73 579.36,171.83 584.88,169.92 590.4,168 595.92,166.07 601.44,164.12 606.96,162.17 612.48,160.21 618,158.24"/>
+<polyline fill="none" stroke="#2563eb" stroke-width="2.5" stroke-opacity="1" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="7 4" points="66,290 71.52,289.94 77.04,289.83 82.56,289.69 88.08,289.53 93.6,289.34 99.12,289.13 104.64,288.9 110.16,288.66 115.68,288.4 121.2,288.13 126.72,287.84 132.24,287.54 137.76,287.22 143.28,286.89 148.8,286.56 154.32,286.21 159.84,285.84 165.36,285.47 170.88,285.09 176.4,284.7 181.92,284.29 187.44,283.88 192.96,283.46 198.48,283.03 204,282.59 209.52,282.14 215.04,281.68 220.56,281.22 226.08,280.74 231.6,280.26 237.12,279.77 242.64,279.27 248.16,278.76 253.68,278.25 259.2,277.72 264.72,277.19 270.24,276.66 275.76,276.11 281.28,275.56 286.8,275 292.32,274.43 297.84,273.86 303.36,273.28 308.88,272.69 314.4,272.1 319.92,271.5 325.44,270.9 330.96,270.28 336.48,269.66 342,269.04 347.52,268.41 353.04,267.77 358.56,267.12 364.08,266.47 369.6,265.82 375.12,265.15 380.64,264.48 386.16,263.81 391.68,263.13 397.2,262.44 402.72,261.75 408.24,261.05 413.76,260.35 419.28,259.64 424.8,258.93 430.32,258.21 435.84,257.48 441.36,256.75 446.88,256.02 452.4,255.27 457.92,254.53 463.44,253.78 468.96,253.02 474.48,252.26 480,251.49 485.52,250.72 491.04,249.94 496.56,249.16 502.08,248.37 507.6,247.57 513.12,246.78 518.64,245.97 524.16,245.17 529.68,244.35 535.2,243.54 540.72,242.71 546.24,241.89 551.76,241.05 557.28,240.22 562.8,239.38 568.32,238.53 573.84,237.68 579.36,236.82 584.88,235.96 590.4,235.1 595.92,234.23 601.44,233.36 606.96,232.48 612.48,231.6 618,230.71"/>
+<line x1="90" y1="67" x2="110" y2="67" stroke="#dc2626" stroke-width="2.5" stroke-opacity="1"/>
+<text x="116" y="71" font-size="11.5" text-anchor="start" fill="#27272a" font-weight="400">Exclusionary (x1.2)</text>
+<line x1="90" y1="85" x2="110" y2="85" stroke="#2563eb" stroke-width="2.5" stroke-opacity="1"/>
+<text x="116" y="89" font-size="11.5" text-anchor="start" fill="#27272a" font-weight="400">Assimilationist (x1)</text>
+<line x1="90" y1="103" x2="110" y2="103" stroke="#2563eb" stroke-width="2.5" stroke-opacity="1" stroke-dasharray="7 4"/>
+<text x="116" y="107" font-size="11.5" text-anchor="start" fill="#27272a" font-weight="400">Pluralist (x0.45)</text>
+<circle cx="507.6" cy="195.72" r="4" fill="#2563eb" stroke="#fff" stroke-width="1.5"/>
+<text x="517.6" y="215.72" font-size="11" text-anchor="start" fill="#27272a" font-weight="400">0.386% at 80%</text>
+<text x="16" y="352" font-size="11" text-anchor="start" fill="#52525b" font-weight="400">Literacy 0.4, same religion, no movement. Rate = base x share^1.5 x (0.5 + literacy) x policy.</text>
+</svg>

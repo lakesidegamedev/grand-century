@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" font-family='system-ui, -apple-system, "Segoe UI", Roboto, sans-serif' role="img" aria-label="Line chart of research points per month against literacy: four lines for great powers and other nations with and without a 20 percent research-rate bonus, each rising at 4.8 points per unit of literacy from 1.4, or 2.9 for great powers.">
+<title>Line chart of research points per month against literacy: four lines for great powers and other nations with and without a 20 percent research-rate bonus, each rising at 4.8 points per unit of literacy from 1.4, or 2.9 for great powers.</title>
+<rect x="0.5" y="0.5" width="639" height="359" fill="#fff" stroke="#d4d4d8"/>
+<text x="16" y="26" font-size="15" font-weight="600" fill="#27272a">Research points per month against literacy</text>
+<line x1="62" y1="290" x2="618" y2="290" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="56" y="294" font-size="11" text-anchor="end" fill="#52525b" font-weight="400">0</text>
+<line x1="62" y1="229" x2="618" y2="229" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="56" y="233" font-size="11" text-anchor="end" fill="#52525b" font-weight="400">3</text>
+<line x1="62" y1="168" x2="618" y2="168" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="56" y="172" font-size="11" text-anchor="end" fill="#52525b" font-weight="400">6</text>
+<line x1="62" y1="107" x2="618" y2="107" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="56" y="111" font-size="11" text-anchor="end" fill="#52525b" font-weight="400">9</text>
+<line x1="62" y1="46" x2="618" y2="46" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="56" y="50" font-size="11" text-anchor="end" fill="#52525b" font-weight="400">12</text>
+<line x1="62" y1="46" x2="62" y2="290" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="62" y="306" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">0%</text>
+<line x1="173.2" y1="46" x2="173.2" y2="290" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="173.2" y="306" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">20%</text>
+<line x1="284.4" y1="46" x2="284.4" y2="290" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="284.4" y="306" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">40%</text>
+<line x1="395.6" y1="46" x2="395.6" y2="290" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="395.6" y="306" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">60%</text>
+<line x1="506.8" y1="46" x2="506.8" y2="290" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="506.8" y="306" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">80%</text>
+<line x1="618" y1="46" x2="618" y2="290" stroke="#e4e4e7" stroke-width="1" stroke-opacity="1"/>
+<text x="618" y="306" font-size="11" text-anchor="middle" fill="#52525b" font-weight="400">100%</text>
+<line x1="62" y1="290" x2="618" y2="290" stroke="#a1a1aa" stroke-width="1" stroke-opacity="1"/>
+<line x1="62" y1="46" x2="62" y2="290" stroke="#a1a1aa" stroke-width="1" stroke-opacity="1"/>
+<text x="340" y="326" font-size="12" text-anchor="middle" fill="#27272a" font-weight="400">National literacy</text>
+<text x="22" y="168" font-size="12" text-anchor="middle" fill="#27272a" font-weight="400" transform="rotate(-90 22 168)">Research points per month</text>
+<polyline fill="none" stroke="#dc2626" stroke-width="2.5" stroke-opacity="1" stroke-linejoin="round" stroke-linecap="round" points="62,219.24 73.12,216.9 84.24,214.56 95.36,212.21 106.48,209.87 117.6,207.53 128.72,205.19 139.84,202.84 150.96,200.5 162.08,198.16 173.2,195.82 184.32,193.47 195.44,191.13 206.56,188.79 217.68,186.45 228.8,184.1 239.92,181.76 251.04,179.42 262.16,177.08 273.28,174.73 284.4,172.39 295.52,170.05 306.64,167.71 317.76,165.36 328.88,163.02 340,160.68 351.12,158.34 362.24,156 373.36,153.65 384.48,151.31 395.6,148.97 406.72,146.63 417.84,144.28 428.96,141.94 440.08,139.6 451.2,137.26 462.32,134.91 473.44,132.57 484.56,130.23 495.68,127.89 506.8,125.54 517.92,123.2 529.04,120.86 540.16,118.52 551.28,116.17 562.4,113.83 573.52,111.49 584.64,109.15 595.76,106.8 606.88,104.46 618,102.12"/>
+<polyline fill="none" stroke="#dc2626" stroke-width="2.5" stroke-opacity="1" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="7 4" points="62,231.03 73.12,229.08 84.24,227.13 95.36,225.18 106.48,223.23 117.6,221.27 128.72,219.32 139.84,217.37 150.96,215.42 162.08,213.47 173.2,211.51 184.32,209.56 195.44,207.61 206.56,205.66 217.68,203.71 228.8,201.75 239.92,199.8 251.04,197.85 262.16,195.9 273.28,193.95 284.4,191.99 295.52,190.04 306.64,188.09 317.76,186.14 328.88,184.19 340,182.23 351.12,180.28 362.24,178.33 373.36,176.38 384.48,174.43 395.6,172.47 406.72,170.52 417.84,168.57 428.96,166.62 440.08,164.67 451.2,162.71 462.32,160.76 473.44,158.81 484.56,156.86 495.68,154.91 506.8,152.95 517.92,151 529.04,149.05 540.16,147.1 551.28,145.15 562.4,143.19 573.52,141.24 584.64,139.29 595.76,137.34 606.88,135.39 618,133.43"/>
+<polyline fill="none" stroke="#2563eb" stroke-width="2.5" stroke-opacity="1" stroke-linejoin="round" stroke-linecap="round" points="62,255.84 73.12,253.5 84.24,251.16 95.36,248.81 106.48,246.47 117.6,244.13 128.72,241.79 139.84,239.44 150.96,237.1 162.08,234.76 173.2,232.42 184.32,230.07 195.44,227.73 206.56,225.39 217.68,223.05 228.8,220.7 239.92,218.36 251.04,216.02 262.16,213.68 273.28,211.33 284.4,208.99 295.52,206.65 306.64,204.31 317.76,201.96 328.88,199.62 340,197.28 351.12,194.94 362.24,192.6 373.36,190.25 384.48,187.91 395.6,185.57 406.72,183.23 417.84,180.88 428.96,178.54 440.08,176.2 451.2,173.86 462.32,171.51 473.44,169.17 484.56,166.83 495.68,164.49 506.8,162.14 517.92,159.8 529.04,157.46 540.16,155.12 551.28,152.77 562.4,150.43 573.52,148.09 584.64,145.75 595.76,143.4 606.88,141.06 618,138.72"/>
+<polyline fill="none" stroke="#2563eb" stroke-width="2.5" stroke-opacity="1" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="7 4" points="62,261.53 73.12,259.58 84.24,257.63 95.36,255.68 106.48,253.73 117.6,251.77 128.72,249.82 139.84,247.87 150.96,245.92 162.08,243.97 173.2,242.01 184.32,240.06 195.44,238.11 206.56,236.16 217.68,234.21 228.8,232.25 239.92,230.3 251.04,228.35 262.16,226.4 273.28,224.45 284.4,222.49 295.52,220.54 306.64,218.59 317.76,216.64 328.88,214.69 340,212.73 351.12,210.78 362.24,208.83 373.36,206.88 384.48,204.93 395.6,202.97 406.72,201.02 417.84,199.07 428.96,197.12 440.08,195.17 451.2,193.21 462.32,191.26 473.44,189.31 484.56,187.36 495.68,185.41 506.8,183.45 517.92,181.5 529.04,179.55 540.16,177.6 551.28,175.65 562.4,173.69 573.52,171.74 584.64,169.79 595.76,167.84 606.88,165.89 618,163.93"/>
+<line x1="90" y1="67" x2="110" y2="67" stroke="#dc2626" stroke-width="2.5" stroke-opacity="1"/>
+<text x="116" y="71" font-size="11.5" text-anchor="start" fill="#27272a" font-weight="400">Great power, +20% research rate</text>
+<line x1="90" y1="84" x2="110" y2="84" stroke="#dc2626" stroke-width="2.5" stroke-opacity="1" stroke-dasharray="7 4"/>
+<text x="116" y="88" font-size="11.5" text-anchor="start" fill="#27272a" font-weight="400">Great power, no bonus</text>
+<line x1="90" y1="101" x2="110" y2="101" stroke="#2563eb" stroke-width="2.5" stroke-opacity="1"/>
+<text x="116" y="105" font-size="11.5" text-anchor="start" fill="#27272a" font-weight="400">Other nation, +20% research rate</text>
+<line x1="90" y1="118" x2="110" y2="118" stroke="#2563eb" stroke-width="2.5" stroke-opacity="1" stroke-dasharray="7 4"/>
+<text x="116" y="122" font-size="11.5" text-anchor="start" fill="#27272a" font-weight="400">Other nation, no bonus</text>
+<circle cx="62" cy="261.53" r="4" fill="#2563eb" stroke="#fff" stroke-width="1.5"/>
+<text x="70" y="277.53" font-size="11" text-anchor="start" fill="#27272a" font-weight="400">1.4</text>
+<circle cx="62" cy="231.03" r="4" fill="#dc2626" stroke="#fff" stroke-width="1.5"/>
+<text x="70" y="235.03" font-size="11" text-anchor="start" fill="#27272a" font-weight="400">2.9</text>
+<text x="16" y="352" font-size="11" text-anchor="start" fill="#52525b" font-weight="400">Points = (1.4 + 4.8 x literacy + 1.5 if a great power) x (1 + research rate).</text>
+</svg>

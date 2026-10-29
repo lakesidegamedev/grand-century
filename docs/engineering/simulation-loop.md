@@ -56,6 +56,8 @@ advanceDay(world, data)
   world.rngState = rng.state
 ```
 
+![Timeline of one advanceDay call with its daily, weekly, monthly and yearly lanes and the load-bearing ordering pairs.](../images/simulation-loop-full-order.svg)
+
 `runWarDaily` is not a flat daily pass. When no war, mobilisation, colonial claim or
 moving force exists it does almost nothing: it refreshes colonial points every 30th day
 and runs rebellion upkeep every 7th day, then returns. Details are on the
