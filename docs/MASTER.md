@@ -2,15 +2,17 @@
 
 A browser-based grand strategy game about the long nineteenth century.
 
-Historical: this is the original scoping spec. The game has since shipped (version 1.7.0, `package.json`) with a MapLibre map (`maplibre-gl`), React 19 and a multiplayer server (`server/index.ts`, `server/session.ts`). The map renderer and other open questions below are resolved, and the province caps and multiplayer non-goal describe the original plan only.
+**Historical document.** This is the original scoping spec, kept for context. The game has since shipped (version 1.7.0) with a MapLibre map, React 19, seven start-date scenarios and a multiplayer server. Where this page and the code disagree, the code wins. Current references: [Architecture](engineering/architecture.md), [The simulation loop](engineering/simulation-loop.md), [Snapshots and the protocol](engineering/snapshots-and-protocol.md) and the player pages in `docs/systems/`, starting with [Time and the tick](systems/time-and-the-tick.md).
+
+Notes on what changed from the plan below: multiplayer is no longer a non-goal; the map has 2,141 provinces rather than 800 to 1500; deck.gl and SharedArrayBuffer snapshots were never adopted; Section 8 (build workflow) has been removed.
 
 ---
 
 ## 1. Context: why this document exists
 
-The goal is a from-scratch, single-player web game with a living 19th-century world you steer as a nation, watching population, industry, and armies evolve on a historical map. It must run entirely in the browser (client-side, no server sim), feel performant, and look beautiful.
+The goal was a from-scratch, browser-based web game with a living 19th-century world you steer as a nation, watching population, industry, and armies evolve on a historical map. The plan was for it to run entirely in the browser (client-side, no server sim), feel performant, and look beautiful. Multiplayer was added later and reuses the same simulation code on a Node server.
 
-This is greenfield, there is no existing codebase. This document is the **master spec**: it defines the vision, the simulation model, the tech architecture, the data pipeline, the milestone roadmap, and the AI-assisted execution workflow. Every subsequent work session should be scoped against a section here.
+This document was the **master spec**: it defined the vision, the simulation model, the tech architecture, the data pipeline and the milestone roadmap.
 
 ### Confirmed decisions (from scoping)
 | Decision | Choice | Consequence |
@@ -32,7 +34,7 @@ This is greenfield, there is no existing codebase. This document is the **master
 3. **Everything feeds the war engine.** Economy → money & goods for armies. Pops → soldiers & taxes. Politics → what reforms/mobilization you can enact. Diplomacy → alliances, casus belli, spheres. No pillar is a dead end.
 4. **Legible depth.** We keep systemic depth but expose *why* things happen through tooltips that trace every number to its inputs.
 
-**Explicit non-goals (to protect scope):** multiplayer; modding tools; an encyclopedic scripted event tree; historically exact pop/goods numbers (we seed *plausible* history, then let the sim diverge).
+**Explicit non-goals at the time (to protect scope):** multiplayer (since added); modding tools; an encyclopedic scripted event tree; historically exact pop/goods numbers (we seed *plausible* history, then let the sim diverge).
 
 ---
 
@@ -40,12 +42,15 @@ This is greenfield, there is no existing codebase. This document is the **master
 
 The sim is **real-time-with-pause**: five speeds plus pause. Base unit is a **day/tick**; heavier systems resolve on coarser cadences to stay cheap.
 
-### 3.1 Tick cadences
-| Cadence | Systems |
+### 3.1 Tick cadences (as shipped, from `src/sim/world.ts`)
+| Cadence | Systems, in order |
 |---|---|
-| **Daily** | Army movement, combat resolution, siege/occupation progress, construction progress, market price adjustment. |
-| **Weekly** | Pop needs satisfaction & consumption, factory production run, trade clearing. |
-| **Monthly** | Budget (taxes/tariffs/spending), pop growth, migration, pop promotion/demotion, research points, diplomacy AI, prestige/GP ranking recompute. |
+| **Daily** | Market housekeeping (sanitises prices and stock only), then war: army and fleet movement, combat, sieges and occupation. |
+| **Weekly** (every 7th day) | Market week opens, production, pop needs and consumption, stockpile orders, producers paid for what sold, then the market price move. |
+| **Monthly** (1st of the month) | Budget, pop growth and migration, culture, politics, research, diplomacy, crises, events, AI. |
+| **Yearly** (every 365th day) | One chronicle line for the player's nation. |
+
+Prices move weekly, not daily. See [The simulation loop](engineering/simulation-loop.md) for why the order matters.
 
 ### 3.2 Core entities
 - **Province**: owner, controller (for occupation), terrain, RGO (resource good + level), fort/naval-base level, buildings, list of pops, connectivity.
@@ -93,9 +98,9 @@ The sim is **real-time-with-pause**: five speeds plus pause. Base unit is a **da
 ┌────────────────────────── Main thread (60fps) ──────────────────────────┐
 │  React + TypeScript  ── panel UI (ledgers, diplomacy, budget, army)      │
 │  Zustand store       ── UI state + latest world snapshot (read-only)     │
-│  WebGL map renderer  ── MapLibre GL / deck.gl, GPU province fills        │
+│  WebGL map renderer  ── MapLibre GL, GPU province fills                  │
 └───────────────▲───────────────────────────────────┬────────────────────┘
-                │ snapshot (structured-clone/SharedArrayBuffer)            │ commands (player intents)
+                │ snapshot (structured-clone)                              │ commands (player intents)
 ┌───────────────┴───────────────────────────────────▼────────────────────┐
 │  Web Worker: the simulation                                             │
 │  Pure-TS deterministic engine: pops · market · politics · diplo · WAR   │
@@ -108,22 +113,20 @@ The sim is **real-time-with-pause**: five speeds plus pause. Base unit is a **da
 ### 4.1 Stack (my recommendation for "most performant & beautiful")
 - **Language:** TypeScript, strict mode, everywhere (UI + sim share domain types).
 - **Build:** Vite (fast HMR, worker & WASM support out of the box).
-- **UI:** React + TypeScript (React 19 as shipped). Panels/ledgers are the bulk of the screen; React's ecosystem is the most AI-codegen-friendly and the UI is *not* the perf bottleneck (the worker is).
-- **Map (the "beautiful" part):** **WebGL, GPU-accelerated.** Province fills recolor by owner/mapmode without CPU redraw. Two viable renderers: pick in M1 spike:
-  - **MapLibre GL JS**: real 1830 geography from GeoJSON/vector tiles, paper-map styling, pan/zoom for free. Best "beautiful historical map" out of the box.
-  - **deck.gl (+ optional MapLibre base)**: better for data overlays (mapmodes: political/economic/pop/military) and huge feature counts.
-  - *Decision:* prototype MapLibre first; add deck.gl overlay layer for mapmodes if fills alone aren't enough.
+- **UI:** React + TypeScript (React 19 as shipped). Panels/ledgers are the bulk of the screen; React's ecosystem is the broadest and the UI is *not* the perf bottleneck (the worker is).
+- **Map (the "beautiful" part):** **WebGL, GPU-accelerated.** Province fills recolor by owner/mapmode without CPU redraw. MapLibre GL JS gives real geography from GeoJSON, paper-map styling and pan/zoom for free.
+  - *Decision (shipped):* MapLibre only. deck.gl was considered for overlays and never needed.
 - **State:** Zustand (tiny, fast, no boilerplate) for UI + snapshot; the sim owns its own plain-object world model inside the worker.
-- **Sim performance:** typed arrays / struct-of-arrays for pops & provinces; consider **SharedArrayBuffer** for zero-copy snapshots (requires COOP/COEP headers). Hot loops stay allocation-free.
+- **Sim performance:** typed arrays / struct-of-arrays for pops & provinces; snapshots are compact summaries sent by structured clone, with detail views pulled on demand. Hot loops stay allocation-free.
 - **Persistence:** IndexedDB via `idb`, saves gzipped (`fflate`).
 - **Determinism:** single seeded PRNG (e.g. `mulberry32`) threaded through the sim so saves/replays are reproducible: also makes bugs reproducible.
 - **Testing:** Vitest for sim units (economy conservation, combat math, save/load round-trip); Playwright for smoke (load → advance 1 year → no crash).
 - **Optional later:** move the hottest sim inner loops to **AssemblyScript/WASM** only if profiling demands it: do *not* start there.
 
 ### 4.2 Why this beats the alternatives
-- **Svelte** is lovely but has a thinner AI-codegen corpus; React keeps generated code on rails.
+- **Svelte** is lovely but has a thinner ecosystem for data-heavy panels; React was the safer choice.
 - **Phaser/Pixi as the app framework** is wrong here: 80% of a grand-strategy screen is data panels, which engines handle worse than React. We still get WebGL where it matters (the map) via MapLibre/deck.gl.
-- **Server-side sim** is unnecessary (single-player) and would kill the "runs anywhere in a tab" goal.
+- **Server-side sim** was judged unnecessary for single-player and would have hurt the "runs anywhere in a tab" goal. The multiplayer server later reused the same sim code.
 
 ---
 
@@ -135,7 +138,7 @@ The sim is **real-time-with-pause**: five speeds plus pause. Base unit is a **da
     /sim            # pure TS, no DOM, runs in worker; the whole game model
       /systems      # market.ts, pops.ts, politics.ts, diplomacy.ts, war/*.ts
       /model        # entity types, world state, struct-of-arrays stores
-      world.ts      # tick loop, cadence dispatch, snapshot serialization
+      world.ts      # tick loop, cadence dispatch
       rng.ts
     /worker         # worker entry: command intake + snapshot emit
     /ui             # React components (panels, mapmodes, hud)
@@ -162,14 +165,14 @@ Historical Earth is the biggest *content* risk. Treat data as a **build step**, 
 4. **Goods & recipes:** the ~30-good list + factory recipes + pop need baskets.
 5. **Tech/reform trees:** compact JSON.
 
-**Build script** (`/content/build.ts`, run via node) validates and emits versioned artifacts into `/src/data`. Batch generation agents are well-suited to *generating and validating these large data tables* (Section 8).
+**Build script** (`/content/build.ts`, run via node) validates and emits versioned artifacts into `/src/data`. Large data tables are generated and validated by script.
 
 ---
 
-## 7. Performance budget
+## 7. Performance budget (original targets)
 
 - **Target:** 60fps map interaction at all times; a monthly tick for the full world resolves in **< 16ms of worker time** at fastest speed (worker stutter never touches the UI thread anyway).
-- **Province count:** 800 to 1500. Higher counts are a stretch for a JS/browser monthly pop pass; we cap and can raise later once profiled. **Log the cap** so it's never mistaken for "the whole world."
+- **Province count:** 800 to 1500 planned. The shipped world map has 2,141 provinces, so the cap was raised after profiling.
 - **Pops:** struct-of-arrays; process by type in tight loops; cap pop *count* by merging tiny same-attribute pops.
 - **Snapshots:** send diffs or a compact typed-array snapshot, not a deep clone of the whole world every frame. Map only re-uploads province colors that changed.
 - **Guardrail:** a perf test in CI that advances the world 5 sim-years headless and asserts a wall-clock ceiling.
@@ -178,19 +181,7 @@ Historical Earth is the biggest *content* risk. Treat data as a **build step**, 
 
 ## 8. Execution workflow
 
-This doc is the source of truth; each work session is a **scoped slice** of it.
-
-**Division of labor:**
-- **Interactive sessions (main-model quality):** architecture, the tick loop, combat/market math, anything where a wrong abstraction is expensive. Work milestone-by-milestone (Section 9); paste the relevant section as context.
-- **Batch generation agents:** high-volume, well-specified, verifiable work such as generating 1830 data tables, boilerplate panels from a component spec, test scaffolding, and repetitive system stubs. Human-readable source packets and validation gates remain authoritative.
-
-**Per-session ritual:**
-1. Name the milestone + acceptance criteria from Section 9.
-2. Point the tool at the exact files/dirs in Section 5.
-3. After generation: run `vitest` + the relevant smoke check *before* accepting.
-4. Keep the sim/UI boundary (Section 5) as a hard review gate: reject any sim code that touches the DOM.
-
-**Prompt hygiene:** give the tool the domain types from `shared/types.ts` first; ask for one system at a time; require tests alongside code.
+Superseded. The build process is not part of the public documentation. Contributors should follow [Architecture](engineering/architecture.md), in particular the verification gate and the sim/UI boundary.
 
 ---
 
@@ -226,24 +217,24 @@ Each milestone is **independently playable/verifiable**, the "broad-but-shallow 
 
 | Risk | Mitigation |
 |---|---|
-| **Historical map/data is a content black hole** | Cap provinces at 800 to 1500; generate seeds from rules + anchors, not by hand; make data a build step (Section 6) and delegate table generation to batch agents. |
+| **Historical map/data is a content black hole** | Cap provinces; generate seeds from rules + anchors, not by hand; make data a build step (Section 6). |
 | **Monthly full-world pop pass is slow** | Struct-of-arrays, pop merging, worker isolation, WASM only if profiled. Perf test in CI. |
 | **War (the star) balloons in scope** | Split M5 into land / naval+colonial; ship land war playable first. |
 | **"Broad-but-shallow" silently becomes broad-but-broken** | Each milestone has hard acceptance criteria; don't advance until green. |
 | **AI is the make-or-break for single-player fun** | M6 gives AI real weight; start with a competent economy+war heuristic AI, not a scripted one. |
-| **SharedArrayBuffer needs COOP/COEP headers** | Fall back to structured-clone snapshots if hosting can't set headers; measure before committing. |
+| **SharedArrayBuffer needs COOP/COEP headers** | Resolved: shipped with structured-clone snapshots. |
 | **System opacity** | Tooltips that trace every displayed number to its inputs, built in as a shared component from M2. |
 
 ---
 
-## 12. Open questions (resolve before or during M0)
+## 12. Open questions (original list, now resolved)
 
-1. **Map renderer:** MapLibre-only vs MapLibre+deck.gl overlay: decide via a 1-day M1 spike.
-2. **Art direction:** archival nineteenth-century atlas vs cleaner modern flat: pick a reference before M1 styling.
-3. **Time span & end date:** 1830 → 1930 as the authored century, or open-ended after 1920?
-4. **Save size / autosave cadence** acceptable to you (IndexedDB quota is generous but not infinite).
-5. **Hosting** target (static host is enough; only matters for the SharedArrayBuffer header question).
+1. **Map renderer:** MapLibre only.
+2. **Art direction:** archival nineteenth-century atlas, see [Architecture](engineering/architecture.md).
+3. **Time span:** seven start-date scenarios from 1700 to 1945.
+4. **Saves:** IndexedDB slots with a yearly rotating autosave, see [Snapshots and the protocol](engineering/snapshots-and-protocol.md).
+5. **Hosting:** static host for the web game plus a Node server for multiplayer.
 
 ---
 
-*This is the living master document. Each work session should cite the section it implements and update this file when a milestone's acceptance criteria change.*
+*Historical document. Last checked: 2026-10-29, version 1.7.0.*

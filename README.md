@@ -1,9 +1,10 @@
 # Grand Century
 
 A browser-based grand strategy game, playable single-player or on a multiplayer server, about the long nineteenth century.
-Take a nation in 1830, amid the fragile Concert of Europe and Atlantic revolutions, and
-carry it through a century of industry, reform, and conquest on a world whose population
-and markets move whether you are watching or not.
+The default campaign starts in 1830, amid the fragile Concert of Europe and Atlantic
+revolutions. You take a nation and carry it through a century of industry, reform, and
+conquest on a world whose population and markets move whether you are watching or not.
+Seven start dates ship as scenarios: 1700, 1776, 1815, 1830, 1914, 1936 and 1945.
 
 Play at [lakesidegames.net/games/grand-century](https://lakesidegames.net/games/grand-century/).
 
@@ -22,8 +23,25 @@ you can enact, diplomacy sets it up.
 **Legible depth.** Interlocking systems stay understandable through tooltips that trace a
 number back to the inputs that produced it.
 
-Real time with pause, five speeds, a daily tick, with the heavier systems resolving on
-coarser cadences to stay cheap in a browser tab.
+Real time with pause and five speeds. The world advances one day at a time, with the
+heavier systems resolving weekly, monthly or yearly to stay cheap in a browser tab. See
+[Time and the tick](docs/systems/time-and-the-tick.md).
+
+### System guides
+
+Each system has a player page that explains how it works and what you can do about it:
+[population](docs/systems/population.md),
+[production and industry](docs/systems/production-and-industry.md),
+[the world market](docs/systems/the-world-market.md),
+[budget and taxation](docs/systems/budget-and-taxation.md),
+[politics and reform](docs/systems/politics-and-reform.md),
+[culture and nationalism](docs/systems/culture-and-nationalism.md),
+[crises](docs/systems/crises.md),
+[events and decisions](docs/systems/events-and-decisions.md),
+[war](docs/systems/war.md),
+[diplomacy](docs/systems/diplomacy.md),
+[AI nations](docs/systems/ai-nations.md) and
+[research](docs/systems/research.md).
 
 ## Running it
 
@@ -37,7 +55,7 @@ integration preview, not a complete mobile release.
 GitHub Actions runs web/mobile checks and an unsigned iOS simulator compile.
 Signing and TestFlight distribution are separate from these compile checks.
 
-Requires Node 20+ (CI runs Node 22).
+Use Node 22, the version CI runs. `package.json` does not pin a minimum.
 
 ```bash
 npm install
@@ -54,10 +72,12 @@ tests, and headless for batch balance runs. `npm run season-report` and
 
 ## Design docs
 
-The full specification lives in [`docs/`](./docs). Start with
-[`docs/MASTER.md`](./docs/MASTER.md) for the simulation model and architecture, and
-[`docs/ARCHITECTURE.md`](./docs/ARCHITECTURE.md) for how the code is laid out. The
-`ROADMAP-*.md` files are the per-version scopes and are historical once shipped.
+Start with [`docs/ARCHITECTURE.md`](./docs/ARCHITECTURE.md) for the rules the code is
+built around, and the [engineering pages](docs/engineering/architecture.md) for the
+simulation loop and the worker protocol. [`docs/MASTER.md`](./docs/MASTER.md) is the
+original scoping spec and is kept as history. The `ROADMAP-*.md` files are the
+per-version scopes and are also historical once shipped. Multiplayer hosting is covered
+in [`docs/MULTIPLAYER-DEPLOY.md`](./docs/MULTIPLAYER-DEPLOY.md).
 
 ## License
 
