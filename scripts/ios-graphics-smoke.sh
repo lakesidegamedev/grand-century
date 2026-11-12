@@ -42,8 +42,8 @@ echo "Launching native graphics check"
 xcrun simctl launch "$device" net.lakesidegames.grandcentury
 container=$(xcrun simctl get_app_container "$device" net.lakesidegames.grandcentury data)
 # Multiple native readbacks for day, night and weather serialize GPU work.
-# Keep a bounded six-minute evidence window; visual and camera gates are unchanged.
-for attempt in $(seq 1 180); do
+# Keep a bounded ten-minute evidence window (CI runners need about 8 for three phases); visual and camera gates are unchanged.
+for attempt in $(seq 1 300); do
   if [ -f "$container/Documents/graphics-smoke.json" ]; then
     cp "$container/Documents/graphics-smoke.json" "$evidence/result.json"
     xcrun simctl io "$device" screenshot "$evidence/native-high.png"

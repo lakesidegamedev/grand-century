@@ -4,6 +4,11 @@ All notable changes to Grand Century are documented here.
 
 ## [Unreleased]
 
+- **Readable place and nation names.** Nations like "Deutsches Reich" and
+  "Reino de Portugal" now read as "German Empire" and "Kingdom of Portugal",
+  and states that share a name show the owner's proper name instead of a
+  raw code. Saves are unaffected.
+
 ### A new world map
 
 - **Real borders, about five times the provinces.** The world is rebuilt from

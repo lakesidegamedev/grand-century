@@ -10,6 +10,8 @@
  *   formable candidates:                18  (was 20; PAR and VEN have no tag in the Vic2 1830 cut)
  *   zero of all three:                  28 nations
  */
+import fs from 'node:fs';
+import path from 'node:path';
 import { describe, expect, it } from 'vitest';
 import { DECISION_DEFS } from '../src/data/decisions';
 import { EVENT_DEFS } from '../src/data/events';
@@ -428,5 +430,46 @@ describe('generated map adjacency', () => {
     }
     expect(asymmetric).toEqual([]);
     expect(stranded).toEqual([]);
+  });
+});
+
+describe('display names are English and readable', () => {
+  const root = path.resolve(__dirname, '..');
+  const seedFiles = [
+    'src/data/generated/worldSeed.json',
+    ...fs
+      .readdirSync(path.join(root, 'src/data/scenarios'))
+      .map((dir) => `src/data/scenarios/${dir}/worldSeed.json`)
+      .filter((file) => fs.existsSync(path.join(root, file))),
+  ];
+  // Raw polity keys (REINO_DE_MEXICO), tags in parentheses, underscores and
+  // all-caps words are never display text. Latin diacritics are fine.
+  const RAW_KEY = /_|\([A-Z0-9_]{2,}\)|\b[A-Z]{5,}\b/;
+  // Local-language state or polity words that must read as English.
+  const LOCAL_WORDS = /\b(Reich|Reino|Republica|Estado do|Königreich|Koninkrijk|Koningrijk|Herzogtum|Colonie|Kolonie|Regno|Ducato|Status)\b/;
+
+  it('nation, state and province names carry no raw keys, native scripts or local-language polity words', () => {
+    const bad: string[] = [];
+    for (const file of seedFiles) {
+      const seed = JSON.parse(fs.readFileSync(path.join(root, file), 'utf8')) as {
+        nations: { tag: string; name: string }[];
+        states: { id: number; name: string }[];
+        provinces: { id: number; name: string; stateName: string }[];
+      };
+      const check = (kind: string, id: string | number, name: string) => {
+        const nonLatin = [...name].some((ch) => ch.charCodeAt(0) > 127 && !/\p{Script=Latin}/u.test(ch));
+        const lowerPhrase = name === name.toLowerCase() && name.includes(' ');
+        if (RAW_KEY.test(name) || LOCAL_WORDS.test(name) || nonLatin || lowerPhrase || name !== name.trim()) {
+          bad.push(`${file} ${kind} ${id}: ${name}`);
+        }
+      };
+      for (const nation of seed.nations) check('nation', nation.tag, nation.name);
+      for (const state of seed.states) check('state', state.id, state.name);
+      for (const province of seed.provinces) {
+        check('province', province.id, province.name);
+        check('provinceState', province.id, province.stateName);
+      }
+    }
+    expect(bad.slice(0, 20)).toEqual([]);
   });
 });

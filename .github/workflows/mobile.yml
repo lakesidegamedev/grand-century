@@ -114,7 +114,7 @@ jobs:
           -derivedDataPath "$RUNNER_TEMP/grand-century-derived"
           CODE_SIGNING_ALLOWED=NO build
       - name: Render on an iPhone simulator
-        timeout-minutes: 10
+        timeout-minutes: 15
         run: bash scripts/ios-graphics-smoke.sh
       - name: Upload native rendering evidence
         if: always()
