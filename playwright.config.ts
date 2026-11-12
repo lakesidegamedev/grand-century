@@ -1,5 +1,20 @@
 import { defineConfig } from '@playwright/test';
 
+/**
+ * Headless Chromium on a GPU-less machine falls back to software GL on a
+ * best-effort basis, and that fallback intermittently fails under load with
+ * "Failed to initialize WebGL" (issue #31). Pin it to ANGLE + SwiftShader, the
+ * same stack the CI graphics configs use, so map specs get a WebGL context
+ * deterministically.
+ */
+const SOFTWARE_GL_ARGS = [
+  '--enable-webgl',
+  '--use-gl=angle',
+  '--use-angle=swiftshader',
+  '--enable-unsafe-swiftshader',
+  '--ignore-gpu-blocklist',
+];
+
 export default defineConfig({
   testDir: './tests/e2e',
   timeout: 90_000,
@@ -10,6 +25,8 @@ export default defineConfig({
    * with PW_WORKERS on a machine with headroom.
    */
   workers: process.env.PW_WORKERS ? Number(process.env.PW_WORKERS) : 1,
+  /** One retry absorbs a residual software-GL init hiccup under host load. */
+  retries: process.env.PW_RETRIES ? Number(process.env.PW_RETRIES) : 1,
   projects: [
     {
       name: 'dev',
@@ -17,6 +34,7 @@ export default defineConfig({
       use: {
         baseURL: 'http://127.0.0.1:4173',
         headless: true,
+        launchOptions: { args: SOFTWARE_GL_ARGS },
       },
     },
     {
@@ -25,6 +43,7 @@ export default defineConfig({
       use: {
         baseURL: 'http://127.0.0.1:4174',
         headless: true,
+        launchOptions: { args: SOFTWARE_GL_ARGS },
       },
     },
   ],
