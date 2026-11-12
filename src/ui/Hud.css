@@ -800,6 +800,14 @@
     padding: 0.5rem 0.6rem;
   }
 
+  /* Keep despatches short on phones so the map stays visible. */
+  .event-card > span {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
   .event-card button {
     min-height: 44px;
     min-width: 44px;

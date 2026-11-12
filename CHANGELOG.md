@@ -9,6 +9,17 @@ All notable changes to Grand Century are documented here.
   and states that share a name show the owner's proper name instead of a
   raw code. Saves are unaffected.
 
+### Calmer first minute and cleaner text
+
+- **A calmer start.** The tutorial coach now waits until you have done
+  something, stays out of the way of event pop-ups and panels, and no longer
+  says "Completed." before you have acted. Despatch cards hide while an event
+  pop-up is open and stay short on phones.
+- **Readable names.** Governments read as proper English ("Parliamentary
+  government"), and war news names nations without raw three letter tags.
+- **Flags on the home screen** load up front with their space reserved, so the
+  nation list no longer jumps around.
+
 ### A new world map
 
 - **Real borders, about five times the provinces.** The world is rebuilt from

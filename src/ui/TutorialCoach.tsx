@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { useStore } from '../store';
 import { useSnapshotFields } from './useSnapshotFields';
+import { coachShouldStart, coachVisible, stepCompletedLabel } from './tutorialGating';
 import './TutorialCoach.css';
 
 const STORAGE_KEY = 'grand-century.tutorial.v0_2_0.seen';
@@ -10,6 +11,9 @@ type TutorialStep = {
   body: string;
   hint: string;
   complete: boolean;
+  /** False for read-only steps: there is no action to complete. */
+  tracksAction: boolean;
+  panels: string[];
   selectors: string[];
 };
 
@@ -55,6 +59,9 @@ export function TutorialCoach() {
   const nationDetail = useStore((state) => state.nationDetail);
   const requestNation = useStore((state) => state.requestNation);
   const showMainMenu = useStore((state) => state.showMainMenu);
+  const eventModalOpen = useSnapshotFields(['pendingPlayerEvents'] as const)?.pendingPlayerEvents?.length ? true : false;
+  const [playerActed, setPlayerActed] = useState(false);
+  const firstSeenRef = useRef<{ speed: number; day: number; mapMode: string } | null>(null);
 
   const [active, setActive] = useState(false);
   const [stepIndex, setStepIndex] = useState(0);
@@ -93,8 +100,10 @@ export function TutorialCoach() {
     {
       title: 'Your nation and the map',
       body: `You lead ${playerNation?.name ?? 'your nation'}. The map is your command table: click provinces to inspect and direct operations.`,
-      hint: 'Pan and zoom to orient yourself.',
-      complete: true,
+      hint: 'Pan and zoom to look around, then press Next.',
+      complete: false,
+      tracksAction: false,
+      panels: [],
       selectors: ['[data-coach-id="hud-nation"]', '[data-coach-id="world-map"]', '.hud-mobile-top__nation'],
     },
     {
@@ -102,6 +111,8 @@ export function TutorialCoach() {
       body: 'Swap mapmodes to read economy, unrest, diplomacy, and military posture instantly.',
       hint: 'Try one mode now to compare colors.',
       complete: mapMode !== 'political',
+      tracksAction: true,
+      panels: [],
       selectors: ['[data-coach-id="mapmodes-desktop"]', '[data-coach-id="mapmodes-mobile-drawer"]', '[data-coach-id="mapmodes-mobile-toggle"]'],
     },
     {
@@ -109,6 +120,8 @@ export function TutorialCoach() {
       body: 'Open Budget and move a tax slider. Budget traces break every line into concrete inputs.',
       hint: 'Tap the Budget panel, then move Poor Tax.',
       complete: openPanel === 'budget' && taxAdjusted,
+      tracksAction: true,
+      panels: ['budget'],
       selectors: openPanel === 'budget'
         ? ['[data-coach-id="budget-tax-slider"]']
         : ['[data-coach-id="panel-budget"]', '[data-testid="panel-budget"]', '[data-coach-id="panels-mobile-toggle"]'],
@@ -118,6 +131,8 @@ export function TutorialCoach() {
       body: 'Open Production and queue one factory to start industrial growth in a state.',
       hint: 'Use the first Build button in the list.',
       complete: openPanel === 'production' && factoryBuilt,
+      tracksAction: true,
+      panels: ['production'],
       selectors: openPanel === 'production'
         ? ['[data-coach-id="build-factory-primary"]']
         : ['[data-coach-id="panel-production"]', '[data-testid="panel-production"]', '[data-coach-id="panels-mobile-toggle"]'],
@@ -127,6 +142,8 @@ export function TutorialCoach() {
       body: 'Open Politics and enact one available reform. Reforms shape unrest, economy, and military readiness.',
       hint: 'Look for an enabled Enact button.',
       complete: openPanel === 'politics' && reformChanged,
+      tracksAction: true,
+      panels: ['politics'],
       selectors: openPanel === 'politics'
         ? ['[data-coach-id="reform-action"]']
         : ['[data-coach-id="panel-politics"]', '[data-testid="panel-politics"]', '[data-coach-id="panels-mobile-toggle"]'],
@@ -136,6 +153,8 @@ export function TutorialCoach() {
       body: 'Wars usually start from Diplomacy with a selected goal, then shift to Military for warscore and peace enforcement.',
       hint: 'Open Diplomacy (declare war) or Military (war overview).',
       complete: openPanel === 'diplomacy' || openPanel === 'military',
+      tracksAction: true,
+      panels: ['diplomacy', 'military'],
       selectors: openPanel === 'diplomacy'
         ? ['[data-testid="diplo-declare-war"]']
         : openPanel === 'military'
@@ -147,6 +166,8 @@ export function TutorialCoach() {
       body: 'Set sim speed to control pacing, then open Save / Load so progress is safe before major decisions.',
       hint: 'Change speed once, then open Save / Load.',
       complete: speedChanged && openPanel === 'save_load',
+      tracksAction: true,
+      panels: ['save_load'],
       selectors: openPanel === 'save_load'
         ? ['[data-coach-id="save-panel"]']
         : speedChanged
@@ -192,8 +213,17 @@ export function TutorialCoach() {
       setQueuedReplay(false);
       return;
     }
-    if (!active && !seenRef.current) beginTutorial();
-  }, [active, playerNation?.taxRatePoor, queuedReplay, reformSignature, showMainMenu, snapshot?.speed, snapshot?.day, snapshot?.playerNation, totalFactoryCount]);
+    if (!firstSeenRef.current) firstSeenRef.current = { speed: snapshot.speed, day: snapshot.day, mapMode };
+    if (!active && coachShouldStart({ playerActed, replayRequested: false, seenBefore: seenRef.current, showMainMenu })) beginTutorial();
+  }, [active, playerActed, playerNation?.taxRatePoor, queuedReplay, reformSignature, showMainMenu, snapshot?.speed, snapshot?.day, snapshot?.playerNation, totalFactoryCount]);
+
+  useEffect(() => {
+    const first = firstSeenRef.current;
+    if (playerActed || !snapshot || !first) return;
+    if (snapshot.speed !== first.speed || snapshot.day !== first.day || mapMode !== first.mapMode || openPanel !== null) {
+      setPlayerActed(true);
+    }
+  }, [mapMode, openPanel, playerActed, snapshot?.day, snapshot?.speed]);
 
   useEffect(() => {
     if (!active || !snapshot) return;
@@ -221,6 +251,7 @@ export function TutorialCoach() {
   }, [active, currentStep, openPanel]);
 
   if (!active || !snapshot) return null;
+  if (!coachVisible({ eventModalOpen, openPanel, stepPanels: currentStep.panels })) return null;
 
   const progress = `${stepIndex + 1}/${tutorialSteps.length}`;
   const isLastStep = stepIndex >= tutorialSteps.length - 1;
@@ -251,7 +282,7 @@ export function TutorialCoach() {
         <p>{currentStep.body}</p>
         <p className="tutorial-coach__hint">
           {currentStep.hint}
-          {currentStep.complete ? ' Completed.' : ''}
+          {stepCompletedLabel(currentStep.tracksAction, currentStep.complete)}
         </p>
         <div className="tutorial-coach__actions">
           <button type="button" onClick={finishTutorial}>Skip</button>

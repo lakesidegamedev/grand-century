@@ -163,6 +163,12 @@
 }
 .menu-home .nation-card__shield {
   margin-bottom: 4px;
+  /* Reserve the 3:2 flag box (30px tall) so late flags never shift the grid. */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 30px;
 }
 /* One primary action, a secondary pair, then quiet text actions. */
 .menu-home .menu-actions {

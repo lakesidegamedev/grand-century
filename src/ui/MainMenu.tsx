@@ -25,6 +25,9 @@ function parseSeed(raw: string): number {
   return Number.isFinite(parsed) ? Math.max(1, Math.floor(parsed)) : 1820;
 }
 
+/** Flags in the first rows of the nation grid load eagerly. */
+const EAGER_FLAG_COUNT = 24;
+
 export function MainMenu() {
   const snapshot = useSnapshotFields(['scenarioId', 'nations', 'seed', 'mapMode', 'provinces', 'playerNation'] as const);
   const sendCommand = useStore((state) => state.sendCommand);
@@ -77,6 +80,14 @@ export function MainMenu() {
     return nations.filter((nation) =>
       nation.name.toLowerCase().includes(query) || nation.tag.toLowerCase().includes(query));
   }, [nations, nationFilter]);
+
+  // Warm the cache for the first visible rows so flags are ready when the grid paints.
+  useEffect(() => {
+    for (const nation of nations.slice(0, EAGER_FLAG_COUNT)) {
+      const img = new Image();
+      img.src = `${import.meta.env.BASE_URL}flags/${nation.tag}.svg`;
+    }
+  }, [nations]);
 
   const defaultNation = useMemo(() => {
     if (hashStart?.nationTag) {
@@ -239,7 +250,7 @@ export function MainMenu() {
                 />
               </div>
               <div className="menu-browser__grid" data-testid="menu-nation-grid" role="listbox" aria-label="Nations">
-                {filteredNations.map((nation) => (
+                {filteredNations.map((nation, index) => (
                   <button
                     key={nation.id}
                     type="button"
@@ -251,7 +262,7 @@ export function MainMenu() {
                     onDoubleClick={startGame}
                   >
                     <span className="nation-card__shield">
-                      <NationFlag tag={nation.tag} color={nation.color} size={30} />
+                      <NationFlag tag={nation.tag} color={nation.color} size={30} eager={index < EAGER_FLAG_COUNT} />
                     </span>
                     <span className="nation-card__name">{nation.name}</span>
                     <span className="nation-card__flavor">{flavorLine(nation)}</span>

@@ -1,4 +1,5 @@
 import { useEffect, useMemo } from 'react';
+import { governmentLabel } from '../../shared/governmentLabel';
 import { useStore } from '../../store';
 import { useSnapshotFields } from '../useSnapshotFields';
 import type { NationDetail } from '../../shared/types';
@@ -58,7 +59,7 @@ export function PoliticsPanel() {
     <section className="panel-card atlas-panel">
       <h2 className="atlas-heading">Politics</h2>
       <p className="panel-subtle">
-        {detail.government.replaceAll('_', ' ')} · Ruling party: {detail.rulingParty} ({detail.rulingIdeology})
+        {governmentLabel(detail.government)} · Ruling party: {detail.rulingParty} ({detail.rulingIdeology})
       </p>
 
       <dl className="ledger-grid">

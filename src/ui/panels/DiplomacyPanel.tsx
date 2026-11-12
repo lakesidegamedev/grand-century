@@ -17,6 +17,7 @@
  * (`data-view`), so the phone shows an index or a country, never both.
  */
 import { useEffect, useMemo, useRef, useState } from 'react';
+import { governmentLabel } from '../../shared/governmentLabel';
 import type {
   DiploRelationKind, NationId, NationSummary, TraceLine, WarGoalType,
 } from '../../shared/types';
@@ -109,19 +110,6 @@ const WAR_GOALS: WarGoalInfo[] = [
 ];
 
 const GOAL_BY_ID = new Map(WAR_GOALS.map((goal) => [goal.id, goal]));
-
-/** Period names for the government types. `hms_government` reads as gibberish
- *  once the underscore is stripped, and the rest lose their capitals. */
-const GOVERNMENT_LABEL: Record<string, string> = {
-  absolute_monarchy: 'Absolute Monarchy',
-  constitutional_monarchy: 'Constitutional Monarchy',
-  hms_government: "His Majesty's Government",
-  democracy: 'Democracy',
-  presidential_dictatorship: 'Presidential Dictatorship',
-  proletarian_dictatorship: 'Proletarian Dictatorship',
-  fascist_dictatorship: 'Fascist Dictatorship',
-  uncivilized: 'Unrecognised State',
-};
 
 type RosterFilter = 'relevant' | 'gp' | 'near' | 'all';
 
@@ -655,7 +643,7 @@ export function DiplomacyPanel() {
                   <span>
                     {target.gpRank > 0 ? `Great Power ${target.gpRank}` : 'Lesser power'}
                     {' · '}
-                    {GOVERNMENT_LABEL[target.government] ?? target.government.replaceAll('_', ' ')}
+                    {governmentLabel(target.government)}
                   </span>
                 </div>
                 {targetRow?.seal ? <span className={`gc-seal is-${targetRow.seal.tone}`}>{targetRow.seal.label}</span> : null}
