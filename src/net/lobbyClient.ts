@@ -26,6 +26,7 @@ import { decodeWireBrowser } from "./snapshotCodec";
 import {
   applyServerSnapshotMessage,
   createApplierState,
+  takeResyncRequest,
 } from "./snapshotApplier";
 import { defaultSocketUrl } from "./socketUrl";
 
@@ -230,6 +231,7 @@ export class LobbyClient implements SimTransport {
       this.applier.shared = null;
       this.applier.view = null;
       this.applier.seq = 0;
+      this.applier.needsResync = false;
     }
     if (
       isFromWorkerMessage(raw) &&
@@ -243,6 +245,7 @@ export class LobbyClient implements SimTransport {
       this.applier,
       raw as ServerToClient,
     );
+    this.maybeRequestResync();
     if (snap) {
       this.simHandler?.(snap);
       return;
@@ -254,6 +257,16 @@ export class LobbyClient implements SimTransport {
       }
       this.simHandler?.(raw);
     }
+  }
+
+  private lastResyncAt = 0;
+
+  private maybeRequestResync(): void {
+    const now = Date.now();
+    if (!takeResyncRequest(this.applier, this.lastResyncAt, now)) return;
+    if (this.disposed || !this.open || this.ws.readyState !== 1) return;
+    this.lastResyncAt = now;
+    this.ws.send(JSON.stringify({ t: "resync" }));
   }
 
   private wire(msg: unknown): void {

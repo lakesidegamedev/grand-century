@@ -14,7 +14,12 @@ import {
   mergeSnapshot,
   type SharedSnapshot,
 } from '../src/net/snapshotCodec';
-import { applyServerSnapshotMessage, createApplierState } from '../src/net/snapshotApplier';
+import {
+  applyServerSnapshotMessage,
+  createApplierState,
+  RESYNC_MIN_INTERVAL_MS,
+  takeResyncRequest,
+} from '../src/net/snapshotApplier';
 import { GameSession, SessionManager, MP_SNAPSHOT_HZ } from '../server/session';
 import { createWorld } from '../src/sim/bootstrap';
 import { snapshot } from '../src/sim/world';
@@ -326,3 +331,65 @@ describe('worker cadence policy', () => {
 
 // silence unused SharedSnapshot import warning via type use
 void (0 as unknown as SharedSnapshot);
+
+describe('divergence resync (issue #29)', () => {
+  function seeded() {
+    const world = createWorld(GAME_DATA, 1836);
+    const a = extractShared(snapshot(world, GAME_DATA));
+    world.day = 3;
+    const b = extractShared(snapshot(world, GAME_DATA));
+    const view = extractPlayerView(snapshot(world, GAME_DATA));
+    return { a, b, view, diff: diffShared(a, b) };
+  }
+
+  it('flags needsResync on a baseSeq gap and clears it on the next full snapshot', () => {
+    const { a, b, view, diff } = seeded();
+    const state = createApplierState();
+    applyServerSnapshotMessage(state, { t: 'snapshotFull', seq: 1, shared: a });
+    applyServerSnapshotMessage(state, { t: 'playerView', seq: 1, view });
+    expect(state.needsResync).toBe(false);
+
+    const dropped = applyServerSnapshotMessage(state, { t: 'snapshotDiff', seq: 5, baseSeq: 4, diff });
+    expect(dropped).toBeNull();
+    expect(state.needsResync).toBe(true);
+    expect(state.seq).toBe(1);
+
+    const out = applyServerSnapshotMessage(state, { t: 'snapshotFull', seq: 5, shared: b });
+    expect(state.needsResync).toBe(false);
+    expect(state.seq).toBe(5);
+    expect(out?.t === 'snapshot' && out.snapshot.day).toBe(3);
+  });
+
+  it('flags needsResync for a diff that arrives with no baseline', () => {
+    const { diff } = seeded();
+    const state = createApplierState();
+    applyServerSnapshotMessage(state, { t: 'snapshotDiff', seq: 2, baseSeq: 1, diff });
+    expect(state.needsResync).toBe(true);
+  });
+
+  it('rate limits resync requests', () => {
+    const state = createApplierState();
+    state.needsResync = true;
+    expect(takeResyncRequest(state, 0, 10_000)).toBe(true);
+    expect(takeResyncRequest(state, 10_000, 10_500)).toBe(false);
+    expect(takeResyncRequest(state, 10_000, 10_000 + RESYNC_MIN_INTERVAL_MS)).toBe(true);
+    state.needsResync = false;
+    expect(takeResyncRequest(state, 0, 99_999)).toBe(false);
+  });
+
+  it('server answers a resync with a full snapshot, rate limited', () => {
+    const session = new GameSession({ id: 'rs1', seed: 1836, phase: 'running' });
+    const a = collect();
+    session.join('a', 'ENG', a.send);
+    const countFull = () => a.messages.filter((m) => m.t === 'snapshotFull').length;
+    const before = countFull();
+
+    expect(session.handleResync('a', 100_000)).toBe(true);
+    expect(countFull()).toBe(before + 1);
+    expect(session.handleResync('a', 100_500)).toBe(false);
+    expect(countFull()).toBe(before + 1);
+    expect(session.handleResync('a', 100_000 + RESYNC_MIN_INTERVAL_MS)).toBe(true);
+    expect(countFull()).toBe(before + 2);
+    expect(session.handleResync('nobody', 200_000)).toBe(false);
+  });
+});

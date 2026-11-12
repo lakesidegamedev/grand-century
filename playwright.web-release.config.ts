@@ -11,7 +11,7 @@ export default defineConfig({
     viewport: { width: 430, height: 932 },
     reducedMotion: 'reduce',
     headless: true,
-    launchOptions: { args: ['--enable-webgl', '--use-gl=angle', '--use-angle=swiftshader'] },
+    launchOptions: { args: ['--enable-webgl', '--use-gl=angle', '--use-angle=swiftshader', '--enable-unsafe-swiftshader', '--ignore-gpu-blocklist'] },
     trace: 'retain-on-failure',
   },
   outputDir: 'artifacts/web-release',

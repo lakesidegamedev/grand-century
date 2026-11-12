@@ -17,7 +17,7 @@ import {
   type ServerToClient,
 } from './sessionProtocol';
 import { decodeWireBrowser } from './snapshotCodec';
-import { applyServerSnapshotMessage, createApplierState } from './snapshotApplier';
+import { applyServerSnapshotMessage, createApplierState, takeResyncRequest } from './snapshotApplier';
 
 export interface SocketTransportOptions {
   /** Session join payload sent once the socket opens (fresh join). */
@@ -65,6 +65,7 @@ export class SocketTransport implements SimTransport {
   private readonly options: SocketTransportOptions;
   private readonly applier = createApplierState();
   private clientId: string | null = null;
+  private lastResyncAt = 0;
   private reconnectAttempts = 0;
   private reconnectTimer: ReturnType<typeof setTimeout> | null = null;
   private readonly autoReconnect: boolean;
@@ -148,6 +149,7 @@ export class SocketTransport implements SimTransport {
     }
 
     const snap = applyServerSnapshotMessage(this.applier, raw as ServerToClient);
+    this.maybeRequestResync();
     if (snap) {
       this.handler?.(snap);
       return;
@@ -155,6 +157,14 @@ export class SocketTransport implements SimTransport {
 
     // Pass through ready / detail / log / legacy snapshot
     this.handler?.(raw as FromWorker);
+  }
+
+  private maybeRequestResync(): void {
+    const now = Date.now();
+    if (!takeResyncRequest(this.applier, this.lastResyncAt, now)) return;
+    if (!this.open || this.ws.readyState !== 1) return;
+    this.lastResyncAt = now;
+    this.ws.send(JSON.stringify({ t: 'resync' }));
   }
 
   /** Serialize async decodes so snapshot diffs apply in order. */
