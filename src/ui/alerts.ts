@@ -96,10 +96,9 @@ export function deriveAlerts(
     const playerInWar = war.attackers.includes(next.playerNation) || war.defenders.includes(next.playerNation);
     if (!playerInWar) continue;
     const nameOf = (id: number) => next.nations.find((nation) => nation.id === id)?.name ?? `Nation ${id}`;
-    const attackerTag = next.nations.find((nation) => nation.id === war.attackers[0])?.tag ?? '';
     pushAlert(
       'war',
-      warDeclaredMessage(war.attackers, war.defenders, nameOf, attackerTag || undefined),
+      warDeclaredMessage(war.attackers, war.defenders, nameOf),
       next.day,
       'military',
       'Open Military and review War Overview.',

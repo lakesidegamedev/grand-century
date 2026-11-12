@@ -11,11 +11,18 @@ import {
 import { NationFlag } from './components/NationFlag';
 import { instantPressProps } from './instantPress';
 
-function extractNationTag(message: string): string | null {
-  // Alert messages often begin with "TAG " or "Name (TAG)" — grab the first
-  // all-caps 2–3 letter token as the nation tag heuristic.
-  const match = message.match(/\b([A-Z]{2,3})\b/);
-  return match ? match[1] : null;
+/** Find the first nation named in the message (by name, never by raw tag). */
+function findMentionedNation<T extends { name: string }>(message: string, nations: T[]): T | null {
+  let best: T | null = null;
+  let bestIndex = Infinity;
+  for (const nation of nations) {
+    const index = message.indexOf(nation.name);
+    if (index >= 0 && index < bestIndex) {
+      best = nation;
+      bestIndex = index;
+    }
+  }
+  return best;
 }
 
 export function EventFeed() {
@@ -26,14 +33,10 @@ export function EventFeed() {
   const [expandedId, setExpandedId] = useState<string | null>(null);
   const [hiddenIds, setHiddenIds] = useState<string[]>([]);
 
-  const nationByTag = useMemo(() => {
-    const map = new globalThis.Map<string, { tag: string; color: [number, number, number] }>();
-    if (!snapshot) return map;
-    for (const nation of snapshot.nations) {
-      map.set(nation.tag, { tag: nation.tag, color: nation.color });
-    }
-    return map;
-  }, [snapshot?.nations]);
+  const nationList = useMemo(() => (
+    snapshot ? snapshot.nations.map((n) => ({ name: n.name, tag: n.tag, color: n.color })) : []
+  ), [snapshot?.nations]);
+  const eventModalOpen = (useSnapshotFields(['pendingPlayerEvents'] as const)?.pendingPlayerEvents?.length ?? 0) > 0;
 
   const playerName = useMemo(() => {
     if (!snapshot) return null;
@@ -67,7 +70,8 @@ export function EventFeed() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [toastKey]);
 
-  if (toasts.length === 0) return null;
+  // Keep the map calm: no despatch cards stacked behind an open event modal.
+  if (toasts.length === 0 || eventModalOpen) return null;
 
   const dismissBatch = (batch: AlertBatch) => {
     setHiddenIds((prev) => (prev.includes(batch.id) ? prev : [...prev, batch.id]));
@@ -77,8 +81,7 @@ export function EventFeed() {
   return (
     <div className="event-feed" data-testid="event-feed" aria-live="polite">
       {toasts.map((batch) => {
-        const tag = extractNationTag(batch.message);
-        const nation = tag ? nationByTag.get(tag) : null;
+        const nation = findMentionedNation(batch.message, nationList);
         return (
           <article
             key={batch.id}

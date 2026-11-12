@@ -26,12 +26,12 @@ describe('warNaming', () => {
     expect(sideLabel([], nameOf)).toBe('Unknown');
   });
 
-  it('warDeclaredMessage tags the primary attacker and keeps +N', () => {
-    expect(warDeclaredMessage([1], [10], nameOf, 'AUS')).toBe(
-      'Austria (AUS) declares war on Prussia.',
+  it('warDeclaredMessage shows names only (no tags) and keeps +N', () => {
+    expect(warDeclaredMessage([1], [10], nameOf)).toBe(
+      'Austria declares war on Prussia.',
     );
-    expect(warDeclaredMessage([1, 2, 3], [10, 11, 12], nameOf, 'AUS')).toBe(
-      'Austria (AUS) & Bavaria +1 declares war on Prussia & Hanover +1.',
+    expect(warDeclaredMessage([1, 2, 3], [10, 11, 12], nameOf)).toBe(
+      'Austria & Bavaria +1 declares war on Prussia & Hanover +1.',
     );
     expect(warDeclaredMessage([1], [10], nameOf)).toBe(
       'Austria declares war on Prussia.',

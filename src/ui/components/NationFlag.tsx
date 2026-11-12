@@ -6,6 +6,8 @@ interface NationFlagProps {
   color?: [number, number, number] | number[];
   size?: number; // flag HEIGHT in px; width is 3:2
   className?: string;
+  /** Load immediately instead of lazily (visible lists such as the home screen). */
+  eager?: boolean;
 }
 
 /**
@@ -14,7 +16,7 @@ interface NationFlagProps {
  * Unknown tags — released nations, future formables without art — fall back
  * to the procedural NationShield so no nation ever renders without an icon.
  */
-export function NationFlag({ tag, color, size = 20, className = '' }: NationFlagProps) {
+export function NationFlag({ tag, color, size = 20, className = '', eager = false }: NationFlagProps) {
   const [failed, setFailed] = useState(false);
   if (!tag || failed) {
     return <NationShield nation={{ tag, color: (color ?? [90, 84, 70]) as [number, number, number] }} size={size} className={className} />;
@@ -28,7 +30,8 @@ export function NationFlag({ tag, color, size = 20, className = '' }: NationFlag
       alt=""
       aria-hidden="true"
       draggable={false}
-      loading="lazy"
+      loading={eager ? 'eager' : 'lazy'}
+      decoding={eager ? 'sync' : 'async'}
       onError={() => setFailed(true)}
     />
   );

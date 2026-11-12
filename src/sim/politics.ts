@@ -1,3 +1,4 @@
+import { governmentLabel } from '../shared/governmentLabel';
 import type {
   GameData,
   GameDate,
@@ -504,7 +505,7 @@ export function computeReformLegality(
   if (clampedTarget > cap) {
     return {
       legal: false,
-      reason: `${nation.government.replaceAll('_', ' ')} blocks deeper ${reform.category} reform.`,
+      reason: `${governmentLabel(nation.government)} blocks deeper ${reform.category} reform.`,
       support,
       requiredSupport,
       costMoney: costs.money,

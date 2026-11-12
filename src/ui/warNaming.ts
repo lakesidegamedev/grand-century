@@ -8,14 +8,9 @@ export type NationNameOf = (id: number) => string;
 export function sideLabel(
   ids: number[],
   nameOf: NationNameOf,
-  opts?: { primaryTag?: string },
 ): string {
   if (ids.length === 0) return 'Unknown';
-  const labels = ids.slice(0, 2).map((id, index) => {
-    const name = nameOf(id);
-    if (index === 0 && opts?.primaryTag) return `${name} (${opts.primaryTag})`;
-    return name;
-  });
+  const labels = ids.slice(0, 2).map((id) => nameOf(id));
   const head = labels.join(' & ');
   return ids.length > 2 ? `${head} +${ids.length - 2}` : head;
 }
@@ -30,18 +25,15 @@ export function warSidesLabel(
 }
 
 /**
- * War-start toast copy. Optional primary-attacker tag yields
- * "Austria (AUS) & Bavaria declares war on Prussia +1."
+ * War-start toast copy. Nation names only, never raw tags:
+ * "Austria & Bavaria declares war on Prussia +1."
  */
 export function warDeclaredMessage(
   attackers: number[],
   defenders: number[],
   nameOf: NationNameOf,
-  primaryAttackerTag?: string,
 ): string {
-  const attackerSide = sideLabel(attackers, nameOf, {
-    primaryTag: primaryAttackerTag || undefined,
-  });
+  const attackerSide = sideLabel(attackers, nameOf);
   return `${attackerSide} declares war on ${sideLabel(defenders, nameOf)}.`;
 }
 
