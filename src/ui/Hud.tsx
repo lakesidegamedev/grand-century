@@ -57,13 +57,28 @@ function panelCoachId(id: PanelId): string | undefined {
   return undefined;
 }
 
+function formatHudDate(date: { year: number; month: number; day: number }): string {
+  return `${date.year}-${String(date.month).padStart(2, '0')}-${String(date.day).padStart(2, '0')}`;
+}
+
+/**
+ * The date changes every tick; keeping its subscription here stops the whole
+ * HUD (budget, research chip, speed controls) re-rendering at snapshot rate.
+ */
+function HudDate({ testId }: { testId: string }) {
+  const text = useStore((state) => {
+    const date = state.snapshot?.date ?? state.data?.startDate;
+    return date ? formatHudDate(date) : '';
+  });
+  return <strong data-testid={testId}>{text}</strong>;
+}
+
 export function Hud() {
   const snapshot = useSnapshotFields([
     'nations',
     'playerNation',
     'playerBudget',
     'speed',
-    'date',
     'playerTech',
     'infamyLimit',
     'playerBalanceOfPower',
@@ -78,7 +93,6 @@ export function Hud() {
   const muteAudio = useStore((state) => state.muteAudio);
   const setMuteAudio = useStore((state) => state.setMuteAudio);
   const multiplayer = useStore((state) => state.multiplayer);
-  const scenarioStartDate = useStore((state) => state.data?.startDate);
   const mpIsLeader = useStore((state) => state.mpIsLeader);
   const [mobilePanelsOpen, setMobilePanelsOpen] = useState(false);
   const [mobileMapModesOpen, setMobileMapModesOpen] = useState(false);
@@ -93,11 +107,6 @@ export function Hud() {
   const monthlyNet = snapshot?.playerBudget?.net ?? 0;
   const snapshotSpeed = snapshot?.speed ?? 0;
   const currentSpeed = optimisticSpeed ?? snapshotSpeed;
-  const formattedDate = snapshot
-    ? `${snapshot.date.year}-${String(snapshot.date.month).padStart(2, '0')}-${String(snapshot.date.day).padStart(2, '0')}`
-    : scenarioStartDate
-      ? `${scenarioStartDate.year}-${String(scenarioStartDate.month).padStart(2, '0')}-${String(scenarioStartDate.day).padStart(2, '0')}`
-      : '';
   const researchChip = useMemo(() => {
     const tech = snapshot?.playerTech;
     if (!tech) return null;
@@ -154,7 +163,7 @@ export function Hud() {
       <header className="hud-top atlas-panel">
         <div className="hud-top__section">
           <span className="atlas-heading">Date</span>
-          <strong data-testid="hud-date">{formattedDate}</strong>
+          <HudDate testId="hud-date" />
           {currentSpeed === 0 ? (
             <span className="hud-paused-badge" data-testid="hud-paused" role="status" aria-live="polite">
               Paused
@@ -267,7 +276,7 @@ export function Hud() {
       <header className="hud-mobile-top atlas-panel" aria-label="Mobile controls">
         <div className="hud-mobile-top__date">
           <span className="atlas-heading">Date</span>
-          <strong data-testid="hud-date-mobile">{formattedDate}</strong>
+          <HudDate testId="hud-date-mobile" />
         </div>
         <div className="hud-mobile-top__speed" data-coach-id="speed-controls-mobile">
           <button type="button" aria-label="Decrease speed" data-testid="mobile-speed-down" {...instantPressProps(() => setSpeed(currentSpeed - 1))}>-</button>

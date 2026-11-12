@@ -4,6 +4,9 @@ All notable changes to Grand Century are documented here.
 
 ## [Unreleased]
 
+- **Smoother late game on phones.** The map, the top bar and the side panels
+  no longer redraw on every tick of the clock when nothing they show has
+  changed, and the weather overlay now updates weekly instead of daily.
 - **Multiplayer no longer freezes after a missed update.** If your game falls
   out of step with the host, it now asks for a fresh copy of the world and
   catches up on its own instead of sitting on a stale map.

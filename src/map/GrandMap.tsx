@@ -19,7 +19,6 @@ import './GrandMap.css';
 import { DEFAULT_SCENARIO_ID, loadScenario } from '../data/generated';
 import { SCENARIO_GEO_URLS } from 'virtual:generated-geo';
 import { useStore } from '../store';
-import { useShallow } from 'zustand/react/shallow';
 import { largestPolygon, polylabel, ringArea } from './polylabel';
 import { nationShieldSvg } from '../ui/nationShield';
 import {
@@ -392,7 +391,17 @@ function insideViewport(box: ScreenBox, width: number, height: number, padding: 
 }
 
 function AtlasMap2D({ camera, atmosphere }: { camera: RefObject<View|null>; atmosphere: Atmosphere }) {
-  const snapshot = useStore(useShallow((state) => state.snapshot));
+  // Only the fields this component reads. `day` and `date` are left out on
+  // purpose: they change every tick and would re-run every map effect. The
+  // weather phase below subscribes to a weekly bucket of the date instead.
+  const snapshot = useSnapshotFields([
+    'scenarioId', 'mapMode', 'playerNation', 'playerCoreStateIds',
+    'nations', 'provinces', 'armies', 'fleets', 'wars', 'relations',
+  ] as const);
+  const weatherDay = useStore((state) => {
+    const day = calendarDay(state.snapshot?.date);
+    return Math.floor((day - 1) / 7) * 7 + 1;
+  });
   const scenarioId = snapshot?.scenarioId ?? DEFAULT_SCENARIO_ID;
   const scenario = loadScenario(scenarioId);
   const scenarioSeed = scenario.worldSeed;
@@ -430,6 +439,7 @@ function AtlasMap2D({ camera, atmosphere }: { camera: RefObject<View|null>; atmo
   const fillRef = useRef<Map<number, string>>(new globalThis.Map());
   const occupationRef = useRef<Map<number, string>>(new globalThis.Map());
   const prevMapModeRef = useRef<string | null>(null);
+  const haloAppliedRef = useRef<{ map: MapLibreMap; key: string } | null>(null);
   const fadeTimerRef = useRef<number | null>(null);
   const fadeRafRef = useRef<number | null>(null);
   const markerRef = useRef<Map<string, MapLibreMarker>>(new globalThis.Map());
@@ -1469,7 +1479,6 @@ function AtlasMap2D({ camera, atmosphere }: { camera: RefObject<View|null>; atmo
     sendCommand,
   ]);
 
-  const weatherDay = calendarDay(snapshot?.date);
   useEffect(() => {
     const map = mapRef.current;
     if (!map || !mapReady) return;
@@ -1690,6 +1699,11 @@ function AtlasMap2D({ camera, atmosphere }: { camera: RefObject<View|null>; atmo
       if (province.owner === snapshot.playerNation) playerIds.push(province.id);
     }
     const ids = playerIds.length > 0 ? playerIds : [-1];
+    // Re-sending the style expression restyles the whole layer; skip it unless
+    // the owned set or the mode actually changed (provinces refresh often).
+    const haloKey = `${mapMode}|${ids.join(',')}`;
+    if (haloAppliedRef.current?.map === map && haloAppliedRef.current.key === haloKey) return;
+    haloAppliedRef.current = { map, key: haloKey };
     // The halo outlines every player province. At world zoom the glows merge
     // into one empire outline; from regional zoom the world v8 density turns
     // it into gold speckle over internal province rules, so it is gone by 3.

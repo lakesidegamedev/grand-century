@@ -1,6 +1,5 @@
 import { Suspense, lazy, useEffect, type ComponentType } from 'react';
 import { useStore, type PanelId } from '../../store';
-import { useShallow } from 'zustand/react/shallow';
 import { NationFlag } from '../components/NationFlag';
 import { resolvePanelChromeNation } from './panelChromeNation';
 import './panels.css';
@@ -90,19 +89,19 @@ function LazyPanel({ Panel }: { Panel: ComponentType }) {
 export function PanelHost() {
   const openPanel = useStore((state) => state.openPanel);
   const openPanelId = useStore((state) => state.openPanelId);
-  const snapshot = useStore(useShallow((state) => state.snapshot));
-  const selectedProvince = useStore((state) => state.selectedProvince);
-  const provinceDetail = useStore((state) => state.provinceDetail);
+  // Resolve the chrome flag inside the selector: a closed host (or an open one
+  // whose flag nation is unchanged) no longer re-renders on every sim tick.
+  const chromeNation = useStore((state) => (
+    state.openPanel && NATION_SCOPED_PANELS.has(state.openPanel)
+      ? resolvePanelChromeNation(state.openPanel, state.snapshot, state.selectedProvince, state.provinceDetail)
+      : null
+  ));
 
   useEffect(() => {
     for (const warm of PANEL_WARMERS) void warm();
   }, []);
 
   if (!openPanel) return null;
-
-  const chromeNation = NATION_SCOPED_PANELS.has(openPanel)
-    ? resolvePanelChromeNation(openPanel, snapshot, selectedProvince, provinceDetail)
-    : null;
 
   return (
     <>
