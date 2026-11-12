@@ -20,10 +20,19 @@ export interface SnapshotApplierState {
   shared: SharedSnapshot | null;
   view: PlayerView | null;
   seq: number;
+  /**
+   * Set when a diff could not be applied (sequence gap, or a diff arrived with
+   * no baseline). The transport should ask the server for a full snapshot.
+   * Cleared when a full snapshot arrives.
+   */
+  needsResync: boolean;
 }
 
+/** Minimum gap between resync requests from one client. */
+export const RESYNC_MIN_INTERVAL_MS = 2_000;
+
 export function createApplierState(): SnapshotApplierState {
-  return { shared: null, view: null, seq: 0 };
+  return { shared: null, view: null, seq: 0, needsResync: false };
 }
 
 /**
@@ -37,12 +46,18 @@ export function applyServerSnapshotMessage(
   if (isSnapshotFullMessage(msg)) {
     state.shared = msg.shared;
     state.seq = msg.seq;
+    state.needsResync = false;
     return emitIfReady(state);
   }
   if (isSnapshotDiffMessage(msg)) {
-    if (!state.shared) return null;
-    // If baseSeq mismatches, wait for a full resync.
+    if (!state.shared) {
+      state.needsResync = true;
+      return null;
+    }
+    // Diverged: this diff is relative to a baseline we do not hold. Drop it
+    // and flag a resync so the transport requests a full snapshot.
     if (msg.baseSeq !== state.seq && msg.baseSeq !== 0) {
+      state.needsResync = true;
       return null;
     }
     state.shared = applySharedDiff(state.shared, msg.diff);
@@ -61,4 +76,19 @@ function emitIfReady(state: SnapshotApplierState): FromWorker | null {
   if (!state.shared || !state.view) return null;
   const snapshot: WorldSnapshot = mergeSnapshot(state.shared, state.view);
   return { t: 'snapshot', snapshot };
+}
+
+/**
+ * Returns true when the caller should send a `resync` request now, and records
+ * the attempt. Rate limited to one request per RESYNC_MIN_INTERVAL_MS; while
+ * limited the flag stays set so a later message retries.
+ */
+export function takeResyncRequest(
+  state: SnapshotApplierState,
+  lastRequestAt: number,
+  now: number,
+): boolean {
+  if (!state.needsResync) return false;
+  if (lastRequestAt > 0 && now - lastRequestAt < RESYNC_MIN_INTERVAL_MS) return false;
+  return true;
 }

@@ -25,6 +25,7 @@ import {
   mergeSnapshot,
   type SharedSnapshot,
 } from '../src/net/snapshotCodec';
+import { RESYNC_MIN_INTERVAL_MS } from '../src/net/snapshotApplier';
 import { createWorld } from '../src/sim/bootstrap';
 import { applyCommand } from '../src/sim/commands';
 import { detailNation, detailProvince } from '../src/sim/detail';
@@ -633,6 +634,7 @@ export class GameSession {
         expiresAt: Date.now() + RECONNECT_GRACE_MS,
       });
       this.clients.delete(clientId);
+      this.lastResyncAt.delete(clientId);
       if (this.leaderId === clientId) {
         const next = [...this.clients.values()].find((c) => c.connected);
         this.leaderId = next?.id ?? null;
@@ -708,6 +710,23 @@ export class GameSession {
     for (const c of this.clients.values()) {
       if (c.connected) c.send(msg);
     }
+  }
+
+  /** Per-client time of the last honoured resync request (ms). */
+  private readonly lastResyncAt = new Map<string, number>();
+
+  /**
+   * Client reported a diverged snapshot: send a fresh full snapshot + view.
+   * Rate limited per client; excess requests are dropped silently.
+   */
+  handleResync(clientId: string, now: number = Date.now()): boolean {
+    const client = this.clients.get(clientId);
+    if (!client || !client.connected || this.phase !== 'running' || !this.world) return false;
+    const last = this.lastResyncAt.get(clientId);
+    if (last !== undefined && now - last < RESYNC_MIN_INTERVAL_MS) return false;
+    this.lastResyncAt.set(clientId, now);
+    this.sendFullTo(clientId);
+    return true;
   }
 
   handleMessage(clientId: string, msg: ToWorker): void {

@@ -17,6 +17,7 @@ import {
   isChatSendMessage,
   isLobbyClientMessage,
   isReconnectMessage,
+  isResyncRequestMessage,
   isSessionJoinMessage,
   isToWorkerMessage,
   type CreateSessionMessage,
@@ -191,6 +192,13 @@ wss.on('connection', (ws) => {
         return;
       }
       session.handleChat(state.clientId, msg.text);
+      return;
+    }
+
+    // --- Resync (client detected snapshot divergence) ---------------------
+    if (isResyncRequestMessage(msg)) {
+      if (!state.sessionId) return;
+      manager.get(state.sessionId)?.handleResync(state.clientId);
       return;
     }
 

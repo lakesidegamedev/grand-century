@@ -4,6 +4,9 @@ All notable changes to Grand Century are documented here.
 
 ## [Unreleased]
 
+- **Multiplayer no longer freezes after a missed update.** If your game falls
+  out of step with the host, it now asks for a fresh copy of the world and
+  catches up on its own instead of sitting on a stale map.
 - **Readable place and nation names.** Nations like "Deutsches Reich" and
   "Reino de Portugal" now read as "German Empire" and "Kingdom of Portugal",
   and states that share a name show the owner's proper name instead of a

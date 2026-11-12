@@ -141,6 +141,15 @@ export interface ReconnectMessage {
   clientId: string;
 }
 
+/**
+ * Client → server: ask for a fresh full snapshot after detecting divergence
+ * (a diff whose baseSeq did not match). Optional and backward compatible:
+ * older servers answer with an "unknown message type" warning.
+ */
+export interface ResyncRequestMessage {
+  t: 'resync';
+}
+
 export type LobbyClientMessage =
   | CreateSessionMessage
   | ListSessionsMessage
@@ -202,6 +211,7 @@ export type ClientToServer =
   | ReconnectMessage
   | LobbyClientMessage
   | ChatSendMessage
+  | ResyncRequestMessage
   | ToWorker;
 
 export type ServerToClient =
@@ -267,6 +277,11 @@ export function isChatSendMessage(msg: unknown): msg is ChatSendMessage {
   if (!msg || typeof msg !== 'object') return false;
   const m = msg as Record<string, unknown>;
   return m.t === 'chat' && typeof m.text === 'string';
+}
+
+export function isResyncRequestMessage(msg: unknown): msg is ResyncRequestMessage {
+  if (!msg || typeof msg !== 'object') return false;
+  return (msg as { t?: string }).t === 'resync';
 }
 
 export function isReconnectMessage(msg: unknown): msg is ReconnectMessage {
