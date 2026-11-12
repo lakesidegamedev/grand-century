@@ -1,7 +1,7 @@
 import { beforeAll, beforeEach, describe, expect, it, vi } from 'vitest';
 import { preloadScenarios } from '../src/data/generated';
 const memory = vi.hoisted(() => ({ files: new Map<string, string | Uint8Array>(), fail: '' }));
-vi.mock('../apps/mobile/node_modules/expo-file-system/src/index.ts', () => {
+vi.mock('../apps/mobile/node_modules/expo-file-system/build/index.js', () => {
   const path = (parts: any[]) => parts.map((p) => typeof p === 'string' ? p : p.uri).join('/');
   class File {
     uri: string;

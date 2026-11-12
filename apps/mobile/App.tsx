@@ -401,6 +401,7 @@ function Atlas({
             const image = Image.resolveAssetSource(
               labelImages[`nation-${position.tag}` as keyof typeof labelImages],
             );
+            if (!image) return false;
             return labelFitsViewport({
               point: position.point,
               imageWidth: image.width,
