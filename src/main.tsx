@@ -10,7 +10,7 @@ import { resolveSocketUrl, SocketTransport } from './net/socketTransport';
 import { WorkerTransport } from './net/workerTransport';
 import { useStore } from './store';
 
-// Error tracking (GlitchTip). Errors only — no performance spans, no replays;
+// Error tracking (Sentry-compatible; DSN comes from .env.production). Errors only — no performance spans, no replays;
 // release is `<version>+<sha>` so stacks map to a commit. No DSN ⇒ fully inert
 // (local dev, tests).
 const glitchtipDsn = import.meta.env.VITE_GLITCHTIP_DSN as string | undefined;

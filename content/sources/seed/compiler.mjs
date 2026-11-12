@@ -265,7 +265,7 @@ export function compileScenarioSeed({
   for (const group of groups) splitCounts.set(group.baseStateId, (splitCounts.get(group.baseStateId) ?? 0) + 1);
   const states = groups.map((group) => ({
     id: groupId.get(group),
-    name: splitCounts.get(group.baseStateId) > 1 ? `${group.baseName} (${group.ownerTag})` : group.baseName,
+    name: splitCounts.get(group.baseStateId) > 1 ? `${group.baseName} (${englishNames[group.ownerTag] ?? polityByKey.get(group.ownerTag)?.displayName ?? group.ownerTag})` : group.baseName,
     ownerTag: group.ownerTag,
     provinceIds: group.provinceIds,
   })).sort((left, right) => left.id - right.id);

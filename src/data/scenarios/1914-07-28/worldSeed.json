@@ -8,7 +8,7 @@
       "name": "Godthaab",
       "ownerTag": "DANMARK",
       "stateId": 520,
-      "stateName": "Godthaab (DANMARK)",
+      "stateName": "Godthaab (Denmark)",
       "terrain": "arctic",
       "coastal": true,
       "rgoGood": "cattle",
@@ -51,7 +51,7 @@
       "name": "Kuujjuarapik",
       "ownerTag": "CANADA",
       "stateId": 9,
-      "stateName": "Montréal (CANADA)",
+      "stateName": "Montréal (Canada)",
       "terrain": "forest",
       "coastal": true,
       "rgoGood": "timber",
@@ -162,7 +162,7 @@
       "name": "Lower Amur",
       "ownerTag": "RUSSIAN_EMPIRE",
       "stateId": 18,
-      "stateName": "Jilin (RUSSIAN_EMPIRE)",
+      "stateName": "Jilin (Russian Empire)",
       "terrain": "hills",
       "coastal": true,
       "rgoGood": "iron",
@@ -269,7 +269,7 @@
       "name": "Ahaggar",
       "ownerTag": "FRENCH_THIRD_REPUBLIC",
       "stateId": 39,
-      "stateName": "Ahaggar (FRENCH_THIRD_REPUBLIC)",
+      "stateName": "Ahaggar (French Third Republic)",
       "terrain": "desert",
       "coastal": false,
       "rgoGood": "cotton",
@@ -436,7 +436,7 @@
       "name": "Touat",
       "ownerTag": "FRENCH_THIRD_REPUBLIC",
       "stateId": 39,
-      "stateName": "Ahaggar (FRENCH_THIRD_REPUBLIC)",
+      "stateName": "Ahaggar (French Third Republic)",
       "terrain": "desert",
       "coastal": false,
       "rgoGood": "cotton",
@@ -507,7 +507,7 @@
       "name": "Kamchatka",
       "ownerTag": "RUSSIAN_EMPIRE",
       "stateId": 4,
-      "stateName": "Kamchatka (RUSSIAN_EMPIRE)",
+      "stateName": "Kamchatka (Russian Empire)",
       "terrain": "hills",
       "coastal": true,
       "rgoGood": "coal",
@@ -595,7 +595,7 @@
       "name": "Chukotka",
       "ownerTag": "RUSSIAN_EMPIRE",
       "stateId": 4,
-      "stateName": "Kamchatka (RUSSIAN_EMPIRE)",
+      "stateName": "Kamchatka (Russian Empire)",
       "terrain": "arctic",
       "coastal": true,
       "rgoGood": "cattle",
@@ -701,7 +701,7 @@
       "name": "Labrador City",
       "ownerTag": "COMMISSION_GOVERNMENT_OF_NEWFOUNDLAND",
       "stateId": 10,
-      "stateName": "Montréal (COMMISSION_GOVERNMENT_OF_NEWFOUNDLAND)",
+      "stateName": "Montréal (Commission Government of Newfoundland)",
       "terrain": "forest",
       "coastal": true,
       "rgoGood": "timber",
@@ -1124,7 +1124,7 @@
       "name": "Zeya",
       "ownerTag": "RUSSIAN_EMPIRE",
       "stateId": 18,
-      "stateName": "Jilin (RUSSIAN_EMPIRE)",
+      "stateName": "Jilin (Russian Empire)",
       "terrain": "forest",
       "coastal": true,
       "rgoGood": "timber",
@@ -1148,7 +1148,7 @@
       "name": "Kufra",
       "ownerTag": "CIRENAICA_ITALIANA",
       "stateId": 61,
-      "stateName": "Benghazi (CIRENAICA_ITALIANA)",
+      "stateName": "Benghazi (Italian Cyrenaica)",
       "terrain": "desert",
       "coastal": true,
       "rgoGood": "cattle",
@@ -1192,7 +1192,7 @@
       "name": "Cochabamba",
       "ownerTag": "BOLIVIA",
       "stateId": 45,
-      "stateName": "Chuquisaca (BOLIVIA)",
+      "stateName": "Chuquisaca (Bolivia)",
       "terrain": "jungle",
       "coastal": false,
       "rgoGood": "timber",
@@ -1269,7 +1269,7 @@
       "name": "Altai",
       "ownerTag": "RUSSIAN_EMPIRE",
       "stateId": 71,
-      "stateName": "Tannu Uriankhai (RUSSIAN_EMPIRE)",
+      "stateName": "Tannu Uriankhai (Russian Empire)",
       "terrain": "hills",
       "coastal": true,
       "rgoGood": "cattle",
@@ -1295,7 +1295,7 @@
       "name": "Jyekundo",
       "ownerTag": "TIBET",
       "stateId": 24,
-      "stateName": "Xining (TIBET)",
+      "stateName": "Xining (Tibet)",
       "terrain": "mountains",
       "coastal": true,
       "rgoGood": "coal",
@@ -1396,7 +1396,7 @@
       "name": "Anadyr",
       "ownerTag": "RUSSIAN_EMPIRE",
       "stateId": 4,
-      "stateName": "Kamchatka (RUSSIAN_EMPIRE)",
+      "stateName": "Kamchatka (Russian Empire)",
       "terrain": "arctic",
       "coastal": true,
       "rgoGood": "cattle",
@@ -1462,7 +1462,7 @@
       "name": "Xining",
       "ownerTag": "REPUBLIC_OF_CHINA",
       "stateId": 23,
-      "stateName": "Xining (REPUBLIC_OF_CHINA)",
+      "stateName": "Xining (Republic of China)",
       "terrain": "desert",
       "coastal": false,
       "rgoGood": "cotton",
@@ -1776,7 +1776,7 @@
       "name": "Port Desire",
       "ownerTag": "ARGENTINA",
       "stateId": 120,
-      "stateName": "Port Desire (ARGENTINA)",
+      "stateName": "Port Desire (Argentina)",
       "terrain": "desert",
       "coastal": true,
       "rgoGood": "cotton",
@@ -1798,7 +1798,7 @@
       "name": "Hofuf",
       "ownerTag": "EMIRATE_OF_NEJD",
       "stateId": 65,
-      "stateName": "Hofuf (EMIRATE_OF_NEJD)",
+      "stateName": "Hofuf (Emirate of Nejd)",
       "terrain": "desert",
       "coastal": true,
       "rgoGood": "cotton",
@@ -1907,7 +1907,7 @@
       "name": "Chubut",
       "ownerTag": "ARGENTINA",
       "stateId": 271,
-      "stateName": "Santiago (ARGENTINA)",
+      "stateName": "Santiago (Argentina)",
       "terrain": "desert",
       "coastal": true,
       "rgoGood": "cotton",
@@ -1929,7 +1929,7 @@
       "name": "Nuer",
       "ownerTag": "ANGLO_EGYPTIAN_SUDAN",
       "stateId": 33,
-      "stateName": "Bahr el Ghazal (ANGLO_EGYPTIAN_SUDAN)",
+      "stateName": "Bahr el Ghazal (Anglo-Egyptian Sudan)",
       "terrain": "plains",
       "coastal": false,
       "rgoGood": "cattle",
@@ -2049,7 +2049,7 @@
       "name": "Québec",
       "ownerTag": "CANADA",
       "stateId": 9,
-      "stateName": "Montréal (CANADA)",
+      "stateName": "Montréal (Canada)",
       "terrain": "forest",
       "coastal": true,
       "rgoGood": "cotton",
@@ -2181,7 +2181,7 @@
       "name": "Benghazi",
       "ownerTag": "CIRENAICA_ITALIANA",
       "stateId": 61,
-      "stateName": "Benghazi (CIRENAICA_ITALIANA)",
+      "stateName": "Benghazi (Italian Cyrenaica)",
       "terrain": "desert",
       "coastal": true,
       "rgoGood": "cattle",
@@ -2316,7 +2316,7 @@
       "name": "Bahr el Ghazal",
       "ownerTag": "ANGLO_EGYPTIAN_SUDAN",
       "stateId": 33,
-      "stateName": "Bahr el Ghazal (ANGLO_EGYPTIAN_SUDAN)",
+      "stateName": "Bahr el Ghazal (Anglo-Egyptian Sudan)",
       "terrain": "plains",
       "coastal": false,
       "rgoGood": "cattle",
@@ -2341,7 +2341,7 @@
       "name": "Srednekolymsk",
       "ownerTag": "RUSSIAN_EMPIRE",
       "stateId": 4,
-      "stateName": "Kamchatka (RUSSIAN_EMPIRE)",
+      "stateName": "Kamchatka (Russian Empire)",
       "terrain": "arctic",
       "coastal": true,
       "rgoGood": "cattle",
@@ -2582,7 +2582,7 @@
       "name": "São Gabriel da Cachoeira",
       "ownerTag": "BRASIL",
       "stateId": 233,
-      "stateName": "Vaupés (BRASIL)",
+      "stateName": "Vaupés (Brazil)",
       "terrain": "jungle",
       "coastal": false,
       "rgoGood": "timber",
@@ -2607,7 +2607,7 @@
       "name": "Chuquisaca",
       "ownerTag": "BOLIVIA",
       "stateId": 45,
-      "stateName": "Chuquisaca (BOLIVIA)",
+      "stateName": "Chuquisaca (Bolivia)",
       "terrain": "mountains",
       "coastal": false,
       "rgoGood": "coal",
@@ -2631,7 +2631,7 @@
       "name": "Santa Cruz",
       "ownerTag": "BOLIVIA",
       "stateId": 45,
-      "stateName": "Chuquisaca (BOLIVIA)",
+      "stateName": "Chuquisaca (Bolivia)",
       "terrain": "hills",
       "coastal": false,
       "rgoGood": "iron",
@@ -2742,7 +2742,7 @@
       "name": "Jilin",
       "ownerTag": "REPUBLIC_OF_CHINA",
       "stateId": 17,
-      "stateName": "Jilin (REPUBLIC_OF_CHINA)",
+      "stateName": "Jilin (Republic of China)",
       "terrain": "plains",
       "coastal": false,
       "rgoGood": "grain",
@@ -2790,7 +2790,7 @@
       "name": "Ningguta",
       "ownerTag": "REPUBLIC_OF_CHINA",
       "stateId": 17,
-      "stateName": "Jilin (REPUBLIC_OF_CHINA)",
+      "stateName": "Jilin (Republic of China)",
       "terrain": "forest",
       "coastal": false,
       "rgoGood": "cotton",
@@ -2835,7 +2835,7 @@
       "name": "Dar Zaghawa",
       "ownerTag": "ANGLO_EGYPTIAN_SUDAN",
       "stateId": 94,
-      "stateName": "El Fasher (ANGLO_EGYPTIAN_SUDAN)",
+      "stateName": "El Fasher (Anglo-Egyptian Sudan)",
       "terrain": "desert",
       "coastal": true,
       "rgoGood": "cotton",
@@ -3022,7 +3022,7 @@
       "name": "Lower Purus",
       "ownerTag": "BRASIL",
       "stateId": 46,
-      "stateName": "Chuquisaca (BRASIL)",
+      "stateName": "Chuquisaca (Brazil)",
       "terrain": "jungle",
       "coastal": false,
       "rgoGood": "timber",
@@ -3136,7 +3136,7 @@
       "name": "Gondar",
       "ownerTag": "ETHIOPIAN_EMPIRE",
       "stateId": 106,
-      "stateName": "Gondar (ETHIOPIAN_EMPIRE)",
+      "stateName": "Gondar (Ethiopian Empire)",
       "terrain": "hills",
       "coastal": false,
       "rgoGood": "iron",
@@ -3225,7 +3225,7 @@
       "name": "Koko Nor",
       "ownerTag": "TIBET",
       "stateId": 24,
-      "stateName": "Xining (TIBET)",
+      "stateName": "Xining (Tibet)",
       "terrain": "mountains",
       "coastal": false,
       "rgoGood": "iron",
@@ -3293,7 +3293,7 @@
       "name": "Qiqihar",
       "ownerTag": "REPUBLIC_OF_CHINA",
       "stateId": 17,
-      "stateName": "Jilin (REPUBLIC_OF_CHINA)",
+      "stateName": "Jilin (Republic of China)",
       "terrain": "plains",
       "coastal": false,
       "rgoGood": "cattle",
@@ -3432,7 +3432,7 @@
       "name": "Bagamoyo",
       "ownerTag": "DEUTSCH_OSTAFRIKA",
       "stateId": 155,
-      "stateName": "Bagamoyo (DEUTSCH_OSTAFRIKA)",
+      "stateName": "Bagamoyo (German East Africa)",
       "terrain": "plains",
       "coastal": true,
       "rgoGood": "cattle",
@@ -3521,7 +3521,7 @@
       "name": "Suakin",
       "ownerTag": "ANGLO_EGYPTIAN_SUDAN",
       "stateId": 122,
-      "stateName": "Khartoum (ANGLO_EGYPTIAN_SUDAN)",
+      "stateName": "Khartoum (Anglo-Egyptian Sudan)",
       "terrain": "desert",
       "coastal": true,
       "rgoGood": "cattle",
@@ -3542,7 +3542,7 @@
       "name": "Hamada du Draa",
       "ownerTag": "FRENCH_THIRD_REPUBLIC",
       "stateId": 406,
-      "stateName": "Fez (FRENCH_THIRD_REPUBLIC)",
+      "stateName": "Fez (French Third Republic)",
       "terrain": "desert",
       "coastal": false,
       "rgoGood": "cotton",
@@ -3613,7 +3613,7 @@
       "name": "Río de Oro",
       "ownerTag": "RIO_DE_ORO",
       "stateId": 108,
-      "stateName": "Saguia el-Hamra (RIO_DE_ORO)",
+      "stateName": "Saguia el-Hamra (Rio de Oro)",
       "terrain": "desert",
       "coastal": true,
       "rgoGood": "cotton",
@@ -3808,7 +3808,7 @@
       "name": "Unyamwezi",
       "ownerTag": "DEUTSCH_OSTAFRIKA",
       "stateId": 77,
-      "stateName": "Muramvya (DEUTSCH_OSTAFRIKA)",
+      "stateName": "Muramvya (German East Africa)",
       "terrain": "plains",
       "coastal": false,
       "rgoGood": "cattle",
@@ -3856,7 +3856,7 @@
       "name": "Rub al Khali",
       "ownerTag": "MUSCAT_AND_OMAN",
       "stateId": 66,
-      "stateName": "Hofuf (MUSCAT_AND_OMAN)",
+      "stateName": "Hofuf (Muscat and Oman)",
       "terrain": "desert",
       "coastal": true,
       "rgoGood": "cattle",
@@ -3882,7 +3882,7 @@
       "name": "Vichada",
       "ownerTag": "COLOMBIA",
       "stateId": 234,
-      "stateName": "Vaupés (COLOMBIA)",
+      "stateName": "Vaupés (Colombia)",
       "terrain": "jungle",
       "coastal": false,
       "rgoGood": "timber",
@@ -3907,7 +3907,7 @@
       "name": "Tiris",
       "ownerTag": "PROTECTORAT_DE_LA_MAURITANIE",
       "stateId": 107,
-      "stateName": "Saguia el-Hamra (PROTECTORAT_DE_LA_MAURITANIE)",
+      "stateName": "Saguia el-Hamra (Protectorate of Mauritania)",
       "terrain": "desert",
       "coastal": false,
       "rgoGood": "cattle",
@@ -3929,7 +3929,7 @@
       "name": "Tannu Uriankhai",
       "ownerTag": "TANNU_URIANKHAI",
       "stateId": 102,
-      "stateName": "Tannu Uriankhai (TANNU_URIANKHAI)",
+      "stateName": "Tannu Uriankhai (Tannu Uriankhai)",
       "terrain": "mountains",
       "coastal": true,
       "rgoGood": "coal",
@@ -4043,7 +4043,7 @@
       "name": "Zande",
       "ownerTag": "ANGLO_EGYPTIAN_SUDAN",
       "stateId": 33,
-      "stateName": "Bahr el Ghazal (ANGLO_EGYPTIAN_SUDAN)",
+      "stateName": "Bahr el Ghazal (Anglo-Egyptian Sudan)",
       "terrain": "jungle",
       "coastal": false,
       "rgoGood": "cotton",
@@ -4091,7 +4091,7 @@
       "name": "Kafue",
       "ownerTag": "NORTHERN_RHODESIA",
       "stateId": 53,
-      "stateName": "Kafue (NORTHERN_RHODESIA)",
+      "stateName": "Kafue (Northern Rhodesia)",
       "terrain": "plains",
       "coastal": false,
       "rgoGood": "grain",
@@ -4115,7 +4115,7 @@
       "name": "Juruá",
       "ownerTag": "BRASIL",
       "stateId": 46,
-      "stateName": "Chuquisaca (BRASIL)",
+      "stateName": "Chuquisaca (Brazil)",
       "terrain": "jungle",
       "coastal": false,
       "rgoGood": "timber",
@@ -4139,7 +4139,7 @@
       "name": "Acholi",
       "ownerTag": "PROTECTORATE_OF_UGANDA",
       "stateId": 159,
-      "stateName": "Acholi (PROTECTORATE_OF_UGANDA)",
+      "stateName": "Acholi (Protectorate of Uganda)",
       "terrain": "plains",
       "coastal": false,
       "rgoGood": "cattle",
@@ -4189,7 +4189,7 @@
       "name": "St. John's",
       "ownerTag": "COMMISSION_GOVERNMENT_OF_NEWFOUNDLAND",
       "stateId": 10,
-      "stateName": "Montréal (COMMISSION_GOVERNMENT_OF_NEWFOUNDLAND)",
+      "stateName": "Montréal (Commission Government of Newfoundland)",
       "terrain": "hills",
       "coastal": true,
       "rgoGood": "cattle",
@@ -4234,7 +4234,7 @@
       "name": "Chaco Boreal",
       "ownerTag": "PARAGUAY",
       "stateId": 116,
-      "stateName": "Asunción (PARAGUAY)",
+      "stateName": "Asunción (Paraguay)",
       "terrain": "forest",
       "coastal": false,
       "rgoGood": "timber",
@@ -4282,7 +4282,7 @@
       "name": "Bamangwato",
       "ownerTag": "BECHUANALAND_PROTECTORATE",
       "stateId": 186,
-      "stateName": "Bamangwato (BECHUANALAND_PROTECTORATE)",
+      "stateName": "Bamangwato (Bechuanaland Protectorate)",
       "terrain": "plains",
       "coastal": false,
       "rgoGood": "cattle",
@@ -4306,7 +4306,7 @@
       "name": "Kabul",
       "ownerTag": "EMIRATE_OF_AFGHANISTAN",
       "stateId": 69,
-      "stateName": "Kabul (EMIRATE_OF_AFGHANISTAN)",
+      "stateName": "Kabul (Emirate of Afghanistan)",
       "terrain": "mountains",
       "coastal": true,
       "rgoGood": "coal",
@@ -4354,7 +4354,7 @@
       "name": "Kong",
       "ownerTag": "FRENCH_WEST_AFRICA",
       "stateId": 194,
-      "stateName": "Kumasi (FRENCH_WEST_AFRICA)",
+      "stateName": "Kumasi (French West Africa)",
       "terrain": "plains",
       "coastal": false,
       "rgoGood": "grain",
@@ -4379,7 +4379,7 @@
       "name": "Ogden's River",
       "ownerTag": "UNITED_STATES",
       "stateId": 51,
-      "stateName": "Los Angeles (UNITED_STATES)",
+      "stateName": "Los Angeles (United States)",
       "terrain": "desert",
       "coastal": false,
       "rgoGood": "cotton",
@@ -4452,7 +4452,7 @@
       "name": "Khartoum",
       "ownerTag": "ANGLO_EGYPTIAN_SUDAN",
       "stateId": 122,
-      "stateName": "Khartoum (ANGLO_EGYPTIAN_SUDAN)",
+      "stateName": "Khartoum (Anglo-Egyptian Sudan)",
       "terrain": "desert",
       "coastal": false,
       "rgoGood": "cotton",
@@ -4522,7 +4522,7 @@
       "name": "Los Angeles",
       "ownerTag": "UNITED_STATES",
       "stateId": 51,
-      "stateName": "Los Angeles (UNITED_STATES)",
+      "stateName": "Los Angeles (United States)",
       "terrain": "mountains",
       "coastal": true,
       "rgoGood": "iron",
@@ -4636,7 +4636,7 @@
       "name": "Cameroons",
       "ownerTag": "KAMERUN",
       "stateId": 93,
-      "stateName": "Cameroons (KAMERUN)",
+      "stateName": "Cameroons (German Kamerun)",
       "terrain": "jungle",
       "coastal": true,
       "rgoGood": "cotton",
@@ -4683,7 +4683,7 @@
       "name": "Adrar des Ifoghas",
       "ownerTag": "HAUT_SENEGAL_ET_NIGER",
       "stateId": 40,
-      "stateName": "Ahaggar (HAUT_SENEGAL_ET_NIGER)",
+      "stateName": "Ahaggar (Upper Senegal and Niger)",
       "terrain": "desert",
       "coastal": false,
       "rgoGood": "cotton",
@@ -4800,7 +4800,7 @@
       "name": "Tigray",
       "ownerTag": "ETHIOPIAN_EMPIRE",
       "stateId": 106,
-      "stateName": "Gondar (ETHIOPIAN_EMPIRE)",
+      "stateName": "Gondar (Ethiopian Empire)",
       "terrain": "hills",
       "coastal": false,
       "rgoGood": "cattle",
@@ -4892,7 +4892,7 @@
       "name": "Kuruman",
       "ownerTag": "UNION_OF_SOUTH_AFRICA",
       "stateId": 175,
-      "stateName": "Kuruman (UNION_OF_SOUTH_AFRICA)",
+      "stateName": "Kuruman (Union of South Africa)",
       "terrain": "plains",
       "coastal": false,
       "rgoGood": "grain",
@@ -4939,7 +4939,7 @@
       "name": "Marsabit",
       "ownerTag": "BRITISH_EAST_AFRICA",
       "stateId": 117,
-      "stateName": "Mogadishu (BRITISH_EAST_AFRICA)",
+      "stateName": "Mogadishu (British East Africa)",
       "terrain": "desert",
       "coastal": false,
       "rgoGood": "cattle",
@@ -4964,7 +4964,7 @@
       "name": "Sangha",
       "ownerTag": "COLONIE_DU_MOYEN_CONGO",
       "stateId": 92,
-      "stateName": "Cameroons (COLONIE_DU_MOYEN_CONGO)",
+      "stateName": "Cameroons (Colony of Middle Congo)",
       "terrain": "jungle",
       "coastal": false,
       "rgoGood": "cotton",
@@ -5059,7 +5059,7 @@
       "name": "Gila",
       "ownerTag": "UNITED_STATES",
       "stateId": 246,
-      "stateName": "Santa Fe (UNITED_STATES)",
+      "stateName": "Santa Fe (United States)",
       "terrain": "desert",
       "coastal": true,
       "rgoGood": "cattle",
@@ -5125,7 +5125,7 @@
       "name": "Wolaita",
       "ownerTag": "ETHIOPIAN_EMPIRE",
       "stateId": 35,
-      "stateName": "Bahr el Ghazal (ETHIOPIAN_EMPIRE)",
+      "stateName": "Bahr el Ghazal (Ethiopian Empire)",
       "terrain": "hills",
       "coastal": false,
       "rgoGood": "cattle",
@@ -5149,7 +5149,7 @@
       "name": "Zouar",
       "ownerTag": "AFRIQUE_EQUATORIALE_FRANCAISE",
       "stateId": 96,
-      "stateName": "Manga (AFRIQUE_EQUATORIALE_FRANCAISE)",
+      "stateName": "Manga (French Equatorial Africa)",
       "terrain": "desert",
       "coastal": false,
       "rgoGood": "cattle",
@@ -5204,7 +5204,7 @@
       "name": "Kandahar",
       "ownerTag": "EMIRATE_OF_AFGHANISTAN",
       "stateId": 69,
-      "stateName": "Kabul (EMIRATE_OF_AFGHANISTAN)",
+      "stateName": "Kabul (Emirate of Afghanistan)",
       "terrain": "mountains",
       "coastal": true,
       "rgoGood": "iron",
@@ -5228,7 +5228,7 @@
       "name": "Luangwa",
       "ownerTag": "NORTHERN_RHODESIA",
       "stateId": 53,
-      "stateName": "Kafue (NORTHERN_RHODESIA)",
+      "stateName": "Kafue (Northern Rhodesia)",
       "terrain": "plains",
       "coastal": false,
       "rgoGood": "cattle",
@@ -5251,7 +5251,7 @@
       "name": "Tucson",
       "ownerTag": "UNITED_STATES",
       "stateId": 246,
-      "stateName": "Santa Fe (UNITED_STATES)",
+      "stateName": "Santa Fe (United States)",
       "terrain": "desert",
       "coastal": true,
       "rgoGood": "cotton",
@@ -5323,7 +5323,7 @@
       "name": "Tanganyika",
       "ownerTag": "CONGO_BELGE",
       "stateId": 76,
-      "stateName": "Muramvya (CONGO_BELGE)",
+      "stateName": "Muramvya (Belgian Congo)",
       "terrain": "jungle",
       "coastal": true,
       "rgoGood": "timber",
@@ -5372,7 +5372,7 @@
       "name": "Fada",
       "ownerTag": "COLONIE_DU_OUBANGUI_CHARI_TCHAD",
       "stateId": 95,
-      "stateName": "El Fasher (COLONIE_DU_OUBANGUI_CHARI_TCHAD)",
+      "stateName": "El Fasher (Colony of Ubangi-Shari-Chad)",
       "terrain": "desert",
       "coastal": false,
       "rgoGood": "cotton",
@@ -5512,7 +5512,7 @@
       "name": "Monterey",
       "ownerTag": "UNITED_STATES",
       "stateId": 51,
-      "stateName": "Los Angeles (UNITED_STATES)",
+      "stateName": "Los Angeles (United States)",
       "terrain": "hills",
       "coastal": true,
       "rgoGood": "iron",
@@ -5533,7 +5533,7 @@
       "name": "Ngamiland",
       "ownerTag": "BECHUANALAND_PROTECTORATE",
       "stateId": 186,
-      "stateName": "Bamangwato (BECHUANALAND_PROTECTORATE)",
+      "stateName": "Bamangwato (Bechuanaland Protectorate)",
       "terrain": "plains",
       "coastal": false,
       "rgoGood": "cattle",
@@ -5556,7 +5556,7 @@
       "name": "Ouadane",
       "ownerTag": "PROTECTORAT_DE_LA_MAURITANIE",
       "stateId": 68,
-      "stateName": "Atar (PROTECTORAT_DE_LA_MAURITANIE)",
+      "stateName": "Atar (Protectorate of Mauritania)",
       "terrain": "desert",
       "coastal": true,
       "rgoGood": "cotton",
@@ -5578,7 +5578,7 @@
       "name": "Baguirmi",
       "ownerTag": "COLONIE_DU_OUBANGUI_CHARI_TCHAD",
       "stateId": 112,
-      "stateName": "Maroua (COLONIE_DU_OUBANGUI_CHARI_TCHAD)",
+      "stateName": "Maroua (Colony of Ubangi-Shari-Chad)",
       "terrain": "plains",
       "coastal": false,
       "rgoGood": "grain",
@@ -5603,7 +5603,7 @@
       "name": "La Paz",
       "ownerTag": "BOLIVIA",
       "stateId": 45,
-      "stateName": "Chuquisaca (BOLIVIA)",
+      "stateName": "Chuquisaca (Bolivia)",
       "terrain": "mountains",
       "coastal": false,
       "rgoGood": "iron",
@@ -5673,7 +5673,7 @@
       "name": "Mogadishu",
       "ownerTag": "SOMALIA_ITALIANA",
       "stateId": 118,
-      "stateName": "Mogadishu (SOMALIA_ITALIANA)",
+      "stateName": "Mogadishu (Italian Somaliland)",
       "terrain": "plains",
       "coastal": true,
       "rgoGood": "grain",
@@ -5694,7 +5694,7 @@
       "name": "Transorangia",
       "ownerTag": "UNION_OF_SOUTH_AFRICA",
       "stateId": 330,
-      "stateName": "Transorangia (UNION_OF_SOUTH_AFRICA)",
+      "stateName": "Transorangia (Union of South Africa)",
       "terrain": "plains",
       "coastal": false,
       "rgoGood": "grain",
@@ -5717,7 +5717,7 @@
       "name": "Yao",
       "ownerTag": "PROVINCIA_DE_MOCAMBIQUE",
       "stateId": 130,
-      "stateName": "Mozambique (PROVINCIA_DE_MOCAMBIQUE)",
+      "stateName": "Mozambique (Portuguese Mozambique)",
       "terrain": "plains",
       "coastal": false,
       "rgoGood": "grain",
@@ -5761,7 +5761,7 @@
       "name": "Cape Town",
       "ownerTag": "UNION_OF_SOUTH_AFRICA",
       "stateId": 73,
-      "stateName": "Cape Town (UNION_OF_SOUTH_AFRICA)",
+      "stateName": "Cape Town (Union of South Africa)",
       "terrain": "hills",
       "coastal": true,
       "rgoGood": "iron",
@@ -5781,7 +5781,7 @@
       "name": "Harar",
       "ownerTag": "ETHIOPIAN_EMPIRE",
       "stateId": 127,
-      "stateName": "Berbera (ETHIOPIAN_EMPIRE)",
+      "stateName": "Berbera (Ethiopian Empire)",
       "terrain": "hills",
       "coastal": false,
       "rgoGood": "cattle",
@@ -5894,7 +5894,7 @@
       "name": "Kazembe",
       "ownerTag": "NORTHERN_RHODESIA",
       "stateId": 49,
-      "stateName": "Lunda (NORTHERN_RHODESIA)",
+      "stateName": "Lunda (Northern Rhodesia)",
       "terrain": "jungle",
       "coastal": true,
       "rgoGood": "cotton",
@@ -5916,7 +5916,7 @@
       "name": "Great Basin",
       "ownerTag": "UNITED_STATES",
       "stateId": 51,
-      "stateName": "Los Angeles (UNITED_STATES)",
+      "stateName": "Los Angeles (United States)",
       "terrain": "mountains",
       "coastal": false,
       "rgoGood": "iron",
@@ -5938,7 +5938,7 @@
       "name": "Banda",
       "ownerTag": "COLONIE_DU_OUBANGUI_CHARI_TCHAD",
       "stateId": 142,
-      "stateName": "Dar al-Kuti (COLONIE_DU_OUBANGUI_CHARI_TCHAD)",
+      "stateName": "Dar al-Kuti (Colony of Ubangi-Shari-Chad)",
       "terrain": "jungle",
       "coastal": false,
       "rgoGood": "timber",
@@ -5959,7 +5959,7 @@
       "name": "Barotseland",
       "ownerTag": "NORTHERN_RHODESIA",
       "stateId": 164,
-      "stateName": "Batoka (NORTHERN_RHODESIA)",
+      "stateName": "Batoka (Northern Rhodesia)",
       "terrain": "plains",
       "coastal": false,
       "rgoGood": "grain",
@@ -5981,7 +5981,7 @@
       "name": "Hail",
       "ownerTag": "EMIRATE_OF_JABAL_SHAMMAR",
       "stateId": 179,
-      "stateName": "Buraydah (EMIRATE_OF_JABAL_SHAMMAR)",
+      "stateName": "Buraydah (Emirate of Jabal Shammar)",
       "terrain": "desert",
       "coastal": false,
       "rgoGood": "cotton",
@@ -6026,7 +6026,7 @@
       "name": "Little Namaqualand",
       "ownerTag": "UNION_OF_SOUTH_AFRICA",
       "stateId": 73,
-      "stateName": "Cape Town (UNION_OF_SOUTH_AFRICA)",
+      "stateName": "Cape Town (Union of South Africa)",
       "terrain": "desert",
       "coastal": true,
       "rgoGood": "cattle",
@@ -6047,7 +6047,7 @@
       "name": "Manga",
       "ownerTag": "FRENCH_WEST_AFRICA",
       "stateId": 98,
-      "stateName": "Manga (FRENCH_WEST_AFRICA)",
+      "stateName": "Manga (French West Africa)",
       "terrain": "desert",
       "coastal": false,
       "rgoGood": "cattle",
@@ -6070,7 +6070,7 @@
       "name": "Usambara",
       "ownerTag": "DEUTSCH_OSTAFRIKA",
       "stateId": 155,
-      "stateName": "Bagamoyo (DEUTSCH_OSTAFRIKA)",
+      "stateName": "Bagamoyo (German East Africa)",
       "terrain": "hills",
       "coastal": true,
       "rgoGood": "iron",
@@ -6094,7 +6094,7 @@
       "name": "Venda",
       "ownerTag": "UNION_OF_SOUTH_AFRICA",
       "stateId": 439,
-      "stateName": "Matabele (UNION_OF_SOUTH_AFRICA)",
+      "stateName": "Matabele (Union of South Africa)",
       "terrain": "plains",
       "coastal": false,
       "rgoGood": "cattle",
@@ -6116,7 +6116,7 @@
       "name": "Nema",
       "ownerTag": "HAUT_SENEGAL_ET_NIGER",
       "stateId": 67,
-      "stateName": "Atar (HAUT_SENEGAL_ET_NIGER)",
+      "stateName": "Atar (Upper Senegal and Niger)",
       "terrain": "desert",
       "coastal": true,
       "rgoGood": "cotton",
@@ -6137,7 +6137,7 @@
       "name": "Zambezi",
       "ownerTag": "NORTHERN_RHODESIA",
       "stateId": 164,
-      "stateName": "Batoka (NORTHERN_RHODESIA)",
+      "stateName": "Batoka (Northern Rhodesia)",
       "terrain": "plains",
       "coastal": false,
       "rgoGood": "grain",
@@ -6183,7 +6183,7 @@
       "name": "Bampur",
       "ownerTag": "IRAN",
       "stateId": 389,
-      "stateName": "Sistan (IRAN)",
+      "stateName": "Sistan (Iran)",
       "terrain": "desert",
       "coastal": true,
       "rgoGood": "cotton",
@@ -6208,7 +6208,7 @@
       "name": "Katanga",
       "ownerTag": "CONGO_BELGE",
       "stateId": 47,
-      "stateName": "Lunda (CONGO_BELGE)",
+      "stateName": "Lunda (Belgian Congo)",
       "terrain": "jungle",
       "coastal": false,
       "rgoGood": "cotton",
@@ -6324,7 +6324,7 @@
       "name": "Tsaidam",
       "ownerTag": "TIBET",
       "stateId": 24,
-      "stateName": "Xining (TIBET)",
+      "stateName": "Xining (Tibet)",
       "terrain": "mountains",
       "coastal": false,
       "rgoGood": "coal",
@@ -6345,7 +6345,7 @@
       "name": "Lunda",
       "ownerTag": "CONGO_BELGE",
       "stateId": 47,
-      "stateName": "Lunda (CONGO_BELGE)",
+      "stateName": "Lunda (Belgian Congo)",
       "terrain": "jungle",
       "coastal": false,
       "rgoGood": "cotton",
@@ -6419,7 +6419,7 @@
       "name": "Sonoma",
       "ownerTag": "UNITED_STATES",
       "stateId": 51,
-      "stateName": "Los Angeles (UNITED_STATES)",
+      "stateName": "Los Angeles (United States)",
       "terrain": "hills",
       "coastal": true,
       "rgoGood": "coal",
@@ -6460,7 +6460,7 @@
       "name": "Mombasa",
       "ownerTag": "BRITISH_EAST_AFRICA",
       "stateId": 154,
-      "stateName": "Bagamoyo (BRITISH_EAST_AFRICA)",
+      "stateName": "Bagamoyo (British East Africa)",
       "terrain": "plains",
       "coastal": true,
       "rgoGood": "cattle",
@@ -6510,7 +6510,7 @@
       "name": "Massawa",
       "ownerTag": "COLONIA_ERITREA",
       "stateId": 105,
-      "stateName": "Gondar (COLONIA_ERITREA)",
+      "stateName": "Gondar (Italian Eritrea)",
       "terrain": "desert",
       "coastal": true,
       "rgoGood": "cotton",
@@ -6577,7 +6577,7 @@
       "name": "Santa Fe",
       "ownerTag": "UNITED_STATES",
       "stateId": 246,
-      "stateName": "Santa Fe (UNITED_STATES)",
+      "stateName": "Santa Fe (United States)",
       "terrain": "desert",
       "coastal": false,
       "rgoGood": "cotton",
@@ -6624,7 +6624,7 @@
       "name": "Mashonaland",
       "ownerTag": "SOUTHERN_RHODESIA",
       "stateId": 56,
-      "stateName": "Kafue (SOUTHERN_RHODESIA)",
+      "stateName": "Kafue (Southern Rhodesia)",
       "terrain": "plains",
       "coastal": false,
       "rgoGood": "grain",
@@ -6672,7 +6672,7 @@
       "name": "Maravi",
       "ownerTag": "NYASALAND",
       "stateId": 54,
-      "stateName": "Kafue (NYASALAND)",
+      "stateName": "Kafue (Nyasaland)",
       "terrain": "plains",
       "coastal": false,
       "rgoGood": "grain",
@@ -6717,7 +6717,7 @@
       "name": "Butua",
       "ownerTag": "SOUTHERN_RHODESIA",
       "stateId": 165,
-      "stateName": "Batoka (SOUTHERN_RHODESIA)",
+      "stateName": "Batoka (Southern Rhodesia)",
       "terrain": "plains",
       "coastal": false,
       "rgoGood": "cattle",
@@ -6788,7 +6788,7 @@
       "name": "Gaboon",
       "ownerTag": "KAMERUN",
       "stateId": 362,
-      "stateName": "Gaboon (KAMERUN)",
+      "stateName": "Gaboon (German Kamerun)",
       "terrain": "jungle",
       "coastal": true,
       "rgoGood": "cotton",
@@ -6929,7 +6929,7 @@
       "name": "Aysén",
       "ownerTag": "CHILE",
       "stateId": 121,
-      "stateName": "Port Desire (CHILE)",
+      "stateName": "Port Desire (Chile)",
       "terrain": "mountains",
       "coastal": true,
       "rgoGood": "iron",
@@ -7041,7 +7041,7 @@
       "name": "Hun",
       "ownerTag": "TRIPOLITANIA_ITALIANA",
       "stateId": 62,
-      "stateName": "Benghazi (TRIPOLITANIA_ITALIANA)",
+      "stateName": "Benghazi (Italian Tripolitania)",
       "terrain": "desert",
       "coastal": false,
       "rgoGood": "cotton",
@@ -7064,7 +7064,7 @@
       "name": "Kalahari",
       "ownerTag": "BECHUANALAND_PROTECTORATE",
       "stateId": 186,
-      "stateName": "Bamangwato (BECHUANALAND_PROTECTORATE)",
+      "stateName": "Bamangwato (Bechuanaland Protectorate)",
       "terrain": "plains",
       "coastal": false,
       "rgoGood": "grain",
@@ -7108,7 +7108,7 @@
       "name": "Juba",
       "ownerTag": "BRITISH_EAST_AFRICA",
       "stateId": 117,
-      "stateName": "Mogadishu (BRITISH_EAST_AFRICA)",
+      "stateName": "Mogadishu (British East Africa)",
       "terrain": "plains",
       "coastal": true,
       "rgoGood": "grain",
@@ -7129,7 +7129,7 @@
       "name": "Termit",
       "ownerTag": "FRENCH_WEST_AFRICA",
       "stateId": 98,
-      "stateName": "Manga (FRENCH_WEST_AFRICA)",
+      "stateName": "Manga (French West Africa)",
       "terrain": "desert",
       "coastal": false,
       "rgoGood": "cotton",
@@ -7174,7 +7174,7 @@
       "name": "Socorro",
       "ownerTag": "UNITED_STATES",
       "stateId": 246,
-      "stateName": "Santa Fe (UNITED_STATES)",
+      "stateName": "Santa Fe (United States)",
       "terrain": "desert",
       "coastal": false,
       "rgoGood": "cattle",
@@ -7197,7 +7197,7 @@
       "name": "Loango",
       "ownerTag": "COLONIE_DU_MOYEN_CONGO",
       "stateId": 185,
-      "stateName": "Cape Lopez (COLONIE_DU_MOYEN_CONGO)",
+      "stateName": "Cape Lopez (Colony of Middle Congo)",
       "terrain": "jungle",
       "coastal": true,
       "rgoGood": "timber",
@@ -7244,7 +7244,7 @@
       "name": "Gbaya",
       "ownerTag": "KAMERUN",
       "stateId": 93,
-      "stateName": "Cameroons (KAMERUN)",
+      "stateName": "Cameroons (German Kamerun)",
       "terrain": "jungle",
       "coastal": false,
       "rgoGood": "cotton",
@@ -7266,7 +7266,7 @@
       "name": "Stockholm",
       "ownerTag": "SVERIGE",
       "stateId": 214,
-      "stateName": "Stockholm (SVERIGE)",
+      "stateName": "Stockholm (Sweden)",
       "terrain": "forest",
       "coastal": true,
       "rgoGood": "cotton",
@@ -7333,7 +7333,7 @@
       "name": "Luba",
       "ownerTag": "CONGO_BELGE",
       "stateId": 47,
-      "stateName": "Lunda (CONGO_BELGE)",
+      "stateName": "Lunda (Belgian Congo)",
       "terrain": "jungle",
       "coastal": false,
       "rgoGood": "timber",
@@ -7354,7 +7354,7 @@
       "name": "Caquetá",
       "ownerTag": "COLOMBIA",
       "stateId": 90,
-      "stateName": "Putumayo (COLOMBIA)",
+      "stateName": "Putumayo (Colombia)",
       "terrain": "jungle",
       "coastal": false,
       "rgoGood": "timber",
@@ -7377,7 +7377,7 @@
       "name": "Bagé",
       "ownerTag": "BRASIL",
       "stateId": 177,
-      "stateName": "Montevideo (BRASIL)",
+      "stateName": "Montevideo (Brazil)",
       "terrain": "plains",
       "coastal": true,
       "rgoGood": "grain",
@@ -7399,7 +7399,7 @@
       "name": "Dar Masalit",
       "ownerTag": "ANGLO_EGYPTIAN_SUDAN",
       "stateId": 94,
-      "stateName": "El Fasher (ANGLO_EGYPTIAN_SUDAN)",
+      "stateName": "El Fasher (Anglo-Egyptian Sudan)",
       "terrain": "plains",
       "coastal": true,
       "rgoGood": "grain",
@@ -7424,7 +7424,7 @@
       "name": "Chaco Central",
       "ownerTag": "ARGENTINA",
       "stateId": 115,
-      "stateName": "Asunción (ARGENTINA)",
+      "stateName": "Asunción (Argentina)",
       "terrain": "plains",
       "coastal": false,
       "rgoGood": "grain",
@@ -7563,7 +7563,7 @@
       "name": "Usukuma",
       "ownerTag": "DEUTSCH_OSTAFRIKA",
       "stateId": 238,
-      "stateName": "Nyanza (DEUTSCH_OSTAFRIKA)",
+      "stateName": "Nyanza (German East Africa)",
       "terrain": "plains",
       "coastal": false,
       "rgoGood": "grain",
@@ -7586,7 +7586,7 @@
       "name": "Qatif",
       "ownerTag": "EMIRATE_OF_NEJD",
       "stateId": 65,
-      "stateName": "Hofuf (EMIRATE_OF_NEJD)",
+      "stateName": "Hofuf (Emirate of Nejd)",
       "terrain": "desert",
       "coastal": true,
       "rgoGood": "cotton",
@@ -7703,7 +7703,7 @@
       "name": "Atar",
       "ownerTag": "PROTECTORAT_DE_LA_MAURITANIE",
       "stateId": 68,
-      "stateName": "Atar (PROTECTORAT_DE_LA_MAURITANIE)",
+      "stateName": "Atar (Protectorate of Mauritania)",
       "terrain": "desert",
       "coastal": false,
       "rgoGood": "cotton",
@@ -7726,7 +7726,7 @@
       "name": "Haud",
       "ownerTag": "ETHIOPIAN_EMPIRE",
       "stateId": 218,
-      "stateName": "Majeerteen (ETHIOPIAN_EMPIRE)",
+      "stateName": "Majeerteen (Ethiopian Empire)",
       "terrain": "desert",
       "coastal": true,
       "rgoGood": "cattle",
@@ -7750,7 +7750,7 @@
       "name": "Meymaneh",
       "ownerTag": "EMIRATE_OF_AFGHANISTAN",
       "stateId": 69,
-      "stateName": "Kabul (EMIRATE_OF_AFGHANISTAN)",
+      "stateName": "Kabul (Emirate of Afghanistan)",
       "terrain": "desert",
       "coastal": false,
       "rgoGood": "cotton",
@@ -7775,7 +7775,7 @@
       "name": "Kgalagadi",
       "ownerTag": "BECHUANALAND_PROTECTORATE",
       "stateId": 174,
-      "stateName": "Kuruman (BECHUANALAND_PROTECTORATE)",
+      "stateName": "Kuruman (Bechuanaland Protectorate)",
       "terrain": "desert",
       "coastal": false,
       "rgoGood": "cotton",
@@ -7796,7 +7796,7 @@
       "name": "Tacna",
       "ownerTag": "PERU",
       "stateId": 150,
-      "stateName": "Cuzco (PERU)",
+      "stateName": "Cuzco (Peru)",
       "terrain": "mountains",
       "coastal": true,
       "rgoGood": "coal",
@@ -7841,7 +7841,7 @@
       "name": "Tafilalt",
       "ownerTag": "FRENCH_MOROCCO",
       "stateId": 405,
-      "stateName": "Fez (FRENCH_MOROCCO)",
+      "stateName": "Fez (French Morocco)",
       "terrain": "desert",
       "coastal": true,
       "rgoGood": "cotton",
@@ -7888,7 +7888,7 @@
       "name": "Dar al-Kuti",
       "ownerTag": "COLONIE_DU_OUBANGUI_CHARI_TCHAD",
       "stateId": 142,
-      "stateName": "Dar al-Kuti (COLONIE_DU_OUBANGUI_CHARI_TCHAD)",
+      "stateName": "Dar al-Kuti (Colony of Ubangi-Shari-Chad)",
       "terrain": "plains",
       "coastal": false,
       "rgoGood": "grain",
@@ -7935,7 +7935,7 @@
       "name": "Kankan",
       "ownerTag": "FRENCH_WEST_AFRICA",
       "stateId": 81,
-      "stateName": "Monrovia (FRENCH_WEST_AFRICA)",
+      "stateName": "Monrovia (French West Africa)",
       "terrain": "jungle",
       "coastal": false,
       "rgoGood": "timber",
@@ -8048,7 +8048,7 @@
       "name": "Popayán",
       "ownerTag": "COLOMBIA",
       "stateId": 90,
-      "stateName": "Putumayo (COLOMBIA)",
+      "stateName": "Putumayo (Colombia)",
       "terrain": "mountains",
       "coastal": true,
       "rgoGood": "iron",
@@ -8093,7 +8093,7 @@
       "name": "Colesberg",
       "ownerTag": "UNION_OF_SOUTH_AFRICA",
       "stateId": 73,
-      "stateName": "Cape Town (UNION_OF_SOUTH_AFRICA)",
+      "stateName": "Cape Town (Union of South Africa)",
       "terrain": "desert",
       "coastal": false,
       "rgoGood": "cotton",
@@ -8117,7 +8117,7 @@
       "name": "Quelimane",
       "ownerTag": "PROVINCIA_DE_MOCAMBIQUE",
       "stateId": 130,
-      "stateName": "Mozambique (PROVINCIA_DE_MOCAMBIQUE)",
+      "stateName": "Mozambique (Portuguese Mozambique)",
       "terrain": "plains",
       "coastal": true,
       "rgoGood": "grain",
@@ -8164,7 +8164,7 @@
       "name": "Orange River",
       "ownerTag": "UNION_OF_SOUTH_AFRICA",
       "stateId": 73,
-      "stateName": "Cape Town (UNION_OF_SOUTH_AFRICA)",
+      "stateName": "Cape Town (Union of South Africa)",
       "terrain": "desert",
       "coastal": false,
       "rgoGood": "cotton",
@@ -8328,7 +8328,7 @@
       "name": "Maroua",
       "ownerTag": "KAMERUN",
       "stateId": 113,
-      "stateName": "Maroua (KAMERUN)",
+      "stateName": "Maroua (German Kamerun)",
       "terrain": "plains",
       "coastal": false,
       "rgoGood": "grain",
@@ -8422,7 +8422,7 @@
       "name": "Fez",
       "ownerTag": "FRENCH_MOROCCO",
       "stateId": 405,
-      "stateName": "Fez (FRENCH_MOROCCO)",
+      "stateName": "Fez (French Morocco)",
       "terrain": "desert",
       "coastal": true,
       "rgoGood": "cattle",
@@ -8444,7 +8444,7 @@
       "name": "Gao",
       "ownerTag": "HAUT_SENEGAL_ET_NIGER",
       "stateId": 40,
-      "stateName": "Ahaggar (HAUT_SENEGAL_ET_NIGER)",
+      "stateName": "Ahaggar (Upper Senegal and Niger)",
       "terrain": "desert",
       "coastal": false,
       "rgoGood": "cotton",
@@ -8467,7 +8467,7 @@
       "name": "Tete",
       "ownerTag": "PROVINCIA_DE_MOCAMBIQUE",
       "stateId": 55,
-      "stateName": "Kafue (PROVINCIA_DE_MOCAMBIQUE)",
+      "stateName": "Kafue (Portuguese Mozambique)",
       "terrain": "plains",
       "coastal": false,
       "rgoGood": "grain",
@@ -8513,7 +8513,7 @@
       "name": "Huon Gulf",
       "ownerTag": "DEUTSCH_NEUGUINEA",
       "stateId": 208,
-      "stateName": "Papua (DEUTSCH_NEUGUINEA)",
+      "stateName": "Papua (German New Guinea)",
       "terrain": "mountains",
       "coastal": true,
       "rgoGood": "coal",
@@ -8602,7 +8602,7 @@
       "name": "Ujiji",
       "ownerTag": "DEUTSCH_OSTAFRIKA",
       "stateId": 77,
-      "stateName": "Muramvya (DEUTSCH_OSTAFRIKA)",
+      "stateName": "Muramvya (German East Africa)",
       "terrain": "jungle",
       "coastal": false,
       "rgoGood": "timber",
@@ -8625,7 +8625,7 @@
       "name": "Medellín",
       "ownerTag": "COLOMBIA",
       "stateId": 292,
-      "stateName": "Bogotá (COLOMBIA)",
+      "stateName": "Bogotá (Colombia)",
       "terrain": "hills",
       "coastal": true,
       "rgoGood": "iron",
@@ -8670,7 +8670,7 @@
       "name": "Concepción",
       "ownerTag": "CHILE",
       "stateId": 272,
-      "stateName": "Santiago (CHILE)",
+      "stateName": "Santiago (Chile)",
       "terrain": "hills",
       "coastal": true,
       "rgoGood": "coal",
@@ -8691,7 +8691,7 @@
       "name": "Tidjikdja",
       "ownerTag": "PROTECTORAT_DE_LA_MAURITANIE",
       "stateId": 68,
-      "stateName": "Atar (PROTECTORAT_DE_LA_MAURITANIE)",
+      "stateName": "Atar (Protectorate of Mauritania)",
       "terrain": "desert",
       "coastal": true,
       "rgoGood": "cotton",
@@ -8712,7 +8712,7 @@
       "name": "Daloa",
       "ownerTag": "FRENCH_WEST_AFRICA",
       "stateId": 81,
-      "stateName": "Monrovia (FRENCH_WEST_AFRICA)",
+      "stateName": "Monrovia (French West Africa)",
       "terrain": "jungle",
       "coastal": true,
       "rgoGood": "cotton",
@@ -8758,7 +8758,7 @@
       "name": "Phitsanulok",
       "ownerTag": "SIAM",
       "stateId": 79,
-      "stateName": "Bangkok (SIAM)",
+      "stateName": "Bangkok (Siam)",
       "terrain": "hills",
       "coastal": true,
       "rgoGood": "iron",
@@ -8804,7 +8804,7 @@
       "name": "Dawa",
       "ownerTag": "ETHIOPIAN_EMPIRE",
       "stateId": 127,
-      "stateName": "Berbera (ETHIOPIAN_EMPIRE)",
+      "stateName": "Berbera (Ethiopian Empire)",
       "terrain": "plains",
       "coastal": false,
       "rgoGood": "grain",
@@ -8828,7 +8828,7 @@
       "name": "Hamad",
       "ownerTag": "EMIRATE_OF_JABAL_SHAMMAR",
       "stateId": 179,
-      "stateName": "Buraydah (EMIRATE_OF_JABAL_SHAMMAR)",
+      "stateName": "Buraydah (Emirate of Jabal Shammar)",
       "terrain": "desert",
       "coastal": false,
       "rgoGood": "cotton",
@@ -8874,7 +8874,7 @@
       "name": "Torres Strait",
       "ownerTag": "AUSTRALIA",
       "stateId": 277,
-      "stateName": "Marind (AUSTRALIA)",
+      "stateName": "Marind (Commonwealth of Australia)",
       "terrain": "jungle",
       "coastal": true,
       "rgoGood": "cotton",
@@ -8894,7 +8894,7 @@
       "name": "Korat",
       "ownerTag": "SIAM",
       "stateId": 79,
-      "stateName": "Bangkok (SIAM)",
+      "stateName": "Bangkok (Siam)",
       "terrain": "plains",
       "coastal": true,
       "rgoGood": "cattle",
@@ -8964,7 +8964,7 @@
       "name": "Majeerteen",
       "ownerTag": "MAJEERTEEN_SULTANATE",
       "stateId": 219,
-      "stateName": "Majeerteen (MAJEERTEEN_SULTANATE)",
+      "stateName": "Majeerteen (Majeerteen Sultanate)",
       "terrain": "desert",
       "coastal": true,
       "rgoGood": "cattle",
@@ -9026,7 +9026,7 @@
       "name": "Bangkok",
       "ownerTag": "SIAM",
       "stateId": 79,
-      "stateName": "Bangkok (SIAM)",
+      "stateName": "Bangkok (Siam)",
       "terrain": "plains",
       "coastal": true,
       "rgoGood": "grain",
@@ -9069,7 +9069,7 @@
       "name": "Ruvuma",
       "ownerTag": "DEUTSCH_OSTAFRIKA",
       "stateId": 129,
-      "stateName": "Mozambique (DEUTSCH_OSTAFRIKA)",
+      "stateName": "Mozambique (German East Africa)",
       "terrain": "jungle",
       "coastal": true,
       "rgoGood": "timber",
@@ -9091,7 +9091,7 @@
       "name": "Monrovia",
       "ownerTag": "LIBERIA",
       "stateId": 82,
-      "stateName": "Monrovia (LIBERIA)",
+      "stateName": "Monrovia (Liberia)",
       "terrain": "jungle",
       "coastal": true,
       "rgoGood": "timber",
@@ -9135,7 +9135,7 @@
       "name": "Kavirondo",
       "ownerTag": "BRITISH_EAST_AFRICA",
       "stateId": 162,
-      "stateName": "Kavirondo (BRITISH_EAST_AFRICA)",
+      "stateName": "Kavirondo (British East Africa)",
       "terrain": "hills",
       "coastal": false,
       "rgoGood": "cattle",
@@ -9202,7 +9202,7 @@
       "name": "Matabele",
       "ownerTag": "UNION_OF_SOUTH_AFRICA",
       "stateId": 439,
-      "stateName": "Matabele (UNION_OF_SOUTH_AFRICA)",
+      "stateName": "Matabele (Union of South Africa)",
       "terrain": "plains",
       "coastal": false,
       "rgoGood": "grain",
@@ -9225,7 +9225,7 @@
       "name": "Girishk",
       "ownerTag": "EMIRATE_OF_AFGHANISTAN",
       "stateId": 69,
-      "stateName": "Kabul (EMIRATE_OF_AFGHANISTAN)",
+      "stateName": "Kabul (Emirate of Afghanistan)",
       "terrain": "desert",
       "coastal": false,
       "rgoGood": "cattle",
@@ -9316,7 +9316,7 @@
       "name": "Great Sand Sea",
       "ownerTag": "CIRENAICA_ITALIANA",
       "stateId": 61,
-      "stateName": "Benghazi (CIRENAICA_ITALIANA)",
+      "stateName": "Benghazi (Italian Cyrenaica)",
       "terrain": "desert",
       "coastal": true,
       "rgoGood": "cotton",
@@ -9384,7 +9384,7 @@
       "name": "Warsangali",
       "ownerTag": "BRITISH_SOMALILAND",
       "stateId": 217,
-      "stateName": "Majeerteen (BRITISH_SOMALILAND)",
+      "stateName": "Majeerteen (British Somaliland)",
       "terrain": "desert",
       "coastal": true,
       "rgoGood": "cattle",
@@ -9426,7 +9426,7 @@
       "name": "Saguia el-Hamra",
       "ownerTag": "SAGUIA_EL_HAMRA",
       "stateId": 109,
-      "stateName": "Saguia el-Hamra (SAGUIA_EL_HAMRA)",
+      "stateName": "Saguia el-Hamra (Saguia el-Hamra)",
       "terrain": "desert",
       "coastal": true,
       "rgoGood": "cotton",
@@ -9553,7 +9553,7 @@
       "name": "Putumayo",
       "ownerTag": "ECUADOR",
       "stateId": 91,
-      "stateName": "Putumayo (ECUADOR)",
+      "stateName": "Putumayo (Ecuador)",
       "terrain": "jungle",
       "coastal": false,
       "rgoGood": "cotton",
@@ -9576,7 +9576,7 @@
       "name": "Mangbetu",
       "ownerTag": "CONGO_BELGE",
       "stateId": 34,
-      "stateName": "Bahr el Ghazal (CONGO_BELGE)",
+      "stateName": "Bahr el Ghazal (Belgian Congo)",
       "terrain": "jungle",
       "coastal": false,
       "rgoGood": "cotton",
@@ -9643,7 +9643,7 @@
       "name": "Santa Marta",
       "ownerTag": "COLOMBIA",
       "stateId": 292,
-      "stateName": "Bogotá (COLOMBIA)",
+      "stateName": "Bogotá (Colombia)",
       "terrain": "hills",
       "coastal": true,
       "rgoGood": "iron",
@@ -9690,7 +9690,7 @@
       "name": "Likouala",
       "ownerTag": "KAMERUN",
       "stateId": 93,
-      "stateName": "Cameroons (KAMERUN)",
+      "stateName": "Cameroons (German Kamerun)",
       "terrain": "jungle",
       "coastal": false,
       "rgoGood": "timber",
@@ -9712,7 +9712,7 @@
       "name": "Angra Pequena",
       "ownerTag": "DEUTSCH_SUDWESTAFRIKA",
       "stateId": 72,
-      "stateName": "Cape Town (DEUTSCH_SUDWESTAFRIKA)",
+      "stateName": "Cape Town (German South West Africa)",
       "terrain": "desert",
       "coastal": true,
       "rgoGood": "cotton",
@@ -9733,7 +9733,7 @@
       "name": "Farah",
       "ownerTag": "EMIRATE_OF_AFGHANISTAN",
       "stateId": 69,
-      "stateName": "Kabul (EMIRATE_OF_AFGHANISTAN)",
+      "stateName": "Kabul (Emirate of Afghanistan)",
       "terrain": "desert",
       "coastal": false,
       "rgoGood": "cotton",
@@ -9780,7 +9780,7 @@
       "name": "El Fasher",
       "ownerTag": "ANGLO_EGYPTIAN_SUDAN",
       "stateId": 94,
-      "stateName": "El Fasher (ANGLO_EGYPTIAN_SUDAN)",
+      "stateName": "El Fasher (Anglo-Egyptian Sudan)",
       "terrain": "desert",
       "coastal": true,
       "rgoGood": "cotton",
@@ -9827,7 +9827,7 @@
       "name": "Kikuyu",
       "ownerTag": "BRITISH_EAST_AFRICA",
       "stateId": 117,
-      "stateName": "Mogadishu (BRITISH_EAST_AFRICA)",
+      "stateName": "Mogadishu (British East Africa)",
       "terrain": "hills",
       "coastal": false,
       "rgoGood": "cattle",
@@ -9962,7 +9962,7 @@
       "name": "Bol",
       "ownerTag": "COLONIE_DU_OUBANGUI_CHARI_TCHAD",
       "stateId": 97,
-      "stateName": "Manga (COLONIE_DU_OUBANGUI_CHARI_TCHAD)",
+      "stateName": "Manga (Colony of Ubangi-Shari-Chad)",
       "terrain": "desert",
       "coastal": false,
       "rgoGood": "cotton",
@@ -10009,7 +10009,7 @@
       "name": "Rozvi",
       "ownerTag": "SOUTHERN_RHODESIA",
       "stateId": 165,
-      "stateName": "Batoka (SOUTHERN_RHODESIA)",
+      "stateName": "Batoka (Southern Rhodesia)",
       "terrain": "plains",
       "coastal": false,
       "rgoGood": "grain",
@@ -10050,7 +10050,7 @@
       "name": "Pilcomayo",
       "ownerTag": "PARAGUAY",
       "stateId": 116,
-      "stateName": "Asunción (PARAGUAY)",
+      "stateName": "Asunción (Paraguay)",
       "terrain": "plains",
       "coastal": false,
       "rgoGood": "grain",
@@ -10118,7 +10118,7 @@
       "name": "Barima",
       "ownerTag": "BRITISH_GUIANA",
       "stateId": 215,
-      "stateName": "Angostura (BRITISH_GUIANA)",
+      "stateName": "Angostura (British Guiana)",
       "terrain": "jungle",
       "coastal": true,
       "rgoGood": "timber",
@@ -10142,7 +10142,7 @@
       "name": "Jawf",
       "ownerTag": "EMIRATE_OF_JABAL_SHAMMAR",
       "stateId": 179,
-      "stateName": "Buraydah (EMIRATE_OF_JABAL_SHAMMAR)",
+      "stateName": "Buraydah (Emirate of Jabal Shammar)",
       "terrain": "desert",
       "coastal": false,
       "rgoGood": "cotton",
@@ -10206,7 +10206,7 @@
       "name": "Arsi",
       "ownerTag": "ETHIOPIAN_EMPIRE",
       "stateId": 106,
-      "stateName": "Gondar (ETHIOPIAN_EMPIRE)",
+      "stateName": "Gondar (Ethiopian Empire)",
       "terrain": "hills",
       "coastal": false,
       "rgoGood": "cattle",
@@ -10229,7 +10229,7 @@
       "name": "Fipa",
       "ownerTag": "DEUTSCH_OSTAFRIKA",
       "stateId": 48,
-      "stateName": "Lunda (DEUTSCH_OSTAFRIKA)",
+      "stateName": "Lunda (German East Africa)",
       "terrain": "hills",
       "coastal": false,
       "rgoGood": "iron",
@@ -10303,7 +10303,7 @@
       "name": "Villarrica",
       "ownerTag": "PARAGUAY",
       "stateId": 116,
-      "stateName": "Asunción (PARAGUAY)",
+      "stateName": "Asunción (Paraguay)",
       "terrain": "plains",
       "coastal": false,
       "rgoGood": "grain",
@@ -10327,7 +10327,7 @@
       "name": "Jiddat al-Harasis",
       "ownerTag": "MUSCAT_AND_OMAN",
       "stateId": 66,
-      "stateName": "Hofuf (MUSCAT_AND_OMAN)",
+      "stateName": "Hofuf (Muscat and Oman)",
       "terrain": "desert",
       "coastal": true,
       "rgoGood": "cotton",
@@ -10373,7 +10373,7 @@
       "name": "Merv",
       "ownerTag": "RUSSIAN_EMPIRE",
       "stateId": 70,
-      "stateName": "Kabul (RUSSIAN_EMPIRE)",
+      "stateName": "Kabul (Russian Empire)",
       "terrain": "desert",
       "coastal": false,
       "rgoGood": "cattle",
@@ -10394,7 +10394,7 @@
       "name": "San Martín",
       "ownerTag": "COLOMBIA",
       "stateId": 234,
-      "stateName": "Vaupés (COLOMBIA)",
+      "stateName": "Vaupés (Colombia)",
       "terrain": "jungle",
       "coastal": false,
       "rgoGood": "cotton",
@@ -10441,7 +10441,7 @@
       "name": "Zemmour",
       "ownerTag": "PROTECTORAT_DE_LA_MAURITANIE",
       "stateId": 107,
-      "stateName": "Saguia el-Hamra (PROTECTORAT_DE_LA_MAURITANIE)",
+      "stateName": "Saguia el-Hamra (Protectorate of Mauritania)",
       "terrain": "desert",
       "coastal": false,
       "rgoGood": "cotton",
@@ -10529,7 +10529,7 @@
       "name": "Cradock",
       "ownerTag": "UNION_OF_SOUTH_AFRICA",
       "stateId": 330,
-      "stateName": "Transorangia (UNION_OF_SOUTH_AFRICA)",
+      "stateName": "Transorangia (Union of South Africa)",
       "terrain": "hills",
       "coastal": true,
       "rgoGood": "cattle",
@@ -10592,7 +10592,7 @@
       "name": "Kunya-Urgench",
       "ownerTag": "KHANATE_OF_KHIVA",
       "stateId": 225,
-      "stateName": "Khiva (KHANATE_OF_KHIVA)",
+      "stateName": "Khiva (Khanate of Khiva)",
       "terrain": "desert",
       "coastal": true,
       "rgoGood": "cotton",
@@ -10617,7 +10617,7 @@
       "name": "Angostura",
       "ownerTag": "ESTADOS_UNIDOS_DE_VENEZUELA",
       "stateId": 216,
-      "stateName": "Angostura (ESTADOS_UNIDOS_DE_VENEZUELA)",
+      "stateName": "Angostura (United States of Venezuela)",
       "terrain": "jungle",
       "coastal": false,
       "rgoGood": "timber",
@@ -10642,7 +10642,7 @@
       "name": "Bamenda",
       "ownerTag": "KAMERUN",
       "stateId": 113,
-      "stateName": "Maroua (KAMERUN)",
+      "stateName": "Maroua (German Kamerun)",
       "terrain": "hills",
       "coastal": true,
       "rgoGood": "iron",
@@ -10735,7 +10735,7 @@
       "name": "Gonja",
       "ownerTag": "NORTHERN_TERRITORIES",
       "stateId": 195,
-      "stateName": "Kumasi (NORTHERN_TERRITORIES)",
+      "stateName": "Kumasi (Northern Territories)",
       "terrain": "plains",
       "coastal": false,
       "rgoGood": "grain",
@@ -10780,7 +10780,7 @@
       "name": "Grahamstown",
       "ownerTag": "UNION_OF_SOUTH_AFRICA",
       "stateId": 330,
-      "stateName": "Transorangia (UNION_OF_SOUTH_AFRICA)",
+      "stateName": "Transorangia (Union of South Africa)",
       "terrain": "hills",
       "coastal": true,
       "rgoGood": "cattle",
@@ -10800,7 +10800,7 @@
       "name": "Borana",
       "ownerTag": "ETHIOPIAN_EMPIRE",
       "stateId": 127,
-      "stateName": "Berbera (ETHIOPIAN_EMPIRE)",
+      "stateName": "Berbera (Ethiopian Empire)",
       "terrain": "hills",
       "coastal": false,
       "rgoGood": "cattle",
@@ -10865,7 +10865,7 @@
       "name": "Timbo",
       "ownerTag": "FRENCH_WEST_AFRICA",
       "stateId": 146,
-      "stateName": "Freetown (FRENCH_WEST_AFRICA)",
+      "stateName": "Freetown (French West Africa)",
       "terrain": "jungle",
       "coastal": true,
       "rgoGood": "cotton",
@@ -10888,7 +10888,7 @@
       "name": "São Salvador",
       "ownerTag": "CONGO_BELGE",
       "stateId": 567,
-      "stateName": "Kinguele (CONGO_BELGE)",
+      "stateName": "Kinguele (Belgian Congo)",
       "terrain": "plains",
       "coastal": true,
       "rgoGood": "grain",
@@ -10910,7 +10910,7 @@
       "name": "Mambéré",
       "ownerTag": "KAMERUN",
       "stateId": 93,
-      "stateName": "Cameroons (KAMERUN)",
+      "stateName": "Cameroons (German Kamerun)",
       "terrain": "jungle",
       "coastal": false,
       "rgoGood": "cotton",
@@ -10953,7 +10953,7 @@
       "name": "Sana'a",
       "ownerTag": "OTTOMAN_EMPIRE",
       "stateId": 135,
-      "stateName": "Sana'a (OTTOMAN_EMPIRE)",
+      "stateName": "Sana'a (Ottoman Empire)",
       "terrain": "desert",
       "coastal": true,
       "rgoGood": "cotton",
@@ -10974,7 +10974,7 @@
       "name": "Asunción",
       "ownerTag": "PARAGUAY",
       "stateId": 116,
-      "stateName": "Asunción (PARAGUAY)",
+      "stateName": "Asunción (Paraguay)",
       "terrain": "plains",
       "coastal": false,
       "rgoGood": "grain",
@@ -10997,7 +10997,7 @@
       "name": "Wajir",
       "ownerTag": "BRITISH_EAST_AFRICA",
       "stateId": 117,
-      "stateName": "Mogadishu (BRITISH_EAST_AFRICA)",
+      "stateName": "Mogadishu (British East Africa)",
       "terrain": "desert",
       "coastal": false,
       "rgoGood": "cotton",
@@ -11018,7 +11018,7 @@
       "name": "Straits of Magellan",
       "ownerTag": "CHILE",
       "stateId": 121,
-      "stateName": "Port Desire (CHILE)",
+      "stateName": "Port Desire (Chile)",
       "terrain": "hills",
       "coastal": true,
       "rgoGood": "iron",
@@ -11063,7 +11063,7 @@
       "name": "Sepik",
       "ownerTag": "DEUTSCH_NEUGUINEA",
       "stateId": 208,
-      "stateName": "Papua (DEUTSCH_NEUGUINEA)",
+      "stateName": "Papua (German New Guinea)",
       "terrain": "hills",
       "coastal": true,
       "rgoGood": "iron",
@@ -11170,7 +11170,7 @@
       "name": "Campeche",
       "ownerTag": "MEXICO",
       "stateId": 275,
-      "stateName": "Mérida (MEXICO)",
+      "stateName": "Mérida (Mexico)",
       "terrain": "forest",
       "coastal": true,
       "rgoGood": "timber",
@@ -11194,7 +11194,7 @@
       "name": "Abu Hamad",
       "ownerTag": "ANGLO_EGYPTIAN_SUDAN",
       "stateId": 122,
-      "stateName": "Khartoum (ANGLO_EGYPTIAN_SUDAN)",
+      "stateName": "Khartoum (Anglo-Egyptian Sudan)",
       "terrain": "desert",
       "coastal": true,
       "rgoGood": "cattle",
@@ -11216,7 +11216,7 @@
       "name": "Cape Lopez",
       "ownerTag": "COLONIE_DU_GABON",
       "stateId": 184,
-      "stateName": "Cape Lopez (COLONIE_DU_GABON)",
+      "stateName": "Cape Lopez (Colony of Gabon)",
       "terrain": "jungle",
       "coastal": true,
       "rgoGood": "cotton",
@@ -11324,7 +11324,7 @@
       "name": "Madre de Dios",
       "ownerTag": "PERU",
       "stateId": 150,
-      "stateName": "Cuzco (PERU)",
+      "stateName": "Cuzco (Peru)",
       "terrain": "jungle",
       "coastal": false,
       "rgoGood": "cotton",
@@ -11394,7 +11394,7 @@
       "name": "Ogaden",
       "ownerTag": "ETHIOPIAN_EMPIRE",
       "stateId": 127,
-      "stateName": "Berbera (ETHIOPIAN_EMPIRE)",
+      "stateName": "Berbera (Ethiopian Empire)",
       "terrain": "desert",
       "coastal": false,
       "rgoGood": "cotton",
@@ -11482,7 +11482,7 @@
       "name": "Logone",
       "ownerTag": "KAMERUN",
       "stateId": 143,
-      "stateName": "Dar al-Kuti (KAMERUN)",
+      "stateName": "Dar al-Kuti (German Kamerun)",
       "terrain": "plains",
       "coastal": false,
       "rgoGood": "grain",
@@ -11530,7 +11530,7 @@
       "name": "Azawagh",
       "ownerTag": "HAUT_SENEGAL_ET_NIGER",
       "stateId": 40,
-      "stateName": "Ahaggar (HAUT_SENEGAL_ET_NIGER)",
+      "stateName": "Ahaggar (Upper Senegal and Niger)",
       "terrain": "desert",
       "coastal": false,
       "rgoGood": "cotton",
@@ -11599,7 +11599,7 @@
       "name": "Mozambique",
       "ownerTag": "PROVINCIA_DE_MOCAMBIQUE",
       "stateId": 130,
-      "stateName": "Mozambique (PROVINCIA_DE_MOCAMBIQUE)",
+      "stateName": "Mozambique (Portuguese Mozambique)",
       "terrain": "plains",
       "coastal": true,
       "rgoGood": "cattle",
@@ -11619,7 +11619,7 @@
       "name": "Bogotá",
       "ownerTag": "COLOMBIA",
       "stateId": 292,
-      "stateName": "Bogotá (COLOMBIA)",
+      "stateName": "Bogotá (Colombia)",
       "terrain": "mountains",
       "coastal": false,
       "rgoGood": "coal",
@@ -11643,7 +11643,7 @@
       "name": "Ibo",
       "ownerTag": "PROVINCIA_DE_MOCAMBIQUE",
       "stateId": 130,
-      "stateName": "Mozambique (PROVINCIA_DE_MOCAMBIQUE)",
+      "stateName": "Mozambique (Portuguese Mozambique)",
       "terrain": "plains",
       "coastal": true,
       "rgoGood": "grain",
@@ -11727,7 +11727,7 @@
       "name": "Vaupés",
       "ownerTag": "COLOMBIA",
       "stateId": 234,
-      "stateName": "Vaupés (COLOMBIA)",
+      "stateName": "Vaupés (Colombia)",
       "terrain": "jungle",
       "coastal": false,
       "rgoGood": "timber",
@@ -11772,7 +11772,7 @@
       "name": "Nyala",
       "ownerTag": "ANGLO_EGYPTIAN_SUDAN",
       "stateId": 94,
-      "stateName": "El Fasher (ANGLO_EGYPTIAN_SUDAN)",
+      "stateName": "El Fasher (Anglo-Egyptian Sudan)",
       "terrain": "plains",
       "coastal": false,
       "rgoGood": "grain",
@@ -11795,7 +11795,7 @@
       "name": "Tromsø",
       "ownerTag": "NORWAY",
       "stateId": 265,
-      "stateName": "Tromsø (NORWAY)",
+      "stateName": "Tromsø (Norway)",
       "terrain": "arctic",
       "coastal": true,
       "rgoGood": "cattle",
@@ -11905,7 +11905,7 @@
       "name": "Berbera",
       "ownerTag": "BRITISH_SOMALILAND",
       "stateId": 126,
-      "stateName": "Berbera (BRITISH_SOMALILAND)",
+      "stateName": "Berbera (British Somaliland)",
       "terrain": "desert",
       "coastal": true,
       "rgoGood": "cotton",
@@ -11926,7 +11926,7 @@
       "name": "Sarawak",
       "ownerTag": "PROTECTORATE_OF_SARAWAK",
       "stateId": 599,
-      "stateName": "Brunei (PROTECTORATE_OF_SARAWAK)",
+      "stateName": "Brunei (Protectorate of Sarawak)",
       "terrain": "jungle",
       "coastal": true,
       "rgoGood": "timber",
@@ -11971,7 +11971,7 @@
       "name": "Rida",
       "ownerTag": "ADEN_PROTECTORATE",
       "stateId": 134,
-      "stateName": "Sana'a (ADEN_PROTECTORATE)",
+      "stateName": "Sana'a (Aden Protectorate)",
       "terrain": "desert",
       "coastal": false,
       "rgoGood": "cotton",
@@ -12037,7 +12037,7 @@
       "name": "Sundsvall",
       "ownerTag": "SVERIGE",
       "stateId": 214,
-      "stateName": "Stockholm (SVERIGE)",
+      "stateName": "Stockholm (Sweden)",
       "terrain": "forest",
       "coastal": true,
       "rgoGood": "timber",
@@ -12291,7 +12291,7 @@
       "name": "Ouham",
       "ownerTag": "COLONIE_DU_OUBANGUI_CHARI_TCHAD",
       "stateId": 142,
-      "stateName": "Dar al-Kuti (COLONIE_DU_OUBANGUI_CHARI_TCHAD)",
+      "stateName": "Dar al-Kuti (Colony of Ubangi-Shari-Chad)",
       "terrain": "jungle",
       "coastal": false,
       "rgoGood": "cotton",
@@ -12515,7 +12515,7 @@
       "name": "Montréal",
       "ownerTag": "CANADA",
       "stateId": 9,
-      "stateName": "Montréal (CANADA)",
+      "stateName": "Montréal (Canada)",
       "terrain": "forest",
       "coastal": true,
       "rgoGood": "timber",
@@ -12539,7 +12539,7 @@
       "name": "Copiapó",
       "ownerTag": "CHILE",
       "stateId": 272,
-      "stateName": "Santiago (CHILE)",
+      "stateName": "Santiago (Chile)",
       "terrain": "mountains",
       "coastal": true,
       "rgoGood": "coal",
@@ -12586,7 +12586,7 @@
       "name": "La Frontera",
       "ownerTag": "MEXICO",
       "stateId": 50,
-      "stateName": "Los Angeles (MEXICO)",
+      "stateName": "Los Angeles (Mexico)",
       "terrain": "desert",
       "coastal": true,
       "rgoGood": "cattle",
@@ -12630,7 +12630,7 @@
       "name": "Freetown",
       "ownerTag": "SIERRA_LEONE_PROTECTORATE",
       "stateId": 147,
-      "stateName": "Freetown (SIERRA_LEONE_PROTECTORATE)",
+      "stateName": "Freetown (Sierra Leone Protectorate)",
       "terrain": "jungle",
       "coastal": true,
       "rgoGood": "cotton",
@@ -12649,7 +12649,7 @@
       "name": "San Salvador de Jujuy",
       "ownerTag": "ARGENTINA",
       "stateId": 242,
-      "stateName": "San Salvador de Jujuy (ARGENTINA)",
+      "stateName": "San Salvador de Jujuy (Argentina)",
       "terrain": "mountains",
       "coastal": false,
       "rgoGood": "iron",
@@ -12672,7 +12672,7 @@
       "name": "Pendé",
       "ownerTag": "KAMERUN",
       "stateId": 93,
-      "stateName": "Cameroons (KAMERUN)",
+      "stateName": "Cameroons (German Kamerun)",
       "terrain": "jungle",
       "coastal": false,
       "rgoGood": "timber",
@@ -12695,7 +12695,7 @@
       "name": "Chiapas",
       "ownerTag": "MEXICO",
       "stateId": 275,
-      "stateName": "Mérida (MEXICO)",
+      "stateName": "Mérida (Mexico)",
       "terrain": "hills",
       "coastal": true,
       "rgoGood": "cattle",
@@ -12737,7 +12737,7 @@
       "name": "Charjui",
       "ownerTag": "RUSSIAN_EMPIRE",
       "stateId": 183,
-      "stateName": "Bukhara (RUSSIAN_EMPIRE)",
+      "stateName": "Bukhara (Russian Empire)",
       "terrain": "desert",
       "coastal": false,
       "rgoGood": "cotton",
@@ -12760,7 +12760,7 @@
       "name": "Cuzco",
       "ownerTag": "PERU",
       "stateId": 150,
-      "stateName": "Cuzco (PERU)",
+      "stateName": "Cuzco (Peru)",
       "terrain": "mountains",
       "coastal": false,
       "rgoGood": "iron",
@@ -13004,7 +13004,7 @@
       "name": "Mahra",
       "ownerTag": "ADEN_PROTECTORATE",
       "stateId": 738,
-      "stateName": "Mahra (ADEN_PROTECTORATE)",
+      "stateName": "Mahra (Aden Protectorate)",
       "terrain": "desert",
       "coastal": true,
       "rgoGood": "cattle",
@@ -13088,7 +13088,7 @@
       "name": "Jima",
       "ownerTag": "ETHIOPIAN_EMPIRE",
       "stateId": 35,
-      "stateName": "Bahr el Ghazal (ETHIOPIAN_EMPIRE)",
+      "stateName": "Bahr el Ghazal (Ethiopian Empire)",
       "terrain": "hills",
       "coastal": false,
       "rgoGood": "cattle",
@@ -13110,7 +13110,7 @@
       "name": "Lindi",
       "ownerTag": "DEUTSCH_OSTAFRIKA",
       "stateId": 155,
-      "stateName": "Bagamoyo (DEUTSCH_OSTAFRIKA)",
+      "stateName": "Bagamoyo (German East Africa)",
       "terrain": "jungle",
       "coastal": true,
       "rgoGood": "timber",
@@ -13129,7 +13129,7 @@
       "name": "Paposo",
       "ownerTag": "CHILE",
       "stateId": 243,
-      "stateName": "San Salvador de Jujuy (CHILE)",
+      "stateName": "San Salvador de Jujuy (Chile)",
       "terrain": "mountains",
       "coastal": true,
       "rgoGood": "iron",
@@ -13149,7 +13149,7 @@
       "name": "Cali",
       "ownerTag": "COLOMBIA",
       "stateId": 292,
-      "stateName": "Bogotá (COLOMBIA)",
+      "stateName": "Bogotá (Colombia)",
       "terrain": "hills",
       "coastal": true,
       "rgoGood": "iron",
@@ -13212,7 +13212,7 @@
       "name": "Latuka",
       "ownerTag": "ANGLO_EGYPTIAN_SUDAN",
       "stateId": 158,
-      "stateName": "Acholi (ANGLO_EGYPTIAN_SUDAN)",
+      "stateName": "Acholi (Anglo-Egyptian Sudan)",
       "terrain": "plains",
       "coastal": false,
       "rgoGood": "grain",
@@ -13321,7 +13321,7 @@
       "name": "Khon Kaen",
       "ownerTag": "SIAM",
       "stateId": 79,
-      "stateName": "Bangkok (SIAM)",
+      "stateName": "Bangkok (Siam)",
       "terrain": "plains",
       "coastal": false,
       "rgoGood": "grain",
@@ -13365,7 +13365,7 @@
       "name": "Buganda",
       "ownerTag": "PROTECTORATE_OF_UGANDA",
       "stateId": 163,
-      "stateName": "Kavirondo (PROTECTORATE_OF_UGANDA)",
+      "stateName": "Kavirondo (Protectorate of Uganda)",
       "terrain": "plains",
       "coastal": false,
       "rgoGood": "cattle",
@@ -13451,7 +13451,7 @@
       "name": "Batoka",
       "ownerTag": "NORTHERN_RHODESIA",
       "stateId": 164,
-      "stateName": "Batoka (NORTHERN_RHODESIA)",
+      "stateName": "Batoka (Northern Rhodesia)",
       "terrain": "plains",
       "coastal": false,
       "rgoGood": "grain",
@@ -13473,7 +13473,7 @@
       "name": "Témiscamingue",
       "ownerTag": "CANADA",
       "stateId": 9,
-      "stateName": "Montréal (CANADA)",
+      "stateName": "Montréal (Canada)",
       "terrain": "forest",
       "coastal": true,
       "rgoGood": "timber",
@@ -13494,7 +13494,7 @@
       "name": "Arauca",
       "ownerTag": "COLOMBIA",
       "stateId": 234,
-      "stateName": "Vaupés (COLOMBIA)",
+      "stateName": "Vaupés (Colombia)",
       "terrain": "plains",
       "coastal": false,
       "rgoGood": "grain",
@@ -13624,7 +13624,7 @@
       "name": "Khiva",
       "ownerTag": "RUSSIAN_EMPIRE",
       "stateId": 226,
-      "stateName": "Khiva (RUSSIAN_EMPIRE)",
+      "stateName": "Khiva (Russian Empire)",
       "terrain": "desert",
       "coastal": false,
       "rgoGood": "cattle",
@@ -13667,7 +13667,7 @@
       "name": "Nouadhibou",
       "ownerTag": "PROTECTORAT_DE_LA_MAURITANIE",
       "stateId": 68,
-      "stateName": "Atar (PROTECTORAT_DE_LA_MAURITANIE)",
+      "stateName": "Atar (Protectorate of Mauritania)",
       "terrain": "desert",
       "coastal": true,
       "rgoGood": "cotton",
@@ -13818,7 +13818,7 @@
       "name": "Mudug",
       "ownerTag": "SULTANATE_OF_HOBYO",
       "stateId": 119,
-      "stateName": "Mogadishu (SULTANATE_OF_HOBYO)",
+      "stateName": "Mogadishu (Sultanate of Hobyo)",
       "terrain": "desert",
       "coastal": true,
       "rgoGood": "cotton",
@@ -13859,7 +13859,7 @@
       "name": "Misrata",
       "ownerTag": "TRIPOLITANIA_ITALIANA",
       "stateId": 62,
-      "stateName": "Benghazi (TRIPOLITANIA_ITALIANA)",
+      "stateName": "Benghazi (Italian Tripolitania)",
       "terrain": "desert",
       "coastal": true,
       "rgoGood": "cotton",
@@ -13880,7 +13880,7 @@
       "name": "Kwena",
       "ownerTag": "BECHUANALAND_PROTECTORATE",
       "stateId": 174,
-      "stateName": "Kuruman (BECHUANALAND_PROTECTORATE)",
+      "stateName": "Kuruman (Bechuanaland Protectorate)",
       "terrain": "plains",
       "coastal": false,
       "rgoGood": "grain",
@@ -13901,7 +13901,7 @@
       "name": "Sabi",
       "ownerTag": "SOUTHERN_RHODESIA",
       "stateId": 56,
-      "stateName": "Kafue (SOUTHERN_RHODESIA)",
+      "stateName": "Kafue (Southern Rhodesia)",
       "terrain": "plains",
       "coastal": false,
       "rgoGood": "grain",
@@ -13926,7 +13926,7 @@
       "name": "Papua",
       "ownerTag": "AUSTRALIA",
       "stateId": 206,
-      "stateName": "Papua (AUSTRALIA)",
+      "stateName": "Papua (Commonwealth of Australia)",
       "terrain": "mountains",
       "coastal": true,
       "rgoGood": "iron",
@@ -14029,7 +14029,7 @@
       "name": "Montevideo",
       "ownerTag": "URUGUAY",
       "stateId": 178,
-      "stateName": "Montevideo (URUGUAY)",
+      "stateName": "Montevideo (Uruguay)",
       "terrain": "plains",
       "coastal": true,
       "rgoGood": "grain",
@@ -14095,7 +14095,7 @@
       "name": "Karshi",
       "ownerTag": "EMIRATE_OF_BUKHARA",
       "stateId": 182,
-      "stateName": "Bukhara (EMIRATE_OF_BUKHARA)",
+      "stateName": "Bukhara (Emirate of Bukhara)",
       "terrain": "desert",
       "coastal": false,
       "rgoGood": "cattle",
@@ -14118,7 +14118,7 @@
       "name": "Grand-Bassam",
       "ownerTag": "FRENCH_WEST_AFRICA",
       "stateId": 194,
-      "stateName": "Kumasi (FRENCH_WEST_AFRICA)",
+      "stateName": "Kumasi (French West Africa)",
       "terrain": "jungle",
       "coastal": true,
       "rgoGood": "cotton",
@@ -14203,7 +14203,7 @@
       "name": "Songye",
       "ownerTag": "CONGO_BELGE",
       "stateId": 47,
-      "stateName": "Lunda (CONGO_BELGE)",
+      "stateName": "Lunda (Belgian Congo)",
       "terrain": "plains",
       "coastal": false,
       "rgoGood": "grain",
@@ -14335,7 +14335,7 @@
       "name": "Buraydah",
       "ownerTag": "EMIRATE_OF_NEJD",
       "stateId": 180,
-      "stateName": "Buraydah (EMIRATE_OF_NEJD)",
+      "stateName": "Buraydah (Emirate of Nejd)",
       "terrain": "desert",
       "coastal": false,
       "rgoGood": "cattle",
@@ -14401,7 +14401,7 @@
       "name": "Villa Real",
       "ownerTag": "PARAGUAY",
       "stateId": 116,
-      "stateName": "Asunción (PARAGUAY)",
+      "stateName": "Asunción (Paraguay)",
       "terrain": "plains",
       "coastal": false,
       "rgoGood": "grain",
@@ -14443,7 +14443,7 @@
       "name": "Bukhara",
       "ownerTag": "EMIRATE_OF_BUKHARA",
       "stateId": 182,
-      "stateName": "Bukhara (EMIRATE_OF_BUKHARA)",
+      "stateName": "Bukhara (Emirate of Bukhara)",
       "terrain": "desert",
       "coastal": true,
       "rgoGood": "cotton",
@@ -14493,7 +14493,7 @@
       "name": "Arequipa",
       "ownerTag": "PERU",
       "stateId": 150,
-      "stateName": "Cuzco (PERU)",
+      "stateName": "Cuzco (Peru)",
       "terrain": "mountains",
       "coastal": true,
       "rgoGood": "iron",
@@ -14514,7 +14514,7 @@
       "name": "Ogowe",
       "ownerTag": "COLONIE_DU_GABON",
       "stateId": 184,
-      "stateName": "Cape Lopez (COLONIE_DU_GABON)",
+      "stateName": "Cape Lopez (Colony of Gabon)",
       "terrain": "jungle",
       "coastal": false,
       "rgoGood": "cotton",
@@ -14535,7 +14535,7 @@
       "name": "Kavango",
       "ownerTag": "DEUTSCH_SUDWESTAFRIKA",
       "stateId": 187,
-      "stateName": "Bamangwato (DEUTSCH_SUDWESTAFRIKA)",
+      "stateName": "Bamangwato (German South West Africa)",
       "terrain": "plains",
       "coastal": false,
       "rgoGood": "grain",
@@ -14584,7 +14584,7 @@
       "name": "Dhofar",
       "ownerTag": "MUSCAT_AND_OMAN",
       "stateId": 190,
-      "stateName": "Mahra (MUSCAT_AND_OMAN)",
+      "stateName": "Mahra (Muscat and Oman)",
       "terrain": "desert",
       "coastal": true,
       "rgoGood": "cattle",
@@ -14626,7 +14626,7 @@
       "name": "Kumasi",
       "ownerTag": "ASHANTI_COLONY",
       "stateId": 192,
-      "stateName": "Kumasi (ASHANTI_COLONY)",
+      "stateName": "Kumasi (Ashanti Colony)",
       "terrain": "plains",
       "coastal": false,
       "rgoGood": "grain",
@@ -14975,7 +14975,7 @@
       "name": "Cuyuní",
       "ownerTag": "ESTADOS_UNIDOS_DE_VENEZUELA",
       "stateId": 216,
-      "stateName": "Angostura (ESTADOS_UNIDOS_DE_VENEZUELA)",
+      "stateName": "Angostura (United States of Venezuela)",
       "terrain": "hills",
       "coastal": false,
       "rgoGood": "cattle",
@@ -15063,7 +15063,7 @@
       "name": "Lule Lappmark",
       "ownerTag": "SVERIGE",
       "stateId": 266,
-      "stateName": "Tromsø (SVERIGE)",
+      "stateName": "Tromsø (Sweden)",
       "terrain": "hills",
       "coastal": true,
       "rgoGood": "cattle",
@@ -15125,7 +15125,7 @@
       "name": "Bushi",
       "ownerTag": "CONGO_BELGE",
       "stateId": 237,
-      "stateName": "Nyanza (CONGO_BELGE)",
+      "stateName": "Nyanza (Belgian Congo)",
       "terrain": "hills",
       "coastal": false,
       "rgoGood": "iron",
@@ -15148,7 +15148,7 @@
       "name": "Hissar",
       "ownerTag": "EMIRATE_OF_BUKHARA",
       "stateId": 182,
-      "stateName": "Bukhara (EMIRATE_OF_BUKHARA)",
+      "stateName": "Bukhara (Emirate of Bukhara)",
       "terrain": "mountains",
       "coastal": false,
       "rgoGood": "coal",
@@ -15396,7 +15396,7 @@
       "name": "Gedaref",
       "ownerTag": "ANGLO_EGYPTIAN_SUDAN",
       "stateId": 122,
-      "stateName": "Khartoum (ANGLO_EGYPTIAN_SUDAN)",
+      "stateName": "Khartoum (Anglo-Egyptian Sudan)",
       "terrain": "plains",
       "coastal": false,
       "rgoGood": "cattle",
@@ -15418,7 +15418,7 @@
       "name": "Papuan Gulf",
       "ownerTag": "AUSTRALIA",
       "stateId": 206,
-      "stateName": "Papua (AUSTRALIA)",
+      "stateName": "Papua (Commonwealth of Australia)",
       "terrain": "hills",
       "coastal": true,
       "rgoGood": "cattle",
@@ -15487,7 +15487,7 @@
       "name": "Arica",
       "ownerTag": "CHILE",
       "stateId": 149,
-      "stateName": "Cuzco (CHILE)",
+      "stateName": "Cuzco (Chile)",
       "terrain": "mountains",
       "coastal": true,
       "rgoGood": "iron",
@@ -15508,7 +15508,7 @@
       "name": "Marrakesh",
       "ownerTag": "FRENCH_MOROCCO",
       "stateId": 405,
-      "stateName": "Fez (FRENCH_MOROCCO)",
+      "stateName": "Fez (French Morocco)",
       "terrain": "desert",
       "coastal": true,
       "rgoGood": "cattle",
@@ -15661,7 +15661,7 @@
       "name": "Nande",
       "ownerTag": "CONGO_BELGE",
       "stateId": 237,
-      "stateName": "Nyanza (CONGO_BELGE)",
+      "stateName": "Nyanza (Belgian Congo)",
       "terrain": "hills",
       "coastal": false,
       "rgoGood": "cattle",
@@ -15748,7 +15748,7 @@
       "name": "Umeå",
       "ownerTag": "SVERIGE",
       "stateId": 214,
-      "stateName": "Stockholm (SVERIGE)",
+      "stateName": "Stockholm (Sweden)",
       "terrain": "forest",
       "coastal": true,
       "rgoGood": "cotton",
@@ -15769,7 +15769,7 @@
       "name": "Cobija",
       "ownerTag": "CHILE",
       "stateId": 243,
-      "stateName": "San Salvador de Jujuy (CHILE)",
+      "stateName": "San Salvador de Jujuy (Chile)",
       "terrain": "mountains",
       "coastal": true,
       "rgoGood": "iron",
@@ -16037,7 +16037,7 @@
       "name": "Caura",
       "ownerTag": "ESTADOS_UNIDOS_DE_VENEZUELA",
       "stateId": 216,
-      "stateName": "Angostura (ESTADOS_UNIDOS_DE_VENEZUELA)",
+      "stateName": "Angostura (United States of Venezuela)",
       "terrain": "jungle",
       "coastal": false,
       "rgoGood": "cotton",
@@ -16057,7 +16057,7 @@
       "name": "Nugal",
       "ownerTag": "SULTANATE_OF_HOBYO",
       "stateId": 220,
-      "stateName": "Majeerteen (SULTANATE_OF_HOBYO)",
+      "stateName": "Majeerteen (Sultanate of Hobyo)",
       "terrain": "desert",
       "coastal": true,
       "rgoGood": "cotton",
@@ -16250,7 +16250,7 @@
       "name": "Kyzylkum",
       "ownerTag": "RUSSIAN_EMPIRE",
       "stateId": 226,
-      "stateName": "Khiva (RUSSIAN_EMPIRE)",
+      "stateName": "Khiva (Russian Empire)",
       "terrain": "desert",
       "coastal": true,
       "rgoGood": "cotton",
@@ -16583,7 +16583,7 @@
       "name": "Guaviare",
       "ownerTag": "COLOMBIA",
       "stateId": 234,
-      "stateName": "Vaupés (COLOMBIA)",
+      "stateName": "Vaupés (Colombia)",
       "terrain": "jungle",
       "coastal": false,
       "rgoGood": "timber",
@@ -16688,7 +16688,7 @@
       "name": "Taroudant",
       "ownerTag": "FRENCH_MOROCCO",
       "stateId": 405,
-      "stateName": "Fez (FRENCH_MOROCCO)",
+      "stateName": "Fez (French Morocco)",
       "terrain": "desert",
       "coastal": true,
       "rgoGood": "cotton",
@@ -16709,7 +16709,7 @@
       "name": "Trondhjem",
       "ownerTag": "NORWAY",
       "stateId": 213,
-      "stateName": "Stockholm (NORWAY)",
+      "stateName": "Stockholm (Norway)",
       "terrain": "hills",
       "coastal": true,
       "rgoGood": "coal",
@@ -16797,7 +16797,7 @@
       "name": "Bunyoro",
       "ownerTag": "PROTECTORATE_OF_UGANDA",
       "stateId": 239,
-      "stateName": "Nyanza (PROTECTORATE_OF_UGANDA)",
+      "stateName": "Nyanza (Protectorate of Uganda)",
       "terrain": "jungle",
       "coastal": false,
       "rgoGood": "timber",
@@ -16841,7 +16841,7 @@
       "name": "Rupununi",
       "ownerTag": "BRITISH_GUIANA",
       "stateId": 215,
-      "stateName": "Angostura (BRITISH_GUIANA)",
+      "stateName": "Angostura (British Guiana)",
       "terrain": "jungle",
       "coastal": false,
       "rgoGood": "timber",
@@ -16862,7 +16862,7 @@
       "name": "Tierra del Fuego",
       "ownerTag": "ARGENTINA",
       "stateId": 120,
-      "stateName": "Port Desire (ARGENTINA)",
+      "stateName": "Port Desire (Argentina)",
       "terrain": "hills",
       "coastal": true,
       "rgoGood": "cattle",
@@ -16882,7 +16882,7 @@
       "name": "Erzurum",
       "ownerTag": "OTTOMAN_EMPIRE",
       "stateId": 427,
-      "stateName": "Trebizond (OTTOMAN_EMPIRE)",
+      "stateName": "Trebizond (Ottoman Empire)",
       "terrain": "mountains",
       "coastal": true,
       "rgoGood": "coal",
@@ -16982,7 +16982,7 @@
       "name": "Samarkand",
       "ownerTag": "RUSSIAN_EMPIRE",
       "stateId": 183,
-      "stateName": "Bukhara (RUSSIAN_EMPIRE)",
+      "stateName": "Bukhara (Russian Empire)",
       "terrain": "hills",
       "coastal": false,
       "rgoGood": "cattle",
@@ -17027,7 +17027,7 @@
       "name": "New Britain",
       "ownerTag": "DEUTSCH_NEUGUINEA",
       "stateId": 208,
-      "stateName": "Papua (DEUTSCH_NEUGUINEA)",
+      "stateName": "Papua (German New Guinea)",
       "terrain": "hills",
       "coastal": true,
       "rgoGood": "cattle",
@@ -17091,7 +17091,7 @@
       "name": "Dengzhou",
       "ownerTag": "REPUBLIC_OF_CHINA",
       "stateId": 281,
-      "stateName": "Dengzhou (REPUBLIC_OF_CHINA)",
+      "stateName": "Dengzhou (Republic of China)",
       "terrain": "farmland",
       "coastal": true,
       "rgoGood": "grain",
@@ -17113,7 +17113,7 @@
       "name": "Zhaoqing",
       "ownerTag": "REPUBLIC_OF_CHINA",
       "stateId": 326,
-      "stateName": "Canton (REPUBLIC_OF_CHINA)",
+      "stateName": "Canton (Republic of China)",
       "terrain": "farmland",
       "coastal": true,
       "rgoGood": "cattle",
@@ -17155,7 +17155,7 @@
       "name": "San Antonio de los Cobres",
       "ownerTag": "ARGENTINA",
       "stateId": 242,
-      "stateName": "San Salvador de Jujuy (ARGENTINA)",
+      "stateName": "San Salvador de Jujuy (Argentina)",
       "terrain": "mountains",
       "coastal": false,
       "rgoGood": "iron",
@@ -17220,7 +17220,7 @@
       "name": "Sistan",
       "ownerTag": "IRAN",
       "stateId": 389,
-      "stateName": "Sistan (IRAN)",
+      "stateName": "Sistan (Iran)",
       "terrain": "desert",
       "coastal": false,
       "rgoGood": "cattle",
@@ -17380,7 +17380,7 @@
       "name": "Lillehammer",
       "ownerTag": "NORWAY",
       "stateId": 213,
-      "stateName": "Stockholm (NORWAY)",
+      "stateName": "Stockholm (Norway)",
       "terrain": "hills",
       "coastal": false,
       "rgoGood": "coal",
@@ -17469,7 +17469,7 @@
       "name": "Caborca",
       "ownerTag": "MEXICO",
       "stateId": 245,
-      "stateName": "Santa Fe (MEXICO)",
+      "stateName": "Santa Fe (Mexico)",
       "terrain": "desert",
       "coastal": true,
       "rgoGood": "cattle",
@@ -18007,7 +18007,7 @@
       "name": "Santiago",
       "ownerTag": "CHILE",
       "stateId": 272,
-      "stateName": "Santiago (CHILE)",
+      "stateName": "Santiago (Chile)",
       "terrain": "mountains",
       "coastal": true,
       "rgoGood": "coal",
@@ -18091,7 +18091,7 @@
       "name": "Rejang",
       "ownerTag": "PROTECTORATE_OF_SARAWAK",
       "stateId": 599,
-      "stateName": "Brunei (PROTECTORATE_OF_SARAWAK)",
+      "stateName": "Brunei (Protectorate of Sarawak)",
       "terrain": "jungle",
       "coastal": false,
       "rgoGood": "timber",
@@ -18185,7 +18185,7 @@
       "name": "Ubon Ratchathani",
       "ownerTag": "SIAM",
       "stateId": 79,
-      "stateName": "Bangkok (SIAM)",
+      "stateName": "Bangkok (Siam)",
       "terrain": "plains",
       "coastal": false,
       "rgoGood": "grain",
@@ -19157,7 +19157,7 @@
       "name": "Bacalar",
       "ownerTag": "MEXICO",
       "stateId": 275,
-      "stateName": "Mérida (MEXICO)",
+      "stateName": "Mérida (Mexico)",
       "terrain": "forest",
       "coastal": true,
       "rgoGood": "timber",
@@ -19351,7 +19351,7 @@
       "name": "Luleå",
       "ownerTag": "SVERIGE",
       "stateId": 266,
-      "stateName": "Tromsø (SVERIGE)",
+      "stateName": "Tromsø (Sweden)",
       "terrain": "forest",
       "coastal": true,
       "rgoGood": "timber",
@@ -19436,7 +19436,7 @@
       "name": "Marind",
       "ownerTag": "DUTCH_EAST_INDIES",
       "stateId": 278,
-      "stateName": "Marind (DUTCH_EAST_INDIES)",
+      "stateName": "Marind (Dutch East Indies)",
       "terrain": "jungle",
       "coastal": true,
       "rgoGood": "cotton",
@@ -19758,7 +19758,7 @@
       "name": "Christiania",
       "ownerTag": "NORWAY",
       "stateId": 213,
-      "stateName": "Stockholm (NORWAY)",
+      "stateName": "Stockholm (Norway)",
       "terrain": "hills",
       "coastal": true,
       "rgoGood": "cattle",
@@ -19801,7 +19801,7 @@
       "name": "Champassak",
       "ownerTag": "UNION_INDOCHINOISE",
       "stateId": 80,
-      "stateName": "Bangkok (UNION_INDOCHINOISE)",
+      "stateName": "Bangkok (French Indochina)",
       "terrain": "hills",
       "coastal": true,
       "rgoGood": "cattle",
@@ -19849,7 +19849,7 @@
       "name": "Jinan",
       "ownerTag": "REPUBLIC_OF_CHINA",
       "stateId": 281,
-      "stateName": "Dengzhou (REPUBLIC_OF_CHINA)",
+      "stateName": "Dengzhou (Republic of China)",
       "terrain": "farmland",
       "coastal": false,
       "rgoGood": "cattle",
@@ -20113,7 +20113,7 @@
       "name": "Ligor",
       "ownerTag": "SIAM",
       "stateId": 550,
-      "stateName": "Ligor (SIAM)",
+      "stateName": "Ligor (Siam)",
       "terrain": "jungle",
       "coastal": true,
       "rgoGood": "timber",
@@ -20267,7 +20267,7 @@
       "name": "La Serena",
       "ownerTag": "CHILE",
       "stateId": 272,
-      "stateName": "Santiago (CHILE)",
+      "stateName": "Santiago (Chile)",
       "terrain": "mountains",
       "coastal": true,
       "rgoGood": "iron",
@@ -20396,7 +20396,7 @@
       "name": "Valdivia",
       "ownerTag": "CHILE",
       "stateId": 272,
-      "stateName": "Santiago (CHILE)",
+      "stateName": "Santiago (Chile)",
       "terrain": "hills",
       "coastal": true,
       "rgoGood": "cattle",
@@ -20592,7 +20592,7 @@
       "name": "Mérida",
       "ownerTag": "MEXICO",
       "stateId": 275,
-      "stateName": "Mérida (MEXICO)",
+      "stateName": "Mérida (Mexico)",
       "terrain": "forest",
       "coastal": true,
       "rgoGood": "timber",
@@ -20810,7 +20810,7 @@
       "name": "Digul",
       "ownerTag": "DUTCH_EAST_INDIES",
       "stateId": 278,
-      "stateName": "Marind (DUTCH_EAST_INDIES)",
+      "stateName": "Marind (Dutch East Indies)",
       "terrain": "hills",
       "coastal": true,
       "rgoGood": "cattle",
@@ -20921,7 +20921,7 @@
       "name": "Ababda",
       "ownerTag": "UNITED_KINGDOM",
       "stateId": 123,
-      "stateName": "Khartoum (UNITED_KINGDOM)",
+      "stateName": "Khartoum (United Kingdom of Great Britain and Ireland)",
       "terrain": "desert",
       "coastal": true,
       "rgoGood": "cattle",
@@ -20988,7 +20988,7 @@
       "name": "Qingzhou",
       "ownerTag": "REPUBLIC_OF_CHINA",
       "stateId": 281,
-      "stateName": "Dengzhou (REPUBLIC_OF_CHINA)",
+      "stateName": "Dengzhou (Republic of China)",
       "terrain": "farmland",
       "coastal": true,
       "rgoGood": "grain",
@@ -21078,7 +21078,7 @@
       "name": "Punakha",
       "ownerTag": "BHUTAN",
       "stateId": 455,
-      "stateName": "Punakha (BHUTAN)",
+      "stateName": "Punakha (Bhutan)",
       "terrain": "mountains",
       "coastal": false,
       "rgoGood": "iron",
@@ -21397,7 +21397,7 @@
       "name": "Maracaibo",
       "ownerTag": "ESTADOS_UNIDOS_DE_VENEZUELA",
       "stateId": 293,
-      "stateName": "Bogotá (ESTADOS_UNIDOS_DE_VENEZUELA)",
+      "stateName": "Bogotá (United States of Venezuela)",
       "terrain": "hills",
       "coastal": true,
       "rgoGood": "cattle",
@@ -21479,7 +21479,7 @@
       "name": "Cartagena",
       "ownerTag": "COLOMBIA",
       "stateId": 292,
-      "stateName": "Bogotá (COLOMBIA)",
+      "stateName": "Bogotá (Colombia)",
       "terrain": "plains",
       "coastal": true,
       "rgoGood": "grain",
@@ -21606,7 +21606,7 @@
       "name": "Pahang",
       "ownerTag": "FEDERATED_MALAY_STATES",
       "stateId": 422,
-      "stateName": "Johor (FEDERATED_MALAY_STATES)",
+      "stateName": "Johor (Federated Malay States)",
       "terrain": "jungle",
       "coastal": true,
       "rgoGood": "timber",
@@ -22019,7 +22019,7 @@
       "name": "Quseir",
       "ownerTag": "UNITED_KINGDOM",
       "stateId": 123,
-      "stateName": "Khartoum (UNITED_KINGDOM)",
+      "stateName": "Khartoum (United Kingdom of Great Britain and Ireland)",
       "terrain": "desert",
       "coastal": true,
       "rgoGood": "cattle",
@@ -23290,7 +23290,7 @@
       "name": "Haikou",
       "ownerTag": "REPUBLIC_OF_CHINA",
       "stateId": 326,
-      "stateName": "Canton (REPUBLIC_OF_CHINA)",
+      "stateName": "Canton (Republic of China)",
       "terrain": "farmland",
       "coastal": true,
       "rgoGood": "grain",
@@ -23472,7 +23472,7 @@
       "name": "Bodø",
       "ownerTag": "NORWAY",
       "stateId": 265,
-      "stateName": "Tromsø (NORWAY)",
+      "stateName": "Tromsø (Norway)",
       "terrain": "mountains",
       "coastal": true,
       "rgoGood": "coal",
@@ -23699,7 +23699,7 @@
       "name": "Huizhou",
       "ownerTag": "REPUBLIC_OF_CHINA",
       "stateId": 326,
-      "stateName": "Canton (REPUBLIC_OF_CHINA)",
+      "stateName": "Canton (Republic of China)",
       "terrain": "hills",
       "coastal": true,
       "rgoGood": "coal",
@@ -23722,7 +23722,7 @@
       "name": "Juticalpa",
       "ownerTag": "HONDURAS",
       "stateId": 445,
-      "stateName": "Tegucigalpa (HONDURAS)",
+      "stateName": "Tegucigalpa (Honduras)",
       "terrain": "hills",
       "coastal": true,
       "rgoGood": "cattle",
@@ -24242,7 +24242,7 @@
       "name": "Canton",
       "ownerTag": "REPUBLIC_OF_CHINA",
       "stateId": 326,
-      "stateName": "Canton (REPUBLIC_OF_CHINA)",
+      "stateName": "Canton (Republic of China)",
       "terrain": "hills",
       "coastal": true,
       "rgoGood": "coal",
@@ -24381,7 +24381,7 @@
       "name": "Thaba Bosiu",
       "ownerTag": "COLONY_OF_BASUTOLAND",
       "stateId": 329,
-      "stateName": "Transorangia (COLONY_OF_BASUTOLAND)",
+      "stateName": "Transorangia (Colony of Basutoland)",
       "terrain": "hills",
       "coastal": false,
       "rgoGood": "iron",
@@ -24667,7 +24667,7 @@
       "name": "Bluefields",
       "ownerTag": "NICARAGUA",
       "stateId": 433,
-      "stateName": "Managua (NICARAGUA)",
+      "stateName": "Managua (Nicaragua)",
       "terrain": "jungle",
       "coastal": true,
       "rgoGood": "timber",
@@ -24821,7 +24821,7 @@
       "name": "Nyarong",
       "ownerTag": "REPUBLIC_OF_CHINA",
       "stateId": 441,
-      "stateName": "Rongzhag (REPUBLIC_OF_CHINA)",
+      "stateName": "Rongzhag (Republic of China)",
       "terrain": "mountains",
       "coastal": true,
       "rgoGood": "iron",
@@ -25237,7 +25237,7 @@
       "name": "Songkhla",
       "ownerTag": "SIAM",
       "stateId": 550,
-      "stateName": "Ligor (SIAM)",
+      "stateName": "Ligor (Siam)",
       "terrain": "jungle",
       "coastal": true,
       "rgoGood": "timber",
@@ -25488,7 +25488,7 @@
       "name": "Sivas",
       "ownerTag": "OTTOMAN_EMPIRE",
       "stateId": 427,
-      "stateName": "Trebizond (OTTOMAN_EMPIRE)",
+      "stateName": "Trebizond (Ottoman Empire)",
       "terrain": "hills",
       "coastal": false,
       "rgoGood": "coal",
@@ -26421,7 +26421,7 @@
       "name": "Fernando Po",
       "ownerTag": "SECOND_SPANISH_REPUBLIC",
       "stateId": 363,
-      "stateName": "Gaboon (SECOND_SPANISH_REPUBLIC)",
+      "stateName": "Gaboon (Second Spanish Republic)",
       "terrain": "jungle",
       "coastal": true,
       "rgoGood": "cotton",
@@ -26462,7 +26462,7 @@
       "name": "Turin",
       "ownerTag": "ITALIA",
       "stateId": 626,
-      "stateName": "Turin (ITALIA)",
+      "stateName": "Turin (Italy)",
       "terrain": "mountains",
       "coastal": true,
       "rgoGood": "coal",
@@ -26934,7 +26934,7 @@
       "name": "Matagalpa",
       "ownerTag": "NICARAGUA",
       "stateId": 433,
-      "stateName": "Managua (NICARAGUA)",
+      "stateName": "Managua (Nicaragua)",
       "terrain": "farmland",
       "coastal": false,
       "rgoGood": "grain",
@@ -26980,7 +26980,7 @@
       "name": "Yendi",
       "ownerTag": "DEUTSCHE_KOLONIE_TOGO",
       "stateId": 193,
-      "stateName": "Kumasi (DEUTSCHE_KOLONIE_TOGO)",
+      "stateName": "Kumasi (German Togoland)",
       "terrain": "plains",
       "coastal": false,
       "rgoGood": "grain",
@@ -27087,7 +27087,7 @@
       "name": "Guadalcanal",
       "ownerTag": "BRITISH_SOLOMON_ISLANDS_PROTECTORATE",
       "stateId": 207,
-      "stateName": "Papua (BRITISH_SOLOMON_ISLANDS_PROTECTORATE)",
+      "stateName": "Papua (British Solomon Islands Protectorate)",
       "terrain": "hills",
       "coastal": true,
       "rgoGood": "iron",
@@ -27150,7 +27150,7 @@
       "name": "Banja Luka",
       "ownerTag": "OSTERREICH_UNGARN_AUSZTRIA_MAGYARORSZAG",
       "stateId": 499,
-      "stateName": "Sarajevo (OSTERREICH_UNGARN_AUSZTRIA_MAGYARORSZAG)",
+      "stateName": "Sarajevo (Austria-Hungary)",
       "terrain": "hills",
       "coastal": false,
       "rgoGood": "coal",
@@ -27372,7 +27372,7 @@
       "name": "Nyanza",
       "ownerTag": "DEUTSCH_OSTAFRIKA",
       "stateId": 238,
-      "stateName": "Nyanza (DEUTSCH_OSTAFRIKA)",
+      "stateName": "Nyanza (German East Africa)",
       "terrain": "hills",
       "coastal": false,
       "rgoGood": "coal",
@@ -27574,7 +27574,7 @@
       "name": "Muramvya",
       "ownerTag": "DEUTSCH_OSTAFRIKA",
       "stateId": 77,
-      "stateName": "Muramvya (DEUTSCH_OSTAFRIKA)",
+      "stateName": "Muramvya (German East Africa)",
       "terrain": "hills",
       "coastal": false,
       "rgoGood": "iron",
@@ -27639,7 +27639,7 @@
       "name": "Salonica",
       "ownerTag": "KINGDOM_OF_GREECE",
       "stateId": 467,
-      "stateName": "Constantinople (KINGDOM_OF_GREECE)",
+      "stateName": "Constantinople (Kingdom of Greece)",
       "terrain": "mountains",
       "coastal": true,
       "rgoGood": "iron",
@@ -28271,7 +28271,7 @@
       "name": "Kech",
       "ownerTag": "BRITISH_RAJ",
       "stateId": 388,
-      "stateName": "Sistan (BRITISH_RAJ)",
+      "stateName": "Sistan (British Raj)",
       "terrain": "desert",
       "coastal": false,
       "rgoGood": "cotton",
@@ -28494,7 +28494,7 @@
       "name": "Constantinople",
       "ownerTag": "OTTOMAN_EMPIRE",
       "stateId": 468,
-      "stateName": "Constantinople (OTTOMAN_EMPIRE)",
+      "stateName": "Constantinople (Ottoman Empire)",
       "terrain": "farmland",
       "coastal": true,
       "rgoGood": "grain",
@@ -28846,7 +28846,7 @@
       "name": "Managua",
       "ownerTag": "NICARAGUA",
       "stateId": 433,
-      "stateName": "Managua (NICARAGUA)",
+      "stateName": "Managua (Nicaragua)",
       "terrain": "farmland",
       "coastal": true,
       "rgoGood": "cattle",
@@ -29043,7 +29043,7 @@
       "name": "Aintab",
       "ownerTag": "OTTOMAN_EMPIRE",
       "stateId": 454,
-      "stateName": "Nicosia (OTTOMAN_EMPIRE)",
+      "stateName": "Nicosia (Ottoman Empire)",
       "terrain": "hills",
       "coastal": false,
       "rgoGood": "cattle",
@@ -29110,7 +29110,7 @@
       "name": "Varna",
       "ownerTag": "KINGDOM_OF_BULGARIA",
       "stateId": 466,
-      "stateName": "Constantinople (KINGDOM_OF_BULGARIA)",
+      "stateName": "Constantinople (Kingdom of Bulgaria)",
       "terrain": "farmland",
       "coastal": true,
       "rgoGood": "grain",
@@ -29268,7 +29268,7 @@
       "name": "Tegucigalpa",
       "ownerTag": "HONDURAS",
       "stateId": 445,
-      "stateName": "Tegucigalpa (HONDURAS)",
+      "stateName": "Tegucigalpa (Honduras)",
       "terrain": "hills",
       "coastal": true,
       "rgoGood": "coal",
@@ -29406,7 +29406,7 @@
       "name": "Christianshaab",
       "ownerTag": "GREENLAND",
       "stateId": 521,
-      "stateName": "Godthaab (GREENLAND)",
+      "stateName": "Godthaab (Greenland)",
       "terrain": "mountains",
       "coastal": true,
       "rgoGood": "coal",
@@ -29424,7 +29424,7 @@
       "name": "Ali Sabih",
       "ownerTag": "FRENCH_SOMALILAND",
       "stateId": 128,
-      "stateName": "Berbera (FRENCH_SOMALILAND)",
+      "stateName": "Berbera (French Somaliland)",
       "terrain": "desert",
       "coastal": true,
       "rgoGood": "cotton",
@@ -29617,7 +29617,7 @@
       "name": "San Pedro Sula",
       "ownerTag": "HONDURAS",
       "stateId": 445,
-      "stateName": "Tegucigalpa (HONDURAS)",
+      "stateName": "Tegucigalpa (Honduras)",
       "terrain": "mountains",
       "coastal": true,
       "rgoGood": "iron",
@@ -29709,7 +29709,7 @@
       "name": "Janina",
       "ownerTag": "KINGDOM_OF_GREECE",
       "stateId": 505,
-      "stateName": "Tirana (KINGDOM_OF_GREECE)",
+      "stateName": "Tirana (Kingdom of Greece)",
       "terrain": "mountains",
       "coastal": true,
       "rgoGood": "iron",
@@ -29992,7 +29992,7 @@
       "name": "Tangier",
       "ownerTag": "SPANISH_MOROCCO",
       "stateId": 407,
-      "stateName": "Fez (SPANISH_MOROCCO)",
+      "stateName": "Fez (Spanish Morocco)",
       "terrain": "hills",
       "coastal": true,
       "rgoGood": "cattle",
@@ -30101,7 +30101,7 @@
       "name": "San Salvador",
       "ownerTag": "EL_SALVADOR",
       "stateId": 527,
-      "stateName": "San Salvador (EL_SALVADOR)",
+      "stateName": "San Salvador (El Salvador)",
       "terrain": "hills",
       "coastal": true,
       "rgoGood": "cattle",
@@ -30410,7 +30410,7 @@
       "name": "Liangzhou",
       "ownerTag": "REPUBLIC_OF_CHINA",
       "stateId": 23,
-      "stateName": "Xining (REPUBLIC_OF_CHINA)",
+      "stateName": "Xining (Republic of China)",
       "terrain": "hills",
       "coastal": false,
       "rgoGood": "coal",
@@ -30615,7 +30615,7 @@
       "name": "Cibao",
       "ownerTag": "REPUBLICA_DOMINICANA",
       "stateId": 469,
-      "stateName": "Port-au-Prince (REPUBLICA_DOMINICANA)",
+      "stateName": "Port-au-Prince (Dominican Republic)",
       "terrain": "hills",
       "coastal": true,
       "rgoGood": "iron",
@@ -30659,7 +30659,7 @@
       "name": "Gyalrong",
       "ownerTag": "REPUBLIC_OF_CHINA",
       "stateId": 441,
-      "stateName": "Rongzhag (REPUBLIC_OF_CHINA)",
+      "stateName": "Rongzhag (Republic of China)",
       "terrain": "mountains",
       "coastal": false,
       "rgoGood": "coal",
@@ -30727,7 +30727,7 @@
       "name": "Rongzhag",
       "ownerTag": "REPUBLIC_OF_CHINA",
       "stateId": 441,
-      "stateName": "Rongzhag (REPUBLIC_OF_CHINA)",
+      "stateName": "Rongzhag (Republic of China)",
       "terrain": "mountains",
       "coastal": false,
       "rgoGood": "iron",
@@ -30923,7 +30923,7 @@
       "name": "Erzincan",
       "ownerTag": "OTTOMAN_EMPIRE",
       "stateId": 427,
-      "stateName": "Trebizond (OTTOMAN_EMPIRE)",
+      "stateName": "Trebizond (Ottoman Empire)",
       "terrain": "mountains",
       "coastal": false,
       "rgoGood": "coal",
@@ -31160,7 +31160,7 @@
       "name": "Johor",
       "ownerTag": "JOHORE_PROTECTORATE",
       "stateId": 423,
-      "stateName": "Johor (JOHORE_PROTECTORATE)",
+      "stateName": "Johor (Johore Protectorate)",
       "terrain": "jungle",
       "coastal": true,
       "rgoGood": "timber",
@@ -31537,7 +31537,7 @@
       "name": "Tirana",
       "ownerTag": "PRINCIPALITY_OF_ALBANIA",
       "stateId": 507,
-      "stateName": "Tirana (PRINCIPALITY_OF_ALBANIA)",
+      "stateName": "Tirana (Principality of Albania)",
       "terrain": "mountains",
       "coastal": true,
       "rgoGood": "coal",
@@ -31620,7 +31620,7 @@
       "name": "Trebizond",
       "ownerTag": "OTTOMAN_EMPIRE",
       "stateId": 427,
-      "stateName": "Trebizond (OTTOMAN_EMPIRE)",
+      "stateName": "Trebizond (Ottoman Empire)",
       "terrain": "mountains",
       "coastal": true,
       "rgoGood": "iron",
@@ -31782,7 +31782,7 @@
       "name": "Viti Levu",
       "ownerTag": "BRITISH_WESTERN_PACIFIC_TERRITORIES",
       "stateId": 722,
-      "stateName": "Viti Levu (BRITISH_WESTERN_PACIFIC_TERRITORIES)",
+      "stateName": "Viti Levu (British Western Pacific Territories)",
       "terrain": "hills",
       "coastal": true,
       "rgoGood": "cattle",
@@ -31802,7 +31802,7 @@
       "name": "Chiquimula",
       "ownerTag": "GUATEMALA",
       "stateId": 528,
-      "stateName": "San Salvador (GUATEMALA)",
+      "stateName": "San Salvador (Guatemala)",
       "terrain": "mountains",
       "coastal": true,
       "rgoGood": "coal",
@@ -31890,7 +31890,7 @@
       "name": "Venice",
       "ownerTag": "ITALIA",
       "stateId": 556,
-      "stateName": "Venice (ITALIA)",
+      "stateName": "Venice (Italy)",
       "terrain": "hills",
       "coastal": true,
       "rgoGood": "cattle",
@@ -32005,7 +32005,7 @@
       "name": "Mosquito Coast",
       "ownerTag": "NICARAGUA",
       "stateId": 433,
-      "stateName": "Managua (NICARAGUA)",
+      "stateName": "Managua (Nicaragua)",
       "terrain": "jungle",
       "coastal": true,
       "rgoGood": "cotton",
@@ -32070,7 +32070,7 @@
       "name": "Larissa",
       "ownerTag": "KINGDOM_OF_GREECE",
       "stateId": 505,
-      "stateName": "Tirana (KINGDOM_OF_GREECE)",
+      "stateName": "Tirana (Kingdom of Greece)",
       "terrain": "mountains",
       "coastal": true,
       "rgoGood": "iron",
@@ -32272,7 +32272,7 @@
       "name": "Ngwane",
       "ownerTag": "SWAZILAND_PROTECTORATE",
       "stateId": 438,
-      "stateName": "Matabele (SWAZILAND_PROTECTORATE)",
+      "stateName": "Matabele (Swaziland Protectorate)",
       "terrain": "hills",
       "coastal": false,
       "rgoGood": "coal",
@@ -32417,7 +32417,7 @@
       "name": "Adana",
       "ownerTag": "OTTOMAN_EMPIRE",
       "stateId": 454,
-      "stateName": "Nicosia (OTTOMAN_EMPIRE)",
+      "stateName": "Nicosia (Ottoman Empire)",
       "terrain": "hills",
       "coastal": true,
       "rgoGood": "coal",
@@ -32594,7 +32594,7 @@
       "name": "Golog",
       "ownerTag": "TIBET",
       "stateId": 442,
-      "stateName": "Rongzhag (TIBET)",
+      "stateName": "Rongzhag (Tibet)",
       "terrain": "mountains",
       "coastal": true,
       "rgoGood": "coal",
@@ -32809,7 +32809,7 @@
       "name": "Estelí",
       "ownerTag": "NICARAGUA",
       "stateId": 446,
-      "stateName": "Tegucigalpa (NICARAGUA)",
+      "stateName": "Tegucigalpa (Nicaragua)",
       "terrain": "hills",
       "coastal": false,
       "rgoGood": "cattle",
@@ -32987,7 +32987,7 @@
       "name": "Shaozhou",
       "ownerTag": "REPUBLIC_OF_CHINA",
       "stateId": 326,
-      "stateName": "Canton (REPUBLIC_OF_CHINA)",
+      "stateName": "Canton (Republic of China)",
       "terrain": "hills",
       "coastal": false,
       "rgoGood": "iron",
@@ -33239,7 +33239,7 @@
       "name": "Tarsus",
       "ownerTag": "OTTOMAN_EMPIRE",
       "stateId": 454,
-      "stateName": "Nicosia (OTTOMAN_EMPIRE)",
+      "stateName": "Nicosia (Ottoman Empire)",
       "terrain": "mountains",
       "coastal": true,
       "rgoGood": "coal",
@@ -33280,7 +33280,7 @@
       "name": "Bhutan Duars",
       "ownerTag": "BRITISH_RAJ",
       "stateId": 456,
-      "stateName": "Punakha (BRITISH_RAJ)",
+      "stateName": "Punakha (British Raj)",
       "terrain": "farmland",
       "coastal": false,
       "rgoGood": "cattle",
@@ -33373,7 +33373,7 @@
       "name": "Brus Laguna",
       "ownerTag": "HONDURAS",
       "stateId": 432,
-      "stateName": "Managua (HONDURAS)",
+      "stateName": "Managua (Honduras)",
       "terrain": "jungle",
       "coastal": true,
       "rgoGood": "timber",
@@ -33415,7 +33415,7 @@
       "name": "Tokat",
       "ownerTag": "OTTOMAN_EMPIRE",
       "stateId": 427,
-      "stateName": "Trebizond (OTTOMAN_EMPIRE)",
+      "stateName": "Trebizond (Ottoman Empire)",
       "terrain": "mountains",
       "coastal": true,
       "rgoGood": "iron",
@@ -33436,7 +33436,7 @@
       "name": "Binzhou",
       "ownerTag": "REPUBLIC_OF_CHINA",
       "stateId": 281,
-      "stateName": "Dengzhou (REPUBLIC_OF_CHINA)",
+      "stateName": "Dengzhou (Republic of China)",
       "terrain": "farmland",
       "coastal": true,
       "rgoGood": "cattle",
@@ -33675,7 +33675,7 @@
       "name": "Cap-Haïtien",
       "ownerTag": "REPUBLIQUE_D_HAITI",
       "stateId": 470,
-      "stateName": "Port-au-Prince (REPUBLIQUE_D_HAITI)",
+      "stateName": "Port-au-Prince (Haiti)",
       "terrain": "hills",
       "coastal": true,
       "rgoGood": "iron",
@@ -34064,7 +34064,7 @@
       "name": "Zoigê",
       "ownerTag": "REPUBLIC_OF_CHINA",
       "stateId": 23,
-      "stateName": "Xining (REPUBLIC_OF_CHINA)",
+      "stateName": "Xining (Republic of China)",
       "terrain": "mountains",
       "coastal": false,
       "rgoGood": "iron",
@@ -34276,7 +34276,7 @@
       "name": "Bragman's Bluff",
       "ownerTag": "NICARAGUA",
       "stateId": 433,
-      "stateName": "Managua (NICARAGUA)",
+      "stateName": "Managua (Nicaragua)",
       "terrain": "jungle",
       "coastal": true,
       "rgoGood": "timber",
@@ -34369,7 +34369,7 @@
       "name": "Burgas",
       "ownerTag": "KINGDOM_OF_BULGARIA",
       "stateId": 466,
-      "stateName": "Constantinople (KINGDOM_OF_BULGARIA)",
+      "stateName": "Constantinople (Kingdom of Bulgaria)",
       "terrain": "farmland",
       "coastal": true,
       "rgoGood": "cattle",
@@ -34389,7 +34389,7 @@
       "name": "Flores",
       "ownerTag": "GUATEMALA",
       "stateId": 274,
-      "stateName": "Mérida (GUATEMALA)",
+      "stateName": "Mérida (Guatemala)",
       "terrain": "forest",
       "coastal": false,
       "rgoGood": "timber",
@@ -34409,7 +34409,7 @@
       "name": "Azua",
       "ownerTag": "REPUBLICA_DOMINICANA",
       "stateId": 469,
-      "stateName": "Port-au-Prince (REPUBLICA_DOMINICANA)",
+      "stateName": "Port-au-Prince (Dominican Republic)",
       "terrain": "mountains",
       "coastal": true,
       "rgoGood": "coal",
@@ -34431,7 +34431,7 @@
       "name": "Üsküb",
       "ownerTag": "KINGDOM_OF_SERBIA",
       "stateId": 506,
-      "stateName": "Tirana (KINGDOM_OF_SERBIA)",
+      "stateName": "Tirana (Serbia)",
       "terrain": "mountains",
       "coastal": false,
       "rgoGood": "iron",
@@ -34627,7 +34627,7 @@
       "name": "Eski Zagra",
       "ownerTag": "KINGDOM_OF_BULGARIA",
       "stateId": 466,
-      "stateName": "Constantinople (KINGDOM_OF_BULGARIA)",
+      "stateName": "Constantinople (Kingdom of Bulgaria)",
       "terrain": "hills",
       "coastal": false,
       "rgoGood": "cattle",
@@ -34804,7 +34804,7 @@
       "name": "Terengganu",
       "ownerTag": "TRENGGANU_PROTECTORATE",
       "stateId": 551,
-      "stateName": "Ligor (TRENGGANU_PROTECTORATE)",
+      "stateName": "Ligor (Trengganu Protectorate)",
       "terrain": "jungle",
       "coastal": true,
       "rgoGood": "timber",
@@ -34886,7 +34886,7 @@
       "name": "Trient",
       "ownerTag": "OSTERREICH_UNGARN_AUSZTRIA_MAGYARORSZAG",
       "stateId": 557,
-      "stateName": "Venice (OSTERREICH_UNGARN_AUSZTRIA_MAGYARORSZAG)",
+      "stateName": "Venice (Austria-Hungary)",
       "terrain": "mountains",
       "coastal": true,
       "rgoGood": "coal",
@@ -34955,7 +34955,7 @@
       "name": "Travnik",
       "ownerTag": "OSTERREICH_UNGARN_AUSZTRIA_MAGYARORSZAG",
       "stateId": 499,
-      "stateName": "Sarajevo (OSTERREICH_UNGARN_AUSZTRIA_MAGYARORSZAG)",
+      "stateName": "Sarajevo (Austria-Hungary)",
       "terrain": "mountains",
       "coastal": false,
       "rgoGood": "iron",
@@ -35178,7 +35178,7 @@
       "name": "Pristina",
       "ownerTag": "KINGDOM_OF_SERBIA",
       "stateId": 498,
-      "stateName": "Sarajevo (KINGDOM_OF_SERBIA)",
+      "stateName": "Sarajevo (Serbia)",
       "terrain": "hills",
       "coastal": false,
       "rgoGood": "cattle",
@@ -35244,7 +35244,7 @@
       "name": "Kelantan",
       "ownerTag": "KELANTAN_PROTECTORATE",
       "stateId": 548,
-      "stateName": "Ligor (KELANTAN_PROTECTORATE)",
+      "stateName": "Ligor (Kelantan Protectorate)",
       "terrain": "hills",
       "coastal": true,
       "rgoGood": "cattle",
@@ -35265,7 +35265,7 @@
       "name": "Santo Domingo",
       "ownerTag": "REPUBLICA_DOMINICANA",
       "stateId": 469,
-      "stateName": "Port-au-Prince (REPUBLICA_DOMINICANA)",
+      "stateName": "Port-au-Prince (Dominican Republic)",
       "terrain": "farmland",
       "coastal": true,
       "rgoGood": "grain",
@@ -36051,7 +36051,7 @@
       "name": "Sarajevo",
       "ownerTag": "OSTERREICH_UNGARN_AUSZTRIA_MAGYARORSZAG",
       "stateId": 499,
-      "stateName": "Sarajevo (OSTERREICH_UNGARN_AUSZTRIA_MAGYARORSZAG)",
+      "stateName": "Sarajevo (Austria-Hungary)",
       "terrain": "mountains",
       "coastal": false,
       "rgoGood": "iron",
@@ -36072,7 +36072,7 @@
       "name": "Charleroi",
       "ownerTag": "BELGIQUE",
       "stateId": 635,
-      "stateName": "Luxembourg (BELGIQUE)",
+      "stateName": "Luxembourg (Belgium)",
       "terrain": "farmland",
       "coastal": true,
       "rgoGood": "grain",
@@ -36396,7 +36396,7 @@
       "name": "Port-au-Prince",
       "ownerTag": "REPUBLIQUE_D_HAITI",
       "stateId": 470,
-      "stateName": "Port-au-Prince (REPUBLIQUE_D_HAITI)",
+      "stateName": "Port-au-Prince (Haiti)",
       "terrain": "mountains",
       "coastal": true,
       "rgoGood": "coal",
@@ -36477,7 +36477,7 @@
       "name": "Podgorica",
       "ownerTag": "KINGDOM_OF_MONTENEGRO",
       "stateId": 497,
-      "stateName": "Sarajevo (KINGDOM_OF_MONTENEGRO)",
+      "stateName": "Sarajevo (Montenegro)",
       "terrain": "mountains",
       "coastal": true,
       "rgoGood": "iron",
@@ -36591,7 +36591,7 @@
       "name": "Monastir",
       "ownerTag": "KINGDOM_OF_SERBIA",
       "stateId": 506,
-      "stateName": "Tirana (KINGDOM_OF_SERBIA)",
+      "stateName": "Tirana (Serbia)",
       "terrain": "mountains",
       "coastal": false,
       "rgoGood": "coal",
@@ -36614,7 +36614,7 @@
       "name": "Reims",
       "ownerTag": "FRENCH_THIRD_REPUBLIC",
       "stateId": 582,
-      "stateName": "Strasbourg (FRENCH_THIRD_REPUBLIC)",
+      "stateName": "Strasbourg (French Third Republic)",
       "terrain": "farmland",
       "coastal": true,
       "rgoGood": "grain",
@@ -36790,7 +36790,7 @@
       "name": "Port Vila",
       "ownerTag": "BRITISH_WESTERN_PACIFIC_TERRITORIES",
       "stateId": 722,
-      "stateName": "Viti Levu (BRITISH_WESTERN_PACIFIC_TERRITORIES)",
+      "stateName": "Viti Levu (British Western Pacific Territories)",
       "terrain": "hills",
       "coastal": true,
       "rgoGood": "cattle",
@@ -36852,7 +36852,7 @@
       "name": "Comayagua",
       "ownerTag": "HONDURAS",
       "stateId": 445,
-      "stateName": "Tegucigalpa (HONDURAS)",
+      "stateName": "Tegucigalpa (Honduras)",
       "terrain": "mountains",
       "coastal": false,
       "rgoGood": "coal",
@@ -37396,7 +37396,7 @@
       "name": "Scutari",
       "ownerTag": "PRINCIPALITY_OF_ALBANIA",
       "stateId": 507,
-      "stateName": "Tirana (PRINCIPALITY_OF_ALBANIA)",
+      "stateName": "Tirana (Principality of Albania)",
       "terrain": "mountains",
       "coastal": true,
       "rgoGood": "coal",
@@ -37532,7 +37532,7 @@
       "name": "Vranje",
       "ownerTag": "KINGDOM_OF_SERBIA",
       "stateId": 498,
-      "stateName": "Sarajevo (KINGDOM_OF_SERBIA)",
+      "stateName": "Sarajevo (Serbia)",
       "terrain": "hills",
       "coastal": false,
       "rgoGood": "iron",
@@ -37773,7 +37773,7 @@
       "name": "Unalaska",
       "ownerTag": "UNITED_STATES",
       "stateId": 5,
-      "stateName": "Kamchatka (UNITED_STATES)",
+      "stateName": "Kamchatka (United States)",
       "terrain": "hills",
       "coastal": true,
       "rgoGood": "coal",
@@ -37814,7 +37814,7 @@
       "name": "Julianehaab",
       "ownerTag": "GREENLAND",
       "stateId": 521,
-      "stateName": "Godthaab (GREENLAND)",
+      "stateName": "Godthaab (Greenland)",
       "terrain": "mountains",
       "coastal": true,
       "rgoGood": "coal",
@@ -38066,7 +38066,7 @@
       "name": "Gracias",
       "ownerTag": "HONDURAS",
       "stateId": 529,
-      "stateName": "San Salvador (HONDURAS)",
+      "stateName": "San Salvador (Honduras)",
       "terrain": "mountains",
       "coastal": false,
       "rgoGood": "iron",
@@ -38171,7 +38171,7 @@
       "name": "Bois-le-Duc",
       "ownerTag": "KONINKRIJK_DER_NEDERLANDEN",
       "stateId": 613,
-      "stateName": "Brussels (KONINKRIJK_DER_NEDERLANDEN)",
+      "stateName": "Brussels (Kingdom of the Netherlands)",
       "terrain": "farmland",
       "coastal": true,
       "rgoGood": "grain",
@@ -38283,7 +38283,7 @@
       "name": "Nicosia",
       "ownerTag": "BRITISH_CYPRUS",
       "stateId": 453,
-      "stateName": "Nicosia (BRITISH_CYPRUS)",
+      "stateName": "Nicosia (British Cyprus)",
       "terrain": "hills",
       "coastal": true,
       "rgoGood": "iron",
@@ -38302,7 +38302,7 @@
       "name": "Innsbruck",
       "ownerTag": "OSTERREICH_UNGARN_AUSZTRIA_MAGYARORSZAG",
       "stateId": 557,
-      "stateName": "Venice (OSTERREICH_UNGARN_AUSZTRIA_MAGYARORSZAG)",
+      "stateName": "Venice (Austria-Hungary)",
       "terrain": "mountains",
       "coastal": false,
       "rgoGood": "coal",
@@ -38370,7 +38370,7 @@
       "name": "Århus",
       "ownerTag": "DANMARK",
       "stateId": 564,
-      "stateName": "Århus (DANMARK)",
+      "stateName": "Århus (Denmark)",
       "terrain": "farmland",
       "coastal": true,
       "rgoGood": "cattle",
@@ -38681,7 +38681,7 @@
       "name": "Nancy",
       "ownerTag": "FRENCH_THIRD_REPUBLIC",
       "stateId": 582,
-      "stateName": "Strasbourg (FRENCH_THIRD_REPUBLIC)",
+      "stateName": "Strasbourg (French Third Republic)",
       "terrain": "farmland",
       "coastal": true,
       "rgoGood": "cattle",
@@ -39061,7 +39061,7 @@
       "name": "Kedah",
       "ownerTag": "KEDAH_PROTECTORATE",
       "stateId": 547,
-      "stateName": "Ligor (KEDAH_PROTECTORATE)",
+      "stateName": "Ligor (Kedah Protectorate)",
       "terrain": "jungle",
       "coastal": true,
       "rgoGood": "timber",
@@ -39082,7 +39082,7 @@
       "name": "Strasbourg",
       "ownerTag": "DEUTSCHES_REICH",
       "stateId": 581,
-      "stateName": "Strasbourg (DEUTSCHES_REICH)",
+      "stateName": "Strasbourg (German Empire)",
       "terrain": "farmland",
       "coastal": true,
       "rgoGood": "grain",
@@ -39168,7 +39168,7 @@
       "name": "Xanthi",
       "ownerTag": "KINGDOM_OF_BULGARIA",
       "stateId": 466,
-      "stateName": "Constantinople (KINGDOM_OF_BULGARIA)",
+      "stateName": "Constantinople (Kingdom of Bulgaria)",
       "terrain": "hills",
       "coastal": true,
       "rgoGood": "coal",
@@ -39391,7 +39391,7 @@
       "name": "Galápagos",
       "ownerTag": "ECUADOR",
       "stateId": 713,
-      "stateName": "Galápagos (ECUADOR)",
+      "stateName": "Galápagos (Ecuador)",
       "terrain": "hills",
       "coastal": true,
       "rgoGood": "cattle",
@@ -39478,7 +39478,7 @@
       "name": "Trieste",
       "ownerTag": "ITALIA",
       "stateId": 556,
-      "stateName": "Venice (ITALIA)",
+      "stateName": "Venice (Italy)",
       "terrain": "hills",
       "coastal": true,
       "rgoGood": "cattle",
@@ -40034,7 +40034,7 @@
       "name": "Aalborg",
       "ownerTag": "DANMARK",
       "stateId": 564,
-      "stateName": "Århus (DANMARK)",
+      "stateName": "Århus (Denmark)",
       "terrain": "farmland",
       "coastal": true,
       "rgoGood": "cattle",
@@ -40075,7 +40075,7 @@
       "name": "Viborg",
       "ownerTag": "DANMARK",
       "stateId": 564,
-      "stateName": "Århus (DANMARK)",
+      "stateName": "Århus (Denmark)",
       "terrain": "farmland",
       "coastal": true,
       "rgoGood": "grain",
@@ -40095,7 +40095,7 @@
       "name": "Lublin",
       "ownerTag": "RUSSIAN_EMPIRE",
       "stateId": 576,
-      "stateName": "Lublin (RUSSIAN_EMPIRE)",
+      "stateName": "Lublin (Russian Empire)",
       "terrain": "farmland",
       "coastal": false,
       "rgoGood": "grain",
@@ -40234,7 +40234,7 @@
       "name": "Kinguele",
       "ownerTag": "CABINDA",
       "stateId": 566,
-      "stateName": "Kinguele (CABINDA)",
+      "stateName": "Kinguele (Cabinda)",
       "terrain": "jungle",
       "coastal": true,
       "rgoGood": "timber",
@@ -40912,7 +40912,7 @@
       "name": "Baol",
       "ownerTag": "HAUT_SENEGAL_ET_NIGER",
       "stateId": 677,
-      "stateName": "Praia (HAUT_SENEGAL_ET_NIGER)",
+      "stateName": "Praia (Upper Senegal and Niger)",
       "terrain": "plains",
       "coastal": true,
       "rgoGood": "cattle",
@@ -41001,7 +41001,7 @@
       "name": "Chełm",
       "ownerTag": "RUSSIAN_EMPIRE",
       "stateId": 576,
-      "stateName": "Lublin (RUSSIAN_EMPIRE)",
+      "stateName": "Lublin (Russian Empire)",
       "terrain": "farmland",
       "coastal": false,
       "rgoGood": "grain",
@@ -41370,7 +41370,7 @@
       "name": "Biała",
       "ownerTag": "RUSSIAN_EMPIRE",
       "stateId": 576,
-      "stateName": "Lublin (RUSSIAN_EMPIRE)",
+      "stateName": "Lublin (Russian Empire)",
       "terrain": "farmland",
       "coastal": false,
       "rgoGood": "grain",
@@ -41622,7 +41622,7 @@
       "name": "Chambéry",
       "ownerTag": "FRENCH_THIRD_REPUBLIC",
       "stateId": 625,
-      "stateName": "Turin (FRENCH_THIRD_REPUBLIC)",
+      "stateName": "Turin (French Third Republic)",
       "terrain": "mountains",
       "coastal": false,
       "rgoGood": "coal",
@@ -41670,7 +41670,7 @@
       "name": "Haute-Marne",
       "ownerTag": "FRENCH_THIRD_REPUBLIC",
       "stateId": 582,
-      "stateName": "Strasbourg (FRENCH_THIRD_REPUBLIC)",
+      "stateName": "Strasbourg (French Third Republic)",
       "terrain": "farmland",
       "coastal": false,
       "rgoGood": "grain",
@@ -41693,7 +41693,7 @@
       "name": "Metz",
       "ownerTag": "DEUTSCHES_REICH",
       "stateId": 581,
-      "stateName": "Strasbourg (DEUTSCHES_REICH)",
+      "stateName": "Strasbourg (German Empire)",
       "terrain": "farmland",
       "coastal": true,
       "rgoGood": "grain",
@@ -42025,7 +42025,7 @@
       "name": "Troyes",
       "ownerTag": "FRENCH_THIRD_REPUBLIC",
       "stateId": 582,
-      "stateName": "Strasbourg (FRENCH_THIRD_REPUBLIC)",
+      "stateName": "Strasbourg (French Third Republic)",
       "terrain": "farmland",
       "coastal": false,
       "rgoGood": "cattle",
@@ -42047,7 +42047,7 @@
       "name": "Lamu",
       "ownerTag": "WITULAND",
       "stateId": 156,
-      "stateName": "Bagamoyo (WITULAND)",
+      "stateName": "Bagamoyo (Wituland)",
       "terrain": "plains",
       "coastal": true,
       "rgoGood": "cattle",
@@ -42623,7 +42623,7 @@
       "name": "Brunei",
       "ownerTag": "PROTECTORATE_OF_BRUNEI",
       "stateId": 598,
-      "stateName": "Brunei (PROTECTORATE_OF_BRUNEI)",
+      "stateName": "Brunei (Protectorate of Brunei)",
       "terrain": "jungle",
       "coastal": true,
       "rgoGood": "timber",
@@ -43204,7 +43204,7 @@
       "name": "Antwerp",
       "ownerTag": "BELGIQUE",
       "stateId": 612,
-      "stateName": "Brussels (BELGIQUE)",
+      "stateName": "Brussels (Belgium)",
       "terrain": "farmland",
       "coastal": false,
       "rgoGood": "grain",
@@ -43224,7 +43224,7 @@
       "name": "Brussels",
       "ownerTag": "BELGIQUE",
       "stateId": 612,
-      "stateName": "Brussels (BELGIQUE)",
+      "stateName": "Brussels (Belgium)",
       "terrain": "farmland",
       "coastal": false,
       "rgoGood": "grain",
@@ -43575,7 +43575,7 @@
       "name": "Ribe",
       "ownerTag": "DANMARK",
       "stateId": 564,
-      "stateName": "Århus (DANMARK)",
+      "stateName": "Århus (Denmark)",
       "terrain": "farmland",
       "coastal": true,
       "rgoGood": "cattle",
@@ -43662,7 +43662,7 @@
       "name": "Annecy",
       "ownerTag": "FRENCH_THIRD_REPUBLIC",
       "stateId": 625,
-      "stateName": "Turin (FRENCH_THIRD_REPUBLIC)",
+      "stateName": "Turin (French Third Republic)",
       "terrain": "mountains",
       "coastal": false,
       "rgoGood": "coal",
@@ -43681,7 +43681,7 @@
     },
     {
       "id": 1966,
-      "name": "powiat częstochowski",
+      "name": "Częstochowa",
       "ownerTag": "RUSSIAN_EMPIRE",
       "stateId": 621,
       "stateName": "Kielce",
@@ -43766,7 +43766,7 @@
       "name": "Batum",
       "ownerTag": "RUSSIAN_EMPIRE",
       "stateId": 428,
-      "stateName": "Trebizond (RUSSIAN_EMPIRE)",
+      "stateName": "Trebizond (Russian Empire)",
       "terrain": "mountains",
       "coastal": true,
       "rgoGood": "iron",
@@ -43831,7 +43831,7 @@
       "name": "Zamość",
       "ownerTag": "OSTERREICH_UNGARN_AUSZTRIA_MAGYARORSZAG",
       "stateId": 575,
-      "stateName": "Lublin (OSTERREICH_UNGARN_AUSZTRIA_MAGYARORSZAG)",
+      "stateName": "Lublin (Austria-Hungary)",
       "terrain": "farmland",
       "coastal": false,
       "rgoGood": "cattle",
@@ -43874,7 +43874,7 @@
       "name": "Genoa",
       "ownerTag": "ITALIA",
       "stateId": 626,
-      "stateName": "Turin (ITALIA)",
+      "stateName": "Turin (Italy)",
       "terrain": "mountains",
       "coastal": true,
       "rgoGood": "coal",
@@ -43961,7 +43961,7 @@
       "name": "Arlon",
       "ownerTag": "BELGIQUE",
       "stateId": 635,
-      "stateName": "Luxembourg (BELGIQUE)",
+      "stateName": "Luxembourg (Belgium)",
       "terrain": "forest",
       "coastal": true,
       "rgoGood": "cotton",
@@ -44079,7 +44079,7 @@
       "name": "Schwaz",
       "ownerTag": "OSTERREICH_UNGARN_AUSZTRIA_MAGYARORSZAG",
       "stateId": 557,
-      "stateName": "Venice (OSTERREICH_UNGARN_AUSZTRIA_MAGYARORSZAG)",
+      "stateName": "Venice (Austria-Hungary)",
       "terrain": "mountains",
       "coastal": false,
       "rgoGood": "iron",
@@ -44203,7 +44203,7 @@
       "name": "Praia",
       "ownerTag": "PORTUGAL",
       "stateId": 678,
-      "stateName": "Praia (PORTUGAL)",
+      "stateName": "Praia (Portugal)",
       "terrain": "mountains",
       "coastal": true,
       "rgoGood": "iron",
@@ -44311,7 +44311,7 @@
       "name": "Liège",
       "ownerTag": "BELGIQUE",
       "stateId": 635,
-      "stateName": "Luxembourg (BELGIQUE)",
+      "stateName": "Luxembourg (Belgium)",
       "terrain": "farmland",
       "coastal": true,
       "rgoGood": "grain",
@@ -44441,7 +44441,7 @@
       "name": "Aabenraa",
       "ownerTag": "DEUTSCHES_REICH",
       "stateId": 565,
-      "stateName": "Århus (DEUTSCHES_REICH)",
+      "stateName": "Århus (German Empire)",
       "terrain": "farmland",
       "coastal": true,
       "rgoGood": "grain",
@@ -44649,7 +44649,7 @@
       "name": "Aosta",
       "ownerTag": "ITALIA",
       "stateId": 626,
-      "stateName": "Turin (ITALIA)",
+      "stateName": "Turin (Italy)",
       "terrain": "mountains",
       "coastal": false,
       "rgoGood": "iron",
@@ -44754,7 +44754,7 @@
       "name": "Apia",
       "ownerTag": "DEUTSCHES_REICH",
       "stateId": 688,
-      "stateName": "Apia (DEUTSCHES_REICH)",
+      "stateName": "Apia (German Empire)",
       "terrain": "mountains",
       "coastal": true,
       "rgoGood": "iron",
@@ -44796,7 +44796,7 @@
       "name": "Zanzibar",
       "ownerTag": "ZANZIBAR_PROTECTORATE",
       "stateId": 157,
-      "stateName": "Bagamoyo (ZANZIBAR_PROTECTORATE)",
+      "stateName": "Bagamoyo (Zanzibar Protectorate)",
       "terrain": "plains",
       "coastal": true,
       "rgoGood": "cattle",
@@ -44944,7 +44944,7 @@
       "name": "Luxembourg",
       "ownerTag": "LUXEMBOURG",
       "stateId": 637,
-      "stateName": "Luxembourg (LUXEMBOURG)",
+      "stateName": "Luxembourg (Luxembourg)",
       "terrain": "farmland",
       "coastal": false,
       "rgoGood": "grain",
@@ -45108,7 +45108,7 @@
       "name": "Port Louis",
       "ownerTag": "BRITISH_MAURITIUS",
       "stateId": 725,
-      "stateName": "Mahé (BRITISH_MAURITIUS)",
+      "stateName": "Mahé (British Mauritius)",
       "terrain": "hills",
       "coastal": true,
       "rgoGood": "cattle",
@@ -45270,7 +45270,7 @@
       "name": "Commander Islands",
       "ownerTag": "RUSSIAN_EMPIRE",
       "stateId": 4,
-      "stateName": "Kamchatka (RUSSIAN_EMPIRE)",
+      "stateName": "Kamchatka (Russian Empire)",
       "terrain": "hills",
       "coastal": true,
       "rgoGood": "cattle",
@@ -45624,7 +45624,7 @@
       "name": "Perlis",
       "ownerTag": "PERLIS_PROTECTORATE",
       "stateId": 549,
-      "stateName": "Ligor (PERLIS_PROTECTORATE)",
+      "stateName": "Ligor (Perlis Protectorate)",
       "terrain": "plains",
       "coastal": true,
       "rgoGood": "grain",
@@ -45643,7 +45643,7 @@
       "name": "Chatham Islands",
       "ownerTag": "DOMINION_OF_NEW_ZEALAND",
       "stateId": 689,
-      "stateName": "Apia (DOMINION_OF_NEW_ZEALAND)",
+      "stateName": "Apia (Dominion of New Zealand)",
       "terrain": "forest",
       "coastal": true,
       "rgoGood": "timber",
@@ -45661,7 +45661,7 @@
       "name": "Mbour",
       "ownerTag": "HAUT_SENEGAL_ET_NIGER",
       "stateId": 677,
-      "stateName": "Praia (HAUT_SENEGAL_ET_NIGER)",
+      "stateName": "Praia (Upper Senegal and Niger)",
       "terrain": "plains",
       "coastal": true,
       "rgoGood": "grain",
@@ -45682,7 +45682,7 @@
       "name": "Roseau",
       "ownerTag": "BRITISH_LEEWARD_ISLANDS",
       "stateId": 696,
-      "stateName": "Bridgetown (BRITISH_LEEWARD_ISLANDS)",
+      "stateName": "Bridgetown (British Leeward Islands)",
       "terrain": "hills",
       "coastal": true,
       "rgoGood": "cattle",
@@ -45760,7 +45760,7 @@
       "name": "Pedernales",
       "ownerTag": "REPUBLICA_DOMINICANA",
       "stateId": 469,
-      "stateName": "Port-au-Prince (REPUBLICA_DOMINICANA)",
+      "stateName": "Port-au-Prince (Dominican Republic)",
       "terrain": "mountains",
       "coastal": true,
       "rgoGood": "coal",
@@ -45819,7 +45819,7 @@
       "name": "Castries",
       "ownerTag": "BRITISH_WINDWARD_ISLANDS",
       "stateId": 697,
-      "stateName": "Bridgetown (BRITISH_WINDWARD_ISLANDS)",
+      "stateName": "Bridgetown (British Windward Islands)",
       "terrain": "hills",
       "coastal": true,
       "rgoGood": "cattle",
@@ -45839,7 +45839,7 @@
       "name": "Lata",
       "ownerTag": "BRITISH_SOLOMON_ISLANDS_PROTECTORATE",
       "stateId": 721,
-      "stateName": "Viti Levu (BRITISH_SOLOMON_ISLANDS_PROTECTORATE)",
+      "stateName": "Viti Levu (British Solomon Islands Protectorate)",
       "terrain": "jungle",
       "coastal": true,
       "rgoGood": "timber",
@@ -45858,7 +45858,7 @@
       "name": "Weihaiwei",
       "ownerTag": "BRITISH_WEIHAIWEI",
       "stateId": 279,
-      "stateName": "Dengzhou (BRITISH_WEIHAIWEI)",
+      "stateName": "Dengzhou (British Weihaiwei)",
       "terrain": "farmland",
       "coastal": true,
       "rgoGood": "grain",
@@ -45916,7 +45916,7 @@
       "name": "Agana",
       "ownerTag": "UNITED_STATES",
       "stateId": 706,
-      "stateName": "Agana (UNITED_STATES)",
+      "stateName": "Agana (United States)",
       "terrain": "jungle",
       "coastal": true,
       "rgoGood": "cotton",
@@ -45935,7 +45935,7 @@
       "name": "Xin'an",
       "ownerTag": "BRITISH_HONG_KONG",
       "stateId": 325,
-      "stateName": "Canton (BRITISH_HONG_KONG)",
+      "stateName": "Canton (British Hong Kong)",
       "terrain": "forest",
       "coastal": true,
       "rgoGood": "cotton",
@@ -46030,7 +46030,7 @@
       "name": "Friendly Islands",
       "ownerTag": "BRITISH_WESTERN_PACIFIC_TERRITORIES",
       "stateId": 687,
-      "stateName": "Apia (BRITISH_WESTERN_PACIFIC_TERRITORIES)",
+      "stateName": "Apia (British Western Pacific Territories)",
       "terrain": "forest",
       "coastal": true,
       "rgoGood": "cotton",
@@ -46090,7 +46090,7 @@
       "name": "Ponape",
       "ownerTag": "DEUTSCH_NEUGUINEA",
       "stateId": 728,
-      "stateName": "Ponape (DEUTSCH_NEUGUINEA)",
+      "stateName": "Ponape (German New Guinea)",
       "terrain": "hills",
       "coastal": true,
       "rgoGood": "cattle",
@@ -46109,7 +46109,7 @@
       "name": "Bridgetown",
       "ownerTag": "COLONY_OF_BARBADOS",
       "stateId": 698,
-      "stateName": "Bridgetown (COLONY_OF_BARBADOS)",
+      "stateName": "Bridgetown (Colony of Barbados)",
       "terrain": "farmland",
       "coastal": true,
       "rgoGood": "cattle",
@@ -46128,7 +46128,7 @@
       "name": "Jiaozhou",
       "ownerTag": "KIAUTSCHOU_BAY_CONCESSION",
       "stateId": 280,
-      "stateName": "Dengzhou (KIAUTSCHOU_BAY_CONCESSION)",
+      "stateName": "Dengzhou (Kiautschou Bay Concession)",
       "terrain": "hills",
       "coastal": true,
       "rgoGood": "coal",
@@ -46246,7 +46246,7 @@
       "name": "Kingstown",
       "ownerTag": "BRITISH_WINDWARD_ISLANDS",
       "stateId": 697,
-      "stateName": "Bridgetown (BRITISH_WINDWARD_ISLANDS)",
+      "stateName": "Bridgetown (British Windward Islands)",
       "terrain": "hills",
       "coastal": true,
       "rgoGood": "cattle",
@@ -46304,7 +46304,7 @@
       "name": "Saint George's",
       "ownerTag": "BRITISH_WINDWARD_ISLANDS",
       "stateId": 697,
-      "stateName": "Bridgetown (BRITISH_WINDWARD_ISLANDS)",
+      "stateName": "Bridgetown (British Windward Islands)",
       "terrain": "jungle",
       "coastal": true,
       "rgoGood": "timber",
@@ -46403,7 +46403,7 @@
       "name": "Lau",
       "ownerTag": "BRITISH_WESTERN_PACIFIC_TERRITORIES",
       "stateId": 687,
-      "stateName": "Apia (BRITISH_WESTERN_PACIFIC_TERRITORIES)",
+      "stateName": "Apia (British Western Pacific Territories)",
       "terrain": "forest",
       "coastal": true,
       "rgoGood": "timber",
@@ -46441,7 +46441,7 @@
       "name": "Capitol Hill",
       "ownerTag": "DEUTSCH_NEUGUINEA",
       "stateId": 705,
-      "stateName": "Agana (DEUTSCH_NEUGUINEA)",
+      "stateName": "Agana (German New Guinea)",
       "terrain": "jungle",
       "coastal": true,
       "rgoGood": "timber",
@@ -46479,7 +46479,7 @@
       "name": "Grevenmacher",
       "ownerTag": "LETZEBUERG",
       "stateId": 636,
-      "stateName": "Luxembourg (LETZEBUERG)",
+      "stateName": "Luxembourg (Luxembourg)",
       "terrain": "farmland",
       "coastal": false,
       "rgoGood": "grain",
@@ -46498,7 +46498,7 @@
       "name": "Roatán",
       "ownerTag": "HONDURAS",
       "stateId": 445,
-      "stateName": "Tegucigalpa (HONDURAS)",
+      "stateName": "Tegucigalpa (Honduras)",
       "terrain": "farmland",
       "coastal": true,
       "rgoGood": "grain",
@@ -46556,7 +46556,7 @@
       "name": "Mahé",
       "ownerTag": "COLONY_OF_SEYCHELLES",
       "stateId": 726,
-      "stateName": "Mahé (COLONY_OF_SEYCHELLES)",
+      "stateName": "Mahé (Colony of Seychelles)",
       "terrain": "plains",
       "coastal": true,
       "rgoGood": "grain",
@@ -46594,7 +46594,7 @@
       "name": "Amirantes",
       "ownerTag": "COLONY_OF_SEYCHELLES",
       "stateId": 726,
-      "stateName": "Mahé (COLONY_OF_SEYCHELLES)",
+      "stateName": "Mahé (Colony of Seychelles)",
       "terrain": "jungle",
       "coastal": true,
       "rgoGood": "cotton",
@@ -46655,7 +46655,7 @@
       "name": "Rapa Nui",
       "ownerTag": "CHILE",
       "stateId": 712,
-      "stateName": "Galápagos (CHILE)",
+      "stateName": "Galápagos (Chile)",
       "terrain": "forest",
       "coastal": true,
       "rgoGood": "timber",
@@ -46712,7 +46712,7 @@
       "name": "Rodrigues",
       "ownerTag": "BRITISH_MAURITIUS",
       "stateId": 725,
-      "stateName": "Mahé (BRITISH_MAURITIUS)",
+      "stateName": "Mahé (British Mauritius)",
       "terrain": "hills",
       "coastal": true,
       "rgoGood": "iron",
@@ -46751,7 +46751,7 @@
       "name": "Gilbert Islands",
       "ownerTag": "BRITISH_WESTERN_PACIFIC_TERRITORIES",
       "stateId": 727,
-      "stateName": "Ponape (BRITISH_WESTERN_PACIFIC_TERRITORIES)",
+      "stateName": "Ponape (British Western Pacific Territories)",
       "terrain": "jungle",
       "coastal": true,
       "rgoGood": "timber",
@@ -46771,7 +46771,7 @@
       "name": "American Samoa",
       "ownerTag": "UNITED_STATES",
       "stateId": 690,
-      "stateName": "Apia (UNITED_STATES)",
+      "stateName": "Apia (United States)",
       "terrain": "jungle",
       "coastal": true,
       "rgoGood": "timber",
@@ -46810,7 +46810,7 @@
       "name": "Labuan",
       "ownerTag": "COLONY_OF_THE_STRAITS_SETTLEMENT",
       "stateId": 597,
-      "stateName": "Brunei (COLONY_OF_THE_STRAITS_SETTLEMENT)",
+      "stateName": "Brunei (Colony of the Straits Settlement)",
       "terrain": "jungle",
       "coastal": true,
       "rgoGood": "cotton",
@@ -46867,7 +46867,7 @@
       "name": "Truk",
       "ownerTag": "DEUTSCH_NEUGUINEA",
       "stateId": 728,
-      "stateName": "Ponape (DEUTSCH_NEUGUINEA)",
+      "stateName": "Ponape (German New Guinea)",
       "terrain": "jungle",
       "coastal": true,
       "rgoGood": "cotton",
@@ -46924,7 +46924,7 @@
       "name": "Rotuma",
       "ownerTag": "COLONY_OF_FIJI",
       "stateId": 723,
-      "stateName": "Viti Levu (COLONY_OF_FIJI)",
+      "stateName": "Viti Levu (Colony of Fiji)",
       "terrain": "plains",
       "coastal": true,
       "rgoGood": "grain",
@@ -46943,7 +46943,7 @@
       "name": "Agaléga",
       "ownerTag": "BRITISH_MAURITIUS",
       "stateId": 725,
-      "stateName": "Mahé (BRITISH_MAURITIUS)",
+      "stateName": "Mahé (British Mauritius)",
       "terrain": "jungle",
       "coastal": true,
       "rgoGood": "timber",
@@ -46964,7 +46964,7 @@
       "name": "Marshall Islands",
       "ownerTag": "DEUTSCH_NEUGUINEA",
       "stateId": 728,
-      "stateName": "Ponape (DEUTSCH_NEUGUINEA)",
+      "stateName": "Ponape (German New Guinea)",
       "terrain": "jungle",
       "coastal": true,
       "rgoGood": "timber",
@@ -46984,7 +46984,7 @@
       "name": "Pleasant Island",
       "ownerTag": "DEUTSCH_NEUGUINEA",
       "stateId": 728,
-      "stateName": "Ponape (DEUTSCH_NEUGUINEA)",
+      "stateName": "Ponape (German New Guinea)",
       "terrain": "plains",
       "coastal": true,
       "rgoGood": "grain",
@@ -47097,7 +47097,7 @@
       "name": "Ellice Islands",
       "ownerTag": "GILBERT_AND_ELLICE_ISLANDS_COLONY",
       "stateId": 724,
-      "stateName": "Viti Levu (GILBERT_AND_ELLICE_ISLANDS_COLONY)",
+      "stateName": "Viti Levu (Gilbert and Ellice Islands Colony)",
       "terrain": "jungle",
       "coastal": true,
       "rgoGood": "timber",
@@ -47194,7 +47194,7 @@
       "name": "Woleai",
       "ownerTag": "DEUTSCH_NEUGUINEA",
       "stateId": 728,
-      "stateName": "Ponape (DEUTSCH_NEUGUINEA)",
+      "stateName": "Ponape (German New Guinea)",
       "terrain": "plains",
       "coastal": true,
       "rgoGood": "cattle",
@@ -47279,7 +47279,7 @@
     },
     {
       "id": 4,
-      "name": "Kamchatka (RUSSIAN_EMPIRE)",
+      "name": "Kamchatka (Russian Empire)",
       "ownerTag": "RUSSIAN_EMPIRE",
       "provinceIds": [
         22,
@@ -47291,7 +47291,7 @@
     },
     {
       "id": 5,
-      "name": "Kamchatka (UNITED_STATES)",
+      "name": "Kamchatka (United States)",
       "ownerTag": "UNITED_STATES",
       "provinceIds": [
         1697
@@ -47338,7 +47338,7 @@
     },
     {
       "id": 9,
-      "name": "Montréal (CANADA)",
+      "name": "Montréal (Canada)",
       "ownerTag": "CANADA",
       "provinceIds": [
         2,
@@ -47349,7 +47349,7 @@
     },
     {
       "id": 10,
-      "name": "Montréal (COMMISSION_GOVERNMENT_OF_NEWFOUNDLAND)",
+      "name": "Montréal (Commission Government of Newfoundland)",
       "ownerTag": "COMMISSION_GOVERNMENT_OF_NEWFOUNDLAND",
       "provinceIds": [
         31,
@@ -47425,7 +47425,7 @@
     },
     {
       "id": 17,
-      "name": "Jilin (REPUBLIC_OF_CHINA)",
+      "name": "Jilin (Republic of China)",
       "ownerTag": "REPUBLIC_OF_CHINA",
       "provinceIds": [
         119,
@@ -47435,7 +47435,7 @@
     },
     {
       "id": 18,
-      "name": "Jilin (RUSSIAN_EMPIRE)",
+      "name": "Jilin (Russian Empire)",
       "ownerTag": "RUSSIAN_EMPIRE",
       "provinceIds": [
         7,
@@ -47487,7 +47487,7 @@
     },
     {
       "id": 23,
-      "name": "Xining (REPUBLIC_OF_CHINA)",
+      "name": "Xining (Republic of China)",
       "ownerTag": "REPUBLIC_OF_CHINA",
       "provinceIds": [
         63,
@@ -47497,7 +47497,7 @@
     },
     {
       "id": 24,
-      "name": "Xining (TIBET)",
+      "name": "Xining (Tibet)",
       "ownerTag": "TIBET",
       "provinceIds": [
         56,
@@ -47593,7 +47593,7 @@
     },
     {
       "id": 33,
-      "name": "Bahr el Ghazal (ANGLO_EGYPTIAN_SUDAN)",
+      "name": "Bahr el Ghazal (Anglo-Egyptian Sudan)",
       "ownerTag": "ANGLO_EGYPTIAN_SUDAN",
       "provinceIds": [
         83,
@@ -47603,7 +47603,7 @@
     },
     {
       "id": 34,
-      "name": "Bahr el Ghazal (CONGO_BELGE)",
+      "name": "Bahr el Ghazal (Belgian Congo)",
       "ownerTag": "CONGO_BELGE",
       "provinceIds": [
         417
@@ -47611,7 +47611,7 @@
     },
     {
       "id": 35,
-      "name": "Bahr el Ghazal (ETHIOPIAN_EMPIRE)",
+      "name": "Bahr el Ghazal (Ethiopian Empire)",
       "ownerTag": "ETHIOPIAN_EMPIRE",
       "provinceIds": [
         222,
@@ -47650,7 +47650,7 @@
     },
     {
       "id": 39,
-      "name": "Ahaggar (FRENCH_THIRD_REPUBLIC)",
+      "name": "Ahaggar (French Third Republic)",
       "ownerTag": "FRENCH_THIRD_REPUBLIC",
       "provinceIds": [
         12,
@@ -47659,7 +47659,7 @@
     },
     {
       "id": 40,
-      "name": "Ahaggar (HAUT_SENEGAL_ET_NIGER)",
+      "name": "Ahaggar (Upper Senegal and Niger)",
       "ownerTag": "HAUT_SENEGAL_ET_NIGER",
       "provinceIds": [
         203,
@@ -47708,7 +47708,7 @@
     },
     {
       "id": 45,
-      "name": "Chuquisaca (BOLIVIA)",
+      "name": "Chuquisaca (Bolivia)",
       "ownerTag": "BOLIVIA",
       "provinceIds": [
         52,
@@ -47719,7 +47719,7 @@
     },
     {
       "id": 46,
-      "name": "Chuquisaca (BRASIL)",
+      "name": "Chuquisaca (Brazil)",
       "ownerTag": "BRASIL",
       "provinceIds": [
         131,
@@ -47728,7 +47728,7 @@
     },
     {
       "id": 47,
-      "name": "Lunda (CONGO_BELGE)",
+      "name": "Lunda (Belgian Congo)",
       "ownerTag": "CONGO_BELGE",
       "provinceIds": [
         269,
@@ -47739,7 +47739,7 @@
     },
     {
       "id": 48,
-      "name": "Lunda (DEUTSCH_OSTAFRIKA)",
+      "name": "Lunda (German East Africa)",
       "ownerTag": "DEUTSCH_OSTAFRIKA",
       "provinceIds": [
         446
@@ -47747,7 +47747,7 @@
     },
     {
       "id": 49,
-      "name": "Lunda (NORTHERN_RHODESIA)",
+      "name": "Lunda (Northern Rhodesia)",
       "ownerTag": "NORTHERN_RHODESIA",
       "provinceIds": [
         255
@@ -47755,7 +47755,7 @@
     },
     {
       "id": 50,
-      "name": "Los Angeles (MEXICO)",
+      "name": "Los Angeles (Mexico)",
       "ownerTag": "MEXICO",
       "provinceIds": [
         552
@@ -47763,7 +47763,7 @@
     },
     {
       "id": 51,
-      "name": "Los Angeles (UNITED_STATES)",
+      "name": "Los Angeles (United States)",
       "ownerTag": "UNITED_STATES",
       "provinceIds": [
         190,
@@ -47787,7 +47787,7 @@
     },
     {
       "id": 53,
-      "name": "Kafue (NORTHERN_RHODESIA)",
+      "name": "Kafue (Northern Rhodesia)",
       "ownerTag": "NORTHERN_RHODESIA",
       "provinceIds": [
         178,
@@ -47796,7 +47796,7 @@
     },
     {
       "id": 54,
-      "name": "Kafue (NYASALAND)",
+      "name": "Kafue (Nyasaland)",
       "ownerTag": "NYASALAND",
       "provinceIds": [
         289
@@ -47804,7 +47804,7 @@
     },
     {
       "id": 55,
-      "name": "Kafue (PROVINCIA_DE_MOCAMBIQUE)",
+      "name": "Kafue (Portuguese Mozambique)",
       "ownerTag": "PROVINCIA_DE_MOCAMBIQUE",
       "provinceIds": [
         367
@@ -47812,7 +47812,7 @@
     },
     {
       "id": 56,
-      "name": "Kafue (SOUTHERN_RHODESIA)",
+      "name": "Kafue (Southern Rhodesia)",
       "ownerTag": "SOUTHERN_RHODESIA",
       "provinceIds": [
         287,
@@ -47861,7 +47861,7 @@
     },
     {
       "id": 61,
-      "name": "Benghazi (CIRENAICA_ITALIANA)",
+      "name": "Benghazi (Italian Cyrenaica)",
       "ownerTag": "CIRENAICA_ITALIANA",
       "provinceIds": [
         50,
@@ -47871,7 +47871,7 @@
     },
     {
       "id": 62,
-      "name": "Benghazi (TRIPOLITANIA_ITALIANA)",
+      "name": "Benghazi (Italian Tripolitania)",
       "ownerTag": "TRIPOLITANIA_ITALIANA",
       "provinceIds": [
         305,
@@ -47901,7 +47901,7 @@
     },
     {
       "id": 65,
-      "name": "Hofuf (EMIRATE_OF_NEJD)",
+      "name": "Hofuf (Emirate of Nejd)",
       "ownerTag": "EMIRATE_OF_NEJD",
       "provinceIds": [
         77,
@@ -47910,7 +47910,7 @@
     },
     {
       "id": 66,
-      "name": "Hofuf (MUSCAT_AND_OMAN)",
+      "name": "Hofuf (Muscat and Oman)",
       "ownerTag": "MUSCAT_AND_OMAN",
       "provinceIds": [
         168,
@@ -47919,7 +47919,7 @@
     },
     {
       "id": 67,
-      "name": "Atar (HAUT_SENEGAL_ET_NIGER)",
+      "name": "Atar (Upper Senegal and Niger)",
       "ownerTag": "HAUT_SENEGAL_ET_NIGER",
       "provinceIds": [
         265
@@ -47927,7 +47927,7 @@
     },
     {
       "id": 68,
-      "name": "Atar (PROTECTORAT_DE_LA_MAURITANIE)",
+      "name": "Atar (Protectorate of Mauritania)",
       "ownerTag": "PROTECTORAT_DE_LA_MAURITANIE",
       "provinceIds": [
         240,
@@ -47938,7 +47938,7 @@
     },
     {
       "id": 69,
-      "name": "Kabul (EMIRATE_OF_AFGHANISTAN)",
+      "name": "Kabul (Emirate of Afghanistan)",
       "ownerTag": "EMIRATE_OF_AFGHANISTAN",
       "provinceIds": [
         187,
@@ -47950,7 +47950,7 @@
     },
     {
       "id": 70,
-      "name": "Kabul (RUSSIAN_EMPIRE)",
+      "name": "Kabul (Russian Empire)",
       "ownerTag": "RUSSIAN_EMPIRE",
       "provinceIds": [
         452
@@ -47958,7 +47958,7 @@
     },
     {
       "id": 71,
-      "name": "Tannu Uriankhai (RUSSIAN_EMPIRE)",
+      "name": "Tannu Uriankhai (Russian Empire)",
       "ownerTag": "RUSSIAN_EMPIRE",
       "provinceIds": [
         55
@@ -47966,7 +47966,7 @@
     },
     {
       "id": 72,
-      "name": "Cape Town (DEUTSCH_SUDWESTAFRIKA)",
+      "name": "Cape Town (German South West Africa)",
       "ownerTag": "DEUTSCH_SUDWESTAFRIKA",
       "provinceIds": [
         423
@@ -47974,7 +47974,7 @@
     },
     {
       "id": 73,
-      "name": "Cape Town (UNION_OF_SOUTH_AFRICA)",
+      "name": "Cape Town (Union of South Africa)",
       "ownerTag": "UNION_OF_SOUTH_AFRICA",
       "provinceIds": [
         249,
@@ -48008,7 +48008,7 @@
     },
     {
       "id": 76,
-      "name": "Muramvya (CONGO_BELGE)",
+      "name": "Muramvya (Belgian Congo)",
       "ownerTag": "CONGO_BELGE",
       "provinceIds": [
         230
@@ -48016,7 +48016,7 @@
     },
     {
       "id": 77,
-      "name": "Muramvya (DEUTSCH_OSTAFRIKA)",
+      "name": "Muramvya (German East Africa)",
       "ownerTag": "DEUTSCH_OSTAFRIKA",
       "provinceIds": [
         166,
@@ -48037,7 +48037,7 @@
     },
     {
       "id": 79,
-      "name": "Bangkok (SIAM)",
+      "name": "Bangkok (Siam)",
       "ownerTag": "SIAM",
       "provinceIds": [
         380,
@@ -48049,7 +48049,7 @@
     },
     {
       "id": 80,
-      "name": "Bangkok (UNION_INDOCHINOISE)",
+      "name": "Bangkok (French Indochina)",
       "ownerTag": "UNION_INDOCHINOISE",
       "provinceIds": [
         880
@@ -48057,7 +48057,7 @@
     },
     {
       "id": 81,
-      "name": "Monrovia (FRENCH_WEST_AFRICA)",
+      "name": "Monrovia (French West Africa)",
       "ownerTag": "FRENCH_WEST_AFRICA",
       "provinceIds": [
         344,
@@ -48066,7 +48066,7 @@
     },
     {
       "id": 82,
-      "name": "Monrovia (LIBERIA)",
+      "name": "Monrovia (Liberia)",
       "ownerTag": "LIBERIA",
       "provinceIds": [
         395
@@ -48148,7 +48148,7 @@
     },
     {
       "id": 90,
-      "name": "Putumayo (COLOMBIA)",
+      "name": "Putumayo (Colombia)",
       "ownerTag": "COLOMBIA",
       "provinceIds": [
         319,
@@ -48157,7 +48157,7 @@
     },
     {
       "id": 91,
-      "name": "Putumayo (ECUADOR)",
+      "name": "Putumayo (Ecuador)",
       "ownerTag": "ECUADOR",
       "provinceIds": [
         416
@@ -48165,7 +48165,7 @@
     },
     {
       "id": 92,
-      "name": "Cameroons (COLONIE_DU_MOYEN_CONGO)",
+      "name": "Cameroons (Colony of Middle Congo)",
       "ownerTag": "COLONIE_DU_MOYEN_CONGO",
       "provinceIds": [
         215
@@ -48173,7 +48173,7 @@
     },
     {
       "id": 93,
-      "name": "Cameroons (KAMERUN)",
+      "name": "Cameroons (German Kamerun)",
       "ownerTag": "KAMERUN",
       "provinceIds": [
         201,
@@ -48185,7 +48185,7 @@
     },
     {
       "id": 94,
-      "name": "El Fasher (ANGLO_EGYPTIAN_SUDAN)",
+      "name": "El Fasher (Anglo-Egyptian Sudan)",
       "ownerTag": "ANGLO_EGYPTIAN_SUDAN",
       "provinceIds": [
         123,
@@ -48196,7 +48196,7 @@
     },
     {
       "id": 95,
-      "name": "El Fasher (COLONIE_DU_OUBANGUI_CHARI_TCHAD)",
+      "name": "El Fasher (Colony of Ubangi-Shari-Chad)",
       "ownerTag": "COLONIE_DU_OUBANGUI_CHARI_TCHAD",
       "provinceIds": [
         232
@@ -48204,7 +48204,7 @@
     },
     {
       "id": 96,
-      "name": "Manga (AFRIQUE_EQUATORIALE_FRANCAISE)",
+      "name": "Manga (French Equatorial Africa)",
       "ownerTag": "AFRIQUE_EQUATORIALE_FRANCAISE",
       "provinceIds": [
         223
@@ -48212,7 +48212,7 @@
     },
     {
       "id": 97,
-      "name": "Manga (COLONIE_DU_OUBANGUI_CHARI_TCHAD)",
+      "name": "Manga (Colony of Ubangi-Shari-Chad)",
       "ownerTag": "COLONIE_DU_OUBANGUI_CHARI_TCHAD",
       "provinceIds": [
         434
@@ -48220,7 +48220,7 @@
     },
     {
       "id": 98,
-      "name": "Manga (FRENCH_WEST_AFRICA)",
+      "name": "Manga (French West Africa)",
       "ownerTag": "FRENCH_WEST_AFRICA",
       "provinceIds": [
         262,
@@ -48262,7 +48262,7 @@
     },
     {
       "id": 102,
-      "name": "Tannu Uriankhai (TANNU_URIANKHAI)",
+      "name": "Tannu Uriankhai (Tannu Uriankhai)",
       "ownerTag": "TANNU_URIANKHAI",
       "provinceIds": [
         171
@@ -48294,7 +48294,7 @@
     },
     {
       "id": 105,
-      "name": "Gondar (COLONIA_ERITREA)",
+      "name": "Gondar (Italian Eritrea)",
       "ownerTag": "COLONIA_ERITREA",
       "provinceIds": [
         282
@@ -48302,7 +48302,7 @@
     },
     {
       "id": 106,
-      "name": "Gondar (ETHIOPIAN_EMPIRE)",
+      "name": "Gondar (Ethiopian Empire)",
       "ownerTag": "ETHIOPIAN_EMPIRE",
       "provinceIds": [
         136,
@@ -48312,7 +48312,7 @@
     },
     {
       "id": 107,
-      "name": "Saguia el-Hamra (PROTECTORAT_DE_LA_MAURITANIE)",
+      "name": "Saguia el-Hamra (Protectorate of Mauritania)",
       "ownerTag": "PROTECTORAT_DE_LA_MAURITANIE",
       "provinceIds": [
         170,
@@ -48321,7 +48321,7 @@
     },
     {
       "id": 108,
-      "name": "Saguia el-Hamra (RIO_DE_ORO)",
+      "name": "Saguia el-Hamra (Rio de Oro)",
       "ownerTag": "RIO_DE_ORO",
       "provinceIds": [
         157
@@ -48329,7 +48329,7 @@
     },
     {
       "id": 109,
-      "name": "Saguia el-Hamra (SAGUIA_EL_HAMRA)",
+      "name": "Saguia el-Hamra (Saguia el-Hamra)",
       "ownerTag": "SAGUIA_EL_HAMRA",
       "provinceIds": [
         410
@@ -48362,7 +48362,7 @@
     },
     {
       "id": 112,
-      "name": "Maroua (COLONIE_DU_OUBANGUI_CHARI_TCHAD)",
+      "name": "Maroua (Colony of Ubangi-Shari-Chad)",
       "ownerTag": "COLONIE_DU_OUBANGUI_CHARI_TCHAD",
       "provinceIds": [
         241
@@ -48370,7 +48370,7 @@
     },
     {
       "id": 113,
-      "name": "Maroua (KAMERUN)",
+      "name": "Maroua (German Kamerun)",
       "ownerTag": "KAMERUN",
       "provinceIds": [
         361,
@@ -48387,7 +48387,7 @@
     },
     {
       "id": 115,
-      "name": "Asunción (ARGENTINA)",
+      "name": "Asunción (Argentina)",
       "ownerTag": "ARGENTINA",
       "provinceIds": [
         322
@@ -48395,7 +48395,7 @@
     },
     {
       "id": 116,
-      "name": "Asunción (PARAGUAY)",
+      "name": "Asunción (Paraguay)",
       "ownerTag": "PARAGUAY",
       "provinceIds": [
         184,
@@ -48407,7 +48407,7 @@
     },
     {
       "id": 117,
-      "name": "Mogadishu (BRITISH_EAST_AFRICA)",
+      "name": "Mogadishu (British East Africa)",
       "ownerTag": "BRITISH_EAST_AFRICA",
       "provinceIds": [
         214,
@@ -48418,7 +48418,7 @@
     },
     {
       "id": 118,
-      "name": "Mogadishu (SOMALIA_ITALIANA)",
+      "name": "Mogadishu (Italian Somaliland)",
       "ownerTag": "SOMALIA_ITALIANA",
       "provinceIds": [
         245
@@ -48426,7 +48426,7 @@
     },
     {
       "id": 119,
-      "name": "Mogadishu (SULTANATE_OF_HOBYO)",
+      "name": "Mogadishu (Sultanate of Hobyo)",
       "ownerTag": "SULTANATE_OF_HOBYO",
       "provinceIds": [
         609
@@ -48434,7 +48434,7 @@
     },
     {
       "id": 120,
-      "name": "Port Desire (ARGENTINA)",
+      "name": "Port Desire (Argentina)",
       "ownerTag": "ARGENTINA",
       "provinceIds": [
         76,
@@ -48443,7 +48443,7 @@
     },
     {
       "id": 121,
-      "name": "Port Desire (CHILE)",
+      "name": "Port Desire (Chile)",
       "ownerTag": "CHILE",
       "provinceIds": [
         300,
@@ -48452,7 +48452,7 @@
     },
     {
       "id": 122,
-      "name": "Khartoum (ANGLO_EGYPTIAN_SUDAN)",
+      "name": "Khartoum (Anglo-Egyptian Sudan)",
       "ownerTag": "ANGLO_EGYPTIAN_SUDAN",
       "provinceIds": [
         153,
@@ -48463,7 +48463,7 @@
     },
     {
       "id": 123,
-      "name": "Khartoum (UNITED_KINGDOM)",
+      "name": "Khartoum (United Kingdom of Great Britain and Ireland)",
       "ownerTag": "UNITED_KINGDOM",
       "provinceIds": [
         931,
@@ -48489,7 +48489,7 @@
     },
     {
       "id": 126,
-      "name": "Berbera (BRITISH_SOMALILAND)",
+      "name": "Berbera (British Somaliland)",
       "ownerTag": "BRITISH_SOMALILAND",
       "provinceIds": [
         521
@@ -48497,7 +48497,7 @@
     },
     {
       "id": 127,
-      "name": "Berbera (ETHIOPIAN_EMPIRE)",
+      "name": "Berbera (Ethiopian Empire)",
       "ownerTag": "ETHIOPIAN_EMPIRE",
       "provinceIds": [
         250,
@@ -48508,7 +48508,7 @@
     },
     {
       "id": 128,
-      "name": "Berbera (FRENCH_SOMALILAND)",
+      "name": "Berbera (French Somaliland)",
       "ownerTag": "FRENCH_SOMALILAND",
       "provinceIds": [
         1316
@@ -48516,7 +48516,7 @@
     },
     {
       "id": 129,
-      "name": "Mozambique (DEUTSCH_OSTAFRIKA)",
+      "name": "Mozambique (German East Africa)",
       "ownerTag": "DEUTSCH_OSTAFRIKA",
       "provinceIds": [
         394
@@ -48524,7 +48524,7 @@
     },
     {
       "id": 130,
-      "name": "Mozambique (PROVINCIA_DE_MOCAMBIQUE)",
+      "name": "Mozambique (Portuguese Mozambique)",
       "ownerTag": "PROVINCIA_DE_MOCAMBIQUE",
       "provinceIds": [
         247,
@@ -48567,7 +48567,7 @@
     },
     {
       "id": 134,
-      "name": "Sana'a (ADEN_PROTECTORATE)",
+      "name": "Sana'a (Aden Protectorate)",
       "ownerTag": "ADEN_PROTECTORATE",
       "provinceIds": [
         524
@@ -48575,7 +48575,7 @@
     },
     {
       "id": 135,
-      "name": "Sana'a (OTTOMAN_EMPIRE)",
+      "name": "Sana'a (Ottoman Empire)",
       "ownerTag": "OTTOMAN_EMPIRE",
       "provinceIds": [
         478
@@ -48648,7 +48648,7 @@
     },
     {
       "id": 142,
-      "name": "Dar al-Kuti (COLONIE_DU_OUBANGUI_CHARI_TCHAD)",
+      "name": "Dar al-Kuti (Colony of Ubangi-Shari-Chad)",
       "ownerTag": "COLONIE_DU_OUBANGUI_CHARI_TCHAD",
       "provinceIds": [
         257,
@@ -48658,7 +48658,7 @@
     },
     {
       "id": 143,
-      "name": "Dar al-Kuti (KAMERUN)",
+      "name": "Dar al-Kuti (German Kamerun)",
       "ownerTag": "KAMERUN",
       "provinceIds": [
         502
@@ -48684,7 +48684,7 @@
     },
     {
       "id": 146,
-      "name": "Freetown (FRENCH_WEST_AFRICA)",
+      "name": "Freetown (French West Africa)",
       "ownerTag": "FRENCH_WEST_AFRICA",
       "provinceIds": [
         474
@@ -48692,7 +48692,7 @@
     },
     {
       "id": 147,
-      "name": "Freetown (SIERRA_LEONE_PROTECTORATE)",
+      "name": "Freetown (Sierra Leone Protectorate)",
       "ownerTag": "SIERRA_LEONE_PROTECTORATE",
       "provinceIds": [
         554
@@ -48708,7 +48708,7 @@
     },
     {
       "id": 149,
-      "name": "Cuzco (CHILE)",
+      "name": "Cuzco (Chile)",
       "ownerTag": "CHILE",
       "provinceIds": [
         685
@@ -48716,7 +48716,7 @@
     },
     {
       "id": 150,
-      "name": "Cuzco (PERU)",
+      "name": "Cuzco (Peru)",
       "ownerTag": "PERU",
       "provinceIds": [
         338,
@@ -48753,7 +48753,7 @@
     },
     {
       "id": 154,
-      "name": "Bagamoyo (BRITISH_EAST_AFRICA)",
+      "name": "Bagamoyo (British East Africa)",
       "ownerTag": "BRITISH_EAST_AFRICA",
       "provinceIds": [
         280
@@ -48761,7 +48761,7 @@
     },
     {
       "id": 155,
-      "name": "Bagamoyo (DEUTSCH_OSTAFRIKA)",
+      "name": "Bagamoyo (German East Africa)",
       "ownerTag": "DEUTSCH_OSTAFRIKA",
       "provinceIds": [
         149,
@@ -48771,7 +48771,7 @@
     },
     {
       "id": 156,
-      "name": "Bagamoyo (WITULAND)",
+      "name": "Bagamoyo (Wituland)",
       "ownerTag": "WITULAND",
       "provinceIds": [
         1891
@@ -48779,7 +48779,7 @@
     },
     {
       "id": 157,
-      "name": "Bagamoyo (ZANZIBAR_PROTECTORATE)",
+      "name": "Bagamoyo (Zanzibar Protectorate)",
       "ownerTag": "ZANZIBAR_PROTECTORATE",
       "provinceIds": [
         2018
@@ -48787,7 +48787,7 @@
     },
     {
       "id": 158,
-      "name": "Acholi (ANGLO_EGYPTIAN_SUDAN)",
+      "name": "Acholi (Anglo-Egyptian Sudan)",
       "ownerTag": "ANGLO_EGYPTIAN_SUDAN",
       "provinceIds": [
         581
@@ -48795,7 +48795,7 @@
     },
     {
       "id": 159,
-      "name": "Acholi (PROTECTORATE_OF_UGANDA)",
+      "name": "Acholi (Protectorate of Uganda)",
       "ownerTag": "PROTECTORATE_OF_UGANDA",
       "provinceIds": [
         180
@@ -48823,7 +48823,7 @@
     },
     {
       "id": 162,
-      "name": "Kavirondo (BRITISH_EAST_AFRICA)",
+      "name": "Kavirondo (British East Africa)",
       "ownerTag": "BRITISH_EAST_AFRICA",
       "provinceIds": [
         397
@@ -48831,7 +48831,7 @@
     },
     {
       "id": 163,
-      "name": "Kavirondo (PROTECTORATE_OF_UGANDA)",
+      "name": "Kavirondo (Protectorate of Uganda)",
       "ownerTag": "PROTECTORATE_OF_UGANDA",
       "provinceIds": [
         588
@@ -48839,7 +48839,7 @@
     },
     {
       "id": 164,
-      "name": "Batoka (NORTHERN_RHODESIA)",
+      "name": "Batoka (Northern Rhodesia)",
       "ownerTag": "NORTHERN_RHODESIA",
       "provinceIds": [
         258,
@@ -48849,7 +48849,7 @@
     },
     {
       "id": 165,
-      "name": "Batoka (SOUTHERN_RHODESIA)",
+      "name": "Batoka (Southern Rhodesia)",
       "ownerTag": "SOUTHERN_RHODESIA",
       "provinceIds": [
         291,
@@ -48946,7 +48946,7 @@
     },
     {
       "id": 174,
-      "name": "Kuruman (BECHUANALAND_PROTECTORATE)",
+      "name": "Kuruman (Bechuanaland Protectorate)",
       "ownerTag": "BECHUANALAND_PROTECTORATE",
       "provinceIds": [
         337,
@@ -48955,7 +48955,7 @@
     },
     {
       "id": 175,
-      "name": "Kuruman (UNION_OF_SOUTH_AFRICA)",
+      "name": "Kuruman (Union of South Africa)",
       "ownerTag": "UNION_OF_SOUTH_AFRICA",
       "provinceIds": [
         212
@@ -48972,7 +48972,7 @@
     },
     {
       "id": 177,
-      "name": "Montevideo (BRASIL)",
+      "name": "Montevideo (Brazil)",
       "ownerTag": "BRASIL",
       "provinceIds": [
         320
@@ -48980,7 +48980,7 @@
     },
     {
       "id": 178,
-      "name": "Montevideo (URUGUAY)",
+      "name": "Montevideo (Uruguay)",
       "ownerTag": "URUGUAY",
       "provinceIds": [
         619
@@ -48988,7 +48988,7 @@
     },
     {
       "id": 179,
-      "name": "Buraydah (EMIRATE_OF_JABAL_SHAMMAR)",
+      "name": "Buraydah (Emirate of Jabal Shammar)",
       "ownerTag": "EMIRATE_OF_JABAL_SHAMMAR",
       "provinceIds": [
         259,
@@ -48998,7 +48998,7 @@
     },
     {
       "id": 180,
-      "name": "Buraydah (EMIRATE_OF_NEJD)",
+      "name": "Buraydah (Emirate of Nejd)",
       "ownerTag": "EMIRATE_OF_NEJD",
       "provinceIds": [
         633
@@ -49014,7 +49014,7 @@
     },
     {
       "id": 182,
-      "name": "Bukhara (EMIRATE_OF_BUKHARA)",
+      "name": "Bukhara (Emirate of Bukhara)",
       "ownerTag": "EMIRATE_OF_BUKHARA",
       "provinceIds": [
         622,
@@ -49024,7 +49024,7 @@
     },
     {
       "id": 183,
-      "name": "Bukhara (RUSSIAN_EMPIRE)",
+      "name": "Bukhara (Russian Empire)",
       "ownerTag": "RUSSIAN_EMPIRE",
       "provinceIds": [
         559,
@@ -49033,7 +49033,7 @@
     },
     {
       "id": 184,
-      "name": "Cape Lopez (COLONIE_DU_GABON)",
+      "name": "Cape Lopez (Colony of Gabon)",
       "ownerTag": "COLONIE_DU_GABON",
       "provinceIds": [
         490,
@@ -49042,7 +49042,7 @@
     },
     {
       "id": 185,
-      "name": "Cape Lopez (COLONIE_DU_MOYEN_CONGO)",
+      "name": "Cape Lopez (Colony of Middle Congo)",
       "ownerTag": "COLONIE_DU_MOYEN_CONGO",
       "provinceIds": [
         312
@@ -49050,7 +49050,7 @@
     },
     {
       "id": 186,
-      "name": "Bamangwato (BECHUANALAND_PROTECTORATE)",
+      "name": "Bamangwato (Bechuanaland Protectorate)",
       "ownerTag": "BECHUANALAND_PROTECTORATE",
       "provinceIds": [
         186,
@@ -49060,7 +49060,7 @@
     },
     {
       "id": 187,
-      "name": "Bamangwato (DEUTSCH_SUDWESTAFRIKA)",
+      "name": "Bamangwato (German South West Africa)",
       "ownerTag": "DEUTSCH_SUDWESTAFRIKA",
       "provinceIds": [
         642
@@ -49089,7 +49089,7 @@
     },
     {
       "id": 190,
-      "name": "Mahra (MUSCAT_AND_OMAN)",
+      "name": "Mahra (Muscat and Oman)",
       "ownerTag": "MUSCAT_AND_OMAN",
       "provinceIds": [
         644
@@ -49109,7 +49109,7 @@
     },
     {
       "id": 192,
-      "name": "Kumasi (ASHANTI_COLONY)",
+      "name": "Kumasi (Ashanti Colony)",
       "ownerTag": "ASHANTI_COLONY",
       "provinceIds": [
         646
@@ -49117,7 +49117,7 @@
     },
     {
       "id": 193,
-      "name": "Kumasi (DEUTSCHE_KOLONIE_TOGO)",
+      "name": "Kumasi (German Togoland)",
       "ownerTag": "DEUTSCHE_KOLONIE_TOGO",
       "provinceIds": [
         1206
@@ -49125,7 +49125,7 @@
     },
     {
       "id": 194,
-      "name": "Kumasi (FRENCH_WEST_AFRICA)",
+      "name": "Kumasi (French West Africa)",
       "ownerTag": "FRENCH_WEST_AFRICA",
       "provinceIds": [
         189,
@@ -49134,7 +49134,7 @@
     },
     {
       "id": 195,
-      "name": "Kumasi (NORTHERN_TERRITORIES)",
+      "name": "Kumasi (Northern Territories)",
       "ownerTag": "NORTHERN_TERRITORIES",
       "provinceIds": [
         468
@@ -49251,7 +49251,7 @@
     },
     {
       "id": 206,
-      "name": "Papua (AUSTRALIA)",
+      "name": "Papua (Commonwealth of Australia)",
       "ownerTag": "AUSTRALIA",
       "provinceIds": [
         614,
@@ -49260,7 +49260,7 @@
     },
     {
       "id": 207,
-      "name": "Papua (BRITISH_SOLOMON_ISLANDS_PROTECTORATE)",
+      "name": "Papua (British Solomon Islands Protectorate)",
       "ownerTag": "BRITISH_SOLOMON_ISLANDS_PROTECTORATE",
       "provinceIds": [
         1211
@@ -49268,7 +49268,7 @@
     },
     {
       "id": 208,
-      "name": "Papua (DEUTSCH_NEUGUINEA)",
+      "name": "Papua (German New Guinea)",
       "ownerTag": "DEUTSCH_NEUGUINEA",
       "provinceIds": [
         369,
@@ -49317,7 +49317,7 @@
     },
     {
       "id": 213,
-      "name": "Stockholm (NORWAY)",
+      "name": "Stockholm (Norway)",
       "ownerTag": "NORWAY",
       "provinceIds": [
         741,
@@ -49327,7 +49327,7 @@
     },
     {
       "id": 214,
-      "name": "Stockholm (SVERIGE)",
+      "name": "Stockholm (Sweden)",
       "ownerTag": "SVERIGE",
       "provinceIds": [
         315,
@@ -49337,7 +49337,7 @@
     },
     {
       "id": 215,
-      "name": "Angostura (BRITISH_GUIANA)",
+      "name": "Angostura (British Guiana)",
       "ownerTag": "BRITISH_GUIANA",
       "provinceIds": [
         441,
@@ -49346,7 +49346,7 @@
     },
     {
       "id": 216,
-      "name": "Angostura (ESTADOS_UNIDOS_DE_VENEZUELA)",
+      "name": "Angostura (United States of Venezuela)",
       "ownerTag": "ESTADOS_UNIDOS_DE_VENEZUELA",
       "provinceIds": [
         463,
@@ -49356,7 +49356,7 @@
     },
     {
       "id": 217,
-      "name": "Majeerteen (BRITISH_SOMALILAND)",
+      "name": "Majeerteen (British Somaliland)",
       "ownerTag": "BRITISH_SOMALILAND",
       "provinceIds": [
         408
@@ -49364,7 +49364,7 @@
     },
     {
       "id": 218,
-      "name": "Majeerteen (ETHIOPIAN_EMPIRE)",
+      "name": "Majeerteen (Ethiopian Empire)",
       "ownerTag": "ETHIOPIAN_EMPIRE",
       "provinceIds": [
         335
@@ -49372,7 +49372,7 @@
     },
     {
       "id": 219,
-      "name": "Majeerteen (MAJEERTEEN_SULTANATE)",
+      "name": "Majeerteen (Majeerteen Sultanate)",
       "ownerTag": "MAJEERTEEN_SULTANATE",
       "provinceIds": [
         389
@@ -49380,7 +49380,7 @@
     },
     {
       "id": 220,
-      "name": "Majeerteen (SULTANATE_OF_HOBYO)",
+      "name": "Majeerteen (Sultanate of Hobyo)",
       "ownerTag": "SULTANATE_OF_HOBYO",
       "provinceIds": [
         711
@@ -49431,7 +49431,7 @@
     },
     {
       "id": 225,
-      "name": "Khiva (KHANATE_OF_KHIVA)",
+      "name": "Khiva (Khanate of Khiva)",
       "ownerTag": "KHANATE_OF_KHIVA",
       "provinceIds": [
         462
@@ -49439,7 +49439,7 @@
     },
     {
       "id": 226,
-      "name": "Khiva (RUSSIAN_EMPIRE)",
+      "name": "Khiva (Russian Empire)",
       "ownerTag": "RUSSIAN_EMPIRE",
       "provinceIds": [
         600,
@@ -49515,7 +49515,7 @@
     },
     {
       "id": 233,
-      "name": "Vaupés (BRASIL)",
+      "name": "Vaupés (Brazil)",
       "ownerTag": "BRASIL",
       "provinceIds": [
         112
@@ -49523,7 +49523,7 @@
     },
     {
       "id": 234,
-      "name": "Vaupés (COLOMBIA)",
+      "name": "Vaupés (Colombia)",
       "ownerTag": "COLOMBIA",
       "provinceIds": [
         169,
@@ -49555,7 +49555,7 @@
     },
     {
       "id": 237,
-      "name": "Nyanza (CONGO_BELGE)",
+      "name": "Nyanza (Belgian Congo)",
       "ownerTag": "CONGO_BELGE",
       "provinceIds": [
         669,
@@ -49564,7 +49564,7 @@
     },
     {
       "id": 238,
-      "name": "Nyanza (DEUTSCH_OSTAFRIKA)",
+      "name": "Nyanza (German East Africa)",
       "ownerTag": "DEUTSCH_OSTAFRIKA",
       "provinceIds": [
         328,
@@ -49573,7 +49573,7 @@
     },
     {
       "id": 239,
-      "name": "Nyanza (PROTECTORATE_OF_UGANDA)",
+      "name": "Nyanza (Protectorate of Uganda)",
       "ownerTag": "PROTECTORATE_OF_UGANDA",
       "provinceIds": [
         745
@@ -49601,7 +49601,7 @@
     },
     {
       "id": 242,
-      "name": "San Salvador de Jujuy (ARGENTINA)",
+      "name": "San Salvador de Jujuy (Argentina)",
       "ownerTag": "ARGENTINA",
       "provinceIds": [
         555,
@@ -49610,7 +49610,7 @@
     },
     {
       "id": 243,
-      "name": "San Salvador de Jujuy (CHILE)",
+      "name": "San Salvador de Jujuy (Chile)",
       "ownerTag": "CHILE",
       "provinceIds": [
         577,
@@ -49630,7 +49630,7 @@
     },
     {
       "id": 245,
-      "name": "Santa Fe (MEXICO)",
+      "name": "Santa Fe (Mexico)",
       "ownerTag": "MEXICO",
       "provinceIds": [
         775
@@ -49638,7 +49638,7 @@
     },
     {
       "id": 246,
-      "name": "Santa Fe (UNITED_STATES)",
+      "name": "Santa Fe (United States)",
       "ownerTag": "UNITED_STATES",
       "provinceIds": [
         219,
@@ -49851,7 +49851,7 @@
     },
     {
       "id": 265,
-      "name": "Tromsø (NORWAY)",
+      "name": "Tromsø (Norway)",
       "ownerTag": "NORWAY",
       "provinceIds": [
         516,
@@ -49860,7 +49860,7 @@
     },
     {
       "id": 266,
-      "name": "Tromsø (SVERIGE)",
+      "name": "Tromsø (Sweden)",
       "ownerTag": "SVERIGE",
       "provinceIds": [
         666,
@@ -49911,7 +49911,7 @@
     },
     {
       "id": 271,
-      "name": "Santiago (ARGENTINA)",
+      "name": "Santiago (Argentina)",
       "ownerTag": "ARGENTINA",
       "provinceIds": [
         82
@@ -49919,7 +49919,7 @@
     },
     {
       "id": 272,
-      "name": "Santiago (CHILE)",
+      "name": "Santiago (Chile)",
       "ownerTag": "CHILE",
       "provinceIds": [
         376,
@@ -49939,7 +49939,7 @@
     },
     {
       "id": 274,
-      "name": "Mérida (GUATEMALA)",
+      "name": "Mérida (Guatemala)",
       "ownerTag": "GUATEMALA",
       "provinceIds": [
         1542
@@ -49947,7 +49947,7 @@
     },
     {
       "id": 275,
-      "name": "Mérida (MEXICO)",
+      "name": "Mérida (Mexico)",
       "ownerTag": "MEXICO",
       "provinceIds": [
         488,
@@ -49971,7 +49971,7 @@
     },
     {
       "id": 277,
-      "name": "Marind (AUSTRALIA)",
+      "name": "Marind (Commonwealth of Australia)",
       "ownerTag": "AUSTRALIA",
       "provinceIds": [
         385
@@ -49979,7 +49979,7 @@
     },
     {
       "id": 278,
-      "name": "Marind (DUTCH_EAST_INDIES)",
+      "name": "Marind (Dutch East Indies)",
       "ownerTag": "DUTCH_EAST_INDIES",
       "provinceIds": [
         864,
@@ -49988,7 +49988,7 @@
     },
     {
       "id": 279,
-      "name": "Dengzhou (BRITISH_WEIHAIWEI)",
+      "name": "Dengzhou (British Weihaiwei)",
       "ownerTag": "BRITISH_WEIHAIWEI",
       "provinceIds": [
         2070
@@ -49996,7 +49996,7 @@
     },
     {
       "id": 280,
-      "name": "Dengzhou (KIAUTSCHOU_BAY_CONCESSION)",
+      "name": "Dengzhou (Kiautschou Bay Concession)",
       "ownerTag": "KIAUTSCHOU_BAY_CONCESSION",
       "provinceIds": [
         2084
@@ -50004,7 +50004,7 @@
     },
     {
       "id": 281,
-      "name": "Dengzhou (REPUBLIC_OF_CHINA)",
+      "name": "Dengzhou (Republic of China)",
       "ownerTag": "REPUBLIC_OF_CHINA",
       "provinceIds": [
         758,
@@ -50129,7 +50129,7 @@
     },
     {
       "id": 292,
-      "name": "Bogotá (COLOMBIA)",
+      "name": "Bogotá (Colombia)",
       "ownerTag": "COLOMBIA",
       "provinceIds": [
         374,
@@ -50141,7 +50141,7 @@
     },
     {
       "id": 293,
-      "name": "Bogotá (ESTADOS_UNIDOS_DE_VENEZUELA)",
+      "name": "Bogotá (United States of Venezuela)",
       "ownerTag": "ESTADOS_UNIDOS_DE_VENEZUELA",
       "provinceIds": [
         953
@@ -50466,7 +50466,7 @@
     },
     {
       "id": 325,
-      "name": "Canton (BRITISH_HONG_KONG)",
+      "name": "Canton (British Hong Kong)",
       "ownerTag": "BRITISH_HONG_KONG",
       "provinceIds": [
         2074
@@ -50474,7 +50474,7 @@
     },
     {
       "id": 326,
-      "name": "Canton (REPUBLIC_OF_CHINA)",
+      "name": "Canton (Republic of China)",
       "ownerTag": "REPUBLIC_OF_CHINA",
       "provinceIds": [
         759,
@@ -50512,7 +50512,7 @@
     },
     {
       "id": 329,
-      "name": "Transorangia (COLONY_OF_BASUTOLAND)",
+      "name": "Transorangia (Colony of Basutoland)",
       "ownerTag": "COLONY_OF_BASUTOLAND",
       "provinceIds": [
         1089
@@ -50520,7 +50520,7 @@
     },
     {
       "id": 330,
-      "name": "Transorangia (UNION_OF_SOUTH_AFRICA)",
+      "name": "Transorangia (Union of South Africa)",
       "ownerTag": "UNION_OF_SOUTH_AFRICA",
       "provinceIds": [
         246,
@@ -50864,7 +50864,7 @@
     },
     {
       "id": 362,
-      "name": "Gaboon (KAMERUN)",
+      "name": "Gaboon (German Kamerun)",
       "ownerTag": "KAMERUN",
       "provinceIds": [
         294
@@ -50872,7 +50872,7 @@
     },
     {
       "id": 363,
-      "name": "Gaboon (SECOND_SPANISH_REPUBLIC)",
+      "name": "Gaboon (Second Spanish Republic)",
       "ownerTag": "SECOND_SPANISH_REPUBLIC",
       "provinceIds": [
         1181
@@ -51144,7 +51144,7 @@
     },
     {
       "id": 388,
-      "name": "Sistan (BRITISH_RAJ)",
+      "name": "Sistan (British Raj)",
       "ownerTag": "BRITISH_RAJ",
       "provinceIds": [
         1264
@@ -51152,7 +51152,7 @@
     },
     {
       "id": 389,
-      "name": "Sistan (IRAN)",
+      "name": "Sistan (Iran)",
       "ownerTag": "IRAN",
       "provinceIds": [
         268,
@@ -51324,7 +51324,7 @@
     },
     {
       "id": 405,
-      "name": "Fez (FRENCH_MOROCCO)",
+      "name": "Fez (French Morocco)",
       "ownerTag": "FRENCH_MOROCCO",
       "provinceIds": [
         340,
@@ -51335,7 +51335,7 @@
     },
     {
       "id": 406,
-      "name": "Fez (FRENCH_THIRD_REPUBLIC)",
+      "name": "Fez (French Third Republic)",
       "ownerTag": "FRENCH_THIRD_REPUBLIC",
       "provinceIds": [
         154
@@ -51343,7 +51343,7 @@
     },
     {
       "id": 407,
-      "name": "Fez (SPANISH_MOROCCO)",
+      "name": "Fez (Spanish Morocco)",
       "ownerTag": "SPANISH_MOROCCO",
       "provinceIds": [
         1342
@@ -51506,7 +51506,7 @@
     },
     {
       "id": 422,
-      "name": "Johor (FEDERATED_MALAY_STATES)",
+      "name": "Johor (Federated Malay States)",
       "ownerTag": "FEDERATED_MALAY_STATES",
       "provinceIds": [
         963
@@ -51514,7 +51514,7 @@
     },
     {
       "id": 423,
-      "name": "Johor (JOHORE_PROTECTORATE)",
+      "name": "Johor (Johore Protectorate)",
       "ownerTag": "JOHORE_PROTECTORATE",
       "provinceIds": [
         1395
@@ -51549,7 +51549,7 @@
     },
     {
       "id": 427,
-      "name": "Trebizond (OTTOMAN_EMPIRE)",
+      "name": "Trebizond (Ottoman Empire)",
       "ownerTag": "OTTOMAN_EMPIRE",
       "provinceIds": [
         749,
@@ -51561,7 +51561,7 @@
     },
     {
       "id": 428,
-      "name": "Trebizond (RUSSIAN_EMPIRE)",
+      "name": "Trebizond (Russian Empire)",
       "ownerTag": "RUSSIAN_EMPIRE",
       "provinceIds": [
         1970
@@ -51599,7 +51599,7 @@
     },
     {
       "id": 432,
-      "name": "Managua (HONDURAS)",
+      "name": "Managua (Honduras)",
       "ownerTag": "HONDURAS",
       "provinceIds": [
         1496
@@ -51607,7 +51607,7 @@
     },
     {
       "id": 433,
-      "name": "Managua (NICARAGUA)",
+      "name": "Managua (Nicaragua)",
       "ownerTag": "NICARAGUA",
       "provinceIds": [
         1102,
@@ -51665,7 +51665,7 @@
     },
     {
       "id": 438,
-      "name": "Matabele (SWAZILAND_PROTECTORATE)",
+      "name": "Matabele (Swaziland Protectorate)",
       "ownerTag": "SWAZILAND_PROTECTORATE",
       "provinceIds": [
         1445
@@ -51673,7 +51673,7 @@
     },
     {
       "id": 439,
-      "name": "Matabele (UNION_OF_SOUTH_AFRICA)",
+      "name": "Matabele (Union of South Africa)",
       "ownerTag": "UNION_OF_SOUTH_AFRICA",
       "provinceIds": [
         264,
@@ -51695,7 +51695,7 @@
     },
     {
       "id": 441,
-      "name": "Rongzhag (REPUBLIC_OF_CHINA)",
+      "name": "Rongzhag (Republic of China)",
       "ownerTag": "REPUBLIC_OF_CHINA",
       "provinceIds": [
         1109,
@@ -51705,7 +51705,7 @@
     },
     {
       "id": 442,
-      "name": "Rongzhag (TIBET)",
+      "name": "Rongzhag (Tibet)",
       "ownerTag": "TIBET",
       "provinceIds": [
         1460
@@ -51732,7 +51732,7 @@
     },
     {
       "id": 445,
-      "name": "Tegucigalpa (HONDURAS)",
+      "name": "Tegucigalpa (Honduras)",
       "ownerTag": "HONDURAS",
       "provinceIds": [
         1059,
@@ -51744,7 +51744,7 @@
     },
     {
       "id": 446,
-      "name": "Tegucigalpa (NICARAGUA)",
+      "name": "Tegucigalpa (Nicaragua)",
       "ownerTag": "NICARAGUA",
       "provinceIds": [
         1470
@@ -51809,7 +51809,7 @@
     },
     {
       "id": 453,
-      "name": "Nicosia (BRITISH_CYPRUS)",
+      "name": "Nicosia (British Cyprus)",
       "ownerTag": "BRITISH_CYPRUS",
       "provinceIds": [
         1721
@@ -51817,7 +51817,7 @@
     },
     {
       "id": 454,
-      "name": "Nicosia (OTTOMAN_EMPIRE)",
+      "name": "Nicosia (Ottoman Empire)",
       "ownerTag": "OTTOMAN_EMPIRE",
       "provinceIds": [
         1299,
@@ -51827,7 +51827,7 @@
     },
     {
       "id": 455,
-      "name": "Punakha (BHUTAN)",
+      "name": "Punakha (Bhutan)",
       "ownerTag": "BHUTAN",
       "provinceIds": [
         938
@@ -51835,7 +51835,7 @@
     },
     {
       "id": 456,
-      "name": "Punakha (BRITISH_RAJ)",
+      "name": "Punakha (British Raj)",
       "ownerTag": "BRITISH_RAJ",
       "provinceIds": [
         1492
@@ -51946,7 +51946,7 @@
     },
     {
       "id": 466,
-      "name": "Constantinople (KINGDOM_OF_BULGARIA)",
+      "name": "Constantinople (Kingdom of Bulgaria)",
       "ownerTag": "KINGDOM_OF_BULGARIA",
       "provinceIds": [
         1302,
@@ -51957,7 +51957,7 @@
     },
     {
       "id": 467,
-      "name": "Constantinople (KINGDOM_OF_GREECE)",
+      "name": "Constantinople (Kingdom of Greece)",
       "ownerTag": "KINGDOM_OF_GREECE",
       "provinceIds": [
         1236
@@ -51965,7 +51965,7 @@
     },
     {
       "id": 468,
-      "name": "Constantinople (OTTOMAN_EMPIRE)",
+      "name": "Constantinople (Ottoman Empire)",
       "ownerTag": "OTTOMAN_EMPIRE",
       "provinceIds": [
         1274
@@ -51973,7 +51973,7 @@
     },
     {
       "id": 469,
-      "name": "Port-au-Prince (REPUBLICA_DOMINICANA)",
+      "name": "Port-au-Prince (Dominican Republic)",
       "ownerTag": "REPUBLICA_DOMINICANA",
       "provinceIds": [
         1370,
@@ -51984,7 +51984,7 @@
     },
     {
       "id": 470,
-      "name": "Port-au-Prince (REPUBLIQUE_D_HAITI)",
+      "name": "Port-au-Prince (Haiti)",
       "ownerTag": "REPUBLIQUE_D_HAITI",
       "provinceIds": [
         1510,
@@ -52255,7 +52255,7 @@
     },
     {
       "id": 497,
-      "name": "Sarajevo (KINGDOM_OF_MONTENEGRO)",
+      "name": "Sarajevo (Montenegro)",
       "ownerTag": "KINGDOM_OF_MONTENEGRO",
       "provinceIds": [
         1639
@@ -52263,7 +52263,7 @@
     },
     {
       "id": 498,
-      "name": "Sarajevo (KINGDOM_OF_SERBIA)",
+      "name": "Sarajevo (Serbia)",
       "ownerTag": "KINGDOM_OF_SERBIA",
       "provinceIds": [
         1578,
@@ -52272,7 +52272,7 @@
     },
     {
       "id": 499,
-      "name": "Sarajevo (OSTERREICH_UNGARN_AUSZTRIA_MAGYARORSZAG)",
+      "name": "Sarajevo (Austria-Hungary)",
       "ownerTag": "OSTERREICH_UNGARN_AUSZTRIA_MAGYARORSZAG",
       "provinceIds": [
         1214,
@@ -52332,7 +52332,7 @@
     },
     {
       "id": 505,
-      "name": "Tirana (KINGDOM_OF_GREECE)",
+      "name": "Tirana (Kingdom of Greece)",
       "ownerTag": "KINGDOM_OF_GREECE",
       "provinceIds": [
         1329,
@@ -52341,7 +52341,7 @@
     },
     {
       "id": 506,
-      "name": "Tirana (KINGDOM_OF_SERBIA)",
+      "name": "Tirana (Serbia)",
       "ownerTag": "KINGDOM_OF_SERBIA",
       "provinceIds": [
         1544,
@@ -52350,7 +52350,7 @@
     },
     {
       "id": 507,
-      "name": "Tirana (PRINCIPALITY_OF_ALBANIA)",
+      "name": "Tirana (Principality of Albania)",
       "ownerTag": "PRINCIPALITY_OF_ALBANIA",
       "provinceIds": [
         1412,
@@ -52485,7 +52485,7 @@
     },
     {
       "id": 520,
-      "name": "Godthaab (DANMARK)",
+      "name": "Godthaab (Denmark)",
       "ownerTag": "DANMARK",
       "provinceIds": [
         0
@@ -52493,7 +52493,7 @@
     },
     {
       "id": 521,
-      "name": "Godthaab (GREENLAND)",
+      "name": "Godthaab (Greenland)",
       "ownerTag": "GREENLAND",
       "provinceIds": [
         1315,
@@ -52548,7 +52548,7 @@
     },
     {
       "id": 527,
-      "name": "San Salvador (EL_SALVADOR)",
+      "name": "San Salvador (El Salvador)",
       "ownerTag": "EL_SALVADOR",
       "provinceIds": [
         1347
@@ -52556,7 +52556,7 @@
     },
     {
       "id": 528,
-      "name": "San Salvador (GUATEMALA)",
+      "name": "San Salvador (Guatemala)",
       "ownerTag": "GUATEMALA",
       "provinceIds": [
         1424
@@ -52564,7 +52564,7 @@
     },
     {
       "id": 529,
-      "name": "San Salvador (HONDURAS)",
+      "name": "San Salvador (Honduras)",
       "ownerTag": "HONDURAS",
       "provinceIds": [
         1711
@@ -52745,7 +52745,7 @@
     },
     {
       "id": 547,
-      "name": "Ligor (KEDAH_PROTECTORATE)",
+      "name": "Ligor (Kedah Protectorate)",
       "ownerTag": "KEDAH_PROTECTORATE",
       "provinceIds": [
         1756
@@ -52753,7 +52753,7 @@
     },
     {
       "id": 548,
-      "name": "Ligor (KELANTAN_PROTECTORATE)",
+      "name": "Ligor (Kelantan Protectorate)",
       "ownerTag": "KELANTAN_PROTECTORATE",
       "provinceIds": [
         1581
@@ -52761,7 +52761,7 @@
     },
     {
       "id": 549,
-      "name": "Ligor (PERLIS_PROTECTORATE)",
+      "name": "Ligor (Perlis Protectorate)",
       "ownerTag": "PERLIS_PROTECTORATE",
       "provinceIds": [
         2058
@@ -52769,7 +52769,7 @@
     },
     {
       "id": 550,
-      "name": "Ligor (SIAM)",
+      "name": "Ligor (Siam)",
       "ownerTag": "SIAM",
       "provinceIds": [
         894,
@@ -52778,7 +52778,7 @@
     },
     {
       "id": 551,
-      "name": "Ligor (TRENGGANU_PROTECTORATE)",
+      "name": "Ligor (Trengganu Protectorate)",
       "ownerTag": "TRENGGANU_PROTECTORATE",
       "provinceIds": [
         1561
@@ -52829,7 +52829,7 @@
     },
     {
       "id": 556,
-      "name": "Venice (ITALIA)",
+      "name": "Venice (Italy)",
       "ownerTag": "ITALIA",
       "provinceIds": [
         1428,
@@ -52838,7 +52838,7 @@
     },
     {
       "id": 557,
-      "name": "Venice (OSTERREICH_UNGARN_AUSZTRIA_MAGYARORSZAG)",
+      "name": "Venice (Austria-Hungary)",
       "ownerTag": "OSTERREICH_UNGARN_AUSZTRIA_MAGYARORSZAG",
       "provinceIds": [
         1565,
@@ -52905,7 +52905,7 @@
     },
     {
       "id": 564,
-      "name": "Århus (DANMARK)",
+      "name": "Århus (Denmark)",
       "ownerTag": "DANMARK",
       "provinceIds": [
         1725,
@@ -52916,7 +52916,7 @@
     },
     {
       "id": 565,
-      "name": "Århus (DEUTSCHES_REICH)",
+      "name": "Århus (German Empire)",
       "ownerTag": "DEUTSCHES_REICH",
       "provinceIds": [
         2001
@@ -52924,7 +52924,7 @@
     },
     {
       "id": 566,
-      "name": "Kinguele (CABINDA)",
+      "name": "Kinguele (Cabinda)",
       "ownerTag": "CABINDA",
       "provinceIds": [
         1809
@@ -52932,7 +52932,7 @@
     },
     {
       "id": 567,
-      "name": "Kinguele (CONGO_BELGE)",
+      "name": "Kinguele (Belgian Congo)",
       "ownerTag": "CONGO_BELGE",
       "provinceIds": [
         475
@@ -53014,7 +53014,7 @@
     },
     {
       "id": 575,
-      "name": "Lublin (OSTERREICH_UNGARN_AUSZTRIA_MAGYARORSZAG)",
+      "name": "Lublin (Austria-Hungary)",
       "ownerTag": "OSTERREICH_UNGARN_AUSZTRIA_MAGYARORSZAG",
       "provinceIds": [
         1973
@@ -53022,7 +53022,7 @@
     },
     {
       "id": 576,
-      "name": "Lublin (RUSSIAN_EMPIRE)",
+      "name": "Lublin (Russian Empire)",
       "ownerTag": "RUSSIAN_EMPIRE",
       "provinceIds": [
         1803,
@@ -53078,7 +53078,7 @@
     },
     {
       "id": 581,
-      "name": "Strasbourg (DEUTSCHES_REICH)",
+      "name": "Strasbourg (German Empire)",
       "ownerTag": "DEUTSCHES_REICH",
       "provinceIds": [
         1757,
@@ -53087,7 +53087,7 @@
     },
     {
       "id": 582,
-      "name": "Strasbourg (FRENCH_THIRD_REPUBLIC)",
+      "name": "Strasbourg (French Third Republic)",
       "ownerTag": "FRENCH_THIRD_REPUBLIC",
       "provinceIds": [
         1645,
@@ -53256,7 +53256,7 @@
     },
     {
       "id": 597,
-      "name": "Brunei (COLONY_OF_THE_STRAITS_SETTLEMENT)",
+      "name": "Brunei (Colony of the Straits Settlement)",
       "ownerTag": "COLONY_OF_THE_STRAITS_SETTLEMENT",
       "provinceIds": [
         2119
@@ -53264,7 +53264,7 @@
     },
     {
       "id": 598,
-      "name": "Brunei (PROTECTORATE_OF_BRUNEI)",
+      "name": "Brunei (Protectorate of Brunei)",
       "ownerTag": "PROTECTORATE_OF_BRUNEI",
       "provinceIds": [
         1917
@@ -53272,7 +53272,7 @@
     },
     {
       "id": 599,
-      "name": "Brunei (PROTECTORATE_OF_SARAWAK)",
+      "name": "Brunei (Protectorate of Sarawak)",
       "ownerTag": "PROTECTORATE_OF_SARAWAK",
       "provinceIds": [
         522,
@@ -53414,7 +53414,7 @@
     },
     {
       "id": 612,
-      "name": "Brussels (BELGIQUE)",
+      "name": "Brussels (Belgium)",
       "ownerTag": "BELGIQUE",
       "provinceIds": [
         1944,
@@ -53423,7 +53423,7 @@
     },
     {
       "id": 613,
-      "name": "Brussels (KONINKRIJK_DER_NEDERLANDEN)",
+      "name": "Brussels (Kingdom of the Netherlands)",
       "ownerTag": "KONINKRIJK_DER_NEDERLANDEN",
       "provinceIds": [
         1716
@@ -53549,7 +53549,7 @@
     },
     {
       "id": 625,
-      "name": "Turin (FRENCH_THIRD_REPUBLIC)",
+      "name": "Turin (French Third Republic)",
       "ownerTag": "FRENCH_THIRD_REPUBLIC",
       "provinceIds": [
         1872,
@@ -53558,7 +53558,7 @@
     },
     {
       "id": 626,
-      "name": "Turin (ITALIA)",
+      "name": "Turin (Italy)",
       "ownerTag": "ITALIA",
       "provinceIds": [
         1183,
@@ -53646,7 +53646,7 @@
     },
     {
       "id": 635,
-      "name": "Luxembourg (BELGIQUE)",
+      "name": "Luxembourg (Belgium)",
       "ownerTag": "BELGIQUE",
       "provinceIds": [
         1620,
@@ -53656,7 +53656,7 @@
     },
     {
       "id": 636,
-      "name": "Luxembourg (LETZEBUERG)",
+      "name": "Luxembourg (Luxembourg)",
       "ownerTag": "LETZEBUERG",
       "provinceIds": [
         2102
@@ -53664,7 +53664,7 @@
     },
     {
       "id": 637,
-      "name": "Luxembourg (LUXEMBOURG)",
+      "name": "Luxembourg (Luxembourg)",
       "ownerTag": "LUXEMBOURG",
       "provinceIds": [
         2025
@@ -54017,7 +54017,7 @@
     },
     {
       "id": 677,
-      "name": "Praia (HAUT_SENEGAL_ET_NIGER)",
+      "name": "Praia (Upper Senegal and Niger)",
       "ownerTag": "HAUT_SENEGAL_ET_NIGER",
       "provinceIds": [
         1839,
@@ -54026,7 +54026,7 @@
     },
     {
       "id": 678,
-      "name": "Praia (PORTUGAL)",
+      "name": "Praia (Portugal)",
       "ownerTag": "PORTUGAL",
       "provinceIds": [
         1990
@@ -54101,7 +54101,7 @@
     },
     {
       "id": 687,
-      "name": "Apia (BRITISH_WESTERN_PACIFIC_TERRITORIES)",
+      "name": "Apia (British Western Pacific Territories)",
       "ownerTag": "BRITISH_WESTERN_PACIFIC_TERRITORIES",
       "provinceIds": [
         2079,
@@ -54110,7 +54110,7 @@
     },
     {
       "id": 688,
-      "name": "Apia (DEUTSCHES_REICH)",
+      "name": "Apia (German Empire)",
       "ownerTag": "DEUTSCHES_REICH",
       "provinceIds": [
         2016
@@ -54118,7 +54118,7 @@
     },
     {
       "id": 689,
-      "name": "Apia (DOMINION_OF_NEW_ZEALAND)",
+      "name": "Apia (Dominion of New Zealand)",
       "ownerTag": "DOMINION_OF_NEW_ZEALAND",
       "provinceIds": [
         2059
@@ -54126,7 +54126,7 @@
     },
     {
       "id": 690,
-      "name": "Apia (UNITED_STATES)",
+      "name": "Apia (United States)",
       "ownerTag": "UNITED_STATES",
       "provinceIds": [
         2117
@@ -54175,7 +54175,7 @@
     },
     {
       "id": 696,
-      "name": "Bridgetown (BRITISH_LEEWARD_ISLANDS)",
+      "name": "Bridgetown (British Leeward Islands)",
       "ownerTag": "BRITISH_LEEWARD_ISLANDS",
       "provinceIds": [
         2061
@@ -54183,7 +54183,7 @@
     },
     {
       "id": 697,
-      "name": "Bridgetown (BRITISH_WINDWARD_ISLANDS)",
+      "name": "Bridgetown (British Windward Islands)",
       "ownerTag": "BRITISH_WINDWARD_ISLANDS",
       "provinceIds": [
         2068,
@@ -54193,7 +54193,7 @@
     },
     {
       "id": 698,
-      "name": "Bridgetown (COLONY_OF_BARBADOS)",
+      "name": "Bridgetown (Colony of Barbados)",
       "ownerTag": "COLONY_OF_BARBADOS",
       "provinceIds": [
         2083
@@ -54252,7 +54252,7 @@
     },
     {
       "id": 705,
-      "name": "Agana (DEUTSCH_NEUGUINEA)",
+      "name": "Agana (German New Guinea)",
       "ownerTag": "DEUTSCH_NEUGUINEA",
       "provinceIds": [
         2100
@@ -54260,7 +54260,7 @@
     },
     {
       "id": 706,
-      "name": "Agana (UNITED_STATES)",
+      "name": "Agana (United States)",
       "ownerTag": "UNITED_STATES",
       "provinceIds": [
         2073
@@ -54311,7 +54311,7 @@
     },
     {
       "id": 712,
-      "name": "Galápagos (CHILE)",
+      "name": "Galápagos (Chile)",
       "ownerTag": "CHILE",
       "provinceIds": [
         2111
@@ -54319,7 +54319,7 @@
     },
     {
       "id": 713,
-      "name": "Galápagos (ECUADOR)",
+      "name": "Galápagos (Ecuador)",
       "ownerTag": "ECUADOR",
       "provinceIds": [
         1771
@@ -54385,7 +54385,7 @@
     },
     {
       "id": 721,
-      "name": "Viti Levu (BRITISH_SOLOMON_ISLANDS_PROTECTORATE)",
+      "name": "Viti Levu (British Solomon Islands Protectorate)",
       "ownerTag": "BRITISH_SOLOMON_ISLANDS_PROTECTORATE",
       "provinceIds": [
         2069
@@ -54393,7 +54393,7 @@
     },
     {
       "id": 722,
-      "name": "Viti Levu (BRITISH_WESTERN_PACIFIC_TERRITORIES)",
+      "name": "Viti Levu (British Western Pacific Territories)",
       "ownerTag": "BRITISH_WESTERN_PACIFIC_TERRITORIES",
       "provinceIds": [
         1423,
@@ -54402,7 +54402,7 @@
     },
     {
       "id": 723,
-      "name": "Viti Levu (COLONY_OF_FIJI)",
+      "name": "Viti Levu (Colony of Fiji)",
       "ownerTag": "COLONY_OF_FIJI",
       "provinceIds": [
         2125
@@ -54410,7 +54410,7 @@
     },
     {
       "id": 724,
-      "name": "Viti Levu (GILBERT_AND_ELLICE_ISLANDS_COLONY)",
+      "name": "Viti Levu (Gilbert and Ellice Islands Colony)",
       "ownerTag": "GILBERT_AND_ELLICE_ISLANDS_COLONY",
       "provinceIds": [
         2134
@@ -54418,7 +54418,7 @@
     },
     {
       "id": 725,
-      "name": "Mahé (BRITISH_MAURITIUS)",
+      "name": "Mahé (British Mauritius)",
       "ownerTag": "BRITISH_MAURITIUS",
       "provinceIds": [
         2033,
@@ -54428,7 +54428,7 @@
     },
     {
       "id": 726,
-      "name": "Mahé (COLONY_OF_SEYCHELLES)",
+      "name": "Mahé (Colony of Seychelles)",
       "ownerTag": "COLONY_OF_SEYCHELLES",
       "provinceIds": [
         2106,
@@ -54437,7 +54437,7 @@
     },
     {
       "id": 727,
-      "name": "Ponape (BRITISH_WESTERN_PACIFIC_TERRITORIES)",
+      "name": "Ponape (British Western Pacific Territories)",
       "ownerTag": "BRITISH_WESTERN_PACIFIC_TERRITORIES",
       "provinceIds": [
         2116
@@ -54445,7 +54445,7 @@
     },
     {
       "id": 728,
-      "name": "Ponape (DEUTSCH_NEUGUINEA)",
+      "name": "Ponape (German New Guinea)",
       "ownerTag": "DEUTSCH_NEUGUINEA",
       "provinceIds": [
         2082,
@@ -54533,7 +54533,7 @@
     },
     {
       "id": 738,
-      "name": "Mahra (ADEN_PROTECTORATE)",
+      "name": "Mahra (Aden Protectorate)",
       "ownerTag": "ADEN_PROTECTORATE",
       "provinceIds": [
         571
@@ -54747,7 +54747,7 @@
     },
     {
       "tag": "BELGIQUE",
-      "name": "Belgique",
+      "name": "Belgium",
       "color": [
         103,
         168,
@@ -54806,7 +54806,7 @@
     },
     {
       "tag": "BRASIL",
-      "name": "Brasil",
+      "name": "Brazil",
       "color": [
         164,
         145,
@@ -55259,7 +55259,7 @@
     },
     {
       "tag": "CIRENAICA_ITALIANA",
-      "name": "Cirenaica Italiana",
+      "name": "Italian Cyrenaica",
       "color": [
         103,
         101,
@@ -55301,7 +55301,7 @@
     },
     {
       "tag": "COLONIA_ERITREA",
-      "name": "Colonia Eritrea",
+      "name": "Italian Eritrea",
       "color": [
         69,
         137,
@@ -55344,7 +55344,7 @@
     },
     {
       "tag": "COLONIE_DU_GABON",
-      "name": "Colonie du Gabon",
+      "name": "Colony of Gabon",
       "color": [
         192,
         114,
@@ -55363,7 +55363,7 @@
     },
     {
       "tag": "COLONIE_DU_MOYEN_CONGO",
-      "name": "Colonie du Moyen-Congo",
+      "name": "Colony of Middle Congo",
       "color": [
         153,
         130,
@@ -55383,7 +55383,7 @@
     },
     {
       "tag": "COLONIE_DU_OUBANGUI_CHARI_TCHAD",
-      "name": "Colonie du Oubangui-Chari-Tchad",
+      "name": "Colony of Ubangi-Shari-Chad",
       "color": [
         142,
         157,
@@ -55612,7 +55612,7 @@
     },
     {
       "tag": "CONGO_BELGE",
-      "name": "Congo belge",
+      "name": "Belgian Congo",
       "color": [
         161,
         76,
@@ -55677,7 +55677,7 @@
     },
     {
       "tag": "DANMARK",
-      "name": "Danmark",
+      "name": "Denmark",
       "color": [
         175,
         77,
@@ -55699,7 +55699,7 @@
     },
     {
       "tag": "DANSK_VESTINDIEN",
-      "name": "Dansk Vestindien",
+      "name": "Danish West Indies",
       "color": [
         139,
         95,
@@ -55718,7 +55718,7 @@
     },
     {
       "tag": "DEUTSCH_NEUGUINEA",
-      "name": "Deutsch-Neuguinea",
+      "name": "German New Guinea",
       "color": [
         76,
         124,
@@ -55739,7 +55739,7 @@
     },
     {
       "tag": "DEUTSCH_OSTAFRIKA",
-      "name": "Deutsch-Ostafrika",
+      "name": "German East Africa",
       "color": [
         91,
         85,
@@ -55782,7 +55782,7 @@
     },
     {
       "tag": "DEUTSCHE_KOLONIE_TOGO",
-      "name": "Deutsche Kolonie Togo",
+      "name": "German Togoland",
       "color": [
         73,
         84,
@@ -55802,7 +55802,7 @@
     },
     {
       "tag": "DEUTSCHES_REICH",
-      "name": "Deutsches Reich",
+      "name": "German Empire",
       "color": [
         78,
         120,
@@ -56076,7 +56076,7 @@
     },
     {
       "tag": "ESTADOS_UNIDOS_DE_VENEZUELA",
-      "name": "Estados Unidos de Venezuela",
+      "name": "United States of Venezuela",
       "color": [
         207,
         136,
@@ -56266,7 +56266,7 @@
     },
     {
       "tag": "GOA_PORTUGUESA",
-      "name": "Goa Portuguesa",
+      "name": "Portuguese Goa",
       "color": [
         109,
         148,
@@ -56464,7 +56464,7 @@
     },
     {
       "tag": "ITALIA",
-      "name": "Italia",
+      "name": "Italy",
       "color": [
         121,
         196,
@@ -56533,7 +56533,7 @@
     },
     {
       "tag": "KAMERUN",
-      "name": "Kamerun",
+      "name": "German Kamerun",
       "color": [
         143,
         169,
@@ -56777,7 +56777,7 @@
     },
     {
       "tag": "KONINKRIJK_DER_NEDERLANDEN",
-      "name": "Koninkrijk der Nederlanden",
+      "name": "Kingdom of the Netherlands",
       "color": [
         186,
         117,
@@ -57339,7 +57339,7 @@
     },
     {
       "tag": "PROTECTORAT_DE_LA_MAURITANIE",
-      "name": "Protectorat de la Mauritanie",
+      "name": "Protectorate of Mauritania",
       "color": [
         166,
         87,
@@ -57804,7 +57804,7 @@
     },
     {
       "tag": "SOMALIA_ITALIANA",
-      "name": "Somalia italiana",
+      "name": "Italian Somaliland",
       "color": [
         134,
         92,
@@ -57923,7 +57923,7 @@
     },
     {
       "tag": "SVERIGE",
-      "name": "Sverige",
+      "name": "Sweden",
       "color": [
         149,
         143,
@@ -58064,7 +58064,7 @@
     },
     {
       "tag": "TRIPOLITANIA_ITALIANA",
-      "name": "Tripolitania Italiana",
+      "name": "Italian Tripolitania",
       "color": [
         205,
         93,
