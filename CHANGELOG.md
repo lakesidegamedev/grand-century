@@ -4,6 +4,9 @@ All notable changes to Grand Century are documented here.
 
 ## [Unreleased]
 
+- **Smoother panels.** The Military, Colonization and Crisis panels now refresh
+  only when the data they show changes.
+
 - **Save files.** The Save / Load panel can now export any slot to a `.gcsave`
   file, in the browser and in the desktop app. The desktop app can import a
   `.gcsave` file, so saves made in the browser carry over.

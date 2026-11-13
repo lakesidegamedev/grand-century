@@ -5,8 +5,8 @@
 import { useMemo } from 'react';
 import type { CrisisSide } from '../../shared/types';
 import { useStore } from '../../store';
-import { useShallow } from 'zustand/react/shallow';
 import { TraceTooltip } from '../components/TraceTooltip';
+import { useSnapshotFields } from '../useSnapshotFields';
 
 const CRISIS_TYPE_LABEL: Record<string, string> = {
   sphere_contest: 'Sphere Contest',
@@ -37,8 +37,10 @@ function forecastLabel(forecast: string | undefined): string {
   return 'Unknown';
 }
 
+const CRISIS_FIELDS = ['nations','worldTension','activeCrisis','crisisShowdown','congressHistory','crisisCandidates','playerNation','crisisCooldownUntil','day','tensionDecay','tensionNetDelta','tensionTrace'] as const;
+
 export function CrisisPanel() {
-  const snapshot = useStore(useShallow((state) => state.snapshot));
+  const snapshot = useSnapshotFields(CRISIS_FIELDS);
   const sendCommand = useStore((state) => state.sendCommand);
 
   const nationById = useMemo(() => (

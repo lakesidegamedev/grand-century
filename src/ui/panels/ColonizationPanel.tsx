@@ -1,14 +1,16 @@
 import { useMemo } from 'react';
 import { useStore } from '../../store';
-import { useShallow } from 'zustand/react/shallow';
 import { TraceTooltip } from '../components/TraceTooltip';
 import { useScenarioWorldSeed } from '../useScenarioWorldSeed';
+import { useSnapshotFields } from '../useSnapshotFields';
 
 const CLAIM_COST = 32;
 
+const COLONIZATION_FIELDS = ['nations','provinces','playerNation','playerClaimableColonialStates','colonialClaims'] as const;
+
 export function ColonizationPanel() {
   const worldSeed = useScenarioWorldSeed();
-  const snapshot = useStore(useShallow((state) => state.snapshot));
+  const snapshot = useSnapshotFields(COLONIZATION_FIELDS);
   const sendCommand = useStore((state) => state.sendCommand);
 
   const derived = useMemo(() => {
