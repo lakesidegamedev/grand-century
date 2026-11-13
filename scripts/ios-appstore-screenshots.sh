@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Captures App Store screenshots of the compiled native app on simulators.
 # The app must be built with EXPO_PUBLIC_APPSTORE_SHOTS=1; it then accepts
-# grandcentury://shot/<home|nations|campaign|panel/<key>> launch URLs.
+# commands (home, nations, campaign, panel/<key>) written to Documents/shot-command.txt.
 set -euo pipefail
 app="$RUNNER_TEMP/grand-century-derived/Build/Products/Release-iphonesimulator/GrandCentury.app"
 out="$RUNNER_TEMP/appstore-shots"
@@ -35,7 +35,10 @@ capture_device() { # $1 prefix, $2 udid, $3 width, $4 height
     echo "$prefix-$1.png ${pw}x${ph}" >> "$out/sizes.txt"
     [ "$pw" = "$w" ] && [ "$ph" = "$h" ] || echo "SIZE MISMATCH for $prefix-$1" >&2
   }
-  link() { xcrun simctl openurl "$dev" "grandcentury://shot/$1"; }
+  local data
+  data=$(xcrun simctl get_app_container "$dev" "$bundle" data)
+  # Launch URLs trigger an iOS confirmation dialog, so hand commands over as a file the app polls.
+  link() { echo "$1" > "$data/Documents/shot-command.txt"; }
   link home; sleep 4; shot 1-home
   link nations; sleep 6; shot 5-nations
   link campaign; sleep 40; shot 2-campaign

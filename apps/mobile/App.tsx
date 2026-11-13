@@ -73,7 +73,7 @@ import { useNativeAlerts, NativeReportToast } from "./game/NativeAdvisor";
 import { NativeAudio } from "./game/NativeAudio";
 import { gameDataForScenario } from "../../src/data/gameData";
 import { campaignRoster } from "./game/campaign";
-import { parseShotUrl, shotPanels } from "./game/shotHook";
+import { parseShotUrl, shotPanels, SHOTS_ENABLED } from "./game/shotHook";
 import { newSaveId } from "./game/nativeSaves";
 import { DEFAULT_SCENARIO_ID } from "../../src/data/generated";
 import { File, Paths } from "expo-file-system";
@@ -1369,19 +1369,37 @@ function AppScreens() {
   const [screen, setScreen] = useState<
     "home" | "picker" | "game" | "saves" | "account" | "multiplayer"
   >("home");
+  const handleShot = (shot: ReturnType<typeof parseShotUrl>) => {
+    if (!shot) return false;
+    if (shot.kind === "home") setScreen("home");
+    else if (shot.kind === "nations") {
+      setShotNations(true);
+      setScreen("picker");
+    } else if (shot.kind === "campaign") {
+      const roster = campaignRoster(1830, "historical", DEFAULT_SCENARIO_ID);
+      const england = Math.max(0, roster.nations.findIndex((n) => n.tag === "ENG"));
+      void startRef.current({ id: newSaveId(), name: "Store screenshots", seed: 1830, mapMode: "historical", scenarioId: DEFAULT_SCENARIO_ID, playerNation: england, autosaveMinutes: 5 });
+    } else shotPanels.open(shot.panel);
+    return true;
+  };
+  const handleShotRef = useRef(handleShot);
+  handleShotRef.current = handleShot;
+  useEffect(() => {
+    if (!SHOTS_ENABLED) return;
+    const file = new File(Paths.document, "shot-command.txt");
+    const timer = setInterval(() => {
+      try {
+        if (!file.exists) return;
+        const text = file.textSync();
+        file.delete();
+        handleShotRef.current(parseShotUrl(text.trim()));
+      } catch {}
+    }, 700);
+    return () => clearInterval(timer);
+  }, []);
   useEffect(() => {
     const receive = (url: string) => {
-      const shot = parseShotUrl(url);
-      if (shot) {
-        if (shot.kind === 'home') setScreen('home');
-        else if (shot.kind === 'nations') { setShotNations(true); setScreen('picker'); }
-        else if (shot.kind === 'campaign') {
-          const roster = campaignRoster(1830, 'historical', DEFAULT_SCENARIO_ID);
-          const england = Math.max(0, roster.nations.findIndex((n) => n.tag === 'ENG'));
-          void startRef.current({ id: newSaveId(), name: 'Store screenshots', seed: 1830, mapMode: 'historical', scenarioId: DEFAULT_SCENARIO_ID, playerNation: england, autosaveMinutes: 5 });
-        } else shotPanels.open(shot.panel);
-        return;
-      }
+      if (handleShot(parseShotUrl(url))) return;
       const id = inviteSession(url);
       if (id) {
         setInvitation(id);
