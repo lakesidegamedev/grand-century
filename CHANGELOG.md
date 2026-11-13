@@ -4,6 +4,10 @@ All notable changes to Grand Century are documented here.
 
 ## [Unreleased]
 
+- **Save files.** The Save / Load panel can now export any slot to a `.gcsave`
+  file, in the browser and in the desktop app. The desktop app can import a
+  `.gcsave` file, so saves made in the browser carry over.
+
 ## [1.8.0] - 2026-11-13
 
 - **Desktop app (preview).** Grand Century now has a Windows, Linux and Mac

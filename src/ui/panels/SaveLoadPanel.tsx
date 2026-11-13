@@ -3,6 +3,8 @@ import { useStore } from '../../store';
 import { useSnapshotFields } from '../useSnapshotFields';
 import { dateAtDay } from '../../sim/calendar';
 import type { GameDate } from '../../shared/types';
+import { isDesktopApp } from '../../desktop/bridge';
+import { exportSlotToFile, importSlotFromFile } from '../../saves/saveTransfer';
 
 function formatSaveDate(day: number, startDate?: GameDate): string {
   const date = dateAtDay(day, startDate);
@@ -16,6 +18,24 @@ export function SaveLoadPanel() {
   const sendCommand = useStore((state) => state.sendCommand);
   const requestSaves = useStore((state) => state.requestSaves);
   const [slotName, setSlotName] = useState('slot-1');
+  const [fileMessage, setFileMessage] = useState<{ ok: boolean; msg: string } | null>(null);
+
+  const exportSlot = (slot: string) => {
+    exportSlotToFile(slot).then(
+      (msg) => setFileMessage({ ok: true, msg }),
+      (error: unknown) => setFileMessage({ ok: false, msg: error instanceof Error ? error.message : String(error) }),
+    );
+  };
+  const importFile = () => {
+    importSlotFromFile().then(
+      (result) => {
+        if (!result) return;
+        setFileMessage({ ok: true, msg: `Imported as ${result.slot}. Loading it now.` });
+        sendCommand({ t: 'load', slot: result.slot });
+      },
+      (error: unknown) => setFileMessage({ ok: false, msg: error instanceof Error ? error.message : String(error) }),
+    );
+  };
 
   useEffect(() => {
     requestSaves();
@@ -33,6 +53,17 @@ export function SaveLoadPanel() {
         <p className={`bankruptcy-pill ${saveStatus.ok ? '' : 'is-bankrupt'}`}>
           {saveStatus.action} [{saveStatus.slot}]: {saveStatus.msg}
         </p>
+      ) : null}
+
+      {fileMessage ? (
+        <p className={`bankruptcy-pill ${fileMessage.ok ? '' : 'is-bankrupt'}`} data-testid="save-file-message">{fileMessage.msg}</p>
+      ) : null}
+      {isDesktopApp() ? (
+        <div className="mil-actions">
+          <button type="button" className="btn btn--secondary" data-testid="save-import-file" onClick={importFile}>
+            Import file
+          </button>
+        </div>
       ) : null}
 
       <h3 className="atlas-heading panel-small-heading">Named Slot</h3>
@@ -73,6 +104,7 @@ export function SaveLoadPanel() {
             <div className="mil-actions">
               <button type="button" className="btn btn--primary" onClick={() => sendCommand({ t: 'load', slot: slot.slot })}>Load</button>
               <button type="button" className="btn btn--secondary" onClick={() => sendCommand({ t: 'save', slot: slot.slot })}>Overwrite</button>
+              <button type="button" className="btn btn--ghost" data-testid="save-export-file" onClick={() => exportSlot(slot.slot)}>Export slot</button>
             </div>
           </li>
         ))}
