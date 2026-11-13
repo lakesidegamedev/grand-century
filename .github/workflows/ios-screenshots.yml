@@ -1,0 +1,50 @@
+name: iOS App Store screenshots
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  screenshots:
+    name: Capture App Store screenshots
+    runs-on: macos-26
+    timeout-minutes: 60
+    env:
+      CI: '1'
+      EXPO_PUBLIC_APPSTORE_SHOTS: '1'
+      DEVELOPER_DIR: /Applications/Xcode_26.6.app/Contents/Developer
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: |
+            package-lock.json
+            apps/mobile/package-lock.json
+      - run: npm ci
+      - run: npm ci --prefix apps/mobile
+      - run: npm run mobile:atlas
+      - name: Generate iOS project
+        working-directory: apps/mobile
+        run: npx expo prebuild --platform ios --no-install
+      - name: Install pods
+        working-directory: apps/mobile/ios
+        run: pod install
+      - name: Compile native app
+        working-directory: apps/mobile
+        run: >-
+          xcodebuild -workspace ios/GrandCentury.xcworkspace
+          -scheme GrandCentury -configuration Release
+          -destination 'generic/platform=iOS Simulator'
+          -derivedDataPath "$RUNNER_TEMP/grand-century-derived"
+          CODE_SIGNING_ALLOWED=NO build
+      - name: Capture screenshots
+        timeout-minutes: 30
+        run: bash scripts/ios-appstore-screenshots.sh
+      - name: Upload screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: appstore-ios-screenshots
+          path: ${{ runner.temp }}/appstore-shots
+          if-no-files-found: ignore

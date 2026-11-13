@@ -47,7 +47,7 @@ function NationRow({ nation, provinces, rank, selected, onPress }: { nation: { t
     {rank > 0 && rank <= 8 && <Text style={s.rank}>GP {rank}</Text>}
   </Pressable>;
 }
-export function CampaignSetup({ onBack, onStart, busy, notice }: { onBack: () => void; onStart: (config: CampaignConfig) => void; busy: boolean; notice: string }) {
+export function CampaignSetup({ onBack, onStart, busy, notice, initialStep }: { initialStep?: 'world' | 'nation'; onBack: () => void; onStart: (config: CampaignConfig) => void; busy: boolean; notice: string }) {
   const [name, setName] = useState('');
   const [seedInput, setSeed] = useState('1830');
   const [scenarioId, setScenarioId] = useState(DEFAULT_SCENARIO_ID);
@@ -56,7 +56,7 @@ export function CampaignSetup({ onBack, onStart, busy, notice }: { onBack: () =>
   const [query, setQuery] = useState('');
   const [nationTag, setNationTag] = useState('ENG');
   const [autosave, setAutosave] = useState(5);
-  const [step, setStep] = useState<'world' | 'nation'>('world');
+  const [step, setStep] = useState<'world' | 'nation'>(initialStep ?? 'world');
   const seed = validSeed(seedInput);
   const roster = useMemo(() => campaignRoster(seed ?? 1830, mode, scenarioId), [seed, mode, scenarioId]);
   const nations = roster.nations.filter((n) => !['UNC', 'UNA', 'COL'].includes(n.tag));
