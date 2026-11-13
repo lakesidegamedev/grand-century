@@ -34,6 +34,21 @@ seconds, and uploads a screenshot as `desktop-windows-screenshot`. Passing
 
 The app version comes from the root `package.json`.
 
+## Save files
+
+The Save / Load panel has an "Export slot" button per slot, in the web build
+(downloads a `.gcsave` file) and in the desktop app (opens a save dialog). The
+desktop app also shows "Import file", which opens a file dialog, stores the
+chosen `.gcsave` as an `imported-<name>` slot and loads it. A `.gcsave` file is
+a short `GCSAVE1` header plus the same compressed bytes a slot holds, so a save
+exported in the browser imports in the desktop app. The normal loader still
+checks the save version and world fingerprint and refuses foreign saves.
+
+File access is two Rust commands (`export_save_file`, `import_save_file`) built
+on the dialog plugin. The page never passes a path; only the file the player
+picks in the dialog is read or written, and no filesystem permission is granted
+to the page.
+
 ## Unsigned builds
 
 Nothing is code signed. Windows shows a SmartScreen warning, and macOS needs

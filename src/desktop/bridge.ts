@@ -9,6 +9,9 @@ interface TauriWindowHandle {
 }
 interface TauriGlobal {
   window?: { getCurrentWindow?: () => TauriWindowHandle };
+  core?: {
+    invoke?: (cmd: string, args?: unknown, options?: { headers?: Record<string, string> }) => Promise<unknown>;
+  };
 }
 
 function tauri(): TauriGlobal | null {
@@ -28,6 +31,26 @@ export async function toggleFullscreen(): Promise<void> {
   } catch {
     /* Window API unavailable: leave the window as it is. */
   }
+}
+
+/** Opens a save dialog and writes the bytes to the chosen path. False if cancelled. */
+export async function exportSaveFileDesktop(bytes: Uint8Array, fileName: string): Promise<boolean> {
+  const invoke = tauri()?.core?.invoke;
+  if (!invoke) throw new Error('Desktop file access is unavailable.');
+  return (await invoke('export_save_file', bytes, { headers: { 'x-file-name': fileName } })) === true;
+}
+
+/** Opens a file dialog and returns the chosen file's bytes and name, or null if cancelled. */
+export async function importSaveFileDesktop(): Promise<{ bytes: Uint8Array; name: string } | null> {
+  const invoke = tauri()?.core?.invoke;
+  if (!invoke) throw new Error('Desktop file access is unavailable.');
+  const result = (await invoke('import_save_file')) as ArrayBuffer | number[];
+  const bytes = result instanceof ArrayBuffer ? new Uint8Array(result) : new Uint8Array(result);
+  if (bytes.length === 0) return null;
+  // The first byte is the file-name length, then the name, then the file bytes.
+  const nameLength = bytes[0];
+  const name = new TextDecoder().decode(bytes.slice(1, 1 + nameLength));
+  return { bytes: bytes.slice(1 + nameLength), name };
 }
 
 function webgl2Available(): boolean {
