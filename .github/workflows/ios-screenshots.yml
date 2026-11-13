@@ -1,6 +1,8 @@
 name: iOS App Store screenshots
 on:
   workflow_dispatch:
+  push:
+    branches: [ci/ios-screenshots]  # TEMP proof trigger, removed before merge
 permissions:
   contents: read
 jobs:
