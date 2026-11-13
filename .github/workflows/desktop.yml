@@ -107,6 +107,12 @@ jobs:
           path: ${{ matrix.paths }}
           if-no-files-found: error
 
+      - name: Echo AppImage name (Linux)
+        if: matrix.platform == 'ubuntu-22.04'
+        shell: bash
+        run: |
+          for f in apps/desktop/src-tauri/target/release/bundle/appimage/*.AppImage; do echo "AppImage file name: $(basename "$f")"; done
+
       - name: Install, launch and screenshot (Windows)
         if: matrix.platform == 'windows-latest'
         shell: pwsh
@@ -140,6 +146,51 @@ jobs:
           Get-Process | Where-Object { $_.MainWindowTitle -ne '' -or $_.ProcessName -match 'GrandCentury|msedgewebview2' } | Select-Object ProcessName, Id, MainWindowTitle | Format-Table -AutoSize | Out-String | Write-Host
           Get-Process -Name GrandCentury, grandcentury-desktop -ErrorAction SilentlyContinue | Stop-Process -Force
           Get-Process -Name msedgewebview2 -ErrorAction SilentlyContinue | Stop-Process -Force
+
+      - name: Print uninstall registry entry (Windows)
+        if: matrix.platform == 'windows-latest'
+        shell: pwsh
+        run: |
+          $roots = @(
+            'HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall',
+            'HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall',
+            'HKLM:\Software\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall'
+          )
+          foreach ($r in $roots) {
+            Write-Host "--- $r ---"
+            if (-not (Test-Path $r)) { Write-Host 'missing'; continue }
+            Get-ChildItem $r -ErrorAction SilentlyContinue | ForEach-Object {
+              $p = Get-ItemProperty $_.PSPath
+              if ($p.DisplayName -match 'Grand') {
+                Write-Host "Key: $($_.PSChildName)"
+                Write-Host "  DisplayName: $($p.DisplayName)"
+                Write-Host "  Publisher: $($p.Publisher)"
+                Write-Host "  DisplayVersion: $($p.DisplayVersion)"
+                Write-Host "  InstallLocation: $($p.InstallLocation)"
+                Write-Host "  UninstallString: $($p.UninstallString)"
+              }
+            }
+          }
+
+      - name: Desktop smoke test (installed app over WebView2 debugging)
+        if: matrix.platform == 'windows-latest'
+        continue-on-error: true
+        shell: pwsh
+        run: |
+          $exe = Join-Path $env:LOCALAPPDATA 'GrandCentury\grandcentury-desktop.exe'
+          if (-not (Test-Path $exe)) { Write-Host "FAIL: installed exe not found at $exe"; exit 1 }
+          Push-Location apps/desktop/ci
+          npm install --no-save playwright-core
+          Pop-Location
+          node apps/desktop/ci/smoke.mjs $exe "$PWD\smoke-shots"
+          exit $LASTEXITCODE
+
+      - uses: actions/upload-artifact@v4
+        if: always() && matrix.platform == 'windows-latest'
+        with:
+          name: desktop-smoke-screenshots
+          path: smoke-shots
+          if-no-files-found: warn
 
       - uses: actions/upload-artifact@v4
         if: always() && matrix.platform == 'windows-latest'
