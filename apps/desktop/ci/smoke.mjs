@@ -83,12 +83,15 @@ try {
   log(`campaign started, date ${startDate}`);
   await shot(page, '2-campaign-started');
 
-  stage = 'run at speed 5';
-  await page.getByTestId('speed-5').click();
-  await sleep(20000);
-  await shot(page, '3-running');
-  await page.getByTestId('speed-0').click();
-  await sleep(1500);
+  stage = 'run at speed 3';
+  // The runner has no GPU, so the page is busy while the sim runs. Use dispatched
+  // clicks with long timeouts, no screenshot while running, and read the date
+  // only after pausing.
+  await page.dispatchEvent('[data-testid="speed-3"]', 'click', undefined, { timeout: 90000 });
+  await sleep(8000);
+  await page.dispatchEvent('[data-testid="speed-0"]', 'click', undefined, { timeout: 90000 });
+  await sleep(3000);
+  await shot(page, '3-paused-after-run');
   recorded = await hudDate(page);
   log(`recorded date after run: ${recorded}`);
   if (recorded <= startDate) throw new Error(`date did not advance (start ${startDate}, now ${recorded})`);
