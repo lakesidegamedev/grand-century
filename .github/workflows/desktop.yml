@@ -179,6 +179,13 @@ jobs:
         run: |
           $exe = Join-Path $env:LOCALAPPDATA 'GrandCentury\grandcentury-desktop.exe'
           if (-not (Test-Path $exe)) { Write-Host "FAIL: installed exe not found at $exe"; exit 1 }
+          # WebView2 policy: documented way to add browser args even when the host app sets its own.
+          foreach ($hive in 'HKLM', 'HKCU') {
+            $k = "${hive}:\SOFTWARE\Policies\Microsoft\Edge\WebView2\AdditionalBrowserArguments"
+            New-Item -Path $k -Force | Out-Null
+            New-ItemProperty -Path $k -Name 'grandcentury-desktop.exe' -Value '--remote-debugging-port=9222' -PropertyType String -Force | Out-Null
+            New-ItemProperty -Path $k -Name '*' -Value '--remote-debugging-port=9222' -PropertyType String -Force | Out-Null
+          }
           Push-Location apps/desktop/ci
           npm install --no-save playwright-core
           Pop-Location
