@@ -9,6 +9,7 @@ import {
 } from "../graphics/weather";
 import type { FeatureCollection, Geometry } from 'geojson';
 import { parseGraphicsMode, type GraphicsMode } from "../graphics/preferences";
+import { desktopDefaultGraphics } from "../desktop/bridge";
 import { lazy, Suspense, useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import type { RefObject } from 'react';
 import { useSnapshotFields } from '../ui/useSnapshotFields';
@@ -2454,9 +2455,10 @@ export function GrandMap() {
   const showHome = useStore((s) => s.showMainMenu);
   const [graphics, setGraphics] = useState<GraphicsMode>(() => {
     try {
-      return parseGraphicsMode(
-        localStorage.getItem('grand-century-graphics-v1'),
-      );
+      const stored = localStorage.getItem('grand-century-graphics-v1');
+      // Desktop-only first-run default; web and mobile keep the 2D default.
+      if (stored === null) return desktopDefaultGraphics() ?? '2d';
+      return parseGraphicsMode(stored);
     } catch {
       return '2d';
     }

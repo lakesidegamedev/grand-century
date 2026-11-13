@@ -1,0 +1,53 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "GrandCentury",
+  "version": "../../../package.json",
+  "identifier": "net.lakesidegames.grandcentury",
+  "build": {
+    "frontendDist": "../../../dist"
+  },
+  "app": {
+    "withGlobalTauri": true,
+    "windows": [
+      {
+        "label": "main",
+        "title": "Grand Century",
+        "width": 1280,
+        "height": 800,
+        "minWidth": 900,
+        "minHeight": 600,
+        "resizable": true,
+        "center": true
+      }
+    ],
+    "security": {
+      "csp": {
+        "default-src": "'self'",
+        "script-src": "'self' 'wasm-unsafe-eval'",
+        "style-src": "'self' 'unsafe-inline'",
+        "connect-src": "'self' ipc: http://ipc.localhost blob: data: wss://gc-server.lakesidegames.net https://s3.amazonaws.com",
+        "img-src": "'self' data: blob: https://s3.amazonaws.com",
+        "font-src": "'self' data:",
+        "worker-src": "'self' blob:",
+        "child-src": "'self' blob:"
+      }
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ],
+    "category": "Game",
+    "shortDescription": "Grand Century desktop app",
+    "longDescription": "Grand Century is a historical grand-strategy game from 1700 to 1945. Single player and multiplayer.",
+    "linux": {
+      "deb": { "depends": [] }
+    }
+  }
+}

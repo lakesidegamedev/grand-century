@@ -6,6 +6,7 @@ import { useStore } from '../store';
 import { useSnapshotFields } from './useSnapshotFields';
 import { APP_RELEASE, VERSION_LABEL } from '../buildInfo';
 import { buildShareUrl, copyShareLink, parseStartHash } from './permalink';
+import { isDesktopApp, toggleFullscreen } from '../desktop/bridge';
 import { NationFlag } from './components/NationFlag';
 import { yearAtDay } from '../sim/calendar';
 import { DEFAULT_SCENARIO_ID, listScenarios } from '../data/generated';
@@ -368,6 +369,16 @@ export function MainMenu() {
           <button type="button" className="btn btn--secondary" onClick={() => setShowMainMenu(false)}>
             Return to Map
           </button>
+          {isDesktopApp() ? (
+            <button
+              type="button"
+              className="btn btn--ghost"
+              data-testid="menu-fullscreen"
+              onClick={() => void toggleFullscreen()}
+            >
+              Fullscreen (F11)
+            </button>
+          ) : null}
           {!multiplayer ? (
             <>
               <button

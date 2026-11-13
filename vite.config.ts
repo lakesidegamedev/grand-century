@@ -8,6 +8,8 @@ import { VitePWA } from 'vite-plugin-pwa';
 import { highTerrainAssetsPlugin } from './scripts/web-terrain-assets.ts';
 
 const BASE = process.env.VITE_BASE ?? '/';
+// The desktop shell serves the build from its own protocol: no service worker there.
+const DESKTOP = process.env.VITE_DESKTOP === '1';
 
 /**
  * Build stamp. Derived here rather than passed on the deploy command line —
@@ -182,6 +184,7 @@ export default defineConfig({
     highTerrainAssetsPlugin(__dirname, BASE),
     generatedDataPublicPlugin(),
     VitePWA({
+      disable: DESKTOP,
       registerType: 'autoUpdate',
       injectRegister: 'auto',
       includeAssets: ['favicon.svg', 'icons/icon-192.png', 'icons/icon-512.png'],
