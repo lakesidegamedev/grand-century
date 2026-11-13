@@ -9,6 +9,9 @@ import { parseLobbyHash, parseMpHash } from './net/mpJoin';
 import { resolveSocketUrl, SocketTransport } from './net/socketTransport';
 import { WorkerTransport } from './net/workerTransport';
 import { useStore } from './store';
+import { installDesktopHotkeys } from './desktop/bridge';
+
+installDesktopHotkeys();
 
 // Error tracking (Sentry-compatible; DSN comes from .env.production). Errors only — no performance spans, no replays;
 // release is `<version>+<sha>` so stacks map to a commit. No DSN ⇒ fully inert

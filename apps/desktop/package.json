@@ -1,0 +1,16 @@
+{
+  "name": "@grand-century/desktop",
+  "version": "1.7.0",
+  "private": true,
+  "license": "SEE LICENSE IN ../../LICENSE.md",
+  "scripts": {
+    "tauri": "tauri",
+    "build": "tauri build"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^2.0.0"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.0.0"
+  }
+}

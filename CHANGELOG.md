@@ -4,6 +4,9 @@ All notable changes to Grand Century are documented here.
 
 ## [Unreleased]
 
+- **Desktop app (preview).** Grand Century now has a Windows, Linux and Mac
+  desktop build with fullscreen on F11 and a remembered window size. On first
+  launch it picks the 3D map when your graphics support it.
 - **Smoother late game on phones.** The map, the top bar and the side panels
   no longer redraw on every tick of the clock when nothing they show has
   changed, and the weather overlay now updates weekly instead of daily.
