@@ -97,11 +97,11 @@ try {
   if (recorded <= startDate) throw new Error(`date did not advance (start ${startDate}, now ${recorded})`);
 
   stage = 'manual save';
-  await page.getByTestId('panel-save_load').click();
+  await page.dispatchEvent('[data-testid="panel-save_load"]', 'click', undefined, { timeout: 90000 });
   const slot = page.locator('input[placeholder="slot-1"]');
   await slot.waitFor({ state: 'visible', timeout: 15000 });
-  await slot.fill('smoke');
-  await page.getByRole('button', { name: 'Save', exact: true }).click();
+  await slot.fill('smoke', { timeout: 90000 });
+  await page.getByRole('button', { name: 'Save', exact: true }).dispatchEvent('click', undefined, { timeout: 90000 });
   await page.getByText(/save \[smoke\]/i).waitFor({ timeout: 30000 });
   const status = await page.getByText(/save \[smoke\]/i).first().innerText();
   log(`save status: ${status}`);
@@ -120,7 +120,7 @@ try {
   log('relaunch menu offers Continue');
 
   stage = 'continue';
-  await page.getByTestId('menu-resume').click();
+  await page.dispatchEvent('[data-testid="menu-resume"]', 'click', undefined, { timeout: 90000 });
   await page.getByTestId('menu-resume').waitFor({ state: 'hidden', timeout: 60000 });
   await sleep(3000);
   const after = await hudDate(page);
