@@ -29,8 +29,10 @@ function killApp() {
 function diagnose(pid) {
   const ps = (cmd) => spawnSync('powershell', ['-NoProfile', '-Command', cmd], { encoding: 'utf8' }).stdout;
   log(`diagnostics: app pid ${pid} alive: ${ps(`[bool](Get-Process -Id ${pid} -ErrorAction SilentlyContinue)`).trim()}`);
-  log(`diagnostics: processes:\n${ps('Get-CimInstance Win32_Process | Where-Object { $_.Name -match "grandcentury|msedgewebview2" } | Select-Object ProcessId,Name,@{n="Cmd";e={$_.CommandLine.Substring(0,[Math]::Min(300,$_.CommandLine.Length))}} | Format-List | Out-String')}`);
-  log(`diagnostics: listening ports:\n${ps('Get-NetTCPConnection -State Listen -ErrorAction SilentlyContinue | Select-Object LocalAddress,LocalPort,OwningProcess | Format-Table -AutoSize | Out-String')}`);
+  log(`diagnostics: webview browser process has remote-debugging flag: ${ps('(Get-CimInstance Win32_Process | Where-Object { $_.Name -eq "msedgewebview2.exe" -and $_.CommandLine -match "embedded-browser-webview" }).CommandLine -match "remote-debugging-port"').trim()}`);
+  log(`diagnostics: browser cmd tail: ${ps('$c=(Get-CimInstance Win32_Process | Where-Object { $_.Name -eq "msedgewebview2.exe" -and $_.CommandLine -match "embedded-browser-webview" } | Select-Object -First 1).CommandLine; if($c){$c.Substring([Math]::Max(0,$c.Length-400))}').trim()}`);
+  log(`diagnostics: webview/app listeners:\n${ps('$ids=(Get-Process | Where-Object { $_.ProcessName -match "msedgewebview2|grandcentury" }).Id; Get-NetTCPConnection -State Listen -ErrorAction SilentlyContinue | Where-Object { $ids -contains $_.OwningProcess } | Select-Object LocalAddress,LocalPort,OwningProcess | Format-Table -AutoSize | Out-String')}`);
+  log(`diagnostics: env var seen by node: ${process.env.WEBVIEW2_ADDITIONAL_BROWSER_ARGUMENTS ?? '(unset in parent)'}`);
 }
 
 async function launch() {
