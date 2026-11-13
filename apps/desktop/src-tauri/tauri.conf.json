@@ -46,6 +46,9 @@
     "category": "Game",
     "shortDescription": "Grand Century desktop app",
     "longDescription": "Grand Century is a historical grand-strategy game from 1700 to 1945. Single player and multiplayer.",
+    "windows": {
+      "nsis": { "installerHooks": "./windows/hooks.nsh" }
+    },
     "linux": {
       "deb": { "depends": [] }
     }
