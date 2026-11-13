@@ -115,8 +115,15 @@ jobs:
           Write-Host "Installing $($setup.FullName)"
           $p = Start-Process -FilePath $setup.FullName -ArgumentList '/S' -Wait -PassThru
           Write-Host "Installer exit code: $($p.ExitCode)"
-          $exe = Get-ChildItem -Path "$env:LOCALAPPDATA\GrandCentury", "$env:ProgramFiles\GrandCentury" -Filter GrandCentury.exe -Recurse -ErrorAction SilentlyContinue | Select-Object -First 1
-          if (-not $exe) { Write-Host 'GrandCentury.exe not found after install'; Get-ChildItem $env:LOCALAPPDATA -Directory | Select-Object -ExpandProperty Name; exit 1 }
+          $since = (Get-Date).AddMinutes(-15)
+          $dirs = @(Get-ChildItem $env:LOCALAPPDATA, $env:ProgramFiles -Directory -ErrorAction SilentlyContinue | Where-Object { $_.LastWriteTime -gt $since })
+          Write-Host ("Recently written install dirs: " + (($dirs | ForEach-Object { $_.FullName }) -join '; '))
+          $exe = $null
+          foreach ($d in $dirs) {
+            $found = Get-ChildItem $d.FullName -Filter *.exe -File -ErrorAction SilentlyContinue | Where-Object { $_.Name -notmatch 'uninstall|setup' } | Select-Object -First 1
+            if ($found) { $exe = $found; break }
+          }
+          if (-not $exe) { Write-Host 'No installed app exe found'; exit 1 }
           Write-Host "Launching $($exe.FullName)"
           $app = Start-Process -FilePath $exe.FullName -PassThru
           Start-Sleep -Seconds 25
@@ -131,7 +138,7 @@ jobs:
           Write-Host "Screenshot $($b.Width)x$($b.Height) saved"
           Write-Host '--- process list ---'
           Get-Process | Where-Object { $_.MainWindowTitle -ne '' -or $_.ProcessName -match 'GrandCentury|msedgewebview2' } | Select-Object ProcessName, Id, MainWindowTitle | Format-Table -AutoSize | Out-String | Write-Host
-          Get-Process -Name GrandCentury -ErrorAction SilentlyContinue | Stop-Process -Force
+          Get-Process -Name GrandCentury, grandcentury-desktop -ErrorAction SilentlyContinue | Stop-Process -Force
           Get-Process -Name msedgewebview2 -ErrorAction SilentlyContinue | Stop-Process -Force
 
       - uses: actions/upload-artifact@v4
