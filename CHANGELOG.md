@@ -4,6 +4,9 @@ All notable changes to Grand Century are documented here.
 
 ## [Unreleased]
 
+- **App Store screenshots.** A manual build job now captures screenshots of the
+  real iOS app on iPhone and iPad simulators for store listings.
+
 ## [1.8.0] - 2026-11-13
 
 - **Desktop app (preview).** Grand Century now has a Windows, Linux and Mac

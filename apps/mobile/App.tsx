@@ -73,6 +73,9 @@ import { useNativeAlerts, NativeReportToast } from "./game/NativeAdvisor";
 import { NativeAudio } from "./game/NativeAudio";
 import { gameDataForScenario } from "../../src/data/gameData";
 import { campaignRoster } from "./game/campaign";
+import { parseShotUrl, shotPanels } from "./game/shotHook";
+import { newSaveId } from "./game/nativeSaves";
+import { DEFAULT_SCENARIO_ID } from "../../src/data/generated";
 import { File, Paths } from "expo-file-system";
 import { GRAPHICS_KEY } from "../../src/graphics/preferences";
 const TerrainMap = lazy(() => import("./game/TerrainMap"));
@@ -252,6 +255,14 @@ function Atlas({
     setActionMessage("");
     setPanel(next);
   };
+  useEffect(
+    () =>
+      shotPanels.subscribe((key) => {
+        openPanel(key as GamePanel);
+      }),
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [transport, session.online],
+  );
   useEffect(() => {
     if (!active && !session.online)
       transport?.send({ t: "command", cmd: { t: "setSpeed", speed: 0 } });
@@ -1349,6 +1360,7 @@ function AppScreens() {
     ? `${multiplayer.status}: ${multiplayer.notice}`
     : campaign.notice;
   const [invitation, setInvitation] = useState<string | null>(null);
+  const [shotNations, setShotNations] = useState(false);
   const config = session?.config;
   const nation = useMemo(
     () => (config ? campaignNation(config) : null),
@@ -1359,6 +1371,17 @@ function AppScreens() {
   >("home");
   useEffect(() => {
     const receive = (url: string) => {
+      const shot = parseShotUrl(url);
+      if (shot) {
+        if (shot.kind === 'home') setScreen('home');
+        else if (shot.kind === 'nations') { setShotNations(true); setScreen('picker'); }
+        else if (shot.kind === 'campaign') {
+          const roster = campaignRoster(1830, 'historical', DEFAULT_SCENARIO_ID);
+          const england = Math.max(0, roster.nations.findIndex((n) => n.tag === 'ENG'));
+          void startRef.current({ id: newSaveId(), name: 'Store screenshots', seed: 1830, mapMode: 'historical', scenarioId: DEFAULT_SCENARIO_ID, playerNation: england, autosaveMinutes: 5 });
+        } else shotPanels.open(shot.panel);
+        return;
+      }
       const id = inviteSession(url);
       if (id) {
         setInvitation(id);
@@ -1377,6 +1400,8 @@ function AppScreens() {
       setScreen("game");
     }
   };
+  const startRef = useRef(start);
+  startRef.current = start;
   const load = async (save: NativeSave) => {
     if (await campaign.open(save.config, save)) {
       setFocusOnline(false);
@@ -1411,7 +1436,8 @@ function AppScreens() {
           )}
           {screen === "picker" && (
             <CampaignSetup
-              onBack={() => setScreen("home")}
+              initialStep={shotNations ? "nation" : undefined}
+              onBack={() => { setShotNations(false); setScreen("home"); }}
               onStart={(config) => {
                 void start(config);
               }}
