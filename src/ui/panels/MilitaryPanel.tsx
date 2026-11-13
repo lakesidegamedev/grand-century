@@ -1,12 +1,12 @@
 import { useEffect, useMemo, useState } from 'react';
 import type { Army, Fleet, Ship } from '../../shared/types';
 import { useStore } from '../../store';
-import { useShallow } from 'zustand/react/shallow';
 import { TraceTooltip } from '../components/TraceTooltip';
 import { warSidesLabel } from '../warNaming';
 import { useScenarioWorldSeed } from '../useScenarioWorldSeed';
 import { PeaceConference } from './PeaceConference';
 import { REGIMENT_TYPES, SHIP_TYPES, regimentSpec, shipSpec } from '../../sim/militaryCatalog';
+import { useSnapshotFields } from '../useSnapshotFields';
 
 function avgRegimentStrength(army: Army): number {
   if (army.regiments.length === 0) return 0;
@@ -42,9 +42,11 @@ function formatRegimentCount(counts: Record<Army['regiments'][number]['type'], n
     .join(' | ');
 }
 
+const MILITARY_FIELDS = ['playerNation','armies','fleets','provinces','wars','nations','rebellions','recentBattles'] as const;
+
 export function MilitaryPanel() {
   const worldSeed = useScenarioWorldSeed();
-  const snapshot = useStore(useShallow((state) => state.snapshot));
+  const snapshot = useSnapshotFields(MILITARY_FIELDS);
   const selectedProvince = useStore((state) => state.selectedProvince);
   const selectedArmy = useStore((state) => state.selectedArmy);
   const selectedFleet = useStore((state) => state.selectedFleet);
