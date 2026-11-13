@@ -4,6 +4,8 @@ All notable changes to Grand Century are documented here.
 
 ## [Unreleased]
 
+## [1.8.0] - 2026-11-13
+
 - **Desktop app (preview).** Grand Century now has a Windows, Linux and Mac
   desktop build with fullscreen on F11 and a remembered window size. On first
   launch it picks the 3D map when your graphics support it.
@@ -127,6 +129,7 @@ multiple historical worlds, not a game tied to one opening day.
   national border geometry and checks it for drift alongside the 1830 baseline.
   A pinned validation-only basemap audit remains available for research.
 
+[1.8.0]: https://github.com/Egg3901/grand-century/releases/tag/v1.8.0
 [1.7.0]: https://github.com/Egg3901/grand-century/releases/tag/v1.7.0
 
 ## [1.6.1] - 2026-08-24

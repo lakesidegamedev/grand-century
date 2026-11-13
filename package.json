@@ -1,7 +1,7 @@
 {
   "name": "grand-century",
   "private": true,
-  "version": "1.7.0",
+  "version": "1.8.0",
   "type": "module",
   "scripts": {
     "mobile:atlas": "node scripts/sync-mobile-atlas.mjs",
