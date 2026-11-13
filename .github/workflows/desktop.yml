@@ -209,7 +209,7 @@ jobs:
   release-upload:
     name: attach installers to release
     needs: bundle
-    if: ${{ github.event_name == 'workflow_dispatch' && inputs.release_tag != '' }}
+    if: ${{ !cancelled() && github.event_name == 'workflow_dispatch' && inputs.release_tag != '' }}
     runs-on: ubuntu-22.04
     permissions:
       contents: write
