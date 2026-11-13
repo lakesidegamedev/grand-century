@@ -44,6 +44,8 @@
       "icons/icon.ico"
     ],
     "category": "Game",
+    "publisher": "Lakeside Games",
+    "homepage": "https://github.com/Egg3901/grand-century",
     "shortDescription": "Grand Century desktop app",
     "longDescription": "Grand Century is a historical grand-strategy game from 1700 to 1945. Single player and multiplayer.",
     "windows": {
