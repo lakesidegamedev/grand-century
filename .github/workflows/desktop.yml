@@ -167,4 +167,5 @@ jobs:
           TAG: ${{ inputs.release_tag }}
         run: |
           ls -R installers
-          gh release upload "$TAG" installers/* --clobber --repo "$GITHUB_REPOSITORY"
+          find installers -type f \( -name '*.exe' -o -name '*.AppImage' -o -name '*.deb' -o -name '*.dmg' \) -print0 \
+            | xargs -0 gh release upload "$TAG" --clobber --repo "$GITHUB_REPOSITORY"
