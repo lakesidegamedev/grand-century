@@ -12,7 +12,7 @@ Grand Century is in early access and is free to play in your browser. A desktop 
 runs on Windows, macOS and Linux and installs through the Lakeside launcher; those builds are not
 code signed yet, so Windows and macOS warn once on first run. An iPhone build is in internal
 testing. The world map has 2,141 provinces cut along real borders, and 169 states hold land on
-1 January 1830. Saves can be exported to a `.gcsave` file and imported in the desktop app.
+1 January 1830.
 
 ## The game
 
