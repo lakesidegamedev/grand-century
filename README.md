@@ -8,6 +8,12 @@ Seven start dates ship as scenarios: 1700, 1776, 1815, 1830, 1914, 1936 and 1945
 
 Play at [lakesidegames.net/games/grand-century](https://lakesidegames.net/games/grand-century/).
 
+Grand Century is in early access and is free to play in your browser. A desktop app (a preview)
+runs on Windows, macOS and Linux and installs through the Lakeside launcher; those builds are not
+code signed yet, so Windows and macOS warn once on first run. An iPhone build is in internal
+testing. The world map has 2,141 provinces cut along real borders, and 169 states hold land on
+1 January 1830. Saves can be exported to a `.gcsave` file and imported in the desktop app.
+
 ## The game
 
 **A world that lives without you.** Population groups grow, migrate, and promote between
